@@ -1,0 +1,127 @@
+@mixin phone($scale) {
+  border-radius: (36px * $scale);
+  padding: (60px * $scale) (16px * $scale);
+  width: (360px * $scale);
+}
+
+@mixin tablet($scale) {
+  border-radius: (24px * $scale);
+  padding: (80px * $scale) (24px * $scale);
+  width: (600px * $scale);
+}
+
+@mixin laptop($scale) {
+  border-top-left-radius: 8px * $scale;
+  border-top-right-radius: 8px * $scale;
+  height: 850px * $scale;
+  padding: (64px * $scale) (48px * $scale) (72px * $scale);
+  width: 1280px * $scale;
+
+  &::after {
+    border-bottom-left-radius: (12px * $scale);
+    border-bottom-right-radius: (12px * $scale);
+    border-top-left-radius: (4px * $scale);
+    border-top-right-radius: (4px * $scale);
+    height: (48px * $scale);
+    margin: 0 (-192px * $scale);
+    top: (64px * $scale);
+  }
+}
+
+.device {
+  background-color: $glass-color;
+  box-sizing: content-box;
+}
+
+.device__screen {
+  background-color: $black;
+  height: 100%;
+  width: 100%;
+
+  img {
+    height: auto;
+    width: 100%;
+  }
+}
+
+.device--phone,
+.device--tablet {
+  @include shadow-elevation-8dp;
+  @include sm {
+    margin: 48px auto;
+  }
+
+  background-color: $glass-color;
+  box-sizing: content-box;
+  margin: 32px auto;
+}
+
+.device--laptop {
+  // TODO: add simpler, flat, drop shadow
+  @include shadow-elevation-4dp;
+
+  $scale: (328 / 1376);
+  @include laptop($scale);
+
+  @include sm {
+    $scale: (.66 * .5);
+    @include laptop($scale);
+    margin: 80px auto (52px + (80px * $scale));
+  }
+
+  @include md {
+    $scale: (.9 * .5);
+    @include laptop($scale);
+  }
+
+  @include lg {
+    $scale: (768 / 1280);
+    @include laptop($scale);
+    @include laptop(.75 * $scale);
+  }
+
+  margin: 32px auto 24px + (48px * $scale);
+
+  &::after {
+    @include shadow-elevation-4dp;
+
+    background-color: $metal-color;
+    content: '';
+    display: block;
+    position: relative;
+  }
+}
+
+.device--phone {
+  @include phone($scale: (280 / 600));
+
+  @include sm {
+    @include phone($scale: (400 / 600));
+  }
+
+  @include md {
+    @include phone($scale: (450 / 600));
+  }
+
+  @include lg {
+    // @include phone($scale: (600 / 600));
+    @include phone($scale: .75);
+  }
+}
+
+.device--tablet {
+  @include tablet($scale: (280 / 600));
+
+  @include sm {
+    @include tablet($scale: (400 / 600));
+  }
+
+  @include md {
+    @include tablet($scale: (450 / 600));
+  }
+
+  @include lg {
+    // @include tablet($scale: (600 / 600));
+    @include tablet($scale: .75);
+  }
+}

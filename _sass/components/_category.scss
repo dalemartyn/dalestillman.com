@@ -1,0 +1,44 @@
+.post-list {
+  @include sm {
+    margin-bottom: 4rem;
+  }
+
+  list-style: none;
+  margin: 0;
+  width: 100%;
+
+  .post-excerpt {
+    @include sm {
+      font-size: 24px;
+      line-height: (32 / 24);
+    }
+
+    color: $red;
+    font-family: 'Roboto';
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: (24 / 20);
+  }
+
+  .post {
+    @include sm {
+      margin-bottom: 92px;
+      margin-top: 92px;
+    }
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 52px;
+    margin-top: 52px;
+    position: relative;
+
+    &.white {
+      background: $white;
+      color: inherit;
+
+      .dark & {
+        background: $dark--background-color;
+      }
+    }
+  }
+}

@@ -1,0 +1,200 @@
+* {
+  box-sizing: border-box;
+}
+
+
+// Reset some basic elements
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+hr,
+dl,
+dd,
+ol,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  font-size: 16px;
+}
+
+// vertical rhythm
+h1,
+h2,
+h3,
+p,
+blockquote,
+ul,
+ol,
+dl,
+figure,
+iframe,
+%vertical-rhythm {
+  @include media-query($bp-600) {
+    margin-bottom: rem(28px);
+  }
+
+  margin-bottom: rem(24px);
+
+}
+
+// Images
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+
+// Figures
+figure {
+  @include sm {
+    margin: 52px #{-$padding-x-sm};
+  }
+  @include md {
+    margin: 52px -40px;
+  }
+
+  margin: 40px #{-$padding-x-xs};
+
+  img {
+    width: 100%;
+  }
+
+  > img,
+  > video,
+  > svg {
+    display: block;
+  }
+
+  > svg {
+    height: auto;
+    width: 100%;
+  }
+}
+
+figcaption {
+  @include sm {
+    padding: 32px $padding-x-sm;
+  }
+
+  @include md {
+    padding: 32px 40px;
+  }
+
+  background: $code-background;
+  color: $caption-color;
+  font-size: $small-font-size;
+  line-height: 1.8;
+  margin-top: -1px;
+  padding: 24px $padding-x-xs;
+
+  .dark & {
+    background: $dark--code-background;
+    color: $dark--grey;
+  }
+}
+
+blockquote {
+  > p {
+    @include sm {
+      font-size: rem(19px);
+      line-height: (32 / 20.25 * 20.25 / 19);
+    }
+
+    font-size: rem(17px);
+    line-height: (28 / 17);
+  }
+}
+
+q {
+  @include media-query($bp-720) {
+    &.right {
+      float: right;
+      margin: 40px 0 40px 40px;
+      width: 40%;
+    }
+  }
+
+  margin: 0;
+}
+
+
+// Lists
+ul,
+ol {
+  margin-left: $spacing-unit;
+}
+
+li {
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}
+
+code {
+  background: $code-background;
+  letter-spacing: 0;
+  padding: 2px 6px;
+
+  .dark & {
+    background: $dark--code-background;
+  }
+}
+
+p > code {
+  word-break: break-word;
+}
+
+pre {
+  @include sm {
+    line-height: (24 / 15);
+    padding: 24px $padding-x-sm;
+  }
+
+  @include md {
+    padding: 32px 40px;
+  }
+
+  line-height: 1.5;
+  overflow-x: auto;
+  padding: 24px $padding-x-xs;
+
+  > code {
+    border: 0;
+    display: inline-block;
+    padding: 0;
+  }
+}
+
+abbr {
+  border-bottom: 1px solid $border-color;
+}
+
+// Clearfix
+%clearfix {
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
+}
+
+// Icons
+.icon {
+  display: flex;
+
+  svg {
+    fill: currentColor;
+  }
+}

@@ -1,0 +1,183 @@
+@mixin charter {
+  @include sm {
+    font-size: rem(20.25px);
+    line-height: (32 / 20.25);
+  }
+
+  font-family: Charter, sans-serif;
+  font-size: 18px;
+  letter-spacing: -.003em;
+  line-height: (28 / 18);
+}
+
+@mixin roboto {
+  font-family: Roboto, sans-serif;
+}
+
+body {
+  color: $text-color;
+
+  &.dark {
+    background-color: $dark--background-color;
+    color: $dark--text-color;
+  }
+}
+
+h1,
+h2,
+figcaption,
+.post-excerpt,
+.post-meta,
+.site-title,
+.site-tagline {
+  @include roboto;
+}
+
+h1 {
+  @include sm {
+    font-size: rem(34px);
+    line-height: (40 / 34);
+  }
+
+  font-size: rem(28px);
+  font-weight: 500;
+  letter-spacing: -.005em;
+  line-height: (36 / 28);
+}
+
+h2 {
+  @include sm {
+    font-size: rem(24px);
+    line-height: (32 / 24);
+    margin-top: 84px;
+  }
+
+  font-size: rem(20px);
+  font-weight: 500;
+  line-height: (28 / 20);
+  margin-top: 56px;
+}
+
+
+h3 {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+a {
+  color: material-color('red', 'a200');
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.post-content {
+  font-family: 'Charter';
+}
+
+blockquote {
+  @include sm {
+    padding: 0 $padding-x-sm 0 $padding-x-sm - 2px;
+  }
+
+  @include lg {
+    padding: 0 $padding-x-lg 0 $padding-x-lg - 2px;
+  }
+
+  border-left: 2px solid $caption-color;
+  padding: 0 $padding-x-xs 0 $padding-x-xs - 2px;
+
+  > p {
+    font-style: italic;
+  }
+}
+
+q {
+  @include sm {
+    font-size: 34px;
+    line-height: (40 / 34);
+  }
+
+  color: $red;
+  display: block;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: -.01em;
+  line-height: (32 / 24);
+  margin: 40px 0;
+
+  &::before,
+  &::after {
+    content: '';
+  }
+}
+
+pre,
+code {
+  @include media-query($bp-600) {
+    font-size: rem(15px);
+  }
+
+  font-family: Roboto Mono;
+  font-size: rem(20px/1.5);
+}
+
+.home-title {
+  @include sm {
+    font-size: 72px;
+    line-height: (64 / 56);
+    margin-bottom: 16px;
+  }
+
+  font-size: 45px;
+  letter-spacing: -.005em;
+  line-height: (54 / 45);
+  margin-bottom: 8px;
+}
+
+.page-title {
+  @include sm {
+    font-size: 56px;
+    line-height: (64 / 56);
+  }
+
+  font-size:  45px;
+  letter-spacing: -.005em;
+  line-height: (48 / 45);
+}
+
+.site-tagline {
+  @include sm {
+    font-size: rem(24px);
+    line-height: (32 / 24);
+  }
+
+  color: $red;
+  font-size: rem(20px);
+  line-height: (28 / 20);
+}
+
+.site-nav--link {
+  @extend %roboto;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: .01em;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.post-excerpt {
+  @include sm {
+    font-size: rem(24px);
+    line-height: (32 / 24);
+  }
+
+  color: $red;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: (28 / 20);
+}

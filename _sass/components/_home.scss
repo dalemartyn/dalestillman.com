@@ -1,0 +1,101 @@
+.home-hero {
+  @include sm {
+    padding-bottom: 144px;
+    padding-top: 72px;
+  }
+
+  padding-bottom: 112px;
+  padding-top: 52px;
+  text-align: center;
+
+  p {
+    margin: 0;
+  }
+}
+
+.profile-image {
+  @include sm {
+    height: 275px;
+    margin-bottom: 28px;
+    width: 275px;
+  }
+
+  background: $red;
+  border-radius: 50%;
+  height: 192px;
+  margin-bottom: 24px;
+  width: 192px;
+}
+
+.post-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 32px;
+
+  .post {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .post-card {
+    flex-grow: 1;
+  }
+
+  .post-image,
+  .post-info {
+    width: 100%;
+  }
+
+  .post-info {
+    @include sm {
+      padding: 52px 52px 0;
+    }
+
+    padding: 24px $padding-x-xs;
+
+    a {
+      color: $white;
+    }
+  }
+}
+
+.post-info--title {
+  margin-bottom: 8px;
+}
+
+.post-info--tagline {
+  @include roboto;
+  color: $white-70;
+  font-size: 20px;
+  letter-spacing: 0;
+  margin: 0;
+}
+
+.section-title {
+  @include sm {
+    padding: 32px $padding-x-sm 8px;
+  }
+
+  @include lg {
+    padding: 32px $padding-x-lg 0;
+  }
+
+  display: flex;
+  padding: 32px $padding-x-xs 8px;
+
+  h2 {
+    @include sm {
+      font-size: 34px;
+      line-height: (40 / 34);
+    }
+    font-size: 28px;
+    font-weight: 400;
+    line-height: (32 / 28);
+    margin-bottom: 0;
+
+    a {
+      color: inherit;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div class="home-hero">
+  <div class="col-full">
+    <div class="container">
+      <img class="profile-image" src="/img/profile.jpg" alt="Dale">
+      <h1 class="home-title">Hi, I’m Dale</h1>
+      <p class="site-tagline">Developer at <em>a dozen eggs</em>.</p>
+    </div>
+  </div>
+</div>
+
+<div id="work" class="col-full">
+  <ul class="post-grid">
+      {% for page in site.categories["work"] limit:4 %}
+      <li class="post container">
+        <div class="post-card" {% if page.bgcolor %}style="background-color: {{page.bgcolor}}"{% endif %}>
+          <a href="{% if page.link %}{{ page.link }}{% else %}{{ page.url | relative_url }}{% endif %}"></a>
+
+          <div class="post-info">
+            <h1 class="post-info--title"><a href="{% if page.link %}{{ page.link }}{% else %}{{ page.url | relative_url }}{% endif %}">{{ page.title }}</a></h1>
+            {% if page.tagline %}
+              <p class="post-info--tagline">{{ page.tagline }}</p>
+            {% endif %}
+          </div>
+
+          <div class="post-device">
+            {% include device.html %}
+          </div>
+
+        </div>
+      </li>
+      {% endfor %}
+  </ul>
+</div>
