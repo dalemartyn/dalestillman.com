@@ -1,12 +1,4 @@
 .post-list {
-  @include sm {
-    margin-bottom: 4rem;
-  }
-
-  list-style: none;
-  margin: 0;
-  width: 100%;
-
   .post-excerpt {
     @include sm {
       font-size: 24px;
@@ -22,12 +14,10 @@
 
   .post {
     @include sm {
-      margin-bottom: 92px;
-      margin-top: 92px;
+      margin-bottom: 96px;
+      margin-top: 96px;
     }
 
-    display: flex;
-    flex-direction: column;
     margin-bottom: 52px;
     margin-top: 52px;
     position: relative;

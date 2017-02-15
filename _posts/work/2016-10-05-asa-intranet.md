@@ -6,7 +6,7 @@ date: 2016-10-05T18:44:17+01:00
 tagline: "A modern WordPress theme, designed for internal communications"
 excerpt_separator: "<figure>"
 category: work
-bgcolor: "#00BCD4"
+bgcolor: "cyan"
 image:
   src: /img/intranet.jpg
   show: true

@@ -1,3 +1,5 @@
+$box-shadow-color: rgba(0, 0, 0, .06);
+
 @mixin phone($scale) {
   border-radius: (36px * $scale);
   padding: (60px * $scale) (16px * $scale);
@@ -8,6 +10,12 @@
   border-radius: (24px * $scale);
   padding: (80px * $scale) (24px * $scale);
   width: (600px * $scale);
+}
+
+@mixin ipad($scale) {
+  border-radius: (32px * $scale);
+  padding: (76px * $scale) (32px * $scale);
+  width: (768px * $scale);
 }
 
 @mixin laptop($scale) {
@@ -46,20 +54,17 @@
 
 .device--phone,
 .device--tablet {
-  @include shadow-elevation-8dp;
   @include sm {
     margin: 48px auto;
   }
 
   background-color: $glass-color;
+  box-shadow: 0 8px 8px 4px $box-shadow-color;
   box-sizing: content-box;
   margin: 32px auto;
 }
 
 .device--laptop {
-  // TODO: add simpler, flat, drop shadow
-  @include shadow-elevation-4dp;
-
   $scale: (328 / 1376);
   @include laptop($scale);
 
@@ -67,6 +72,10 @@
     $scale: (.66 * .5);
     @include laptop($scale);
     margin: 80px auto (52px + (80px * $scale));
+
+    &.device--home {
+      margin-top: 32px;
+    }
   }
 
   @include md {
@@ -77,15 +86,18 @@
   @include lg {
     $scale: (768 / 1280);
     @include laptop($scale);
-    @include laptop(.75 * $scale);
+
+    &.device--home {
+      @include laptop(.8 * $scale);
+    }
   }
 
+  box-shadow: 0 4px 4px 2px $box-shadow-color;
   margin: 32px auto 24px + (48px * $scale);
 
   &::after {
-    @include shadow-elevation-4dp;
-
     background-color: $metal-color;
+    box-shadow: 0 4px 4px 2px $box-shadow-color;
     content: '';
     display: block;
     position: relative;
@@ -104,8 +116,11 @@
   }
 
   @include lg {
-    // @include phone($scale: (600 / 600));
-    @include phone($scale: .75);
+    @include phone($scale: (600 / 600));
+
+    &.device--home {
+      @include phone($scale: .875);
+    }
   }
 }
 
@@ -121,7 +136,10 @@
   }
 
   @include lg {
-    // @include tablet($scale: (600 / 600));
-    @include tablet($scale: .75);
+    @include tablet($scale: (600 / 600));
+
+    &.device--home {
+      @include tablet($scale: .75);
+    }
   }
 }

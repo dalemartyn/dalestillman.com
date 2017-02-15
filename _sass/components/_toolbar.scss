@@ -1,11 +1,6 @@
 .site-header {
   align-items: center;
-  color: $grey;
   width: 100%;
-
-  .dark & {
-    color: $white;
-  }
 }
 
 .site-toolbar {
@@ -68,13 +63,18 @@
   a {
     align-items: center;
     border-bottom: 2px solid transparent;
-    color: currentColor;
+    color: $grey;
+
     display: flex;
     justify-content: center;
     padding: 16px 12px;
 
     &:hover {
       text-decoration: none;
+    }
+
+    .dark & {
+      color: $dark--grey;
     }
   }
 }

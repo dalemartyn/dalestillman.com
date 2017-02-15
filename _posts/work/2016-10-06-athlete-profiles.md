@@ -6,7 +6,7 @@ date: 2016-10-06T22:05:19+01:00
 tagline: "Using Google Sheets as backend to rapidly generate athlete stats"
 excerpt_separator: "<figure>"
 category: work
-bgcolor: "#ff5252"
+bgcolor: "red"
 image:
   src: /img/onestowatch.jpg
   show: true

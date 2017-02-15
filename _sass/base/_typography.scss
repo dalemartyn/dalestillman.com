@@ -89,6 +89,10 @@ blockquote {
   border-left: 2px solid $caption-color;
   padding: 0 $padding-x-xs 0 $padding-x-xs - 2px;
 
+  .dark & {
+    border-color: $dark--grey;
+  }
+
   > p {
     font-style: italic;
   }

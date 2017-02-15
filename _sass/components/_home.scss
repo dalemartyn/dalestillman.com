@@ -27,44 +27,50 @@
   width: 192px;
 }
 
-.post-grid {
+
+.post-grid__post {
   display: flex;
-  flex-wrap: wrap;
-  margin: 0 0 32px;
+  flex-direction: column;
+  width: 100%;
+}
 
-  .post {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+.post-grid__post-card {
+  @include lg {
+    height: 700px;
+    overflow: hidden;
+  }
+  flex-grow: 1;
+}
+
+.post-card {
+  position: relative;
+}
+
+.post-card__link {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.post-info {
+  @include sm {
+    padding: 52px 52px 0;
   }
 
-  .post-card {
-    flex-grow: 1;
-  }
+  padding: 24px $padding-x-xs;
 
-  .post-image,
-  .post-info {
-    width: 100%;
-  }
-
-  .post-info {
-    @include sm {
-      padding: 52px 52px 0;
-    }
-
-    padding: 24px $padding-x-xs;
-
-    a {
-      color: $white;
-    }
+  a {
+    color: $white;
   }
 }
 
-.post-info--title {
+.post-info__title {
   margin-bottom: 8px;
 }
 
-.post-info--tagline {
+.post-info__tagline {
   @include roboto;
   color: $white-70;
   font-size: 20px;

@@ -1,4 +1,4 @@
-<div class="device device--{{page.device}}">
+<div class="device device--{{page.device}}{% if include.home == true %} device--home{% endif %}">
   <div class="device__screen">
     <img src="{{ page.image.cap }}" alt="{{ page.title }}" {% if page.device == "laptop" %}width="1280" height="850"{% elsif page.device == "tablet" %}width="600" height="960"{% elsif page.device == "phone" %}width="360" height="640"{% endif %}>
   </div>

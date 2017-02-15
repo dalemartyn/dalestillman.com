@@ -1,11 +1,15 @@
 $white:                   #fff;
 $black:                   #000;
+$red:                     #ff5252;
+$cyan:                    #00bcd4;
+$light-blue:              #03a9f4;
+$blue:                    #1e88e5;
+
 $text-color:              rgba(0, 0, 0, .87);
 $caption-color:           rgba(0, 0, 0, .54);
 $border-color:            rgba(0, 0, 0, .12);
-$red:                     #ff5252;
 $code-background:         #f7f7f7;
-$code-background:         #f9fafa;
+$code-background:         #f7f8f8;
 $grey:                    material-color('grey', '600');
 
 // dark mode
@@ -15,9 +19,7 @@ $dark--grey:              rgba(255, 255, 255, .7);
 $dark--border-color:      rgba(255, 255, 255, .12);
 $dark--code-background:   material-color('blue-grey', '800');
 
-
 $white-70: rgba($white, .7);
-
 
 $glass-color:             material-color('blue-grey', '900');
 $metal-color:             material-color('blue-grey', '700');
