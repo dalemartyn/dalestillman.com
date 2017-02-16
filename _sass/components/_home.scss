@@ -35,11 +35,19 @@
 }
 
 .post-grid__post-card {
+  @include sm {
+    max-height: 600px;
+  }
+  @include md {
+    max-height: 680px;
+  }
   @include lg {
-    height: 700px;
-    overflow: hidden;
+    max-height: 700px;
   }
   flex-grow: 1;
+  height: 100vh;
+  max-height: 600px;
+  overflow: hidden;
 }
 
 .post-card {
@@ -56,10 +64,10 @@
 
 .post-info {
   @include sm {
-    padding: 52px 52px 0;
+    padding-top: 52px;
   }
 
-  padding: 24px $padding-x-xs;
+  padding-top: 24px;
 
   a {
     color: $white;
@@ -67,14 +75,22 @@
 }
 
 .post-info__title {
-  margin-bottom: 8px;
+  @include sm {
+    margin-bottom: 8px;
+  }
+  margin-bottom: 4px;
 }
 
 .post-info__tagline {
   @include roboto;
+  @include sm {
+    font-size: 20px;
+    line-height: (24 / 20);
+  }
   color: $white-70;
-  font-size: 20px;
+  font-size: 16px;
   letter-spacing: 0;
+  line-height: (24 / 16);
   margin: 0;
 }
 

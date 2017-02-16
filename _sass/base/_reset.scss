@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+:root,
+html,
+body {
+  scroll-behavior: smooth;
+}
 
 // Reset some basic elements
 body,

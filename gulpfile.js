@@ -6,8 +6,16 @@ var sourcemaps = require('gulp-sourcemaps');
 var rubysass = require('gulp-ruby-sass');
 var resize = require('gulp-image-resize');
 var imagemin = require('gulp-imagemin');
+var concat = require('gulp-concat');
+var uglify = require('gulp-uglify');
 // var browserSync = require('browser-sync').create();
 // var reload = browserSync.reload;
+
+var scripts = [
+  'node_modules/smoothscroll-polyfill/dist/smoothscroll.js',
+  '_js/darkmode.js',
+  '_js/smoothscroll.js'
+];
 
 gulp.task('resize', function () {
   return gulp.src('_img/*.{jpg,png}')
@@ -62,12 +70,20 @@ gulp.task('compass', function() {
     .pipe(gulp.dest('./css/'));
 });
 
+gulp.task('scripts', function() {
+  return gulp.src(scripts)
+    .pipe(concat('main.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./js/'));
+});
+
 gulp.task('watch', function() {
 	gulp.watch(['_site/css/*.css', '_site/js/*.js']).on('change', function(file) {
     livereload.changed(file.path);
 	});
   // gulp.watch(['_site/css/*.css']).on('change', reload);
   gulp.watch(['_sass/**/*.scss', '!./_sass/grids.scss'], ['sass']);
+  gulp.watch(scripts, ['scripts']);
 	// gulp.watch(['_sass/grids.scss'], ['compass']);
 });
 
@@ -80,6 +96,7 @@ gulp.task('browser-sync', function() {
 gulp.task('default',
 [
   'sass',
+  'scripts',
   // 'compass',
   // 'browser-sync',
   'watch'
