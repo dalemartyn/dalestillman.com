@@ -36,17 +36,16 @@
 
 .post-grid__post-card {
   @include sm {
-    max-height: 600px;
+    height: 600px;
   }
   @include md {
-    max-height: 680px;
+    height: 680px;
   }
   @include lg {
-    max-height: 700px;
+    height: 700px;
   }
   flex-grow: 1;
-  height: 100vh;
-  max-height: 600px;
+  height: 480px;
   overflow: hidden;
 }
 
