@@ -11,14 +11,16 @@ github_username:  dalemartyn
 # Build settings
 markdown: kramdown
 highlighter: pygments
-exclude: [node_modules, gulpfile.js, 'Gemfile', 'Gemfile.lock', '.editorconfig', 'package.json', 'firebase.json', 'database.rules.json']
+exclude: [node_modules, gulpfile.js, Gemfile, Gemfile.lock, .editorconfig,
+          package.json, firebase.json, database.rules.json, firebase-debug.log]
 
 # octopress
 # Default extension for new posts and pages
 post_ext: md
 page_ext: html
 
-permalink: /:categories/:title/
+post_dirs: false
+permalink: /:categories/:title
 
 # Format titles with titlecase?
 titlecase: false
