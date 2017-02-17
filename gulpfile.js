@@ -34,7 +34,8 @@ gulp.task('img', function() {
     .pipe(resize({
       format: 'jpg',
       quality: 1,
-      imageMagick: true
+      imageMagick: true,
+      interlace: true
     }))
     .pipe(imagemin({
       progressive: true
