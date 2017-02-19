@@ -48,7 +48,7 @@ gulp.task('profile-pic', function() {
   return gulp.src('_img/profile.jpg')
     .pipe(resize({
       format: 'jpg',
-      quality: 0.7,
+      quality: 0.6,
       imageMagick: true,
       interlace: true
     }))
