@@ -33,12 +33,13 @@ gulp.task('img', function() {
   return gulp.src('_img/**/*.{jpg,png}')
     .pipe(resize({
       format: 'jpg',
-      quality: 1,
+      quality: 0.85,
       imageMagick: true,
       interlace: true
     }))
     .pipe(imagemin({
-      progressive: true
+      progressive: true,
+      arithmetic: true
     }))
     .pipe(gulp.dest('./img/'));
 });
