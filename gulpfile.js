@@ -8,6 +8,11 @@ var resize = require('gulp-image-resize');
 var imagemin = require('gulp-imagemin');
 var concat = require('gulp-concat');
 var uglify = require('gulp-uglify');
+var rev = require('gulp-rev');
+var revDel = require('rev-del');
+var spawn = require('child_process').spawn;
+var superstatic = require('superstatic').server;
+var chalk = require('chalk');
 // var browserSync = require('browser-sync').create();
 // var reload = browserSync.reload;
 
@@ -68,19 +73,21 @@ gulp.task('sass-develop', function() {
 				precision: 8
 			}).on('error', sass.logError))
 		.pipe(sourcemaps.write())
-		.pipe(gulp.dest('./css/'))
+		.pipe(gulp.dest('css'))
 		.pipe(livereload());
 });
 
 gulp.task('sass', function() {
-  gulp.src(['_sass/*.scss'])
+  return gulp.src('_sass/*.scss')
     .pipe(sass({
       precision: 8,
       outputStyle: 'compressed'
-    }))
-    .on('error', gutil.log)
-    .pipe(gulp.dest('./css/'))
-    .pipe(livereload());
+    }).on('error', sass.logError))
+    .pipe(rev())
+    .pipe(gulp.dest('css'))
+    .pipe(rev.manifest('css-manifest.json'))
+    .pipe(revDel({oldManifest: 'css-manifest.json', suppress: false, dest: './css'}))
+    .pipe(gulp.dest('.'));
 });
 
 gulp.task('compass', function() {
@@ -112,7 +119,40 @@ gulp.task('browser-sync', function() {
     });
 });
 
+gulp.task('jekyll-serve', function(done) {
+  return spawn('bundle', ['exec', 'jekyll', 'build', '--watch', '--drafts'], { stdio: 'inherit' })
+    .on('close', done);
+});
+
+gulp.task('firebase-serve', function(cb) {
+  // use superstatic (which firebase tools uses)
+  // https://github.com/firebase/firebase-tools/blob/master/commands/serve.js
+
+  var options = {
+    stack: 'strict',
+    host: 'localhost',
+    port: 5000
+  };
+
+  options.config = require('./firebase.json').hosting;
+
+  var server = superstatic(options);
+
+  server.listen(function(err, cb) {
+    if (err) { console.log(err); }
+
+    console.log('Starting Firebase development server...');
+    console.log(chalk.bold('Public Directory:'), options.config.public);
+    console.log(chalk.bold('Project Directory:'), options.config.projectDir);
+    console.log('Server listening at: ' + chalk.underline(chalk.bold('http://' + options.host + ':' + options.port)));
+  });
+});
+
+gulp.task('serve', ['jekyll-serve', 'firebase-serve']);
+
 gulp.task('build', ['sass', 'scripts']);
+
+gulp.task('go', ['default', 'serve']);
 
 gulp.task('default',
 [
