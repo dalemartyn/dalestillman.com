@@ -3,7 +3,6 @@ var livereload = require('gulp-livereload');
 var gutil = require('gulp-util');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
-var rubysass = require('gulp-ruby-sass');
 var resize = require('gulp-image-resize');
 var imagemin = require('gulp-imagemin');
 var concat = require('gulp-concat');
@@ -67,7 +66,7 @@ gulp.task('profile-pic', function() {
 gulp.task('img', ['screencaps', 'profile-pic']);
 
 gulp.task('sass-develop', function() {
-	return gulp.src(['_sass/*.scss'])
+	return gulp.src(['_sass/main.scss'])
 		.pipe(sourcemaps.init())
 			.pipe(sass({
 				precision: 8
@@ -77,8 +76,17 @@ gulp.task('sass-develop', function() {
 		.pipe(livereload());
 });
 
+gulp.task('sass-fonts', function() {
+  return gulp.src(['_sass/fonts.scss'])
+    .pipe(sass({
+      outputStyle: 'compressed'
+    }))
+    .pipe(gulp.dest('_includes'))
+    .pipe(livereload());
+});
+
 gulp.task('sass', function() {
-  return gulp.src('_sass/*.scss')
+  return gulp.src('_sass/main.scss')
     .pipe(sass({
       precision: 8,
       outputStyle: 'compressed'
@@ -88,12 +96,6 @@ gulp.task('sass', function() {
     .pipe(rev.manifest('css-manifest.json'))
     .pipe(revDel({oldManifest: 'css-manifest.json', suppress: false, dest: './css'}))
     .pipe(gulp.dest('.'));
-});
-
-gulp.task('compass', function() {
-  return rubysass('_sass/grids.scss', {compass: true})
-    .on('error', sass.logError)
-    .pipe(gulp.dest('./css/'));
 });
 
 gulp.task('scripts', function() {
@@ -108,7 +110,7 @@ gulp.task('watch', function() {
     livereload.changed(file.path);
 	});
   // gulp.watch(['_site/css/*.css']).on('change', reload);
-  gulp.watch(['_sass/**/*.scss', '!./_sass/grids.scss'], ['sass-develop']);
+  gulp.watch(['_sass/**/*.scss', '!./_sass/fonts.scss'], ['sass-develop']);
   gulp.watch(scripts, ['scripts']);
 	// gulp.watch(['_sass/grids.scss'], ['compass']);
 });
@@ -120,7 +122,17 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('jekyll-serve', function(done) {
+  return spawn('bundle', ['exec', 'jekyll', 'build', '--watch'], { stdio: 'inherit' })
+    .on('close', done);
+});
+
+gulp.task('jekyll-serve-drafts', function(done) {
   return spawn('bundle', ['exec', 'jekyll', 'build', '--watch', '--drafts'], { stdio: 'inherit' })
+    .on('close', done);
+});
+
+gulp.task('jekyll-build', function(done) {
+  return spawn('bundle', ['exec', 'jekyll', 'build'], { stdio: 'inherit' })
     .on('close', done);
 });
 
@@ -148,7 +160,7 @@ gulp.task('firebase-serve', function(cb) {
   });
 });
 
-gulp.task('serve', ['jekyll-serve', 'firebase-serve']);
+gulp.task('serve', ['jekyll-serve-drafts', 'firebase-serve']);
 
 gulp.task('build', ['sass', 'scripts']);
 
