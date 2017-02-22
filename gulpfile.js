@@ -143,7 +143,7 @@ gulp.task('firebase-serve', function(cb) {
 
     console.log('Starting Firebase development server...');
     console.log(chalk.bold('Public Directory:'), options.config.public);
-    console.log(chalk.bold('Project Directory:'), options.config.projectDir);
+    console.log(chalk.bold('Project Directory:'), options.config.projectDir || process.cwd());
     console.log('Server listening at: ' + chalk.underline(chalk.bold('http://' + options.host + ':' + options.port)));
   });
 });
@@ -152,16 +152,14 @@ gulp.task('serve', ['jekyll-serve', 'firebase-serve']);
 
 gulp.task('build', ['sass', 'scripts']);
 
-gulp.task('go', ['default', 'serve']);
-
-gulp.task('default',
+gulp.task('dev',
 [
   'sass-develop',
   'scripts',
-  // 'compass',
-  // 'browser-sync',
   'watch'
 ],
 function() {
-	livereload.listen();
+  livereload.listen();
 });
+
+gulp.task('default', ['dev', 'serve']);
