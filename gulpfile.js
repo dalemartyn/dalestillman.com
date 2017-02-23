@@ -76,8 +76,8 @@ gulp.task('sass-develop', function() {
 		.pipe(livereload());
 });
 
-gulp.task('sass-fonts', function() {
-  return gulp.src(['_sass/fonts.scss'])
+gulp.task('sass-inline', function() {
+  return gulp.src(['_sass/main.scss'])
     .pipe(sass({
       outputStyle: 'compressed'
     }))

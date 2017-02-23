@@ -4,14 +4,14 @@
     line-height: (32 / 20.25);
   }
 
-  font-family: Charter, sans-serif;
+  font-family: Charter, Georgia, sans-serif;
   font-size: 18px;
   letter-spacing: -.003em;
   line-height: (28 / 18);
 }
 
 @mixin roboto {
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Helvetica, system-ui, sans-serif;
 }
 
 body {
