@@ -5,6 +5,31 @@
   "hosting": {
     "public": "_site",
     "cleanUrls": true,
-    "trailingSlash": false
+    "trailingSlash": false,
+    "headers": [{
+      "source" : "/",
+      "headers" : [{
+        "key" : "Cache-Control",
+        "value" : "no-cache"
+      }]
+    }, {
+      "source" : "**/*",
+      "headers" : [{
+        "key" : "Cache-Control",
+        "value" : "no-cache"
+      }]
+    }, {
+      "source" : "**/*.@(css|js|jpg|png|woff2)",
+      "headers" : [{
+        "key" : "Cache-Control",
+        "value" : "max-age=3600"
+      }]
+    }, {
+      "source": "fonts/*.woff2",
+      "headers": [{
+        "key": "Content-Type",
+        "value": "font/woff2"
+      }]
+    }]
   }
 }

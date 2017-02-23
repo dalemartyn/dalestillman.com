@@ -12,7 +12,8 @@ github_username:  dalemartyn
 markdown: kramdown
 highlighter: pygments
 exclude: [node_modules, gulpfile.js, Gemfile, Gemfile.lock, .editorconfig,
-          package.json, firebase.json, database.rules.json, firebase-debug.log]
+          package.json, firebase.json, database.rules.json, firebase-debug.log,
+          css-manifest.json]
 
 # octopress
 # Default extension for new posts and pages
