@@ -5,7 +5,7 @@ layout: default
 <div class="home-hero">
   <div class="col-full">
     <div class="container">
-      <img class="profile-image" src="/img/profile.jpg" alt="Dale">
+      <img class="profile-image" src="/img/profile2.jpg" alt="Dale">
       <h1 class="home-title">Hi, I’m Dale</h1>
       <p class="site-tagline">I solve problems with design + code</p>
     </div>
@@ -16,7 +16,7 @@ layout: default
   {% for page in site.categories["work"] limit:4 %}
   <div class="post-grid__post col-full--no-padding">
     <article class="post-card post-grid__post-card{% if page.bgcolor %} bg-{{page.bgcolor}}{% endif %}">
-      <a href="{% if page.link %}{{ page.link }}{% else %}{{ page.url | relative_url }}{% endif %}" class="post-card__link"></a>
+      <a href="{% if page.link %}{{ page.link }}{% else %}{{ page.url | relative_url }}{% endif %}" class="post-card__link" tabindex="-1">{{ page.title }}</a>
 
       <div class="post-info container">
         <h1 class="post-info__title"><a href="{% if page.link %}{{ page.link }}{% else %}{{ page.url | relative_url }}{% endif %}">{{ page.title }}</a></h1>

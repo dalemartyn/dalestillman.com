@@ -1,0 +1,41 @@
+@import 'node_modules/sass-material-colors/sass/sass-material-colors';
+
+@import 'utils/colors';
+@import 'utils/variables';
+
+$dark--code-main-text: #eceff1;
+
+figcaption {
+  background: $dark--code-background;
+  color: $dark--grey;
+}
+
+code {
+  background: $dark--code-background;
+}
+
+body {
+  background-color: $dark--background-color;
+  color: $dark--text-color;
+}
+
+blockquote {
+  border-color: $dark--grey;
+}
+
+.highlight {
+  background: $dark--code-background;
+  color: $dark--code-main-text;
+}
+
+.post-meta {
+  color: $dark--grey;
+}
+
+.site-title-link {
+  color: $dark--text-color;
+}
+
+.site-nav a {
+  color: $dark--grey;
+}

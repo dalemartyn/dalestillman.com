@@ -21,14 +21,5 @@
     margin-bottom: 52px;
     margin-top: 52px;
     position: relative;
-
-    &.white {
-      background: $white;
-      color: inherit;
-
-      .dark & {
-        background: $dark--background-color;
-      }
-    }
   }
 }

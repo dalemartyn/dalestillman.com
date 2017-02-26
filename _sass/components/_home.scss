@@ -54,6 +54,7 @@
 }
 
 .post-card__link {
+  @include hide-text;
   height: 100%;
   left: 0;
   position: absolute;

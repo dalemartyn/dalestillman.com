@@ -16,11 +16,6 @@
 
 body {
   color: $text-color;
-
-  &.dark {
-    background-color: $dark--background-color;
-    color: $dark--text-color;
-  }
 }
 
 h1,
@@ -43,6 +38,15 @@ h1 {
   font-weight: 500;
   letter-spacing: -.005em;
   line-height: (32 / 28);
+
+  > a {
+    color: inherit;
+
+    &:hover {
+      color: $red;
+      text-decoration: none;
+    }
+  }
 }
 
 h2 {
@@ -74,7 +78,7 @@ a {
 }
 
 .post-content {
-  font-family: 'Charter';
+  @include charter;
 }
 
 blockquote {
@@ -88,10 +92,6 @@ blockquote {
 
   border-left: 2px solid $caption-color;
   padding: 0 $padding-x-xs 0 $padding-x-xs - 2px;
-
-  .dark & {
-    border-color: $dark--grey;
-  }
 
   > p {
     font-style: italic;

@@ -1,5 +1,4 @@
 $code-main-text: #37474f;
-$dark--code-main-text: #eceff1;
 
 // originals
 $code-blue: #3b78e7;
@@ -16,11 +15,6 @@ $code-pink: #e83b74;
 .highlight  {
   background: $code-background;
   color: $code-main-text;
-
-  .dark & {
-    background: $dark--code-background;
-    color: $dark--code-main-text;
-  }
 
   .k,                                 // Keyword
   .gu,                                // Generic.Subheading

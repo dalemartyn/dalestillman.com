@@ -29,10 +29,6 @@
   &:hover {
     text-decoration: none;
   }
-
-  .dark & {
-    color: $dark--text-color;
-  }
 }
 
 .site-nav {
@@ -71,10 +67,6 @@
 
     &:hover {
       text-decoration: none;
-    }
-
-    .dark & {
-      color: $dark--grey;
     }
   }
 }

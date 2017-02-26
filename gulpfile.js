@@ -17,7 +17,6 @@ var chalk = require('chalk');
 
 var scripts = [
   'node_modules/smoothscroll-polyfill/dist/smoothscroll.js',
-  '_js/darkmode.js',
   '_js/smoothscroll.js'
 ];
 
@@ -49,7 +48,7 @@ gulp.task('screencaps', function() {
 });
 
 gulp.task('profile-pic', function() {
-  return gulp.src('_img/profile.jpg')
+  return gulp.src('_img/profile*.jpg')
     .pipe(resize({
       format: 'jpg',
       quality: 0.6,
@@ -66,7 +65,7 @@ gulp.task('profile-pic', function() {
 gulp.task('img', ['screencaps', 'profile-pic']);
 
 gulp.task('sass-develop', function() {
-	return gulp.src(['_sass/main.scss'])
+	return gulp.src(['_sass/main.scss', '_sass/dark.scss'])
 		.pipe(sourcemaps.init())
 			.pipe(sass({
 				precision: 8
@@ -79,14 +78,15 @@ gulp.task('sass-develop', function() {
 gulp.task('sass-inline', function() {
   return gulp.src(['_sass/main.scss'])
     .pipe(sass({
-      outputStyle: 'compressed'
+      outputStyle: 'compressed',
+      precision: 8
     }))
     .pipe(gulp.dest('_includes'))
     .pipe(livereload());
 });
 
 gulp.task('sass', function() {
-  return gulp.src('_sass/main.scss')
+  return gulp.src(['_sass/main.scss', '_sass/dark.scss'])
     .pipe(sass({
       precision: 8,
       outputStyle: 'compressed'
@@ -103,6 +103,13 @@ gulp.task('scripts', function() {
     .pipe(concat('main.js'))
     .pipe(uglify())
     .pipe(gulp.dest('./js/'));
+});
+
+gulp.task('scripts-darkmode', function() {
+  return gulp.src('_js/darkmode.js')
+    .pipe(concat('dark.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./_includes/'));
 });
 
 gulp.task('watch', function() {
@@ -160,9 +167,10 @@ gulp.task('firebase-serve', function(cb) {
   });
 });
 
-gulp.task('serve', ['jekyll-serve-drafts', 'firebase-serve']);
+gulp.task('serve-drafts', ['jekyll-serve-drafts', 'firebase-serve']);
+gulp.task('serve', ['jekyll-serve', 'firebase-serve']);
 
-gulp.task('build', ['sass', 'scripts']);
+gulp.task('build', ['sass', 'scripts', 'jekyll-build']);
 
 gulp.task('dev',
 [
@@ -174,4 +182,5 @@ function() {
   livereload.listen();
 });
 
+gulp.task('drafts', ['dev', 'serve-drafts']);
 gulp.task('default', ['dev', 'serve']);

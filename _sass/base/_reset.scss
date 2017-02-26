@@ -103,11 +103,6 @@ figcaption {
   line-height: 1.8;
   margin-top: -1px;
   padding: 24px $padding-x-xs;
-
-  .dark & {
-    background: $dark--code-background;
-    color: $dark--grey;
-  }
 }
 
 blockquote {
@@ -152,10 +147,6 @@ code {
   background: $code-background;
   letter-spacing: 0;
   padding: 2px 6px;
-
-  .dark & {
-    background: $dark--code-background;
-  }
 }
 
 p > code {

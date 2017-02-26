@@ -42,15 +42,6 @@
   line-height: (48 / 45);
 }
 
-.post-intro {
-  color: $grey;
-  font-style: italic;
-
-  .dark & {
-    color: $dark--grey;
-  }
-}
-
 .post-header-image {
   @media (max-width: 420px) {
     height: 240px;
@@ -73,10 +64,6 @@
   color: $caption-color;
   font-size: $small-font-size;
   margin-top: 80px;
-
-  .dark & {
-    color: $dark--grey;
-  }
 }
 
 .video {
