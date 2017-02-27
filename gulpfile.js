@@ -65,7 +65,7 @@ gulp.task('profile-pic', function() {
 gulp.task('img', ['screencaps', 'profile-pic']);
 
 gulp.task('sass-develop', function() {
-	return gulp.src(['_sass/main.scss', '_sass/dark.scss'])
+	return gulp.src(['_sass/main.scss'])
 		.pipe(sourcemaps.init())
 			.pipe(sass({
 				precision: 8
@@ -86,7 +86,7 @@ gulp.task('sass-inline', function() {
 });
 
 gulp.task('sass', function() {
-  return gulp.src(['_sass/main.scss', '_sass/dark.scss'])
+  return gulp.src(['_sass/main.scss'])
     .pipe(sass({
       precision: 8,
       outputStyle: 'compressed'
@@ -96,6 +96,15 @@ gulp.task('sass', function() {
     .pipe(rev.manifest('css-manifest.json'))
     .pipe(revDel({oldManifest: 'css-manifest.json', suppress: false, dest: './css'}))
     .pipe(gulp.dest('.'));
+});
+
+gulp.task('sass-dark', function() {
+  return gulp.src(['_sass/dark.scss'])
+    .pipe(sass({
+      precision: 8,
+      outputStyle: 'compressed'
+    }).on('error', sass.logError))
+    .pipe(gulp.dest('css'));
 });
 
 gulp.task('scripts', function() {

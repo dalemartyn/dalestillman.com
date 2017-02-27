@@ -1,41 +1,45 @@
 @import 'node_modules/sass-material-colors/sass/sass-material-colors';
 
-@import 'utils/colors';
-@import 'utils/variables';
+// dark mode
+$code-main-text: #eceff1;
+$background-color:  material-color('blue-grey', '900');
+$text-color:        #fff;
+$grey:              rgba(255, 255, 255, .7);
+$border-color:      rgba(255, 255, 255, .12);
+$code-background:   material-color('blue-grey', '800');
 
-$dark--code-main-text: #eceff1;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
 
 figcaption {
-  background: $dark--code-background;
-  color: $dark--grey;
+  background: $code-background;
+  color: $grey;
 }
 
 code {
-  background: $dark--code-background;
-}
-
-body {
-  background-color: $dark--background-color;
-  color: $dark--text-color;
+  background: $code-background;
 }
 
 blockquote {
-  border-color: $dark--grey;
+  border-color: $grey;
 }
 
 .highlight {
-  background: $dark--code-background;
-  color: $dark--code-main-text;
+  background: $code-background;
+  color: $code-main-text;
 }
 
 .post-meta {
-  color: $dark--grey;
+  color: $grey;
 }
 
 .site-title-link {
-  color: $dark--text-color;
+  color: $text-color;
 }
 
 .site-nav a {
-  color: $dark--grey;
+  color: $grey;
 }

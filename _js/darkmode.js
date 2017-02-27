@@ -16,9 +16,9 @@
       }
     },
     create: function() {
-      var ss = document.createElement('link');
-      ss.rel = 'stylesheet';
-      ss.href = '/css/dark.css';
+      var css = 'body{background-color:#263238;color:#fff}figcaption{background:#37474f;color:rgba(255,255,255,0.7)}code{background:#37474f}blockquote{border-color:rgba(255,255,255,0.7)}.highlight{background:#37474f;color:#eceff1}.post-meta{color:rgba(255,255,255,0.7)}.site-title-link{color:#fff}.site-nav a{color:rgba(255,255,255,0.7)}';
+      var ss = document.createElement('style');
+      ss.appendChild(document.createTextNode(css));
       this.ss = ss;
     },
     add: function() {
