@@ -4,8 +4,6 @@ category: links
 title: "Grid layout is a much needed step-change for CSS"
 date: 2016-10-03T15:41:07+01:00
 link: http://maketea.co.uk/2016/09/28/css-grid-layout-is-a-step-change.html
-image: 
-  src: /img/links/cssgrids-financialtimes.jpg
 ---
 
 Matt Hinchliffe:

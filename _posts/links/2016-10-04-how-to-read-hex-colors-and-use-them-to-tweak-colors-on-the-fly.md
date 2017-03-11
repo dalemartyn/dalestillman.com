@@ -4,8 +4,6 @@ category: links
 title: "How to read hex colors, and use them to tweak colors on the fly"
 date: 2016-10-02T21:09:25+01:00
 link: https://www.smashingmagazine.com/2012/10/the-code-side-of-color/
-image:
-  src: /img/links/hexcolors.jpg
 ---
 
 Ben Gremillion:

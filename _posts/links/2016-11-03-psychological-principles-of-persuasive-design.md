@@ -4,8 +4,6 @@ category: links
 title: "Psychological principles of persuasive design"
 date: 2016-11-03T20:14:00+00:00
 link: http://uibreakfast.com/28-persuasive-design-victor-yocco/
-image: 
-  src: /img/links/psychological-principles.jpg
 ---
 
 [Victor Youcco][1], on the UI Breakfast podcast:

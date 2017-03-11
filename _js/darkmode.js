@@ -43,14 +43,14 @@
       return isDark;
     },
     addListener: function() {
-    }
-  };
-
-  darkmode.init();
       document.addEventListener('keydown', function(event) {
         if (event.keyCode === 68) {
           darkmode.toggle();
         }
       });
+    }
+  };
+
+  darkmode.init();
 
 })();

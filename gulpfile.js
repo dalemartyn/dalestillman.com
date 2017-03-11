@@ -91,11 +91,11 @@ gulp.task('sass', function() {
       precision: 8,
       outputStyle: 'compressed'
     }).on('error', sass.logError))
-    .pipe(rev())
-    .pipe(gulp.dest('css'))
-    .pipe(rev.manifest('css-manifest.json'))
-    .pipe(revDel({oldManifest: 'css-manifest.json', suppress: false, dest: './css'}))
-    .pipe(gulp.dest('.'));
+    // .pipe(rev())
+    .pipe(gulp.dest('css'));
+    // .pipe(rev.manifest('css-manifest.json'))
+    // .pipe(revDel({oldManifest: 'css-manifest.json', suppress: false, dest: './css'}))
+    // .pipe(gulp.dest('.'));
 });
 
 gulp.task('sass-dark', function() {
