@@ -5,6 +5,7 @@ $code-main-text: #eceff1;
 $background-color:  material-color('blue-grey', '900');
 $text-color:        #fff;
 $grey:              rgba(255, 255, 255, .7);
+$grey-disabled:     rgba(255, 255, 255, .5);
 $border-color:      rgba(255, 255, 255, .12);
 $code-background:   material-color('blue-grey', '800');
 
@@ -42,4 +43,16 @@ blockquote {
 
 .site-nav a {
   color: $grey;
+}
+
+.post-link {
+  color: $grey;
+}
+
+.star-logo__circle {
+  fill: $grey-disabled;
+}
+
+.star-logo__star {
+  fill: $background-color;
 }

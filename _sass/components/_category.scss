@@ -23,3 +23,12 @@
     position: relative;
   }
 }
+
+.post-perma:hover {
+  .star-logo__circle {
+    fill: $red;
+  }
+  .star-logo__star {
+    fill: $white;
+  }
+}
