@@ -1,7 +1,7 @@
 ---
 layout: post
 category: links
-title: "Svelte — a JavaScript framework without the framework"
+title: "Svelte – a JavaScript framework without the framework"
 date: 2017-03-05T10:14:55+00:00
 link: https://svelte.technology/blog/frameworks-without-the-framework/
 ---
