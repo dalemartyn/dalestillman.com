@@ -24,11 +24,24 @@
   }
 }
 
-.post-perma:hover {
-  .star-logo__circle {
-    fill: $red;
-  }
-  .star-logo__star {
-    fill: $white;
+.post-link {
+  white-space: nowrap;
+}
+
+.star-logo {
+  white-space: nowrap;
+}
+
+.post-perma {
+  margin-left: 9px;
+
+  &:hover {
+    .star-logo__circle {
+      fill: $red;
+    }
+
+    .star-logo__star {
+      fill: $white;
+    }
   }
 }
