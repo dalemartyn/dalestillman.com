@@ -1,5 +1,11 @@
 <article class="post post--{{post.category}} container col">
-  <h1><a href="{{ post.link }}">{{ post.title }}&nbsp;<span class="post-link">({{ post.link | host }})</span></a>&nbsp;<a href="{{ post.url | relative_url }}" class="post-perma">{% include star.svg %}</a></h1>
+  <h1>
+    <a href="{{ post.link }}">
+      {{ post.title }}
+      <span class="post-link">({{ post.link | host }})</span>
+    </a>
+    <a href="{{ post.url | relative_url }}" class="post-perma">{% include star.svg %}</a>
+  </h1>
   {% if false %}<span class="post-meta">{{ post.date | date: "%b %d" }}</span>{% endif %}
 
   {{ post.content }}

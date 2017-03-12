@@ -20,7 +20,7 @@
 }
 
 .page-heading,
-.post-title {
+.post-title:not(.post-title--small) {
   @include sm {
     font-size: 45px;
     line-height: (52 / 45);
