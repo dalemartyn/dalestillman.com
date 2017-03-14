@@ -3,11 +3,16 @@
 // dark mode
 $code-main-text: #eceff1;
 $background-color:  material-color('blue-grey', '900');
+// 2% less light than material blue-grey 900
+$background-color:  #212b31;
 $text-color:        #fff;
-$grey:              rgba(255, 255, 255, .7);
-$grey-disabled:     rgba(255, 255, 255, .5);
+$grey-light:        rgba(255, 255, 255, .7);
+$grey:              rgba(255, 255, 255, .5);
+$grey-disabled:     rgba(255, 255, 255, .4);
 $border-color:      rgba(255, 255, 255, .12);
 $code-background:   material-color('blue-grey', '800');
+// bit darker
+$code-background:   #2b3940;
 
 
 body {
@@ -25,7 +30,7 @@ code {
 }
 
 blockquote {
-  border-color: $grey;
+  border-color: $grey-disabled;
 }
 
 .highlight {
@@ -42,7 +47,7 @@ blockquote {
 }
 
 .site-nav a {
-  color: $grey;
+  color: $grey-light;
 }
 
 .post-link {

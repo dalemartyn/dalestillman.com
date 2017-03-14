@@ -90,7 +90,7 @@ blockquote {
     padding: 0 $padding-x-lg 0 $padding-x-lg - 2px;
   }
 
-  border-left: 2px solid $caption-color;
+  border-left: 2px solid $quote-border-color;
   padding: 0 $padding-x-xs 0 $padding-x-xs - 2px;
 
   > p {
@@ -149,6 +149,7 @@ code {
   }
 
   font-size:  45px;
+  font-weight: 400;
   letter-spacing: -.005em;
   line-height: (48 / 45);
 }
