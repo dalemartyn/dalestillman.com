@@ -10,11 +10,11 @@
   line-height: 16px;
   float: right;
   padding: 10px 16px;
-  margin: 2px 0;
+  margin: 4px 0;
   text-transform: uppercase;
 
   @include sm {
-    margin: 4px 0;
+    margin: 8px 0;
   }
 
   &:hover {

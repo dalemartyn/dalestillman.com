@@ -53,7 +53,9 @@ gulp.task('profile-pic', function() {
       format: 'jpg',
       quality: 0.6,
       imageMagick: true,
-      interlace: true
+      interlace: true,
+      width: 512,
+      height: 512
     }))
     .pipe(imagemin({
       progressive: true,
