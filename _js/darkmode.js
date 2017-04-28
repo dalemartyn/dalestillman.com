@@ -16,7 +16,7 @@
       }
     },
     create: function() {
-      var css = 'body{background-color:#212b31;color:#fff}figcaption{background:#2b3940;color:rgba(255,255,255,0.5)}code{background:#2b3940}blockquote{border-color:rgba(255,255,255,0.4)}.highlight{background:#2b3940;color:#eceff1}.post-meta{color:rgba(255,255,255,0.5)}.site-title-link{color:#fff}.site-nav a{color:rgba(255,255,255,0.7)}.post-link{color:rgba(255,255,255,0.5)}.star-logo__circle{fill:rgba(255,255,255,0.4)}.star-logo__star{fill:#212b31}';
+      var css = '<!-- css -->';
       var ss = document.createElement('style');
       ss.appendChild(document.createTextNode(css));
       this.ss = ss;

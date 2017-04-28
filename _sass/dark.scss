@@ -61,3 +61,8 @@ blockquote {
 .star-logo__star {
   fill: $background-color;
 }
+
+.site-tagline,
+.post-excerpt {
+  color: $grey-light;
+}

@@ -12,6 +12,8 @@ var revDel = require('rev-del');
 var spawn = require('child_process').spawn;
 var superstatic = require('superstatic').server;
 var chalk = require('chalk');
+var replace = require('gulp-replace');
+var fs = require('fs');
 // var browserSync = require('browser-sync').create();
 // var reload = browserSync.reload;
 
@@ -20,13 +22,13 @@ var scripts = [
   '_js/smoothscroll.js'
 ];
 
-gulp.task('resize', function () {
+gulp.task('resize', function() {
   return gulp.src('_img/*.{jpg,png}')
     .pipe(resize({
-      width : 1920,
-      height : 1080,
-      crop : true,
-      upscale : true,
+      width: 1920,
+      height: 1080,
+      crop: true,
+      upscale: true,
       format: 'jpg'
     }))
     .pipe(gulp.dest('./img/'));
@@ -100,7 +102,24 @@ gulp.task('sass', function() {
     // .pipe(gulp.dest('.'));
 });
 
-gulp.task('sass-dark', function() {
+gulp.task('scripts', function() {
+  return gulp.src(scripts)
+    .pipe(concat('main.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./js/'));
+});
+
+gulp.task('darkmode', ['darkmode:styles'], function() {
+  var darkCss = fs.readFileSync('css/dark.css', { encoding: 'utf8' });
+  darkCss = darkCss.replace(/\n/, '');
+  return gulp.src('_js/darkmode.js')
+    .pipe(concat('dark.js'))
+    .pipe(replace("<!-- css -->", darkCss))
+    .pipe(uglify())
+    .pipe(gulp.dest('./_includes/'));
+});
+
+gulp.task('darkmode:styles', function() {
   return gulp.src(['_sass/dark.scss'])
     .pipe(sass({
       precision: 8,
@@ -109,27 +128,14 @@ gulp.task('sass-dark', function() {
     .pipe(gulp.dest('css'));
 });
 
-gulp.task('scripts', function() {
-  return gulp.src(scripts)
-    .pipe(concat('main.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('./js/'));
-});
-
-gulp.task('scripts-darkmode', function() {
-  return gulp.src('_js/darkmode.js')
-    .pipe(concat('dark.js'))
-    .pipe(uglify())
-    .pipe(gulp.dest('./_includes/'));
-});
-
 gulp.task('watch', function() {
 	gulp.watch(['_site/css/*.css', '_site/js/*.js']).on('change', function(file) {
     livereload.changed(file.path);
 	});
   // gulp.watch(['_site/css/*.css']).on('change', reload);
-  gulp.watch(['_sass/**/*.scss', '!./_sass/fonts.scss'], ['sass-develop']);
+  gulp.watch(['_sass/**/*.scss', '!./_sass/dark.scss'], ['sass-develop']);
   gulp.watch(scripts, ['scripts']);
+  gulp.watch('_sass/dark.scss', ['darkmode']);
 	// gulp.watch(['_sass/grids.scss'], ['compass']);
 });
 
@@ -187,6 +193,7 @@ gulp.task('dev',
 [
   'sass-develop',
   'scripts',
+  'darkmode',
   'watch'
 ],
 function() {
