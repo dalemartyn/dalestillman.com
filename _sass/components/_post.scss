@@ -19,6 +19,12 @@
   margin-top: 48px;
 }
 
+.blog-header {
+  @include sm {
+    margin-top: 56px;
+  }
+}
+
 .page-heading,
 .post-title:not(.post-title--small) {
   @include sm {
@@ -37,7 +43,7 @@
 .page-title {
   @include sm {
     font-size: 56px;
-    line-height: 1;
+    line-height: 1.25;
   }
 
   font-size: 45px;
