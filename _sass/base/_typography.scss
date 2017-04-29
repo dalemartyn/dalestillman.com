@@ -83,15 +83,15 @@ a {
 
 blockquote {
   @include sm {
-    padding: 0 $padding-x-sm 0 $padding-x-sm - 2px;
+    padding: 0 0 0 30px;
   }
 
   @include lg {
-    padding: 0 $padding-x-lg 0 $padding-x-lg - 2px;
+    padding: 0 0 0 54px;
   }
 
   border-left: 2px solid $quote-border-color;
-  padding: 0 $padding-x-xs 0 $padding-x-xs - 2px;
+  padding: 0 0 0 22px;
 
   > p {
     font-style: italic;
