@@ -8,9 +8,8 @@ excerpt_separator: "<figure>"
 category: work
 bgcolor: "red"
 image:
-  src: /img/onestowatch.jpg
   show: true
-  cap: /img/screencaps/onestowatch.jpg
+  cap: /img/athlete-profiles/main.jpg
 ---
 
 By creating a new automated system, the laborious process of updating profiles was transformed into one that would enable quick and easy changes. The new system, backed by Google Sheets, enabled us create a larger amount of profiles, each one including more comprehensive stats. We also used the same backend to generate editorial 'ones to watch' widgets for a range of aquatic competitions.
@@ -36,7 +35,7 @@ This command would download the relevant spreadsheets and normalize the data. It
 
 <figure>
   <img src="/img/athlete-profiles/diving-profile.jpg" alt="Screen capture of Diver Tonia Couch's profile page">
-  <figcaption>The main content of <a href="http://www.swimming.org/diving/tonia-couch/">Tonia’s profile page</a> (<a href="https://web.archive.org/web/20161005195709/http://www.swimming.org/diving/tonia-couch/">webarchive.org</a>). The new profile stats widget, sits under the profile copy. An action shot, out of view in the screenshot, serves as the headline image.</figcaption>
+  <figcaption>The main content of Tonia’s profile page (<a href="https://web.archive.org/web/20161005195709/http://www.swimming.org/diving/tonia-couch/">webarchive.org</a>). The new profile stats widget, sits under the profile copy. An action shot, out of view in the screenshot, serves as the headline image.</figcaption>
 </figure>
 
 ## Redesigning the profiles

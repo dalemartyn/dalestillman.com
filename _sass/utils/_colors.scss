@@ -2,8 +2,9 @@ $white:                   #fff;
 $black:                   #000;
 $red:                     #ff5252;
 $cyan:                    #00bcd4;
-$light-blue:              #03a9f4;
-$blue:                    #1e88e5;
+$light-blue:              material-color('light-blue', '600');
+$blue:                    material-color('blue', '700');
+
 
 $text-color:              rgba(0, 0, 0, .87);
 $caption-color:           rgba(0, 0, 0, .54);

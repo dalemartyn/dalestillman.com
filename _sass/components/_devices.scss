@@ -13,8 +13,8 @@ $box-shadow-color: rgba(0, 0, 0, .06);
 }
 
 @mixin ipad($scale) {
-  border-radius: (32px * $scale);
-  padding: (76px * $scale) (32px * $scale);
+  border-radius: (48px * $scale);
+  padding: (104px * $scale) (40px * $scale);
   width: (768px * $scale);
 }
 
@@ -53,7 +53,8 @@ $box-shadow-color: rgba(0, 0, 0, .06);
 }
 
 .device--phone,
-.device--tablet {
+.device--tablet,
+.device--ipad {
   @include sm {
     margin: 48px auto;
   }
@@ -143,3 +144,20 @@ $box-shadow-color: rgba(0, 0, 0, .06);
     }
   }
 }
+
+.device--ipad {
+  @include ipad($scale: (280 / 600));
+  @include sm {
+    @include ipad($scale: (400 / 600));
+  }
+  @include md {
+    @include ipad($scale: (450 / 600));
+  }
+  @include lg {
+    @include ipad($scale: (600 / 600));
+    &.device--home {
+      @include ipad($scale: .75);
+    }
+  }
+}
+

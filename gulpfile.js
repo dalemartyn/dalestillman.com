@@ -50,7 +50,7 @@ gulp.task('screencaps', function() {
 });
 
 gulp.task('profile-pic', function() {
-  return gulp.src('_img/profile*.jpg')
+  return gulp.src('_img/profile.jpg')
     .pipe(resize({
       format: 'jpg',
       quality: 0.6,

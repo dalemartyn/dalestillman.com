@@ -6,7 +6,7 @@ tagline: "Microsoft demonstrate that they really are for the creatives"
 bgcolor: red
 date: 2016-11-01T22:02:19+00:00
 image:
-  src: /img/surfacestudio.jpg
+  src: /img/surface/surfacestudio.jpg
   show: true
 ---
 

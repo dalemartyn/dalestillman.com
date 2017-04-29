@@ -4,7 +4,7 @@ device: laptop
 title: "Off the Blocks"
 date: 2016-10-07T09:49:35+01:00
 category: work
-bgcolor: "light-blue"
+bgcolor: "blue"
 excerpt_separator: "##"
 image:
   src: /img/offtheblocks.jpg
