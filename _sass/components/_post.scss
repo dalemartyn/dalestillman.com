@@ -24,11 +24,14 @@
   @include sm {
     font-size: 45px;
     line-height: (52 / 45);
+    margin-bottom: 24px;
   }
 
   font-size: 34px;
   letter-spacing: -.005em;
   line-height: (40 / 34);
+  margin-bottom: 22px;
+
 }
 
 .page-title {

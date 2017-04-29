@@ -187,7 +187,7 @@ gulp.task('firebase-serve', function(cb) {
 gulp.task('serve-drafts', ['jekyll-serve-drafts', 'firebase-serve']);
 gulp.task('serve', ['jekyll-serve', 'firebase-serve']);
 
-gulp.task('build', ['sass', 'scripts', 'jekyll-build']);
+gulp.task('build', ['sass', 'scripts', 'darkmode', 'jekyll-build']);
 
 gulp.task('dev',
 [
