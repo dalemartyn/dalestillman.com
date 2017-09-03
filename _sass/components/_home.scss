@@ -78,12 +78,12 @@
 }
 
 .post-info__tagline {
-  @include roboto;
+  @include display;
   @include mq($from: sm) {
     font-size: 20px;
     line-height: (24 / 20);
   }
-  color: $white-70;
+  color: $white-87;
   font-size: 16px;
   letter-spacing: 0;
   line-height: (24 / 16);

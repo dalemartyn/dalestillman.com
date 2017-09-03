@@ -124,130 +124,130 @@ I wanted the content to surface to the top page, making it the first thing a coa
       <g id="Off-the-Blocks-wireframe" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
           <g id="Group" transform="translate(3.000000, 3.000000)">
               <rect id="Rectangle" stroke="#757575" stroke-width="5" x="0" y="0" width="1200" height="150"></rect>
-              <text id="HOME-&gt;-SECTION-&gt;" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold" fill="#757575">
+              <text id="HOME-&gt;-SECTION-&gt;" font-size="18" font-weight="bold" fill="#757575">
                   <tspan x="60" y="45">HOME &gt;   SECTION &gt;</tspan>
               </text>
-              <text id="PAGE-HEADING" font-family="Roboto-Bold, Roboto" font-size="64" font-weight="bold" letter-spacing="-0.5" fill="#757575">
+              <text id="PAGE-HEADING" font-size="64" font-weight="bold" letter-spacing="-0.5" fill="#757575">
                   <tspan x="60" y="117">PAGE HEADING</tspan>
               </text>
           </g>
           <g id="Group-3" transform="translate(3.000000, 153.000000)">
               <rect id="Rectangle-Copy" stroke="#757575" stroke-width="5" x="0" y="0" width="1200" height="300"></rect>
-              <text id="CONTAINER-TITLE-/-Vi" font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold" fill="#757575">
+              <text id="CONTAINER-TITLE-/-Vi" font-size="24" font-weight="bold" fill="#757575">
                   <tspan x="60" y="50">CONTAINER TITLE</tspan>
-                  <tspan x="262.136719" y="50" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal"> / View All &gt;</tspan>
+                  <tspan x="262.136719" y="50" font-size="18" font-weight="normal"> / View All &gt;</tspan>
                   <tspan x="356.144531" y="50"> </tspan>
               </text>
               <g id="Group-2" transform="translate(60.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-2)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-1"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
               <g id="Group-2" transform="translate(336.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-4)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-3"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
               <g id="Group-2" transform="translate(612.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-6)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-5"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
               <g id="Group-2" transform="translate(888.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-8)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-7"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
           </g>
           <g id="Group-3" transform="translate(3.000000, 453.000000)">
               <rect id="Rectangle-Copy" stroke="#757575" stroke-width="5" x="0" y="0" width="1200" height="300"></rect>
-              <text id="CONTAINER-TITLE-/-Vi" font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold" fill="#757575">
+              <text id="CONTAINER-TITLE-/-Vi" font-size="24" font-weight="bold" fill="#757575">
                   <tspan x="60" y="50">CONTAINER TITLE</tspan>
-                  <tspan x="262.136719" y="50" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal"> / View All &gt;</tspan>
+                  <tspan x="262.136719" y="50" font-size="18" font-weight="normal"> / View All &gt;</tspan>
                   <tspan x="356.144531" y="50"> </tspan>
               </text>
               <g id="Group-2" transform="translate(60.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-10)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-9"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
               <g id="Group-2" transform="translate(336.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-12)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-11"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
               <g id="Group-2" transform="translate(612.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-14)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-13"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
               <g id="Group-2" transform="translate(888.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-16)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-15"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
           </g>
           <g id="Group-3" transform="translate(3.000000, 753.000000)">
               <rect id="Rectangle-Copy" stroke="#757575" stroke-width="5" x="0" y="0" width="1200" height="300"></rect>
-              <text id="CONTAINER-TITLE-/-Vi" font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold" fill="#757575">
+              <text id="CONTAINER-TITLE-/-Vi" font-size="24" font-weight="bold" fill="#757575">
                   <tspan x="60" y="50">CONTAINER TITLE</tspan>
-                  <tspan x="262.136719" y="50" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal"> / View All &gt;</tspan>
+                  <tspan x="262.136719" y="50" font-size="18" font-weight="normal"> / View All &gt;</tspan>
                   <tspan x="356.144531" y="50"> </tspan>
               </text>
               <g id="Group-2" transform="translate(60.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-18)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-17"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
               <g id="Group-2" transform="translate(336.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-20)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-19"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
               <g id="Group-2" transform="translate(612.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-22)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-21"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
               <g id="Group-2" transform="translate(888.000000, 80.000000)">
                   <use id="Rectangle-2" stroke="#757575" mask="url(#mask-24)" stroke-width="10" fill="#D8D8D8" xlink:href="#path-23"></use>
                   <rect id="Rectangle-3" fill="#757575" x="0" y="140" width="252" height="50"></rect>
-                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="18" font-weight="bold">
+                  <text id="VIDEO-TITLE" fill="#FFFFFF" font-size="18" font-weight="bold">
                       <tspan x="16" y="170">VIDEO TITLE</tspan>
                   </text>
               </g>
           </g>
           <g id="Group-3" transform="translate(3.000000, 1053.000000)">
               <rect id="Rectangle-Copy" stroke="#757575" stroke-width="5" fill="#D8D8D8" x="0" y="0" width="1200" height="200"></rect>
-              <text id="SITEMAP" font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold" fill="#757575">
+              <text id="SITEMAP" font-size="24" font-weight="bold" fill="#757575">
                   <tspan x="60" y="50">SITEMAP</tspan>
               </text>
           </g>
           <g id="Group-3" transform="translate(3.000000, 1253.000000)">
               <rect id="Rectangle-Copy" stroke="#757575" stroke-width="5" fill="#757575" x="0" y="0" width="1200" height="150"></rect>
-              <text id="SPONSORS" fill="#FFFFFF" font-family="Roboto-Bold, Roboto" font-size="24" font-weight="bold">
+              <text id="SPONSORS" fill="#FFFFFF" font-size="24" font-weight="bold">
                   <tspan x="544" y="85">SPONSORS</tspan>
               </text>
           </g>

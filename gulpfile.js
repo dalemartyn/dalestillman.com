@@ -166,7 +166,7 @@ gulp.task('firebase-serve', function(cb) {
 
   var options = {
     stack: 'strict',
-    host: 'localhost',
+    host: '0.0.0.0',
     port: 5000
   };
 

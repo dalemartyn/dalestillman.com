@@ -1,17 +1,24 @@
-@mixin charter {
+@mixin content-type {
   @include mq($from: sm) {
-    font-size: 20.25px;
-    line-height: (32 / 20.25);
+    font-size: 18.5px;
+    line-height: (32 / 18.5);
   }
 
-  font-family: Charter, Georgia, sans-serif;
-  font-size: 18px;
-  letter-spacing: -.003em;
-  line-height: (28 / 18);
+  @include text;
+  font-size: 17px;
+  line-height: (28 / 17);
 }
 
-@mixin roboto {
-  font-family: Roboto, Helvetica, system-ui, sans-serif;
+@mixin display {
+  font-family: display, system-ui, sans-serif;
+}
+
+@mixin text {
+  font-family: text, system-ui, sans-serif;
+}
+
+@mixin monospace {
+  font-family: Menlo, Roboto Mono, monospace, sans-serif;
 }
 
 body {
@@ -20,12 +27,23 @@ body {
 
 h1,
 h2,
-figcaption,
 .post-excerpt,
-.post-meta,
 .site-title,
 .site-tagline {
-  @include roboto;
+  @include display;
+}
+
+figcaption,
+.post-meta, {
+  @include text;
+}
+
+.large {
+  font-size: 56px;
+  letter-spacing: -.005em;
+  font-weight: 500;
+  color: #fff;
+  margin-top: 48px;
 }
 
 h1 {
@@ -65,7 +83,7 @@ h2 {
 
 h3 {
   font-size: 1em;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 a {
@@ -78,7 +96,7 @@ a {
 }
 
 .post-content {
-  @include charter;
+  @include content-type;
 }
 
 blockquote {
@@ -104,9 +122,9 @@ q {
     line-height: (40 / 34);
   }
 
+  @include display;
   color: $red;
   display: block;
-  font-family: Roboto;
   font-size: 24px;
   font-weight: 400;
   letter-spacing: -.01em;
@@ -125,14 +143,16 @@ code {
     font-size: 15px;
   }
 
-  font-family: Roboto Mono;
-  font-size: 20px/1.5;
+  @include monospace;
+  font-size: (20px/1.5);
 }
 
 .home-title {
   @include mq($from: sm) {
     font-size: 64px;
   }
+
+  font-weight: 500;
 
   font-size: 45px;
   letter-spacing: -.01em;
@@ -147,7 +167,7 @@ code {
   }
 
   font-size:  45px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -.005em;
   line-height: (48 / 45);
 }
@@ -164,7 +184,7 @@ code {
 }
 
 .site-nav--link {
-  @include roboto;
+  @include text;
   font-size: 14px;
   font-weight: 500;
   letter-spacing: .01em;
@@ -185,8 +205,12 @@ code {
   line-height: (28 / 20);
 }
 
+.post-tagline {
+  margin-top: 0;
+}
+
 .post-link {
-  @include roboto;
+  @include text;
   @include mq($from: sm) {
     font-size: 20px;
     line-height: (24 / 20);

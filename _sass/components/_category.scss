@@ -5,8 +5,8 @@
       line-height: (32 / 24);
     }
 
+    @include display;
     color: $red;
-    font-family: 'Roboto';
     font-size: 20px;
     letter-spacing: 0;
     line-height: (24 / 20);
