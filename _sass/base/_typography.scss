@@ -1,6 +1,6 @@
 @mixin charter {
-  @include sm {
-    font-size: rem(20.25px);
+  @include mq($from: sm) {
+    font-size: 20.25px;
     line-height: (32 / 20.25);
   }
 
@@ -29,12 +29,12 @@ figcaption,
 }
 
 h1 {
-  @include sm {
-    font-size: rem(34px);
+  @include mq($from: sm) {
+    font-size: 34px;
     line-height: (40 / 34);
   }
 
-  font-size: rem(24px);
+  font-size: 24px;
   font-weight: 500;
   letter-spacing: -.005em;
   line-height: (32 / 24);
@@ -50,13 +50,13 @@ h1 {
 }
 
 h2 {
-  @include sm {
-    font-size: rem(24px);
+  @include mq($from: sm) {
+    font-size: 24px;
     line-height: (32 / 24);
     margin-top: 80px;
   }
 
-  font-size: rem(20px);
+  font-size: 20px;
   font-weight: 500;
   line-height: (28 / 20);
   margin-top: 52px;
@@ -82,11 +82,11 @@ a {
 }
 
 blockquote {
-  @include sm {
+  @include mq($from: sm) {
     padding: 0 0 0 40px;
   }
 
-  @include lg {
+  @include mq($from: lg) {
     padding: 0 0 0 48px;
   }
 
@@ -99,7 +99,7 @@ blockquote {
 }
 
 q {
-  @include sm {
+  @include mq($from: sm) {
     font-size: 34px;
     line-height: (40 / 34);
   }
@@ -121,16 +121,16 @@ q {
 
 pre,
 code {
-  @include media-query($bp-600) {
-    font-size: rem(15px);
+  @include mq($from: sm) {
+    font-size: 15px;
   }
 
   font-family: Roboto Mono;
-  font-size: rem(20px/1.5);
+  font-size: 20px/1.5;
 }
 
 .home-title {
-  @include sm {
+  @include mq($from: sm) {
     font-size: 64px;
   }
 
@@ -141,7 +141,7 @@ code {
 }
 
 .page-title {
-  @include sm {
+  @include mq($from: sm) {
     font-size: 56px;
     line-height: (64 / 56);
   }
@@ -153,13 +153,13 @@ code {
 }
 
 .site-tagline {
-  @include sm {
-    font-size: rem(24px);
+  @include mq($from: sm) {
+    font-size: 24px;
     line-height: (32 / 24);
   }
 
   color: $caption-color;
-  font-size: rem(20px);
+  font-size: 20px;
   line-height: (28 / 20);
 }
 
@@ -174,8 +174,8 @@ code {
 }
 
 .post-excerpt {
-  @include sm {
-    font-size: rem(24px);
+  @include mq($from: sm) {
+    font-size: 24px;
     line-height: (32 / 24);
   }
 
@@ -187,7 +187,7 @@ code {
 
 .post-link {
   @include roboto;
-  @include sm {
+  @include mq($from: sm) {
     font-size: 20px;
     line-height: (24 / 20);
   }

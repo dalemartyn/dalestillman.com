@@ -18,6 +18,12 @@ $box-shadow-color: rgba(0, 0, 0, .06);
   width: (768px * $scale);
 }
 
+@mixin window($scale) {
+  border-radius: (4px * $scale);
+  overflow: hidden;
+  width: (960px * $scale);
+}
+
 @mixin laptop($scale) {
   border-top-left-radius: 8px * $scale;
   border-top-right-radius: 8px * $scale;
@@ -54,8 +60,9 @@ $box-shadow-color: rgba(0, 0, 0, .06);
 
 .device--phone,
 .device--tablet,
-.device--ipad {
-  @include sm {
+.device--ipad,
+.window {
+  @include mq($from: sm) {
     margin: 48px auto;
   }
 
@@ -69,7 +76,7 @@ $box-shadow-color: rgba(0, 0, 0, .06);
   $scale: (328 / 1376);
   @include laptop($scale);
 
-  @include sm {
+  @include mq($from: sm) {
     $scale: (.66 * .5);
     @include laptop($scale);
     margin: 80px auto (52px + (80px * $scale));
@@ -79,12 +86,12 @@ $box-shadow-color: rgba(0, 0, 0, .06);
     }
   }
 
-  @include md {
+  @include mq($from: md) {
     $scale: (.9 * .5);
     @include laptop($scale);
   }
 
-  @include lg {
+  @include mq($from: lg) {
     $scale: (768 / 1280);
     @include laptop($scale);
 
@@ -108,15 +115,15 @@ $box-shadow-color: rgba(0, 0, 0, .06);
 .device--phone {
   @include phone($scale: (280 / 600));
 
-  @include sm {
+  @include mq($from: sm) {
     @include phone($scale: (400 / 600));
   }
 
-  @include md {
+  @include mq($from: md) {
     @include phone($scale: (450 / 600));
   }
 
-  @include lg {
+  @include mq($from: lg) {
     @include phone($scale: (600 / 600));
 
     &.device--home {
@@ -128,15 +135,15 @@ $box-shadow-color: rgba(0, 0, 0, .06);
 .device--tablet {
   @include tablet($scale: (280 / 600));
 
-  @include sm {
+  @include mq($from: sm) {
     @include tablet($scale: (400 / 600));
   }
 
-  @include md {
+  @include mq($from: md) {
     @include tablet($scale: (450 / 600));
   }
 
-  @include lg {
+  @include mq($from: lg) {
     @include tablet($scale: (600 / 600));
 
     &.device--home {
@@ -147,13 +154,13 @@ $box-shadow-color: rgba(0, 0, 0, .06);
 
 .device--ipad {
   @include ipad($scale: (280 / 600));
-  @include sm {
+  @include mq($from: sm) {
     @include ipad($scale: (400 / 600));
   }
-  @include md {
+  @include mq($from: md) {
     @include ipad($scale: (450 / 600));
   }
-  @include lg {
+  @include mq($from: lg) {
     @include ipad($scale: (600 / 600));
     &.device--home {
       @include ipad($scale: .75);
@@ -161,3 +168,27 @@ $box-shadow-color: rgba(0, 0, 0, .06);
   }
 }
 
+.window {
+  @include window($scale: (320 / 960));
+
+  @include mq($from: sm) {
+    @include window($scale: (480 / 960));
+  }
+
+  @include mq($from: md) {
+    @include window($scale: (720 / 960));
+  }
+
+  @include mq($from: lg) {
+    @include window($scale: (960 / 960));
+
+    &.window--home {
+      @include window($scale: .75);
+    }
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}

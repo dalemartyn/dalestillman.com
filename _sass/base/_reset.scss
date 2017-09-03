@@ -46,11 +46,11 @@ dl,
 figure,
 iframe,
 %vertical-rhythm {
-  @include media-query($bp-600) {
-    margin-bottom: rem(28px);
+  @include mq($from: sm) {
+    margin-bottom: 28px;
   }
 
-  margin-bottom: rem(24px);
+  margin-bottom: 24px;
 
 }
 
@@ -63,10 +63,10 @@ img {
 
 // Figures
 figure {
-  @include sm {
+  @include mq($from: sm) {
     margin: 52px #{-$padding-x-sm};
   }
-  @include md {
+  @include mq($from: md) {
     margin: 52px -40px;
   }
 
@@ -89,11 +89,11 @@ figure {
 }
 
 figcaption {
-  @include sm {
+  @include mq($from: sm) {
     padding: 32px $padding-x-sm;
   }
 
-  @include md {
+  @include mq($from: md) {
     padding: 32px 40px;
   }
 
@@ -107,18 +107,18 @@ figcaption {
 
 blockquote {
   > p {
-    @include sm {
-      font-size: rem(19px);
+    @include mq($from: sm) {
+      font-size: 19px;
       line-height: (32 / 20.25 * 20.25 / 19);
     }
 
-    font-size: rem(17px);
+    font-size: 17px;
     line-height: (28 / 17);
   }
 }
 
 q {
-  @include media-query($bp-720) {
+  @include mq($from: md) {
     &.right {
       float: right;
       margin: 40px 0 40px 40px;
@@ -154,12 +154,12 @@ p > code {
 }
 
 pre {
-  @include sm {
+  @include mq($from: sm) {
     line-height: (24 / 15);
     padding: 24px $padding-x-sm;
   }
 
-  @include md {
+  @include mq($from: md) {
     padding: 32px 40px;
   }
 

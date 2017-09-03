@@ -14,11 +14,11 @@
 }
 
 .col {
-  @include sm {
+  @include mq($from: sm) {
     max-width: 688px + (($padding-x-sm + $margin-sm) * 2);
   }
 
-  @include lg {
+  @include mq($from: lg) {
     max-width: 688px + (($padding-x-lg + $margin-lg) * 2);
   }
 
@@ -51,12 +51,12 @@
 }
 
 .container {
-  @include sm {
+  @include mq($from: sm) {
     padding-left: $padding-x-sm + $margin-sm;
     padding-right: $padding-x-sm + $margin-sm;
   }
 
-  @include lg {
+  @include mq($from: lg) {
     padding-left: $padding-x-lg + $margin-lg;
     padding-right: $padding-x-lg + $margin-lg;
 

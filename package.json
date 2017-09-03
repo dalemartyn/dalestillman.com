@@ -19,6 +19,7 @@
     "gulp-util": "^3.0.8",
     "rev-del": "dalemartyn/rev-del",
     "sass-material-colors": "0.0.5",
+    "sass-mq": "^3.3.2",
     "superstatic": "^4.0.3"
   }
 }

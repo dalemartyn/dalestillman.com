@@ -1,6 +1,6 @@
 .post-list {
   .post-excerpt {
-    @include sm {
+    @include mq($from: sm) {
       font-size: 24px;
       line-height: (32 / 24);
     }
@@ -13,7 +13,7 @@
   }
 
   .post {
-    @include sm {
+    @include mq($from: sm) {
       margin-bottom: 96px;
       margin-top: 96px;
     }

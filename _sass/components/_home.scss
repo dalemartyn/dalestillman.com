@@ -1,5 +1,5 @@
 .home-hero {
-  @include sm {
+  @include mq($from: sm) {
     padding-bottom: 96px;
   }
 
@@ -13,7 +13,7 @@
 }
 
 .profile-image {
-  @include sm {
+  @include mq($from: sm) {
     height: 256px;
     margin-bottom: 28px;
     width: 256px;
@@ -34,13 +34,13 @@
 }
 
 .post-grid__post-card {
-  @include sm {
+  @include mq($from: sm) {
     height: 600px;
   }
-  @include md {
+  @include mq($from: md) {
     height: 680px;
   }
-  @include lg {
+  @include mq($from: lg) {
     height: 700px;
   }
   flex-grow: 1;
@@ -62,7 +62,7 @@
 }
 
 .post-info {
-  @include sm {
+  @include mq($from: sm) {
     padding-top: 52px;
   }
 
@@ -79,7 +79,7 @@
 
 .post-info__tagline {
   @include roboto;
-  @include sm {
+  @include mq($from: sm) {
     font-size: 20px;
     line-height: (24 / 20);
   }
@@ -91,11 +91,11 @@
 }
 
 .section-title {
-  @include sm {
+  @include mq($from: sm) {
     padding: 32px $padding-x-sm 8px;
   }
 
-  @include lg {
+  @include mq($from: lg) {
     padding: 32px $padding-x-lg 0;
   }
 
@@ -103,7 +103,7 @@
   padding: 32px $padding-x-xs 8px;
 
   h2 {
-    @include sm {
+    @include mq($from: sm) {
       font-size: 34px;
       line-height: (40 / 34);
     }

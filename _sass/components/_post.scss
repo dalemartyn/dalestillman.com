@@ -3,7 +3,7 @@
 }
 
 .post-content {
-  @include sm {
+  @include mq($from: sm) {
     padding-top: 80px;
   }
 
@@ -12,7 +12,7 @@
 }
 
 .page-header {
-  @include sm {
+  @include mq($from: sm) {
     margin-top: 80px;
   }
 
@@ -20,14 +20,14 @@
 }
 
 .blog-header {
-  @include sm {
+  @include mq($from: sm) {
     margin-top: 56px;
   }
 }
 
 .page-heading,
 .post-title:not(.post-title--small) {
-  @include sm {
+  @include mq($from: sm) {
     font-size: 45px;
     line-height: (52 / 45);
     margin-bottom: 24px;
@@ -41,7 +41,7 @@
 }
 
 .page-title {
-  @include sm {
+  @include mq($from: sm) {
     font-size: 56px;
     line-height: 1.25;
   }

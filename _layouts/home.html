@@ -13,7 +13,7 @@ layout: default
 </div>
 
 <div id="work">
-  {% for page in site.categories["work"] limit:4 %}
+  {% for page in site.categories["work"] %}
   <div class="post-grid__post col-full--no-padding">
     <article class="post-card post-grid__post-card{% if page.bgcolor %} bg-{{page.bgcolor}}{% endif %}">
       <a href="{% if page.link %}{{ page.link }}{% else %}{{ page.url | relative_url }}{% endif %}" class="post-card__link" tabindex="-1">{{ page.title }}</a>

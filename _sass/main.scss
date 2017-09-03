@@ -1,9 +1,13 @@
 @import 'node_modules/sass-material-colors/sass/sass-material-colors';
 
-@import 'utils/colors';
-@import 'utils/variables';
-@import 'utils/mixins';
-@import 'utils/shadows';
+@import 'settings/colors';
+@import 'settings/variables';
+@import 'settings/breakpoints';
+
+@import 'node_modules/sass-mq/mq';
+
+@import 'tools/shadows';
+@import 'tools/hide-text';
 
 @import 'base/fonts';
 @import 'base/colors';
