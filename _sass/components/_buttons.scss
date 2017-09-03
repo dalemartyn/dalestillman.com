@@ -1,10 +1,10 @@
 .btn {
-  @include text;
+  @include font-stack;
   background-color: $red;
   border-radius: 2px;
   color: $white;
   font-size: 14px;
-  font-weight: 500;
+  @include bold;
   letter-spacing: .01em;
   line-height: 16px;
   float: right;

@@ -78,7 +78,7 @@
 }
 
 .post-info__tagline {
-  @include display;
+  @include font-stack;
   @include mq($from: sm) {
     font-size: 20px;
     line-height: (24 / 20);

@@ -4,21 +4,22 @@
     line-height: (32 / 18.5);
   }
 
-  @include text;
+  @include font-stack;
   font-size: 17px;
   line-height: (28 / 17);
 }
 
-@mixin display {
-  font-family: display, system-ui, sans-serif;
-}
-
-@mixin text {
-  font-family: text, system-ui, sans-serif;
+@mixin font-stack {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 @mixin monospace {
   font-family: Menlo, Roboto Mono, monospace, sans-serif;
+}
+
+@mixin bold {
+  font-weight: 600;
+  font-weight: var(--bold-font-weight, 600);
 }
 
 body {
@@ -30,18 +31,18 @@ h2,
 .post-excerpt,
 .site-title,
 .site-tagline {
-  @include display;
+  @include font-stack;
 }
 
 figcaption,
 .post-meta, {
-  @include text;
+  @include font-stack;
 }
 
 .large {
   font-size: 56px;
   letter-spacing: -.005em;
-  font-weight: 500;
+  @include bold;
   color: #fff;
   margin-top: 48px;
 }
@@ -53,7 +54,7 @@ h1 {
   }
 
   font-size: 24px;
-  font-weight: 500;
+  @include bold;
   letter-spacing: -.005em;
   line-height: (32 / 24);
 
@@ -75,7 +76,7 @@ h2 {
   }
 
   font-size: 20px;
-  font-weight: 500;
+  @include bold;
   line-height: (28 / 20);
   margin-top: 52px;
 }
@@ -83,7 +84,7 @@ h2 {
 
 h3 {
   font-size: 1em;
-  font-weight: 500;
+  @include bold;
 }
 
 a {
@@ -122,7 +123,7 @@ q {
     line-height: (40 / 34);
   }
 
-  @include display;
+  @include font-stack;
   color: $red;
   display: block;
   font-size: 24px;
@@ -152,7 +153,7 @@ code {
     font-size: 64px;
   }
 
-  font-weight: 500;
+  @include bold;
 
   font-size: 45px;
   letter-spacing: -.01em;
@@ -167,7 +168,7 @@ code {
   }
 
   font-size:  45px;
-  font-weight: 500;
+  @include bold;
   letter-spacing: -.005em;
   line-height: (48 / 45);
 }
@@ -184,9 +185,9 @@ code {
 }
 
 .site-nav--link {
-  @include text;
+  @include font-stack;
   font-size: 14px;
-  font-weight: 500;
+  @include bold;
   letter-spacing: .01em;
   line-height: 1;
   text-align: center;
@@ -210,7 +211,7 @@ code {
 }
 
 .post-link {
-  @include text;
+  @include font-stack;
   @include mq($from: sm) {
     font-size: 20px;
     line-height: (24 / 20);

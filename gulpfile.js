@@ -128,6 +128,13 @@ gulp.task('darkmode:styles', function() {
     .pipe(gulp.dest('css'));
 });
 
+gulp.task('fontweight', function() {
+  return gulp.src('_js/fontweight.js')
+    .pipe(concat('fontweight.js'))
+    .pipe(uglify())
+    .pipe(gulp.dest('./_includes/'));
+});
+
 gulp.task('watch', function() {
 	gulp.watch(['_site/css/*.css', '_site/js/*.js']).on('change', function(file) {
     livereload.changed(file.path);
@@ -187,13 +194,14 @@ gulp.task('firebase-serve', function(cb) {
 gulp.task('serve-drafts', ['jekyll-serve-drafts', 'firebase-serve']);
 gulp.task('serve', ['jekyll-serve', 'firebase-serve']);
 
-gulp.task('build', ['sass', 'scripts', 'darkmode', 'jekyll-build']);
+gulp.task('build', ['sass', 'scripts', 'darkmode', 'fontweight', 'jekyll-build']);
 
 gulp.task('dev',
 [
   'sass-develop',
   'scripts',
   'darkmode',
+  'fontweight',
   'watch'
 ],
 function() {
