@@ -2,15 +2,6 @@
   @include content-type;
 }
 
-.post-content {
-  @include mq($from: sm) {
-    padding-top: 80px;
-  }
-
-  padding-bottom: 40px;
-  padding-top: 48px;
-}
-
 .page-header {
   @include mq($from: sm) {
     margin-top: 80px;
@@ -30,14 +21,13 @@
   @include mq($from: sm) {
     font-size: 45px;
     line-height: (52 / 45);
-    margin-bottom: 24px;
+    margin-bottom: 12px;
   }
 
   font-size: 34px;
   letter-spacing: -.005em;
   line-height: (40 / 34);
-  margin-bottom: 22px;
-
+  margin-bottom: 8px;
 }
 
 .page-title {
@@ -51,6 +41,16 @@
   line-height: (48 / 45);
 }
 
+.post-header {
+  @include mq($from: sm) {
+    margin-top: 52px;
+    margin-bottom: 52px;
+  }
+
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .post-header-image {
   @media (max-width: 420px) {
     height: 240px;
@@ -62,7 +62,7 @@
   }
 
   background: $code-background;
-  margin: 0;
+  margin: 24px 0 0;
 
   img {
     width: 100%;
@@ -73,6 +73,7 @@
   color: $caption-color;
   font-size: $small-font-size;
   margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 .video {
@@ -94,4 +95,5 @@
 
 .work-header {
   overflow: hidden;
+  margin-top: 24px;
 }

@@ -1,1 +1,1 @@
-!function(){if(navigator.userAgent.indexOf("Android")>-1){var e=document.createElement("style");e.appendChild(document.createTextNode(":root{--bold-font-weight: 500;}")),document.head.appendChild(e)}}();
+!function(){navigator.userAgent.indexOf("Android")>-1&&document.documentElement.classList.add("t-android")}();

@@ -1,12 +1,12 @@
 @mixin content-type {
   @include mq($from: sm) {
-    font-size: 18.5px;
-    line-height: (32 / 18.5);
+    font-size: 19px;
+    line-height: (30 / 19);
   }
 
   @include font-stack;
-  font-size: 17px;
-  line-height: (28 / 17);
+  font-size: 16px;
+  line-height: (24 / 16);
 }
 
 @mixin font-stack {
@@ -18,24 +18,12 @@
 }
 
 @mixin bold {
-  font-weight: 600;
-  font-weight: var(--bold-font-weight, 600);
+  font-weight: 700;
+  font-weight: var(--bold-font-weight, 700);
 }
 
 body {
   color: $text-color;
-}
-
-h1,
-h2,
-.post-excerpt,
-.site-title,
-.site-tagline {
-  @include font-stack;
-}
-
-figcaption,
-.post-meta, {
   @include font-stack;
 }
 
@@ -70,25 +58,29 @@ h1 {
 
 h2 {
   @include mq($from: sm) {
-    font-size: 24px;
-    line-height: (32 / 24);
+    font-size: 26px;
+    line-height: (32 / 26);
     margin-top: 80px;
   }
 
-  font-size: 20px;
+  font-size: 22px;
   @include bold;
-  line-height: (28 / 20);
+  line-height: (24 / 22);
   margin-top: 52px;
 }
 
 
 h3 {
+  margin-top: 45px;
+  margin-bottom: 15px;
   font-size: 1em;
   @include bold;
 }
 
 a {
-  color: material-color('red', 'a200');
+  color: $red-light;
+  // color: $red;
+
   text-decoration: none;
 
   &:hover {
@@ -101,19 +93,16 @@ a {
 }
 
 blockquote {
-  @include mq($from: sm) {
-    padding: 0 0 0 40px;
-  }
-
-  @include mq($from: lg) {
-    padding: 0 0 0 48px;
+  @include mq($from: md) {
+    padding: 0 0 0 32px;
   }
 
   border-left: 2px solid $quote-border-color;
   padding: 0 0 0 24px;
 
   > p {
-    font-style: italic;
+    font-size: 18px;
+    line-height: 30px;
   }
 }
 
@@ -125,9 +114,10 @@ q {
 
   @include font-stack;
   color: $red;
+  color: $red-light;
   display: block;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 500;
   letter-spacing: -.01em;
   line-height: (32 / 24);
   margin: 40px 0;
@@ -194,20 +184,16 @@ code {
   text-transform: uppercase;
 }
 
-.post-excerpt {
+.post-tagline {
   @include mq($from: sm) {
-    font-size: 24px;
-    line-height: (32 / 24);
+    font-size: 26px;
+    line-height: (30 / 26);
   }
 
   color: $caption-color;
-  font-size: 20px;
+  font-size: 22px;
   letter-spacing: 0;
-  line-height: (28 / 20);
-}
-
-.post-tagline {
-  margin-top: 0;
+  line-height: (24 / 22);
 }
 
 .post-link {

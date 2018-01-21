@@ -4,32 +4,23 @@
     init: function() {
       var isDark = this.loadState();
       if (isDark === true) {
-        this.add();
+        this.turnOn();
       }
       this.addListener();
     },
     toggle: function() {
       if (this.isDark) {
-        this.remove();
+        this.turnOff();
       } else {
-        this.add();
+        this.turnOn();
       }
     },
-    create: function() {
-      var css = '<!-- css -->';
-      var ss = document.createElement('style');
-      ss.appendChild(document.createTextNode(css));
-      this.ss = ss;
-    },
-    add: function() {
-      if (!this.ss) {
-        this.create();
-      }
-      document.head.appendChild(this.ss);
+    turnOn: function() {
+      document.documentElement.classList.add('t-dark');
       this.saveState(true);
     },
-    remove: function() {
-      this.ss.remove();
+    turnOff: function() {
+      document.documentElement.classList.remove('t-dark');
       this.saveState(false);
     },
     saveState: function(isDark) {
@@ -47,6 +38,12 @@
         if (event.keyCode === 68) {
           darkmode.toggle();
         }
+      });
+
+      var that = this;
+
+      document.addEventListener('DOMContentLoaded', function (event) {
+        document.querySelector('.icon').addEventListener('click', darkmode.toggle.bind(that));
       });
     }
   };

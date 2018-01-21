@@ -93,7 +93,8 @@ $box-shadow-color: rgba(0, 0, 0, .06);
 
   @include mq($from: lg) {
     $scale: (768 / 1280);
-    @include laptop($scale);
+    @include laptop($scale * .9166666666);
+    @include laptop($scale * .9375);
 
     &.device--home {
       @include laptop(.8 * $scale);
@@ -144,7 +145,9 @@ $box-shadow-color: rgba(0, 0, 0, .06);
   }
 
   @include mq($from: lg) {
-    @include tablet($scale: (600 / 600));
+    $scale: (600 / 600);
+
+    @include tablet($scale * .9);
 
     &.device--home {
       @include tablet($scale: .75);

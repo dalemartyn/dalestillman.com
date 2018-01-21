@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: $bg-light;
+}
+
 html,
 body {
   -webkit-font-smoothing: antialiased;
@@ -68,7 +72,7 @@ figure {
     margin: 52px #{-$padding-x-sm};
   }
   @include mq($from: md) {
-    margin: 52px -40px;
+    margin: 52px -32px;
   }
 
   margin: 40px #{-$padding-x-xs};
@@ -90,20 +94,14 @@ figure {
 }
 
 figcaption {
-  @include mq($from: sm) {
-    padding: 32px $padding-x-sm;
-  }
-
   @include mq($from: md) {
-    padding: 32px 40px;
+    padding: 24px 32px 0;
   }
 
-  background: $code-background;
   color: $caption-color;
   font-size: $small-font-size;
   line-height: 1.8;
-  margin-top: -1px;
-  padding: 24px $padding-x-xs;
+  padding-top: 16px;
 }
 
 q {
@@ -174,14 +172,5 @@ abbr {
     clear: both;
     content: '';
     display: table;
-  }
-}
-
-// Icons
-.icon {
-  display: flex;
-
-  svg {
-    fill: currentColor;
   }
 }

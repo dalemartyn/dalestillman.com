@@ -109,23 +109,11 @@ gulp.task('scripts', function() {
     .pipe(gulp.dest('./js/'));
 });
 
-gulp.task('darkmode', ['darkmode:styles'], function() {
-  var darkCss = fs.readFileSync('css/dark.css', { encoding: 'utf8' });
-  darkCss = darkCss.replace(/\n/, '');
+gulp.task('darkmode', function() {
   return gulp.src('_js/darkmode.js')
     .pipe(concat('dark.js'))
-    .pipe(replace("<!-- css -->", darkCss))
     .pipe(uglify())
     .pipe(gulp.dest('./_includes/'));
-});
-
-gulp.task('darkmode:styles', function() {
-  return gulp.src(['_sass/dark.scss'])
-    .pipe(sass({
-      precision: 8,
-      outputStyle: 'compressed'
-    }).on('error', sass.logError))
-    .pipe(gulp.dest('css'));
 });
 
 gulp.task('fontweight', function() {

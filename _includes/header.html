@@ -8,16 +8,9 @@
         <a class="site-title-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
       </div>
 
-      <nav class="site-nav">
-        <ul>
-          <li><a href="/#work" class="site-nav--link">Work</a></li>
-          {% if page.url == '/blog' %}
-            <li class="active"><a href="/blog" class="site-nav--link">Blog</a></li>
-          {% else %}
-            <li><a href="/blog" class="site-nav--link">Blog</a></li>
-          {% endif %}
-        </ul>
-      </nav>
+      <div class="icon">
+        {% include moon.svg %}
+      </div>
     </div>
 
   </div>

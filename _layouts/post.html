@@ -2,7 +2,13 @@
 layout: default
 ---
 
-{% if page.image.show %}<figure class="post-header-image"><img src="{{ page.image.src }}" alt="{{ page.title }}"></figure>{% endif %}
+{% if page.image.show %}
+  <div class="col-full--no-padding">
+    <figure class="post-header-image">
+      <img src="{{ page.image.src }}" alt="{{ page.title }}">
+    </figure>
+  </div>
+{% endif %}
 
 <div class="post container col">
 
@@ -20,7 +26,7 @@ layout: default
         <h1 class="post-title">{{ page.title }}</h1>
       {% endif %}
       {% if page.tagline %}
-        <p class="post-excerpt">{{ page.tagline }}</p>
+        <p class="post-tagline">{{ page.tagline }}</p>
       {% endif %}
     </header>
 
