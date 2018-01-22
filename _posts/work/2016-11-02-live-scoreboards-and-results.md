@@ -35,7 +35,7 @@ Fortunately, they were able to give us access to the results, by simply adding a
 
 Getting the tables to work well at all screen sizes took a lot of iteration. Responsive tables are tricky. Here's some of the things I tried:
 
-### Using `overflow-x: scroll;` below a certain breakpoint.
+### Horizontal scrolling
 
 The tables were optimised for the desktop site, using fixed width columns. Below a breakpoint if the content was too wide for the viewport then table could be scrolled horizontally to view the rest of the data. This enabled access to the data at a legible font size. But each table could be a different width depending on the data (e.g. length of club names). Some would scroll, and anothers wouldn't need to, and it was kind of messy scrolling individual tables.
 

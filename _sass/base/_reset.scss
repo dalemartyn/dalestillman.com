@@ -143,7 +143,7 @@ p > code {
 pre {
   @include mq($from: sm) {
     line-height: (24 / 15);
-    padding: 24px $padding-x-sm;
+    padding: 24px;
   }
 
   @include mq($from: md) {
@@ -152,7 +152,7 @@ pre {
 
   line-height: 1.5;
   overflow-x: auto;
-  padding: 24px $padding-x-xs;
+  padding: 16px;
 
   > code {
     border: 0;

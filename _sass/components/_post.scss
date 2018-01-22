@@ -96,4 +96,9 @@
 .work-header {
   overflow: hidden;
   margin-top: 24px;
+  margin-bottom: 40px;
+
+  @include mq($from: md) {
+    margin-bottom: 52px;
+  }
 }
