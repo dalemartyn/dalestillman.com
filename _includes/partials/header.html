@@ -4,12 +4,19 @@
 
     <div class="site-toolbar container">
 
+      <a href="{{ site.baseurl }}/" class="back-button">
+        <div class="icon icon--back">
+          {% include svg/back.svg %}
+        </div>
+      </a>
+
+
       <div class="site-title">
         <a class="site-title-link" href="{{ site.baseurl }}/">{{ site.title }}</a>
       </div>
 
-      <div class="icon">
-        {% include moon.svg %}
+      <div class="icon icon--moon">
+        {% include svg/moon.svg %}
       </div>
     </div>
 

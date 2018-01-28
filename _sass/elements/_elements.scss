@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: $bg-light;
+  background-color: var(--background-color);
 }
 
 html,
@@ -68,14 +68,14 @@ img {
 
 // Figures
 figure {
-  @include mq($from: sm) {
-    margin: 52px #{-$padding-x-sm};
-  }
-  @include mq($from: md) {
-    margin: 52px -32px;
+
+  @include mq($from: lg) {
+    margin-left: calc(-1 * var(--site-margin-width));
+    margin-right: calc(-1 * var(--site-margin-width));
   }
 
-  margin: 40px #{-$padding-x-xs};
+  margin-top: var(--spacing-unit-md);
+  margin-bottom: var(--spacing-unit-md);
 
   img {
     width: 100%;
@@ -98,8 +98,7 @@ figcaption {
     padding: 24px 32px 0;
   }
 
-  color: $caption-color;
-  font-size: $small-font-size;
+  font-size: var(--caption-font-size);
   line-height: 1.8;
   padding-top: 16px;
 }
@@ -120,7 +119,7 @@ q {
 // Lists
 ul,
 ol {
-  margin-left: $spacing-unit;
+  margin-left: var(--spacing-unit-small);
 }
 
 li {
@@ -131,7 +130,7 @@ li {
 }
 
 code {
-  background: $code-background;
+  background: var(--code-background-color);
   letter-spacing: 0;
   padding: 2px 6px;
 }
@@ -162,7 +161,7 @@ pre {
 }
 
 abbr {
-  border-bottom: 1px solid $border-color;
+  border-bottom: 1px solid var(--underline-color);
   text-decoration: none;
 }
 

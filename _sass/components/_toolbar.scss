@@ -3,7 +3,7 @@
   width: 100%;
   position: fixed;
   z-index: 3;
-  background: #fff;
+  background: var(--toolbar-background-color);
   box-shadow: 0 1px 5px rgba(0, 0, 0, .12);
 }
 
@@ -25,18 +25,21 @@
   }
 
   flex: 1;
-  // text-align: center;
-  // margin-left: 40px;
+  margin-left: 40px;
+
+  margin-left: 0;
 }
 
 .site-title-link {
-  color: $text-color;
+  color: var(--text-color);
   display: block;
-  font-size: 20px;
+  font-size: 22px;
+  text-align: center;
+  letter-spacing: .025em;
 
-  @include bold;
+  font-weight: 800;
   line-height: 24px;
-  margin-left: -16px;
+  // margin-left: -16px;
   padding: 16px;
   white-space: nowrap;
 
@@ -46,8 +49,20 @@
 }
 
 .icon {
-  margin-left: 16px;
-  stroke: $red-light;
+  user-select: none;
+  cursor: pointer;
+
+  > svg {
+    display: block;
+    width: 28px;
+    height: 28px;
+  }
+}
+
+
+
+.icon--moon {
+  stroke: var(--accent-color);
   fill: none;
   user-select: none;
   cursor: pointer;
@@ -57,12 +72,24 @@
   }
 
   .t-dark & {
-    fill: $red-light;
+    fill: var(--accent-color);
   }
 }
+
+.icon--back {
+
+  path, polyline {
+    stroke: var(--accent-color);
+  }
+}
+
 
 .name {
   flex: 1;
   display: flex;
   justify-content: center;
+}
+
+.home .back-button {
+  visibility: hidden;
 }

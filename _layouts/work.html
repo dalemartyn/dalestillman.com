@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="post container col">
+<!-- <div class="post container col">
 
   <article class="post-content">
 
@@ -14,12 +14,12 @@ layout: default
     </header>
   </article>
 
-</div>
+</div> -->
 
-<div class="col-full--no-padding work-header">
-  <div class="o-ratio o-ratio--3x2">
+<div class="col-full work-header">
+  <div class="o-ratio o-ratio--16x9">
     <div class="o-ratio__content bg-{{page.bgcolor}}">
-      {% include device.html %}
+      {% include partials/device.html %}
     </div>
   </div>
 </div>
@@ -28,12 +28,12 @@ layout: default
 
   <article class="post-content">
 
-    <!-- <header class="post-header">
+    <header class="post-header">
       <h1 class="post-title">{{ page.title }}</h1>
       {% if page.tagline %}
         <p class="post-tagline">{{ page.tagline }}</p>
       {% endif %}
-    </header> -->
+    </header>
 
     {{ content }}
     <p class="post-meta"><time class="date">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>

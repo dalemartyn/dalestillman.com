@@ -1,0 +1,66 @@
+@import 'node_modules/sass-material-colors/sass/sass-material-colors';
+
+$white:                     #fff;
+$black:                     #000;
+$red:                       #ff5252;
+$red-light:                 #ff6765;
+$red-twitter:               #FD6E6D;
+$cyan:                      #00bcd4;
+$light-blue:                #1da1f2;
+$blue:                      material-color('blue', '700');
+$blue-grey:                 hsl(203, 100%, 66%);
+$text-color:                rgba(0, 0, 0, .87);
+$caption-color:             rgba(0, 0, 0, .54);
+$quote-border-color:        rgba(0, 0, 0, .7);
+$border-color:              rgba(0, 0, 0, .12);
+$code-background:           #f7f7f7;
+$code-background:           #f7f8f8;
+$grey:                      material-color('grey', '600');
+$white-87:                  rgba($white, .87);
+$glass-color:               material-color('blue-grey', '900');
+$metal-color:               material-color('blue-grey', '700');
+$background-color:          #f9fafa;
+$caption-color:             hsla(200, 19%, 18%, .7);
+
+:root {
+  --background-color:       $background-color;
+  --text-color:             $text-color;
+  --accent-color:           $red;
+  --underline-color:        $border-color;
+  --toolbar-background-color: #fff;
+  --quote-border-color:     $quote-border-color;
+
+
+
+
+  // code samples
+  --code-text-color:        #37474f;
+
+  --code-background-color:  $code-background;
+}
+
+// dark mode
+$code-main-text:            #eceff1;
+$background-color:          material-color('blue-grey', '900');
+// 2% less light than material blue-grey 900
+$background-color:          #212b31;
+$text-color:                #fff;
+$grey-light:                rgba(255, 255, 255, .7);
+$grey:                      rgba(255, 255, 255, .5);
+$grey-disabled:             rgba(255, 255, 255, .4);
+$border-color:              rgba(255, 255, 255, .12);
+$code-background:           darken(material-color('blue-grey', '900'), 5%);
+
+:root.t-dark {
+  --background-color:       $background-color;
+  --code-text-color:        $code-main-text;
+  --code-background-color:  $code-background;
+  --text-color:             $text-color;
+  --accent-color:           $red-light;
+  --underline-color:        $border-color;
+  --toolbar-background-color: #2b3940;
+
+  --quote-border-color:     $grey-light;
+
+
+}

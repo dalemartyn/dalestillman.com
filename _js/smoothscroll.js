@@ -1,11 +1,10 @@
 (function() {
-  var workLink = document.querySelector('a[href="/#work"]');
+  var siteTitle = document.querySelector('a[href="/"]');
 
-  workLink.addEventListener('click', function scrollToWork(e) {
-    var work = document.querySelector('#work');
-    var clientRects = work.getBoundingClientRect();
+  siteTitle.addEventListener('click', function scrollToTop(e) {
+
     window.scroll({
-      top: clientRects.top,
+      top: 0,
       behavior: 'smooth'
     });
 

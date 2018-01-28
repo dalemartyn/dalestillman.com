@@ -15,9 +15,9 @@ category: blog
   {% for post in posts %}
     <div>
       {% if post.category == 'links' %}
-        {% include link_post.html %}
+        {% include partials/link_post.html %}
       {% elsif post.category == 'blog' %}
-        {% include blog_post.html %}
+        {% include partials/blog_post.html %}
       {% endif %}
     </div>
   {% endfor %}

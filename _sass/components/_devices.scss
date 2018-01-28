@@ -79,7 +79,7 @@ $box-shadow-color: rgba(0, 0, 0, .06);
   @include mq($from: sm) {
     $scale: (.66 * .5);
     @include laptop($scale);
-    margin: 80px auto (52px + (80px * $scale));
+    margin: 56px auto (52px + (80px * $scale));
 
     &.device--home {
       margin-top: 48px;
@@ -94,10 +94,10 @@ $box-shadow-color: rgba(0, 0, 0, .06);
   @include mq($from: lg) {
     $scale: (768 / 1280);
     @include laptop($scale * .9166666666);
-    @include laptop($scale * .9375);
+    @include laptop($scale * .8);
 
     &.device--home {
-      @include laptop(.8 * $scale);
+      @include laptop(.8 * $scale * .8);
     }
   }
 
@@ -125,10 +125,10 @@ $box-shadow-color: rgba(0, 0, 0, .06);
   }
 
   @include mq($from: lg) {
-    @include phone($scale: (600 / 600));
+    @include phone($scale: (600 / 600) * .875);
 
     &.device--home {
-      @include phone($scale: .875);
+      @include phone($scale: .875 * .8);
     }
   }
 }
@@ -147,10 +147,10 @@ $box-shadow-color: rgba(0, 0, 0, .06);
   @include mq($from: lg) {
     $scale: (600 / 600);
 
-    @include tablet($scale * .9);
+    @include tablet($scale * .75);
 
     &.device--home {
-      @include tablet($scale: .75);
+      @include tablet($scale: .75 * .8);
     }
   }
 }
@@ -166,7 +166,7 @@ $box-shadow-color: rgba(0, 0, 0, .06);
   @include mq($from: lg) {
     @include ipad($scale: (600 / 600));
     &.device--home {
-      @include ipad($scale: .75);
+      @include ipad($scale: .75 * .8);
     }
   }
 }

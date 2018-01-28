@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="home-hero">
+<!-- <div class="home-hero">
   <div class="col-full">
     <div class="container">
       <img class="profile-image" src="/img/profile.jpg" alt="Dale">
@@ -10,11 +10,11 @@ layout: default
       <p class="site-tagline">I solve problems with design and&nbsp;code</p>
     </div>
   </div>
-</div>
+</div> -->
 
 <div id="work">
   {% for page in site.categories["work"] %}
-  <div class="post-grid__post col-full--no-padding">
+  <div class="post-grid__post col-full">
     <article class="post-card post-grid__post-card{% if page.bgcolor %} bg-{{page.bgcolor}}{% endif %}">
       <a href="{% if page.link %}{{ page.link }}{% else %}{{ page.url | relative_url }}{% endif %}" class="post-card__link" tabindex="-1">{{ page.title }}</a>
 
@@ -25,8 +25,10 @@ layout: default
         {% endif %}
       </div>
 
-      <div class="post-device">
-        {% include device.html home=true %}
+      <div class="post-device o-ratio o-ratio--16x9">
+        <div class="o-ratio__content">
+          {% include partials/device.html home=true %}
+        </div>
       </div>
 
     </article>

@@ -1,8 +1,8 @@
 <article class="post post--{{post.category}} container col">
   <h1>
     <a href="{{ post.link }}">{{ post.title }}</a>
-    <span class="post-link">({{ post.link | host }})<a href="{{ post.url | relative_url }}" title="Permanent link to ‘{{ post.title }}’" class="post-perma">{% include star.svg %}</a></span>
   </h1>
+  <a href="{{ post.url | relative_url }}" title="Permanent link to ‘{{ post.title }}’" class="post-perma">{% include svg/star.svg %}</a>
   {% if false %}<span class="post-meta">{{ post.date | date: "%b %d" }}</span>{% endif %}
 
   {{ post.content }}

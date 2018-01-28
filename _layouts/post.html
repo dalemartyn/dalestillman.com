@@ -3,7 +3,7 @@ layout: default
 ---
 
 {% if page.image.show %}
-  <div class="col-full--no-padding">
+  <div class="col-full">
     <figure class="post-header-image">
       <img src="{{ page.image.src }}" alt="{{ page.title }}">
     </figure>
@@ -19,9 +19,9 @@ layout: default
         <h1 class="post-title post-title--small">
           <a href="{{ page.link }}">
             {{ page.title }}
-            <span class="post-link">({{ page.link | host }})</span>
           </a>
         </h1>
+        <p>From: {{ page.link | host }}</p>
       {% else %}
         <h1 class="post-title">{{ page.title }}</h1>
       {% endif %}

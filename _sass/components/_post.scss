@@ -1,32 +1,18 @@
-.post {
-  @include content-type;
+.post-content {
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
 }
 
-.page-header {
-  @include mq($from: sm) {
-    margin-top: 80px;
-  }
-
-  margin-top: 48px;
-}
-
-.blog-header {
-  @include mq($from: sm) {
-    margin-top: 56px;
-  }
-}
-
-.page-heading,
 .post-title:not(.post-title--small) {
   @include mq($from: sm) {
     font-size: 45px;
-    line-height: (52 / 45);
+    line-height: 52px;
     margin-bottom: 12px;
   }
 
   font-size: 34px;
   letter-spacing: -.005em;
-  line-height: (40 / 34);
+  line-height: 40px;
   margin-bottom: 8px;
 }
 
@@ -38,7 +24,7 @@
 
   font-size: 45px;
   letter-spacing: -.005em;
-  line-height: (48 / 45);
+  line-height: 48px;
 }
 
 .post-header {
@@ -71,7 +57,7 @@
 
 .post-meta {
   color: $caption-color;
-  font-size: $small-font-size;
+  font-size: var(--caption-font-size);
   margin-top: 80px;
   margin-bottom: 80px;
 }

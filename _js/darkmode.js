@@ -43,7 +43,7 @@
       var that = this;
 
       document.addEventListener('DOMContentLoaded', function (event) {
-        document.querySelector('.icon').addEventListener('click', darkmode.toggle.bind(that));
+        document.querySelector('.icon--moon').addEventListener('click', darkmode.toggle.bind(that));
       });
     }
   };

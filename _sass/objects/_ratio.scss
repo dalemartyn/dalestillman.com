@@ -1,6 +1,7 @@
 .o-ratio {
   position: relative;
   display: block;
+  // overflow: hidden;
   &:before {
     content: "";
     display: block;
@@ -12,6 +13,12 @@
 .o-ratio--3x2 {
   &:before {
     padding-bottom: (100% * 2 / 3);
+  }
+}
+
+.o-ratio--16x9 {
+  &:before {
+    padding-bottom: (100% * 9 / 16);
   }
 }
 

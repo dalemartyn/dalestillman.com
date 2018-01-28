@@ -6,11 +6,10 @@
   <title>{% if page.title %}{{ page.title }} – {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta name="theme-color" content="#fff" id="theme">
-  {% comment %}<style>include main.css</style>{% endcomment %}
   <link rel="stylesheet" href="{{ "main.css" | prepend: "/css/" }}">
   <link rel="canonical" href="{{ page.url | absolute_url }}">
   <link rel="icon" href="/favicon.png">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
-  <script>{% include dark.js %}</script>
-  <script>{% include fontweight.js %}</script>
+  <script>{% include js/dark.js %}</script>
+  <script>{% include js/fontweight.js %}</script>
 </head>
