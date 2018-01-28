@@ -3,7 +3,6 @@ _site
 node_modules
 _deploy.yml
 img
-_img
 _sketch
 firebase-debug.log
 _drafts
