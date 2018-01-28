@@ -3,17 +3,20 @@
 $mq-breakpoints:          (
   sm:                     600px,
   md:                     840px,
-  lg:                     1052px
+  lg:                     1024px
 );
 
 :root {
 
-  --site-max-width:       1052px;
+  --site-max-width:       1024px;
 
   --site-margin-width:    16px;
 
   --container-padding-x:  16px;
   --container-padding-y:  16px;
+
+  --toolbar-height:       48px;
+  --icon-size:            24px;
 
 
 
@@ -25,6 +28,8 @@ $mq-breakpoints:          (
   @include mq($from:      sm) {
     --site-margin-width:  24px;
 
+    --toolbar-height:     56px;
+    --icon-size:          28px;
 
 
     --spacing-unit-small: 24px;

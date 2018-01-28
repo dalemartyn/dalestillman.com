@@ -4,6 +4,7 @@
 
   --font-size-h2: 22px;
   --caption-font-size: 13px;
+  --caption-line-height: 20px;
 
 
   @include mq($from: sm) {
@@ -11,6 +12,9 @@
     --body-line-height: 30px;
 
     --font-size-h2: 26px;
+
+    --caption-line-height: 24px;
+
 
   }
 }

@@ -95,12 +95,13 @@ figure {
 
 figcaption {
   @include mq($from: md) {
-    padding: 24px 32px 0;
+    padding: var(--spacing-unit-small) var(--spacing-unit-small) 0;
   }
 
   font-size: var(--caption-font-size);
-  line-height: 1.8;
-  padding-top: 16px;
+  line-height: var(--caption-line-height);
+  padding-top: var(--spacing-unit-small);
+
 }
 
 q {

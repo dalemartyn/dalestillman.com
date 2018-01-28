@@ -10,6 +10,7 @@ image:
   src: /img/offtheblocks.jpg
   show: true
   cap: /img/offtheblocks/main.jpg
+  main: /img/offtheblocks/offtheblocks-main.jpg
 tagline: A video site for swimming coaches
 ---
 

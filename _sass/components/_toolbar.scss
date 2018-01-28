@@ -8,11 +8,13 @@
 }
 
 .page-content {
-  padding-top: 56px;
+  padding-top: var(--toolbar-height);
   display: flow-root;
 }
 
 .site-toolbar {
+  height: var(--toolbar-height);
+
   align-items: center;
   display: flex;
   flex-wrap: wrap;
@@ -25,23 +27,25 @@
   }
 
   flex: 1;
-  margin-left: 40px;
-
-  margin-left: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .site-title-link {
   color: var(--text-color);
   display: block;
-  font-size: 22px;
+  font-size: 20px;
   text-align: center;
   letter-spacing: .025em;
 
   font-weight: 800;
   line-height: 24px;
-  // margin-left: -16px;
-  padding: 16px;
+  padding: auto;
   white-space: nowrap;
+
+  @include mq($from: sm) {
+    font-size: 22px;
+  }
 
   &:hover {
     text-decoration: none;
@@ -54,8 +58,8 @@
 
   > svg {
     display: block;
-    width: 28px;
-    height: 28px;
+    width: var(--icon-size);
+    height: var(--icon-size);
   }
 }
 
