@@ -2,27 +2,31 @@
 layout: default
 ---
 
-<div class="col-full work-header">
-  <div class="o-ratio o-ratio--16x9">
-    <div class="o-ratio__content bg-{{page.bgcolor}}">
-      {% include partials/main-image.html %}
+<div class="bg-light">
+  <div class="bg-{{page.bgcolor}}" {% if page.bghex %}style="background-color: {{page.bghex}}"{% endif %};>
+    <div class="col-full work-header">
+      <div class="o-ratio o-ratio--16x9">
+        <div class="o-ratio__content bg-{{page.bgcolor}}">
+          {% include partials/main-image.html %}
+        </div>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="post container col">
+  <div class="post container col">
 
-  <article class="post-content">
+    <article class="post-content">
 
-    <header class="post-header">
-      <h1 class="post-title">{{ page.title }}</h1>
-      {% if page.tagline %}
-        <p class="post-tagline">{{ page.tagline }}</p>
-      {% endif %}
-    </header>
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+        {% if page.tagline %}
+          <p class="post-tagline">{{ page.tagline }}</p>
+        {% endif %}
+      </header>
 
-    {{ content }}
-    <p class="post-meta"><time class="date">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </article>
+      {{ content }}
+      <p class="post-meta"><time class="date">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    </article>
 
+  </div>
 </div>

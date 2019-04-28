@@ -113,7 +113,7 @@ As shown in the screenshots above, I simplified the navigation from what was a s
 
 ## Live scoreboards
 
-The live scoreboard also follwed the same design as described above. Columns line up across scorboard states (start list, in progress and result summary), and also line up with the results on the page below. Just to emphasise why this is important, here's [Christian Robertson][2] from [an excellent talk on design][3]: 
+The live scoreboard also follwed the same design as described above. Columns line up across scoreboard states (start list, in progress and result summary), and also line up with the results on the page below. Just to emphasise why this is important, here's [Christian Robertson][2] from [an excellent talk on design][3]: 
 
 > This is the [principle] that I wish that people had told me on the very first day of design school. It's line stuff up. That's it. Everything should be lined up with something unless it has a good reason not to. So even if elements are at the very opposite sides of the screen and they're almost aligned, line them up. If we don't do it, then our subconscious brains are spending precious cycles trying to figure out, why are those things not lined up? Does it mean something? Does it not mean something? It's almost like... I'd compare it to a memory leak in your software, where something's going on, you're not exactly sure, but you're wasting your resources.
 

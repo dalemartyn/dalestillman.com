@@ -4,6 +4,7 @@
 
 body {
   background-color: var(--background-color);
+  font-weight: 425;
 }
 
 html,
@@ -51,12 +52,7 @@ dl,
 figure,
 iframe,
 %vertical-rhythm {
-  @include mq($from: sm) {
-    margin-bottom: 28px;
-  }
-
-  margin-bottom: 24px;
-
+  margin-bottom: calc(var(--spacing-unit-small) * 1.25);
 }
 
 // Images
@@ -68,11 +64,6 @@ img {
 
 // Figures
 figure {
-
-  @include mq($from: lg) {
-    margin-left: calc(-1 * var(--site-margin-width));
-    margin-right: calc(-1 * var(--site-margin-width));
-  }
 
   margin-top: var(--spacing-unit-md);
   margin-bottom: var(--spacing-unit-md);
@@ -95,7 +86,7 @@ figure {
 
 figcaption {
   @include mq($from: md) {
-    padding: var(--spacing-unit-small) var(--spacing-unit-small) 0;
+    padding: var(--spacing-unit-small) 0 0;
   }
 
   font-size: var(--caption-font-size);
@@ -168,6 +159,7 @@ abbr {
 
 // Clearfix
 %clearfix {
+  &::before,
   &::after {
     clear: both;
     content: '';

@@ -1,15 +1,27 @@
 .site-header {
   align-items: center;
+  box-sizing: content-box;
   width: 100%;
   position: fixed;
   z-index: 3;
   background: var(--toolbar-background-color);
-  box-shadow: 0 1px 5px rgba(0, 0, 0, .12);
+  border: 1px solid var(--toolbar-background-color);
+  border-bottom-width: 0;
+  margin: -1px -1px 0;
+  // box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
+  // box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
+  // box-shadow: 0px 4px 8px -3px rgba(0, 0, 0, .08);
+  // box-shadow:
+  //   0px 4px 2px -3px rgba(0, 0, 0, 0.08),
+  //   0px 3px 16px -3px rgba(0, 0, 0, 0.04);
+  // @include shadow-elevation-4dp;
+  box-shadow: 0px 0px 12px rgba(38, 50, 56, .1);
+  // ^ material 900
 }
 
 .page-content {
   padding-top: var(--toolbar-height);
-  display: flow-root;
+  @extend %clearfix;
 }
 
 .site-toolbar {
@@ -34,17 +46,17 @@
 .site-title-link {
   color: var(--text-color);
   display: block;
-  font-size: 20px;
+  font-size: 22px;
   text-align: center;
-  letter-spacing: .025em;
+  // letter-spacing: .025em;
 
-  font-weight: 800;
-  line-height: 24px;
+  font-weight: 675;
+  line-height: 1;
   padding: auto;
   white-space: nowrap;
 
   @include mq($from: sm) {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   &:hover {
@@ -65,27 +77,59 @@
 
 
 
-.icon--moon {
-  stroke: var(--accent-color);
+.icon--moon,
+.icon--back-ios {
   fill: none;
   user-select: none;
   cursor: pointer;
+  fill: var(--text-color);
+
+  &:hover {
+    fill: var(--accent-color);
+  }
 
   > svg {
     display: block;
   }
 
   .t-dark & {
-    fill: var(--accent-color);
+    fill: var(--text-color);
+    &:hover {
+      fill: var(--accent-color);
+    }
   }
 }
 
 .icon--back {
+  fill: var(--text-color);
 
-  path, polyline {
-    stroke: var(--accent-color);
+  &:hover {
+    fill: var(--accent-color);
+  }
+
+  > svg {
+    display: block;
+  }
+
+  .t-dark & {
+    fill: var(--text-color);
+    &:hover {
+      fill: var(--accent-color);
+    }
   }
 }
+
+// .icon--back {
+
+//   path, polyline {
+//     stroke: var(--text-color);
+//   }
+
+//   &:hover path,
+//   &:hover polyline {
+//     stroke: var(--accent-color);
+//   }
+// }
 
 
 .name {

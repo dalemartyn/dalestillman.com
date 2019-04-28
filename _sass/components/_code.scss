@@ -11,8 +11,10 @@ $code-pink:      #e83b74;
 
 
 .highlight  {
-  background: var(--code-background-color);
-  color: var(--code-text-color);
+  pre {
+    background: var(--code-background-color);
+    color: var(--code-text-color);
+  }
 
   .k,                                 // Keyword
   .gu,                                // Generic.Subheading

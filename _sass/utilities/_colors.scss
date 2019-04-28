@@ -1,0 +1,42 @@
+.bg-red {
+  background-color: $red !important;
+}
+
+.bg-blue {
+  background-color: $blue !important;
+}
+
+.bg-cyan {
+  background-color: $cyan !important;
+}
+
+.bg-light-blue {
+  background-color: $light-blue !important;
+}
+
+.bg-blue-grey {
+  background-color: $blue-grey !important;
+}
+
+.bg-light {
+  background-color: var(--light-background-color);
+  @extend %clearfix;
+}
+
+// Dark variants
+
+.bg-red--dark {
+  background-color: mix(black, $red, 5%) !important;
+}
+
+.bg-blue--dark {
+  background-color: mix(black, $blue, 5%) !important;
+}
+
+.bg-cyan--dark {
+  background-color: mix(black, $cyan, 5%) !important;
+}
+
+.bg-light-blue--dark {
+  background-color: mix(black, $light-blue, 5%) !important;
+}

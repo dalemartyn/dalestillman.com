@@ -8,33 +8,32 @@ $mq-breakpoints:          (
 
 :root {
 
-  --site-max-width:       1024px;
+  --site-max-width:       1080px;
 
   --site-margin-width:    16px;
 
   --container-padding-x:  16px;
   --container-padding-y:  16px;
 
-  --toolbar-height:       48px;
+  --toolbar-height:       56px;
   --icon-size:            24px;
 
 
 
   --spacing-unit-small:   16px;
-  --spacing-unit-md:      40px;
-  --spacing-unit-large:   52px;
+  --spacing-unit-md:      32px;
+  --spacing-unit-large:   64px;
 
 
   @include mq($from:      sm) {
     --site-margin-width:  24px;
 
-    --toolbar-height:     56px;
-    --icon-size:          28px;
+    --icon-size:          30px;
 
-
-    --spacing-unit-small: 24px;
-    --spacing-unit-md:    52px;
+    --spacing-unit-small: 20px;
+    --spacing-unit-md:    40px;
     --spacing-unit-large: 80px;
+    --toolbar-height : 65px;
   }
 
 }

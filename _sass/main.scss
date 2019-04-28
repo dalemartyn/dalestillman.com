@@ -9,7 +9,6 @@
 @import 'variables/typography';
 
 @import 'base/fonts';
-@import 'base/colors';
 
 @import 'objects/ratio';
 
@@ -21,5 +20,7 @@
 @import 'components/code';
 @import 'components/toolbar';
 @import 'components/post';
-@import 'components/home';
-@import 'components/devices';
+@import 'components/card';
+@import 'components/profile-picture';
+
+@import 'utilities/colors';

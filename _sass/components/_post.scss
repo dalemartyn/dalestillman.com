@@ -4,16 +4,20 @@
 }
 
 .post-title:not(.post-title--small) {
-  @include mq($from: sm) {
-    font-size: 45px;
-    line-height: 52px;
-    margin-bottom: 12px;
-  }
+  // @include mq($from: sm) {
+  //   font-size: 45px;
+  //   line-height: 52px;
+  //   margin-bottom: 12px;
+  // }
 
-  font-size: 34px;
-  letter-spacing: -.005em;
-  line-height: 40px;
+  // font-size: 34px;
+  // letter-spacing: -.005em;
+  // line-height: 40px;
   margin-bottom: 8px;
+
+  @include scaled-font-size(--font-size-h1);
+  @include scaled-line-height(--h1-line-height);
+
 }
 
 .page-title {
@@ -28,13 +32,8 @@
 }
 
 .post-header {
-  @include mq($from: sm) {
-    margin-top: 52px;
-    margin-bottom: 52px;
-  }
-
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: var(--spacing-unit-md);
+  margin-bottom: var(--spacing-unit-md);
 }
 
 .post-header-image {
@@ -48,7 +47,7 @@
   }
 
   background: $code-background;
-  margin: 24px 0 0;
+  margin: 0;
 
   img {
     width: 100%;
@@ -81,10 +80,5 @@
 
 .work-header {
   overflow: hidden;
-  margin-top: 24px;
-  margin-bottom: 40px;
-
-  @include mq($from: md) {
-    margin-bottom: 52px;
-  }
+  margin-bottom: var(--spacing-unit-md);
 }

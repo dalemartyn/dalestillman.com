@@ -1,9 +1,11 @@
 @mixin font-stack {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family:
+    IBM Plex Sans,
+    sans-serif;
 }
 
 @mixin monospace {
-  font-family: Menlo, Roboto Mono, monospace, sans-serif;
+  font-family: IBM Plex Mono, Menlo, Roboto Mono, monospace, sans-serif;
 }
 
 body {
@@ -13,35 +15,38 @@ body {
 
 
 h2 {
-  font-weight: 700;
   font-size: var(--font-size-h2);
-  line-height: var(--body-line-height);
+  line-height: 1.2;
 
   margin-top: var(--spacing-unit-large);
 }
 
 
 h3 {
-  margin-top: calc(var(--body-line-height) * 1.5);
-  margin-bottom: calc(var(--body-line-height) * .5);
+  margin-top: calc(var(--body-line-height) * var(--body-font-size) * 1.5);
+  margin-bottom: calc(var(--body-line-height) * var(--body-font-size) * .5);
   font-size: var(--body-font-size);
-  font-weight: 700;
+}
+
+h1, h2, h3 {
+  font-weight: 675;
 }
 
 a {
-  color: var(--accent-color);
   text-decoration: none;
+}
+
+.page-content a {
+  color: inherit;
+  text-decoration: none;
+  text-decoration: underline;
 
   &:hover {
-    text-decoration: underline;
+    color: var(--accent-color);
   }
 }
 
 blockquote {
-  @include mq($from: md) {
-    padding: 0 0 0 var(--body-line-height);
-  }
-
   border-left: 2px solid var(--quote-border-color);
   padding: 0 0 0 var(--spacing-unit-small);
 
@@ -82,9 +87,8 @@ code {
 }
 
 .post-tagline {
-  font-size: var(--font-size-h2);
+  font-size: 24px;
   line-height: var(--body-line-height);
-  font-weight: 500;
 }
 
 .post-link {
@@ -94,7 +98,13 @@ code {
   }
   color: $caption-color;
   font-size: 16px;
-  font-weight: 400;
   letter-spacing: 0;
   line-height: (20 / 16);
+}
+
+.home-title {
+  margin-top: 67.5px;
+  margin-bottom: 45px;
+  @include scaled-font-size(--font-size-h1);
+  @include scaled-line-height(--h1-line-height);
 }
