@@ -34,5 +34,6 @@
   font-family: 'IBM Plex Mono';
   font-style: normal;
   font-weight: 450;
-  src: url('/fonts/plex-mono-subset.woff2') format('woff2');
+  src: local('IBM Plex Mono'),
+    url('/fonts/plex-mono-subset.woff2') format('woff2');
 }

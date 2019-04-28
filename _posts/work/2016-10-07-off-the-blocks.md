@@ -4,14 +4,12 @@ device: laptop
 title: "Off the Blocks"
 date: 2016-10-07T09:49:35+01:00
 category: work
-bgcolor: "blue"
 excerpt_separator: "##"
-image:
-  src: /img/offtheblocks.jpg
-  show: true
-  cap: /img/offtheblocks/main.jpg
-  main: /img/offtheblocks/offtheblocks-main.jpg
 tagline: A video site for swimming coaches
+image:
+  main: /img/offtheblocks/main-3x2_3x.png
+  color_light: "#009EE3"
+  color_dark: "#025E9E"
 ---
 
 British Swimming exists to win medals in the pool. To do so they need the best coaching.  As part of their National Development Syllabus they were producing a range of video resources to make available to all coaches in Great Britain. This post will look how I created a low maintenance, easy to use site that was in line with the British Swimming brand.

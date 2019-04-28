@@ -6,11 +6,10 @@ date: 2016-11-02T09:48:31+00:00
 tagline: "A responsive frontend to live aquatic events"
 excerpt: "<p>At The ASA and British Swimming, we had many swimming events that we wanted to show results for directly on the swimming.org site.</p><p>This post looks at how was able to take large quantities of tabular data and make it responsive and accessible.</p>"
 category: work
-bgcolor: "light-blue"
 image:
-  show: true
-  cap: /img/results/main.jpg
-  main: /img/results/results-main.jpg
+  main: /img/results/main-3x2_3x.png
+  color_light: "#53B1F3"
+  color_dark: "#2673BE"
 ---
 
 At The ASA and British Swimming, we had many swimming events that we wanted to show results for directly on the swimming.org site. The results service was provided by the volunteers at SportSystems, and displayed on [www.swimmingresults.org.uk][1]. They did all the work at the venue to capture the swimming results, using many legacy systems based on Visual Basic. Unfortunately as volunteers they didn't have a lot of time to spend to help us get the results onto our site.

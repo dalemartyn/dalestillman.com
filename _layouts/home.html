@@ -6,23 +6,12 @@ layout: default
   <h1 class="home-title">Things I’ve worked on</h1>
 
   <div class="grid">
-    {% for page in site.categories["work"] %}
-    <article class="card">
-      <a href="{% if page.link %}{{ page.link }}{% else %}{{ page.url | relative_url }}{% endif %}">
+    {% for page in site.categories["work"] offset: 1 %}
+      {% include partials/card.html %}
+    {% endfor %}
 
-        <div class="card__thumbnail"
-          style="--img-bg-light: {{ page.image.color_light }}; --img-bg-dark: {{ page.image.color_dark }};">
-          <img src="{{ page.image.main }}" alt="{{ page.title }}" />
-        </div>
-
-        <div class="card__content card__content--work">
-          <h1 class="card__title">{{ page.title }}</h1>
-          {% if false and page.tagline %}
-            <p class="card__tagline">{{ page.tagline }}</p>
-          {% endif %}
-        </div>
-      </a>
-    </article>
+    {% for page in site.categories["work"] reversed limit: 1 %}
+      {% include partials/card.html %}
     {% endfor %}
   </div>
 </div>

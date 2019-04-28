@@ -6,12 +6,10 @@ date: 2016-10-05T18:44:17+01:00
 tagline: "A WordPress theme for internal communications"
 excerpt_separator: "<figure>"
 category: work
-bgcolor: "cyan"
 image:
-  src: /img/intranet.jpg
-  show: true
-  cap: /img/intranet/main.jpg
-  main: /img/intranet/intranet-main.jpg
+  main: /img/intranet/main-3x2_3x.webp
+  color_light: "#1DADBF"
+  color_dark: "#0097A7"
 ---
 
 Company intranets can become neglected with poorly designed, overly complex interfaces that make it hard for employees to engage or find relevant content. By building from the ground up, we were able to create an intranet focused on internal communications. Allowing our colleagues to find out the latest staff news, website posts, and social media, along with important documents and how tos.

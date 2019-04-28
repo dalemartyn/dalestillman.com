@@ -6,11 +6,11 @@ date: 2016-10-06T22:05:19+01:00
 tagline: "Using Google Sheets as backend to rapidly generate athlete stats"
 excerpt_separator: "<figure>"
 category: work
-bgcolor: "red"
 image:
-  show: true
-  cap: /img/athlete-profiles/main.jpg
-  main: /img/athlete-profiles/main-16x9.jpg
+  main: /img/athlete-profiles/main-3x2_3x.png
+  color_light: "#F6525C"
+  color_dark: "#9E2F42"
+
 ---
 
 By creating a new automated system, the laborious process of updating profiles was transformed into one that would enable quick and easy changes. The new system, backed by Google Sheets, enabled us create a larger amount of profiles, each one including more comprehensive stats. We also used the same backend to generate editorial 'ones to watch' widgets for a range of aquatic competitions.

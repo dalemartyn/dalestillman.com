@@ -1,5 +1,4 @@
 .col-full {
-  @extend %clearfix;
   margin-left: auto;
   margin-right: auto;
   max-width: var(--site-max-width);
@@ -8,7 +7,6 @@
 }
 
 .col-full-with-padding {
-  @extend %clearfix;
   margin-left: auto;
   margin-right: auto;
   max-width: calc(var(--site-max-width) + var(--container-padding-x) * 2);

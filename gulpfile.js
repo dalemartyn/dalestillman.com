@@ -31,3 +31,4 @@ exports.default = parallel([watch, server.init, jekyll.init]);
 exports.drafts = parallel([watch, server.init, jekyll.init_drafts]);
 exports.build = build;
 exports.img = img.resize;
+exports.png = img.png;

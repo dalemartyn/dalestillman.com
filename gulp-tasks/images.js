@@ -3,17 +3,27 @@ const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
 const sharp = require("sharp");
-const imagemin = require("gulp-imagemin");
 const gulp = require("gulp");
+const imagemin = require("gulp-imagemin");
+const pngquant = require("imagemin-pngquant");
 
 // specify transforms https://sharp.pixelplumbing.com/en/stable/api-resize/#parameters
 const transforms = [
+  // {
+  //   src: "./*/main-3x2_3x.png",
+  //   dist: "./img/",
+  //   options: {
+  //     width: 1050,
+  //     height: 700,
+  //     fit: "cover"
+  //   }
+  // },
   {
     src: "./*/main-3x2_3x.png",
     dist: "./img/",
     options: {
-      width: 525,
-      height: 348,
+      width: Math.round(911.25*2),
+      height: 607.5*2,
       fit: "cover"
     }
   }
@@ -40,7 +50,8 @@ function resizeImages(done) {
 
       sharp(file)
         .resize(transform.options)
-        .toFile(saveTo)
+        .webp()
+        .toFile(saveTo.replace('.png', '.webp'))
         .catch(err => {
           console.log(err);
         });
@@ -66,8 +77,19 @@ function optimiseImages() {
     .pipe(gulp.dest("./src/assets/img/"));
 }
 
+function optimisePngs() {
+  return gulp.src("./img/**/main-3x2_3x.png")
+    .pipe(imagemin([
+      pngquant({
+        quality: [.7, 1]
+      })
+    ]))
+    .pipe(gulp.dest("./img/"))
+}
+
 // exports (Common JS)
 module.exports = {
   resize: resizeImages,
-  optimise: optimiseImages
+  optimise: optimiseImages,
+  png: optimisePngs
 };

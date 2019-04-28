@@ -39,10 +39,16 @@
   }
 }
 
+.img-bg {
+  background-color: var(--img-bg-light);
+
+  .t-dark & {
+    background-color: var(--img-bg-dark);
+  }
+}
+
 .card__thumbnail img {
-  width: 118%;
-  max-width: none;
-  margin: 0 -9%;
+  width: 100%;
 }
 
 .card__tagline {
