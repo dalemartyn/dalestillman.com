@@ -7,7 +7,7 @@ category: work
 excerpt_separator: "##"
 tagline: A video site for swimming coaches
 image:
-  main: /img/offtheblocks/main-3x2_3x.png
+  main: /img/offtheblocks/main-3x2_3x.webp
   color_light: "#009EE3"
   color_dark: "#025E9E"
 ---

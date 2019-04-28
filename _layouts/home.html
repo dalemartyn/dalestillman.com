@@ -2,17 +2,19 @@
 layout: default
 ---
 
-<div class="col-full col-full--home">
-  <h1 class="home-title">Things I’ve worked on</h1>
+<div class="col-full-with-padding">
+  <div class="container">
+    <h1 class="home-title">Things I’ve worked on</h1>
 
-  <div class="grid">
-    {% for page in site.categories["work"] offset: 1 %}
-      {% include partials/card.html %}
-    {% endfor %}
+    <div class="grid">
+      {% for page in site.categories["work"] offset: 1 %}
+        {% include partials/card.html %}
+      {% endfor %}
 
-    {% for page in site.categories["work"] reversed limit: 1 %}
-      {% include partials/card.html %}
-    {% endfor %}
+      {% for page in site.categories["work"] reversed limit: 1 %}
+        {% include partials/card.html %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 

@@ -8,7 +8,7 @@ excerpt_separator: "<figure>"
 category: work
 image:
   main: /img/intranet/main-3x2_3x.webp
-  color_light: "#1DADBF"
+  color_light: "#26C6DA"
   color_dark: "#0097A7"
 ---
 
