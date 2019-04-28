@@ -25,20 +25,18 @@ $code-background:           $background-color;
 
 :root {
   --light-background-color: #{$light-background-color};
-  --background-color:       #{$background-color};
+  --background-color:       #{$light-background-color};
   --text-color:             #{$text-color};
   --accent-color:           #{$red};
   --underline-color:        #{$border-color};
   --toolbar-background-color: #fff;
-  --quote-border-color:     $quote-border-color;
-
-
-
+  --quote-border-color:     #{$quote-border-color};
 
   // code samples
   --code-text-color:        #37474f;
 
-  --code-background-color:  $code-background;
+  --code-background-color:  #{$code-background};
+  --caption-color:          #{$caption-color};
 }
 
 // dark mode
@@ -77,4 +75,5 @@ $toolbar-background-color : #{"hsl(200, 19%, 19%)"};
   --toolbar-background-color: #{$toolbar-background-color};
 
   --quote-border-color:       #{$grey-light};
+  --caption-color:            #{$white-87};
 }

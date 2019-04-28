@@ -55,7 +55,7 @@
 }
 
 .post-meta {
-  color: $caption-color;
+  color: var(--caption-color);
   font-size: var(--caption-font-size);
   margin-top: 80px;
   margin-bottom: 80px;

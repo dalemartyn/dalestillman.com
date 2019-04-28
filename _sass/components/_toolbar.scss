@@ -4,19 +4,11 @@
   width: 100%;
   position: fixed;
   z-index: 3;
-  background: var(--toolbar-background-color);
-  border: 1px solid var(--toolbar-background-color);
-  border-bottom-width: 0;
+  background-color: var(--toolbar-background-color);
+  border-color: var(--toolbar-background-color);
+  border-width: 1px 1px 0;
   margin: -1px -1px 0;
-  // box-shadow: 0 1px 3px rgba(0, 0, 0, .06);
-  // box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1);
-  // box-shadow: 0px 4px 8px -3px rgba(0, 0, 0, .08);
-  // box-shadow:
-  //   0px 4px 2px -3px rgba(0, 0, 0, 0.08),
-  //   0px 3px 16px -3px rgba(0, 0, 0, 0.04);
-  // @include shadow-elevation-4dp;
-  box-shadow: 0px 0px 12px rgba(38, 50, 56, .1);
-  // ^ material 900
+  box-shadow: 0px 1px 8px rgba(#1D262A, .07);
 }
 
 .page-content {

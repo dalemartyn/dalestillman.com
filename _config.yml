@@ -13,7 +13,7 @@ markdown: kramdown
 highlighter: pygments
 exclude: [node_modules, gulpfile.js, Gemfile, Gemfile.lock, .editorconfig,
           package.json, firebase.json, database.rules.json, firebase-debug.log,
-          css-manifest.json]
+          css-manifest.json, gulp-tasks]
 
 # octopress
 # Default extension for new posts and pages
