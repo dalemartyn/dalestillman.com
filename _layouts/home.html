@@ -7,11 +7,7 @@ layout: default
     <h1 class="home-title">Things I’ve worked on</h1>
 
     <div class="grid">
-      {% for page in site.categories["work"] offset: 1 %}
-        {% include partials/card.html %}
-      {% endfor %}
-
-      {% for page in site.categories["work"] reversed limit: 1 %}
+      {% for page in site.categories["work"] %}
         {% include partials/card.html %}
       {% endfor %}
     </div>
