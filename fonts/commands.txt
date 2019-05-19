@@ -27,13 +27,18 @@ pyftsubset IBMPlexSansVar-Roman.ttf \
     --flavor="woff" \
     --output-file="test3.woff"
 
-pyftsubset IBMPlexSansVar-Roman.ttf \
+
+
+
+
+
+pyftsubset IBMPlexSansVar-Roman-VF.ttf \
      --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
     --layout-features="kern,liga" \
     --flavor="woff2" \
     --output-file="plex-roman-subset.woff2"
 
-pyftsubset IBMPlexSansVar-Italic.ttf \
+pyftsubset IBMPlexSansVar-Italic-VF.ttf \
      --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
     --layout-features="kern,liga" \
     --flavor="woff2" \
