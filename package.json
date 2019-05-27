@@ -15,6 +15,8 @@
     "gulp-uglify": "^3.0.2",
     "gulp-util": "^3.0.8",
     "imagemin-pngquant": "^7.0.0",
+    "mathsass": "^0.10.1",
+    "modularscale-sass": "^3.0.8",
     "rev-del": "^2.0.0",
     "sass-material-colors": "0.0.5",
     "sass-mq": "^5.0.0",

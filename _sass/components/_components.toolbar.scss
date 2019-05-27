@@ -4,13 +4,14 @@
   width: 100%;
   position: fixed;
   z-index: 3;
-  background-color: var(--toolbar-background-color);
+  background-color: var(--color-surface);
+  transition:
+    background-color $theme-transition;
   box-shadow: 0px 1px 8px rgba(#1D262A, .07);
 }
 
 .page-content {
   padding-top: var(--toolbar-height);
-  @extend %clearfix;
 }
 
 .site-toolbar {
@@ -19,7 +20,6 @@
   align-items: center;
   display: flex;
   flex-wrap: wrap;
-  color: $grey;
 }
 
 .site-title {
@@ -33,10 +33,12 @@
 }
 
 .site-title-link {
-  color: var(--text-color);
+  color: var(--color-text);
+  transition: color $theme-transition;
   display: block;
   font-size: 22px;
   text-align: center;
+  text-decoration: none;
   // letter-spacing: .025em;
 
   font-weight: 675;
@@ -56,77 +58,21 @@
 .icon {
   user-select: none;
   cursor: pointer;
-
-  > svg {
-    display: block;
-    width: var(--icon-size);
-    height: var(--icon-size);
-  }
-}
-
-
-
-.icon--moon,
-.icon--back-ios {
-  fill: none;
-  user-select: none;
-  cursor: pointer;
-  fill: var(--text-color);
-
-  &:hover {
-    fill: var(--accent-color);
-  }
+  transition:
+    fill $theme-transition;
 
   > svg {
     display: block;
   }
 
   .t-dark & {
-    fill: var(--text-color);
-    &:hover {
-      fill: var(--accent-color);
-    }
+    fill: var(--color-text);
   }
 }
-
-.icon--back {
-  fill: var(--text-color);
-
-  &:hover {
-    fill: var(--accent-color);
-  }
-
-  > svg {
-    display: block;
-  }
-
-  .t-dark & {
-    fill: var(--text-color);
-    &:hover {
-      fill: var(--accent-color);
-    }
-  }
-}
-
-// .icon--back {
-
-//   path, polyline {
-//     stroke: var(--text-color);
-//   }
-
-//   &:hover path,
-//   &:hover polyline {
-//     stroke: var(--accent-color);
-//   }
-// }
 
 
 .name {
   flex: 1;
   display: flex;
   justify-content: center;
-}
-
-.home .back-button {
-  visibility: hidden;
 }

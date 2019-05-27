@@ -1,0 +1,13 @@
+// Lists
+ul,
+ol {
+  margin-left: var(--spacing-unit-small);
+}
+
+li {
+
+  > ul,
+  > ol {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,10 @@
+.b1 {
+  @include ms-respond(font-size, 1);
+  line-height: 1.45;
+  font-weight: 410;
+}
+
+.b2 {
+  @include ms-respond(font-size, 0);
+  font-weight: 410;
+}

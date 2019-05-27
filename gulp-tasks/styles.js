@@ -6,7 +6,7 @@ const touch = require('gulp-touch-cmd');
 // const revDel = require('rev-del');
 
 function dev() {
-  return src('_sass/main.scss')
+  return src('_sass/main.scss', { sourcemaps: true })
     .pipe(sass({
       precision: 8
     }).on('error', sass.logError))

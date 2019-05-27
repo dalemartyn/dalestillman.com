@@ -1,0 +1,14 @@
+$palette: (
+  'blue-grey-975': #192124,
+  'blue-grey-950': #1d262a,
+  'blue-grey-900': #263238,
+  'blue-grey-800': #37474f,
+  'blue-grey-600': #546e7a,
+  'blue-grey-200': #b0bec5,
+  'grey-50':       #f7f7f7,
+  'white':         #ffffff,
+);
+
+@function color($color) {
+  @return map-get($palette, $color);
+}

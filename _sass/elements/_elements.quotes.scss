@@ -1,0 +1,11 @@
+q {
+  @include mq($from: md) {
+    &.right {
+      float: right;
+      margin: 40px 0 40px 40px;
+      width: 40%;
+    }
+  }
+
+  margin: 0;
+}

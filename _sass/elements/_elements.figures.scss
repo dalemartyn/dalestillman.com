@@ -1,0 +1,27 @@
+// Figures
+figure {
+
+  margin-top: var(--spacing-unit-md);
+  margin-bottom: var(--spacing-unit-md);
+
+  img {
+    width: 100%;
+  }
+
+  > img,
+  > video,
+  > svg {
+    display: block;
+  }
+
+  > svg {
+    height: auto;
+    width: 100%;
+  }
+}
+
+figcaption {
+  @include ms-respond(font-size, 0);
+  padding-top: var(--spacing-unit-small);
+  line-height: 1.75;
+}

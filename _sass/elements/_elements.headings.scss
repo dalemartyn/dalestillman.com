@@ -1,0 +1,21 @@
+h1, h2, h3 {
+  font-weight: 650;
+}
+
+h1 {
+  @include ms-respond(font-size, 3);
+  line-height: 1.1;
+  letter-spacing: -.005em;
+}
+
+h2 {
+  @include ms-respond(font-size, 2);
+  line-height: 1.2;
+  margin-top: var(--spacing-unit-large);
+}
+
+h3 {
+  @include ms-respond(font-size, 1);
+  margin-top: (1.5em * 1.45);
+  margin-bottom: (1.5em * 1.45);
+}

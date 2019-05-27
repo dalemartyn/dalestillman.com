@@ -1,0 +1,15 @@
+html {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  transition:
+    background-color $theme-transition,
+    color $theme-transition;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.6;
+  font-weight: 425;
+  overflow-y: scroll; /* [2] */
+  min-height: 100%; /* [3] */
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+}

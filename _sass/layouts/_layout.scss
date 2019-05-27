@@ -48,13 +48,7 @@
   }
 }
 
-
-.detail-wrapper {
-  @extend %clearfix;
-}
-
 .youtube {
-  @extend %vertical-rhythm;
   padding-top: 56.25%;
   position: relative;
   width: 100%;

@@ -1,0 +1,17 @@
+:root {
+  --color-background:        #{color('white')};
+  --color-background-darker: #{color('grey-50')};
+  --color-surface:           #{color('white')};
+  --color-text:              #{color('blue-grey-950')};
+  --color-text-2:            #{color('blue-grey-600')};
+  --color-border:            #{color('blue-grey-950')};
+}
+
+:root.t-dark {
+  --color-background:        #{color('blue-grey-950')};
+  --color-background-darker: #{color('blue-grey-975')};
+  --color-surface:           #{color('blue-grey-900')};
+  --color-text:              #{color('white')};
+  --color-text-2:            #{color('blue-grey-200')};
+  --color-border:            #{color('white')};
+}
