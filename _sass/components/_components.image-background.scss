@@ -1,0 +1,8 @@
+.c-image-background {
+  background-color: var(--img-bg-light);
+  transition: background-color $theme-transition;
+
+  .t-dark & {
+    background-color: var(--img-bg-dark);
+  }
+}

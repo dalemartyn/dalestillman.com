@@ -1,4 +1,4 @@
-$palette: (
+$colors: (
   'blue-grey-975': #192124,
   'blue-grey-950': #1d262a,
   'blue-grey-900': #263238,
@@ -9,6 +9,21 @@ $palette: (
   'white':         #ffffff,
 );
 
+$code_colors: (
+  'blue-500':     #3F51B5,
+  'blue-300':     #7986CB,
+  'green-500':    #4CAF50,
+  'green-300':    #81C784,
+  'red-500':      #F44336,
+  'red-300':      #E57373,
+  'pink-500':     #E91E63,
+  'pink-300':     #F06292,
+);
+
 @function color($color) {
-  @return map-get($palette, $color);
+  @return map-get($colors, $color);
+}
+
+@function code-color($color) {
+  @return map-get($code_colors, $color);
 }

@@ -1,19 +1,7 @@
-// originals
-$code-blue:      #3b78e7;
-$code-green:     #0d904f;
-$code-red:       #c53929;
-$code-pink:      #d81b60;
-
-// modified
-$code-green:     #12a55c;
-$code-red:       #ff5252;
-$code-pink:      #e83b74;
-
-
 .highlight  {
   pre {
     background: var(--color-background-darker);
-    color: var(--code-text-color);
+    transition: background-color $theme-transition;
   }
 
   .k,                                 // Keyword
@@ -24,7 +12,8 @@ $code-pink:      #e83b74;
   .kp,                                // Keyword.Pseudo
   .kr,                                // Keyword.Reserved
   .kt {                               // Keyword.Type
-    color: $code-blue;
+    color: var(--code-color-blue);
+    transition: color $theme-transition;
   }
 
   .gi,                                // Generic.Inserted
@@ -37,7 +26,8 @@ $code-pink:      #e83b74;
   .sr,                                // Literal.String.Regex
   .s1,                                // Literal.String.Single
   .ss {                               // Literal.String.Symbol
-    color: $code-green;
+    color: var(--code-color-green);
+    transition: color $theme-transition;
   }
 
   .l,                                 // Literal
@@ -50,7 +40,8 @@ $code-pink:      #e83b74;
   .se,                                // Literal.String.Escape
   .si,                                // Literal.String.Interpol
   .il {                               // Literal.Number.Integer.Long
-    color: $code-red;
+    color: var(--code-color-red);
+    transition: color $theme-transition;
   }
 
   .c,                                 // Comment
@@ -62,7 +53,8 @@ $code-pink:      #e83b74;
   .cs,                                // Comment.Special
   .gp,                                // Generic.Prompt
   .sd {                               // Literal.String.Doc
-    color: $code-pink;
+    color: var(--code-color-pink);
+    transition: color $theme-transition;
   }
 
   .gp,                                // Generic.Prompt

@@ -1,8 +1,8 @@
 // Figures
 figure {
 
-  margin-top: var(--spacing-unit-md);
-  margin-bottom: var(--spacing-unit-md);
+  margin-top: sp(xlarge);
+  margin-bottom: sp(xlarge);
 
   img {
     width: 100%;
@@ -22,6 +22,6 @@ figure {
 
 figcaption {
   @include ms-respond(font-size, 0);
-  padding-top: var(--spacing-unit-small);
+  padding-top: sp(small);
   line-height: 1.75;
 }

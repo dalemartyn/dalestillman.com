@@ -1,0 +1,34 @@
+$spacing-directions: (
+  null:          null,
+  '-top':        '-top',
+  '-right':      '-right',
+  '-bottom':     '-bottom',
+  '-left':       '-left',
+  '-horizontal': '-left' '-right',
+  '-vertical':   '-top' '-bottom',
+);
+
+$spacing-properties: (
+  'padding':     'padding',
+  'margin':      'margin',
+);
+
+$spacing-scale-factors: (
+  null:           1.5,
+  "-none":        0,
+  "-tiny":        pow(1.5, -2),
+  "-small":       pow(1.5, -1),
+  "-large":       pow(1.5, 1),
+  "-xlarge":      pow(1.5, 2),
+  "-xxlarge":     pow(1.5, 3),
+);
+
+$spacing-unit-scale-factors: (
+  null:           1.5,
+  none:           0,
+  tiny:           pow(1.5, -2),
+  small:          pow(1.5, -1),
+  large:          pow(1.5, 1),
+  xlarge:         pow(1.5, 2),
+  xxlarge:        pow(1.5, 3),
+);

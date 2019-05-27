@@ -17,8 +17,8 @@
 }
 
 .post-header {
-  margin-top: var(--spacing-unit-md);
-  margin-bottom: var(--spacing-unit-md);
+  margin-top: sp(xlarge);
+  margin-bottom: sp(xlarge);
 }
 
 .post-header-image {
@@ -67,5 +67,5 @@
   margin-right: auto;
   max-width: calc(var(--site-max-width) * 9 / 16 * 3 / 2);
   overflow: hidden;
-  margin-bottom: var(--spacing-unit-md);
+  margin-bottom: sp(xlarge);
 }

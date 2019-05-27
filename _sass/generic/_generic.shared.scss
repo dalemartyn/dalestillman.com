@@ -19,7 +19,7 @@ figure,
 hr,
 table,
 fieldset {
-  margin-bottom: var(--spacing-unit);
+  margin-bottom: sp();
 }
 
 
@@ -29,16 +29,10 @@ fieldset {
  */
 
 dd, ol, ul {
-  margin-left: var(--spacing-unit);
-}
-
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+  margin-left: sp();
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: rgba(#6dc9ca, .5);
   text-shadow: none;
 }

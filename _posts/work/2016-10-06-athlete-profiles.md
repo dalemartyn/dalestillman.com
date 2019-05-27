@@ -41,7 +41,7 @@ This command would download the relevant spreadsheets and normalize the data. It
 
 ## Redesigning the profiles
 
-The automated sytem allowed us to cover more athletes and show more stats. So it was worthwhile spending the time to make them really nice. By adding in the tabs, the profile page became cleaner and more coherent. The stats also became easier to browse. Where we had stats for athletes from multiple domestic or interantional competitions, we further divided the stats up by using a dropdown to switch between competitions.
+The automated system allowed us to cover more athletes and show more stats. So it was worthwhile spending the time to make them really nice. By adding in the tabs, the profile page became cleaner and more coherent. The stats also became easier to browse. Where we had stats for athletes from multiple domestic or interantional competitions, we further divided the stats up by using a dropdown to switch between competitions.
 
 To make the stats clear and accessible, I spent time optimising the typography. I switched the font to [Source Sans Pro][9], used by the ASA in the marketing materials and event programmes, for its excellent legibility in small sizes and the performance of its lining figures. Next, I divided up the results into multiple smaller tables, making them easier to digest (it also allowed us to show the location of the venue in the title). Finally, I made sure that the table columns aligned accross results and tabs, so there wasn't the appearance of the content shifting around as you browse.
 

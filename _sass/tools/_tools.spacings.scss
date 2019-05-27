@@ -1,0 +1,10 @@
+/**
+ * Get a responsive size.
+ *
+ * Size is e.g. 'tiny', 'small', 'large', 'xlarge'.
+ */
+@function sp($size: null) {
+  $scale-factor: if($size, map-get($spacing-unit-scale-factors, $size), 1);
+
+  @return calc(var(--spacing-unit) * #{$scale-factor});
+}

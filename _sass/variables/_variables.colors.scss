@@ -5,6 +5,11 @@
   --color-text:              #{color('blue-grey-950')};
   --color-text-2:            #{color('blue-grey-600')};
   --color-border:            #{color('blue-grey-950')};
+
+  --code-color-blue:         #{code-color('blue-500')};
+  --code-color-green:        #{code-color('green-500')};
+  --code-color-red:          #{code-color('red-500')};
+  --code-color-pink:         #{code-color('pink-500')};
 }
 
 :root.t-dark {
@@ -14,4 +19,9 @@
   --color-text:              #{color('white')};
   --color-text-2:            #{color('blue-grey-200')};
   --color-border:            #{color('white')};
+
+  --code-color-blue:         #{code-color('blue-300')};
+  --code-color-green:        #{code-color('green-300')};
+  --code-color-red:          #{code-color('red-300')};
+  --code-color-pink:         #{code-color('pink-300')};
 }
