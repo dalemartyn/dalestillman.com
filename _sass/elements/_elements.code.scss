@@ -17,9 +17,13 @@ p > code {
 }
 
 pre {
-  line-height: 1.6;
-  padding: sp(large);
+  line-height: 1.5;
+  padding: sp();
   overflow-x: auto;
+
+  @include mq($from: sm) {
+    padding: sp(large);
+  }
 
   > code {
     border: 0;

@@ -12,7 +12,6 @@
  */
 
 address,
-h1, h2, h3, h4, h5, h6,
 blockquote, p, pre,
 dl, ol, ul,
 figure,
@@ -22,10 +21,6 @@ fieldset {
   margin-bottom: sp(large);
 }
 
-h2 {
-  margin-bottom: sp();
-}
-
 
 
 /**
@@ -33,5 +28,5 @@ h2 {
  */
 
 dd, ol, ul {
-  margin-left: sp(large);
+  margin-left: sp();
 }

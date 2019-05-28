@@ -1,5 +1,6 @@
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 650;
+  margin-bottom: sp();
 }
 
 h1 {
@@ -12,10 +13,10 @@ h2 {
   @include ms-respond(font-size, 2);
   line-height: 1.2;
   margin-top: sp(xxlarge);
+  margin-bottom: sp();
 }
 
 h3 {
   @include ms-respond(font-size, 1);
-  margin-top: (1.5em * 1.45);
-  margin-bottom: (1.5em * 1.45);
+  margin-bottom: sp(micro);
 }
