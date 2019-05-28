@@ -1,6 +1,7 @@
 (function() {
 
   var darkmode = {
+
     init: function() {
       var isDark = this.loadState();
       if (isDark === true) {
@@ -8,6 +9,8 @@
       }
       this.addListener();
     },
+
+
     toggle: function() {
       if (this.isDark) {
         this.turnOff();
@@ -15,24 +18,37 @@
         this.turnOn();
       }
     },
+
+
     turnOn: function() {
       document.documentElement.classList.add('t-dark');
+      theme.setAttribute('content', '#263238');
+
       this.saveState(true);
     },
+
+
     turnOff: function() {
       document.documentElement.classList.remove('t-dark');
+      theme.setAttribute('content', '#fff');
       this.saveState(false);
     },
+
+
     saveState: function(isDark) {
       this.isDark = isDark;
       sessionStorage.setItem('darkmode', isDark);
     },
+
+
     loadState: function() {
       var isDarkStr = sessionStorage.getItem('darkmode');
       var isDark = isDarkStr === 'true' ? true: false;
       this.isDark = isDark;
       return isDark;
     },
+
+
     addListener: function() {
       document.addEventListener('keydown', function(event) {
         if (event.keyCode === 68) {
@@ -46,6 +62,7 @@
         document.querySelector('.icon--moon').addEventListener('click', darkmode.toggle.bind(that));
       });
     }
+
   };
 
   darkmode.init();

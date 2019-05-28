@@ -1,9 +1,9 @@
 blockquote {
   border-left: 2px solid var(--color-border);
-  padding: 0 0 0 sp();
+  padding: 0 0 0 sp(large);
 
   > p {
     @include ms-respond(font-size, .9);
-    line-height: 1.65;
+    line-height: 1.6;
   }
 }

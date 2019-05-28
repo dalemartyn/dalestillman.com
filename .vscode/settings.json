@@ -1,7 +1,7 @@
 {
   "files.exclude": {
     "_site": true,
-    "img": true,
+    "img": false,
     "node_modules": true
   },
   "workbench.colorCustomizations": {

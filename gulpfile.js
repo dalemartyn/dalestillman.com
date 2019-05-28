@@ -5,11 +5,11 @@ const { parallel, series } = gulp;
 const livereload = require('gulp-livereload');
 
 // tasks
-const img = require('./gulp-tasks/images.js');
+const img    = require('./gulp-tasks/images.js');
 const jekyll = require('./gulp-tasks/jekyll.js');
 const server = require('./gulp-tasks/server.js');
-const sass = require('./gulp-tasks/styles.js');
-const js = require('./gulp-tasks/scripts.js');
+const sass   = require('./gulp-tasks/styles.js');
+const js     = require('./gulp-tasks/scripts.js');
 
 
 function watch_files() {
@@ -32,3 +32,4 @@ exports.drafts = parallel([watch, server.init, jekyll.init_drafts]);
 exports.build = build;
 exports.img = img.resize;
 exports.png = img.png;
+exports.js = js.dark_mode;

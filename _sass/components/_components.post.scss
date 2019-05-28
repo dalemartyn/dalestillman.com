@@ -31,29 +31,9 @@
     }
   }
 
-  background: var(--color-background-darker);
   margin: 0;
 
   img {
-    width: 100%;
-  }
-}
-
-.post-meta {
-  font-size: var(--caption-font-size);
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
-.video {
-  padding-top: 56.25%;
-  position: relative;
-
-  iframe {
-    height: 100%;
-    left: 0;
-    position: absolute;
-    top: 0;
     width: 100%;
   }
 }

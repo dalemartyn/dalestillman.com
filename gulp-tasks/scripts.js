@@ -7,7 +7,7 @@ function dark_mode() {
   return src('_js/darkmode.js')
     .pipe(concat('dark.js'))
     .pipe(uglify())
-    .pipe(dest('./_includes/'));
+    .pipe(dest('./_includes/js/'));
 }
 
 module.exports = {

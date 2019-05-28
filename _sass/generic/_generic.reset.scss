@@ -54,3 +54,25 @@ fieldset {
   min-width: 0; /* [1] */
   border: 0;
 }
+
+
+
+blockquote, q {
+  quotes: none;
+}
+
+
+
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+
+
+::selection {
+  background: rgba(#6dc9ca, .5);
+  text-shadow: none;
+}

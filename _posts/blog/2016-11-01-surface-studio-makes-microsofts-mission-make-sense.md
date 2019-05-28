@@ -6,8 +6,9 @@ tagline: "Microsoft demonstrate that they really are for the creatives"
 bgcolor: red
 date: 2016-11-01T22:02:19+00:00
 image:
-  src: /img/surface/surfacestudio.jpg
-  show: true
+  main: /img/surface/surfacestudio.webp
+  color_light: "#ff5252"
+  color_dark: "#9E2F42"
 ---
 
 Last year at Microsoft's Surface event, CEO Satya Nadella reiterated the company's new mission statement. "Our mission at Microsoft is to empower every person and every organization on the planet to achieve more. We make things that help you make things and make things happen". When [probed further by Verge Senior Editor Nilay Patel][2], Nadella elaborated "we are the only company that I think thinks about digital technology in the hands of others to create things".
@@ -17,7 +18,7 @@ This didn't really hit home for me. Sure, Microsoft has productivity software, a
 But then [last Thursday Microsoft announced a new product][8] that really makes a big statement about what Microsoft is about.
 
 <figure>
-  <div class="video">
+  <div class="o-ratio o-ratio--16:9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/BzMLA8YIgG0" frameborder="0" allowfullscreen></iframe>
   </div>
   <figcaption>Starting at $3,000, even if noone buys this, it's worth it for Microsoft to show how its brand is now relevant again. I must have watched this video a dozen times, it's so well done.</figcaption>
@@ -28,7 +29,9 @@ But then [last Thursday Microsoft announced a new product][8] that really makes 
 I don't think Microsoft emphasised the hinge enough at the event, as most of the media glossed over its relevance. The hinge uses a combination of springs to counterbalance the weight of the screen and give it a 'zero gravity' feel as it transforms from the regular desktop mode in to what they are calling the 'studio mode'.
 
 <figure>
-  <img src="/img/surface/surfacestudio-studiomode.jpg" alt="Surface Studio in Studio mode">
+  <div class="c-image-background" style="--img-bg-light: {{ page.image.color_light }}; --img-bg-dark: {{ page.image.color_dark }};">
+    <img src="/img/surface/surfacestudio-studiomode.webp" alt="Surface Studio in Studio mode">
+  </div>
   <figcaption>The Surface Studio in studio mode.</figcaption>
 </figure>
 

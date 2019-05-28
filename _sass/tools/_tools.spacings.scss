@@ -4,7 +4,13 @@
  * Size is e.g. 'tiny', 'small', 'large', 'xlarge'.
  */
 @function sp($size: null) {
-  $scale-factor: if($size, map-get($spacing-unit-scale-factors, $size), 1);
 
-  @return calc(var(--spacing-unit) * #{$scale-factor});
+  @if $size {
+    $scale-factor: map-get($spacing-unit-scale-factors, $size);
+    @return calc(var(--spacing-unit) * #{$scale-factor});
+  }
+  @else {
+    @return var(--spacing-unit);
+  }
+
 }

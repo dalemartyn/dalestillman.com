@@ -18,14 +18,18 @@ const transforms = [
   //     fit: "cover"
   //   }
   // },
+  // {
+  //   src: "./*/main-3x2_3x.png",
+  //   dist: "./img/",
+  //   options: {
+  //     width: Math.round(911.25*2),
+  //     height: 607.5*2,
+  //     fit: "cover"
+  //   }
+  // },
   {
-    src: "./*/main-3x2_3x.png",
-    dist: "./img/",
-    options: {
-      width: Math.round(911.25*2),
-      height: 607.5*2,
-      fit: "cover"
-    }
+    src: "./surface/*.png",
+    dist: "./img/"
   }
 ];
 
@@ -60,7 +64,7 @@ function resizeImages(done) {
   done();
 }
 
-// copy images
+// optimize images in place
 function optimiseImages() {
   return gulp
     .src("./src/assets/img/**/*", { base: "./src/assets/img" })
@@ -77,8 +81,9 @@ function optimiseImages() {
     .pipe(gulp.dest("./src/assets/img/"));
 }
 
+// optimize pngs in place
 function optimisePngs() {
-  return gulp.src("./img/**/main-3x2_3x.png")
+  return gulp.src("./img/**/main-3x2_3x.png", { base: "./img" })
     .pipe(imagemin([
       pngquant({
         quality: [.7, 1]

@@ -1,14 +1,4 @@
-.b1 {
-  @include ms-respond(font-size, 1);
-  line-height: 1.45;
-}
-
-.b2 {
-  @include ms-respond(font-size, 0);
-}
-
-
-.post-tagline {
+.ts-post-tagline {
   @include ms-respond(font-size, 1.5);
   line-height: 1.35;
 }
@@ -17,4 +7,8 @@
   @include ms-respond(font-size, 2, $modularscale_thread_b);
   font-weight: 675;
   line-height: 1;
+}
+
+.ts-meta {
+  @include ms-respond(font-size, 0);
 }

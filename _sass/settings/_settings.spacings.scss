@@ -4,7 +4,6 @@ $spacing-directions: (
   '-right':      '-right',
   '-bottom':     '-bottom',
   '-left':       '-left',
-  '-horizontal': '-left' '-right',
   '-vertical':   '-top' '-bottom',
 );
 
@@ -31,4 +30,13 @@ $spacing-unit-scale-factors: (
   large:          pow(1.5, 1),
   xlarge:         pow(1.5, 2),
   xxlarge:        pow(1.5, 3),
+);
+
+$spacing_scale: (
+  20em: (
+    base: rem(18px),
+  ),
+  60em: (
+    base: rem(20px),
+  ),
 );

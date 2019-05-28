@@ -2,43 +2,43 @@
 layout: default
 ---
 
-<div class="bg-light">
 
-  {% if page.image.show %}
-    <div class="bg-red--dark">
-      <div class="col-full">
-        <figure class="post-header-image">
-          <img src="{{ page.image.src }}" alt="{{ page.title }}">
-        </figure>
-      </div>
-    </div>
-  {% endif %}
 
-  <div class="post container col">
-
-    <article class="post-content">
-
-      <header class="post-header">
-        {% if page.category == 'links' %}
-          <h1 class="post-title post-title--small">
-            <a href="{{ page.link }}">
-              {{ page.title }}
-            </a>
-          </h1>
-          <p>From: {{ page.link | host }}</p>
-        {% else %}
-          <h1 class="post-title">{{ page.title }}</h1>
-        {% endif %}
-        {% if page.tagline %}
-          <p class="post-tagline">{{ page.tagline }}</p>
-        {% endif %}
-      </header>
-
-      {{ content }}
-
-      <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-
-    </article>
-
+{% if page.image %}
+<div class="c-image-background"
+  style="--img-bg-light: {{ page.image.color_light }}; --img-bg-dark: {{ page.image.color_dark }};">
+  <div class="col-full">
+    <figure class="post-header-image">
+      {% include partials/main-image.html %}
+    </figure>
   </div>
+</div>
+{% endif %}
+
+<div class="post container col">
+
+  <article class="post-content">
+
+    <header class="post-header">
+      {% if page.category == 'links' %}
+        <h1 class="post-title post-title--small">
+          <a href="{{ page.link }}">
+            {{ page.title }}
+          </a>
+        </h1>
+        <p>From: {{ page.link | host }}</p>
+      {% else %}
+        <h1 class="post-title">{{ page.title }}</h1>
+      {% endif %}
+      {% if page.tagline %}
+        <p class="ts-post-tagline">{{ page.tagline }}</p>
+      {% endif %}
+    </header>
+
+    {{ content }}
+
+    <p class="ts-meta u-margin-vertical-xxlarge">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+
+  </article>
+
 </div>
