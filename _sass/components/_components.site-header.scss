@@ -52,15 +52,12 @@
 .icon {
   user-select: none;
   cursor: pointer;
+  fill: var(--color-text);
   transition:
     fill $theme-transition;
 
   > svg {
     display: block;
-  }
-
-  .t-dark & {
-    fill: var(--color-text);
   }
 }
 

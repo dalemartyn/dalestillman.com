@@ -19,7 +19,7 @@ But then [last Thursday Microsoft announced a new product][8] that really makes 
 
 <figure>
   <div class="o-ratio o-ratio--16:9">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/BzMLA8YIgG0" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5pBixW3h1zY?modestbranding" frameborder="0" allowfullscreen></iframe>
   </div>
   <figcaption>Starting at $3,000, even if noone buys this, it's worth it for Microsoft to show how its brand is now relevant again. I must have watched this video a dozen times, it's so well done.</figcaption>
 </figure>

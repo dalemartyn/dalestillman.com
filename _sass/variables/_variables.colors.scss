@@ -1,4 +1,4 @@
-:root {
+@mixin light-color-vars {
   --color-background:        #{color('white')};
   --color-background-darker: #{color('grey-50')};
   --color-surface:           #{color('white')};
@@ -12,7 +12,7 @@
   --code-color-pink:         #{code-color('pink-500')};
 }
 
-:root.t-dark {
+@mixin dark-color-vars {
   --color-background:        #{color('blue-grey-950')};
   --color-background-darker: #{color('blue-grey-975')};
   --color-surface:           #{color('blue-grey-900')};

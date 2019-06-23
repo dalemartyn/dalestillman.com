@@ -24,20 +24,22 @@
 
 
 
+
+// CSS CUSTOM PROPERTIES
+@import 'variables/variables.spacings';
+@import 'variables/variables.layout';
+@import 'variables/variables.colors';
+
+
+
+
 // GENERIC
 @import 'generic/generic.fonts';
 @import 'generic/generic.box-sizing';
 @import 'generic/generic.normalize';
 @import 'generic/generic.reset';
 @import 'generic/generic.shared';
-
-
-
-// CSS CUSTOM PROPERTIES
-@import 'variables/variables.layout';
-@import 'variables/variables.colors';
-@import 'variables/variables.spacings';
-@import 'variables/variables.layout';
+@import 'generic/generic.custom-properties';
 
 
 

@@ -1,0 +1,16 @@
+/* ==========================================================================
+   #CUSTOM-PROPERTIES
+   ========================================================================== */
+
+:root {
+  @include spacing-vars;
+  @include layout-vars;
+
+  color-scheme: light;
+  @include light-color-vars;
+
+  &.t-dark {
+    color-scheme: dark;
+    @include dark-color-vars;
+  }
+}
