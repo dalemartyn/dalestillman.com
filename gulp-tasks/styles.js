@@ -14,7 +14,7 @@ function dev() {
     .pipe(touch());
 }
 
-function prod() {
+function build() {
   return src('_sass/main.scss')
     .pipe(sass({
       precision: 8,
@@ -29,5 +29,5 @@ function prod() {
 
 module.exports = {
   dev,
-  prod
+  build
 };

@@ -1,7 +1,8 @@
 (function() {
 
   var switched = useState();
-  var dark = matchMedia('(prefers-color-scheme: dark)');
+  var darkThemeOS = matchMedia('(prefers-color-scheme: dark)');
+  var button
 
   function toggle() {
     switched = !switched;
@@ -9,17 +10,31 @@
     updateTheme(switched);
   }
 
-
-  function updateTheme() {
-    if (dark.matches && !switched || !dark.matches && switched) {
-      document.documentElement.classList.add('t-dark');
-      theme.setAttribute('content', '#263238');
-    } else {
-      document.documentElement.classList.remove('t-dark');
-      theme.setAttribute('content', '#fff');
-    }
+  function isDarkTheme() {
+    return (darkThemeOS.matches && !switched || !darkThemeOS.matches && switched);
   }
 
+  function updateTheme() {
+    var isDark = isDarkTheme();
+    updateHtmlClass(isDark);
+    updateMetaTag(isDark);
+    updateButton(isDark);
+  }
+
+  function updateHtmlClass(isDark) {
+    document.documentElement.classList.toggle('t-dark', isDark);
+  }
+
+  function updateMetaTag(isDark) {
+    var color = isDark ? '#263238' : "fff";
+    theme.setAttribute('content', color);
+  }
+
+  function updateButton(isDark) {
+    if (button) {
+      button.setAttribute('aria-checked', isDark);
+    }
+  }
 
   function setState(switched) {
     sessionStorage.setItem('darkmode', switched);
@@ -31,7 +46,6 @@
     return val === 'true';
   }
 
-
   function addListeners() {
     document.addEventListener('keydown', function(event) {
       if (event.keyCode === 68) {
@@ -39,17 +53,18 @@
       }
     });
 
-    document.addEventListener('DOMContentLoaded', function (event) {
-      document.querySelector('.js-theme-toggle').addEventListener('click', toggle);
+    document.addEventListener('DOMContentLoaded', function(event) {
+      button = document.querySelector('.js-theme-toggle');
+      button.addEventListener('click', toggle);
+      updateButton(isDarkTheme());
     });
 
-    dark.addListener(function() {
+    darkThemeOS.addListener(function() {
       switched = false;
       setState(switched);
       updateTheme();
     });
   }
-
 
   updateTheme();
   addListeners();

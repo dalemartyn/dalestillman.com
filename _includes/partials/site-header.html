@@ -4,10 +4,8 @@
 
     <div class="site-toolbar container">
 
-      <a href="{{ site.baseurl }}/" class="back-button">
-        <div class="icon icon--back">
-          {% include svg/back.svg %}
-        </div>
+      <a href="{{ site.baseurl }}/" class="c-button">
+        {% include svg/back.svg %}
       </a>
 
 
@@ -15,9 +13,9 @@
         <a class="site-title-link ts-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
       </div>
 
-      <div class="icon js-theme-toggle">
+      <button role="switch" aria-checked="false" aria-label="Dark Theme" class="c-button js-theme-toggle">
         {% include svg/dark-toggle.svg %}
-      </div>
+      </button>
     </div>
 
   </div>

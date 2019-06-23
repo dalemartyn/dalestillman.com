@@ -1,15 +1,25 @@
-const { src, dest } = require('gulp');
-const concat = require('gulp-concat');
-const uglify = require('gulp-uglify');
+const gulp = require('gulp');
+const rollup = require('rollup');
+const resolve = require('rollup-plugin-node-resolve');
+const commonjs = require('rollup-plugin-commonjs');
 
-
-function dark_mode() {
-  return src('_js/darkmode.js')
-    .pipe(concat('dark.js'))
-    .pipe(uglify())
-    .pipe(dest('./_includes/js/'));
+function build() {
+  return rollup.rollup({
+    input: './_js/main.js',
+    plugins: [
+      resolve({ browser: true }),
+      commonjs(),
+    ]
+  }).then(bundle => {
+    return bundle.write({
+      file: './js/main.js',
+      format: 'iife',
+      name: 'app',
+      sourcemap: true
+    });
+  });
 }
 
 module.exports = {
-  dark_mode
+  build
 };

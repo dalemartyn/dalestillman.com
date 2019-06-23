@@ -1,0 +1,27 @@
+// https://fvsch.com/styling-buttons/
+@mixin button-reset {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.c-button {
+  @include button-reset;
+
+  > svg {
+    fill: var(--color-text);
+    transition: fill $theme-transition;
+    display: block;
+  }
+}
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+.js-focus-visible .focus-visible {
+  outline: 5px solid var(--color-text);
+}

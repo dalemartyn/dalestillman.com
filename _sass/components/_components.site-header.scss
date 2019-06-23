@@ -49,22 +49,6 @@
   }
 }
 
-.icon {
-  user-select: none;
-  cursor: pointer;
-  fill: var(--color-text);
-  transition:
-    fill $theme-transition;
-
-  > svg {
-    display: block;
-  }
-}
-
-.icon--back {
-  margin-right: 10px;
-}
-
 
 .name {
   flex: 1;
