@@ -12,7 +12,7 @@
   @include button-reset;
 
   > svg {
-    fill: var(--color-text);
+    fill: sem-color(text);
     transition: fill $theme-transition;
     display: block;
   }
@@ -23,5 +23,7 @@
 }
 
 .js-focus-visible .focus-visible {
-  outline: 5px solid var(--color-text);
+  outline-style: solid;
+  outline-width: 5px;
+  outline-color: sem-color(text);
 }

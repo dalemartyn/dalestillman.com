@@ -1,0 +1,10 @@
+/**
+ * Get a semantic color.
+ *
+ * Can optionally specify an opacity.
+ */
+@function sem-color($color_name, $opacity: 1) {
+
+  @return rgba(var(--color-#{$color_name}), #{$opacity});
+
+}

@@ -1,27 +1,27 @@
 @mixin light-color-vars {
-  --color-background:        #{color('white')};
-  --color-background-darker: #{color('grey-50')};
-  --color-surface:           #{color('white')};
-  --color-text:              #{color('blue-grey-950')};
-  --color-text-2:            #{color('blue-grey-600')};
-  --color-border:            #{color('blue-grey-600')};
+  --color-background:        #{rgb-triplet('white')};
+  --color-background-darker: #{rgb-triplet('grey-50')};
+  --color-surface:           #{rgb-triplet('white')};
+  --color-text:              #{rgb-triplet('blue-grey-900')};
+  --color-text-2:            #{rgb-triplet('blue-grey-600')};
+  --color-border:            #{rgb-triplet('blue-grey-600')};
 
-  --code-color-blue:         #{code-color('blue-500')};
-  --code-color-green:        #{code-color('green-500')};
-  --code-color-red:          #{code-color('red-500')};
-  --code-color-pink:         #{code-color('pink-500')};
+  --color-code-blue:         #{rgb-triplet('blue-500')};
+  --color-code-green:        #{rgb-triplet('green-500')};
+  --color-code-red:          #{rgb-triplet('red-500')};
+  --color-code-pink:         #{rgb-triplet('pink-500')};
 }
 
 @mixin dark-color-vars {
-  --color-background:        #{color('blue-grey-950')};
-  --color-background-darker: #{color('blue-grey-975')};
-  --color-surface:           #{color('blue-grey-900')};
-  --color-text:              #{color('white')};
-  --color-text-2:            #{color('blue-grey-200')};
-  --color-border:            #{color('blue-grey-200')};
+  --color-background:        #{rgb-triplet('blue-grey-950')};
+  --color-background-darker: #{rgb-triplet('blue-grey-975')};
+  --color-surface:           #{rgb-triplet('blue-grey-900')};
+  --color-text:              #{rgb-triplet('white')};
+  --color-text-2:            #{rgb-triplet('blue-grey-200')};
+  --color-border:            #{rgb-triplet('blue-grey-200')};
 
-  --code-color-blue:         #{code-color('blue-300')};
-  --code-color-green:        #{code-color('green-300')};
-  --code-color-red:          #{code-color('red-300')};
-  --code-color-pink:         #{code-color('pink-300')};
+  --color-code-blue:         #{rgb-triplet('blue-300')};
+  --color-code-green:        #{rgb-triplet('green-300')};
+  --color-code-red:          #{rgb-triplet('red-300')};
+  --color-code-pink:         #{rgb-triplet('pink-300')};
 }

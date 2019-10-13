@@ -13,7 +13,7 @@ $spacing-properties: (
 );
 
 $spacing-scale-factors: (
-  null:           1.5,
+  null:           1,
   "-none":        0,
   "-micro":       pow(1.5, -3),
   "-tiny":        pow(1.5, -2),
@@ -21,10 +21,12 @@ $spacing-scale-factors: (
   "-large":       pow(1.5, 1),
   "-xlarge":      pow(1.5, 2),
   "-xxlarge":     pow(1.5, 3),
+  "-xxxlarge":    pow(1.5, 4),
+  "-xxxxlarge":   pow(1.5, 5),
 );
 
 $spacing-unit-scale-factors: (
-  null:           1.5,
+  null:           1,
   none:           0,
   micro:          pow(1.5, -3),
   tiny:           pow(1.5, -2),
@@ -32,6 +34,8 @@ $spacing-unit-scale-factors: (
   large:          pow(1.5, 1),
   xlarge:         pow(1.5, 2),
   xxlarge:        pow(1.5, 3),
+  xxxlarge:       pow(1.5, 4),
+  xxxxlarge:      pow(1.5, 5),
 );
 
 $spacing_scale: (

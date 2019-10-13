@@ -1,6 +1,6 @@
 .highlight  {
   pre {
-    background: var(--color-background-darker);
+    background: sem-color(background-darker);
     transition: background-color $theme-transition;
   }
 
@@ -12,7 +12,7 @@
   .kp,                                // Keyword.Pseudo
   .kr,                                // Keyword.Reserved
   .kt {                               // Keyword.Type
-    color: var(--code-color-blue);
+    color: sem-color(code-blue);
     transition: color $theme-transition;
   }
 
@@ -26,7 +26,7 @@
   .sr,                                // Literal.String.Regex
   .s1,                                // Literal.String.Single
   .ss {                               // Literal.String.Symbol
-    color: var(--code-color-green);
+    color: sem-color(code-green);
     transition: color $theme-transition;
   }
 
@@ -40,7 +40,7 @@
   .se,                                // Literal.String.Escape
   .si,                                // Literal.String.Interpol
   .il {                               // Literal.Number.Integer.Long
-    color: var(--code-color-red);
+    color: sem-color(code-red);
     transition: color $theme-transition;
   }
 
@@ -53,7 +53,7 @@
   .cs,                                // Comment.Special
   .gp,                                // Generic.Prompt
   .sd {                               // Literal.String.Doc
-    color: var(--code-color-pink);
+    color: sem-color(code-pink);
     transition: color $theme-transition;
   }
 

@@ -1,5 +1,4 @@
 ---
-layout: home
+layout: work
 exclude: true
-bodyclass: home
 ---

@@ -1,33 +1,45 @@
-const { src, dest } = require('gulp');
+const gulp = require('gulp');
 const sass = require('gulp-sass');
 const touch = require('gulp-touch-cmd');
 
 const rev = require('gulp-rev');
-const revDel = require('rev-del');
+const rev_del = require('rev-del');
 
-function dev() {
-  return src('_sass/main.scss', { sourcemaps: true })
+const src_files = '_sass/**/*.scss';
+const entries = '_sass/main.scss';
+
+function styles_dev() {
+  return gulp.src(entries, { sourcemaps: true })
     .pipe(sass({
       precision: 8
     }).on('error', sass.logError))
-    .pipe(dest('css', { sourcemaps: true }))
+    .pipe(gulp.dest('css', { sourcemaps: true }))
     .pipe(touch());
 }
 
-function build() {
-  return src('_sass/main.scss')
+function styles_build() {
+  return gulp.src(entries)
     .pipe(sass({
       precision: 8,
       outputStyle: 'compressed'
     }).on('error', sass.logError))
     .pipe(rev())
-    .pipe(dest('css'))
+    .pipe(gulp.dest('css'))
     .pipe(rev.manifest('css-manifest.json'))
-    .pipe(revDel({oldManifest: 'css-manifest.json', suppress: false, dest: './css'}))
-    .pipe(dest('.'));
+    .pipe(rev_del({
+      oldManifest: 'css-manifest.json',
+      suppress: false,
+      dest: './css'
+    }))
+    .pipe(gulp.dest('.'));
+}
+
+function styles_watch() {
+  gulp.watch(src_files, styles_dev);
 }
 
 module.exports = {
-  dev,
-  build
+  dev: styles_dev,
+  build: styles_build,
+  watch: styles_watch
 };

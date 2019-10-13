@@ -6,7 +6,7 @@ code {
 }
 
 code {
-  background: var(--color-background-darker);
+  background: sem-color(background-darker);
   transition: background-color $theme-transition;
   letter-spacing: 0;
   padding: 2px 6px;

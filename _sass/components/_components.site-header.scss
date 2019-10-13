@@ -6,7 +6,7 @@
   right: 0;
   position: fixed;
   z-index: 3;
-  background-color: var(--color-surface);
+  background-color: sem-color(surface, .98);
   transition: background-color $theme-transition;
   box-shadow: 0px 1px 8px rgba(#1D262A, .07);
 }
@@ -36,7 +36,7 @@
 }
 
 .site-header .site-title-link {
-  color: var(--color-text);
+  color: sem-color(text);
   transition: color $theme-transition;
   display: block;
   text-align: center;

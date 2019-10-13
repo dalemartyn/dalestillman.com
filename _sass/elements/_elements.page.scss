@@ -1,6 +1,6 @@
 html {
-  background-color: var(--color-background);
-  color: var(--color-text);
+  background-color: sem-color(background);
+  color: sem-color(text);
   transition:
     background-color $theme-transition,
     color $theme-transition;
