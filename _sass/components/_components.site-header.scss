@@ -7,8 +7,18 @@
   position: fixed;
   z-index: 3;
   background-color: sem-color(surface, .98);
-  transition: background-color $theme-transition;
-  box-shadow: 0px 1px 8px rgba(#1D262A, .07);
+  transition:
+    background-color $theme-transition,
+    box-shadow $theme-transition;
+  box-shadow:
+    0 1px 6px rgba(#000, .08),
+    0 4px 24px rgba(#000, .04);
+
+  .t-dark & {
+    box-shadow:
+      0 1px 6px rgba(#000, .16),
+      0 4px 24px rgba(#000, .12);
+  }
 }
 
 .page-content {
