@@ -6,7 +6,7 @@ tagline: "Microsoft demonstrate that they really are for the creatives"
 bgcolor: red
 date: 2016-11-01T22:02:19+00:00
 image:
-  main: /img/surface/surfacestudio.webp
+  main: /img/surface/surfacestudio.png
   color_light: "#ff5252"
   color_dark: "#9E2F42"
 ---
@@ -30,7 +30,7 @@ I don't think Microsoft emphasised the hinge enough at the event, as most of the
 
 <figure>
   <div class="c-image-background" style="--img-bg-light: {{ page.image.color_light }}; --img-bg-dark: {{ page.image.color_dark }};">
-    <img src="/img/surface/surfacestudio-studiomode.webp" alt="Surface Studio in Studio mode">
+    <img src="/img/surface/surfacestudio-studiomode.png" alt="Surface Studio in Studio mode">
   </div>
   <figcaption>The Surface Studio in studio mode.</figcaption>
 </figure>
@@ -66,7 +66,7 @@ Last week Apple also announced new Macbook Pros with a touch bar instead of norm
   <q class="right">In the future all screens will have direct manipulation</q>
 </blockquote>
 
-It doesn't make sense that when we switch to a larger screen that we can no longer touch it. Even if in desktop mode on the Studio, you won't use touch 95% of the time, it's still useful. For those use cases when you are talking about work with a colleague and they want to scroll a webpage a bit, or point something out. Or those times when as a developer you are testing a touch interaction without having to switch to another device. It's a real value add, and I'm sure in the future all screens will have direct manipulation.
+It doesn't make sense that when we switch to a larger screen that we can no longer touch it. Even if in desktop mode on the Studio, you won't use touch 95% of the time, it's still useful. For those use cases when you are talking about work with a colleague and they want to scroll a pngage a bit, or point something out. Or those times when as a developer you are testing a touch interaction without having to switch to another device. It's a real value add, and I'm sure in the future all screens will have direct manipulation.
 
 ## True Scale
 

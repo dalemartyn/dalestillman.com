@@ -7,7 +7,7 @@ tagline: "Using Google Sheets as backend to rapidly generate athlete stats"
 excerpt_separator: "<figure>"
 tags: work
 image:
-  main: /img/athlete-profiles/main-3x2_3x.webp
+  main: /img/athlete-profiles/main-3x2_3x.png
   color_light: "#F6525C"
   color_dark: "#9E2F42"
 

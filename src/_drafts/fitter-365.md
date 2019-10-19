@@ -8,7 +8,7 @@ category: work
 bgcolor: ""
 bghex: "#a3d5e0"
 image:
-  main: /img/fitter-365/main-3x2_3x.webp
+  main: /img/fitter-365/main-3x2_3x.png
   color_light: "#58B06B"
   color_dark: "#30733F"
 ---

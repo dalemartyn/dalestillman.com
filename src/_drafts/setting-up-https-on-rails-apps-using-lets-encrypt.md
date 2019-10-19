@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: work
 category: blog
 title: "Setting up https on Rails apps using Let’s Encrypt"
 ---

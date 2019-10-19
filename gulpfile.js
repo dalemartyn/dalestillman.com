@@ -30,6 +30,7 @@ exports.default = gulp.parallel(
   livereload_listen,
   gulp.series(
     sass.dev,
+    scripts.build,
     gulp.parallel(
       sass.watch,
       watch_built_files

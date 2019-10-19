@@ -54,8 +54,8 @@ function resizeImages(done) {
 
       sharp(file)
         .resize(transform.options)
-        .webp()
-        .toFile(saveTo.replace('.png', '.webp'))
+        .png()
+        .toFile(saveTo.replace('.png', '.png'))
         .catch(err => {
           console.log(err);
         });

@@ -7,7 +7,7 @@ tagline: "A WordPress theme for internal communications"
 excerpt_separator: "<figure>"
 tags: work
 image:
-  main: /img/intranet/main-3x2_3x.webp
+  main: /img/intranet/main-3x2_3x.png
   color_light: "#26C6DA"
   color_dark: "#0097A7"
 ---
