@@ -271,7 +271,7 @@ I chose [Django][6] for the app, having used it on similar projects before. The 
 The "container model" design described above easily scales down to mobile. But I also needeed to take into account the bandwidth-constrained nature of poolside. Videos needed to be transcoded to multiple resolutions.
 
 <figure>
-  <img src="/img/offtheblocks/tablet.jpg" alt="Tablet displaying a video page">
+  <img src="/img/offtheblocks/tablet.png" alt="Tablet displaying a video page">
 </figure>
 
 For this job I used the [AWS elastic transcoder][2], making use of [django elastic transcoder][3] -- a small wrapper around the excellent [boto][4] AWS library.

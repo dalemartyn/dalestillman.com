@@ -15,7 +15,7 @@ image:
 Company intranets can become neglected with poorly designed, overly complex interfaces that make it hard for employees to engage or find relevant content. By building from the ground up, we were able to create an intranet focused on internal communications. Allowing our colleagues to find out the latest staff news, website posts, and social media, along with important documents and how tos.
 
 <figure>
-  <img src="/img/intranet/old.jpg" alt="Screen capture showing the previous intranet homepage" class="oldstyle">
+  <img src="/img/intranet/old.png" alt="Screen capture showing the previous intranet homepage" class="oldstyle">
   <figcaption>The old internet was overdue retirement. The ASA and British Swimming were no longer one, and timesheets and profiles were being split off to go to a new HR system.</figcaption>
 </figure>
 
@@ -25,7 +25,7 @@ Company intranets can become neglected with poorly designed, overly complex inte
 While a lot of the functionality was no longer required, the new intranet would still be needed for Purchasing and Office Resources requests, as well as booking meeting rooms. It took a number of design iterations before I decided upon adding links to these forms in a black bar at the top of the page. This bar, persistent across all pages, gave super quick access to the commonly used tasks, while allowing the main content to shine.
 
 <figure>
-  <img src="/img/intranet/main.jpg" alt="Screen capture showing the intranet homepage">
+  <img src="/img/intranet/main.png" alt="Screen capture showing the intranet homepage">
 </figure>
 
 
@@ -40,7 +40,7 @@ The new site gave us a perfect opportunity to go over the documents, reorganise 
 
 
 <figure>
-  <img src="/img/intranet/documents.jpg" alt="Screen capture showing the documents and how tos section of the intranet homepage">
+  <img src="/img/intranet/documents.png" alt="Screen capture showing the documents and how tos section of the intranet homepage">
 </figure>
 
 
@@ -49,7 +49,7 @@ The new site gave us a perfect opportunity to go over the documents, reorganise 
 To round off the homepage we wanted to showcase the latest news from around the swimming.org microsites. The top story from each site was displayed on a [card][3], with the card color taken from the sites theme. The latest Tweets are displayed right on the homepage, allowing even those without social media access to keep up to date.
 
 <figure>
-  <img src="/img/intranet/aroundtheasa.jpg" alt="Screen capture showing the documents and how tos section of the intranet homepage">
+  <img src="/img/intranet/aroundtheasa.png" alt="Screen capture showing the documents and how tos section of the intranet homepage">
 </figure>
 
 [1]: http://www.swimming.org "swimming.org homepage"
