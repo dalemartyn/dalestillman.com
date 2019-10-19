@@ -7,8 +7,6 @@ const livereload = require('gulp-livereload');
 
 // tasks
 const img           = require('./gulp-tasks/images.js');
-const jekyll        = require('./gulp-tasks/jekyll.js');
-const server        = require('./gulp-tasks/server.js');
 const sass          = require('./gulp-tasks/styles.js');
 const dark_theme_js = require('./gulp-tasks/dark-theme.js');
 const scripts       = require('./gulp-tasks/scripts.js');
@@ -35,7 +33,7 @@ exports.default = gulp.parallel(
     gulp.parallel(
       sass.watch,
       watch_built_files
-    ),
+    )
   )
 );
 

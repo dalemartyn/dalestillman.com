@@ -67,7 +67,7 @@ function resizeImages(done) {
 // optimize images in place
 function optimiseImages() {
   return gulp
-    .src("./src/assets/img/**/*", { base: "./src/assets/img" })
+    .src("./src/assets/img/**/*", { base: "./src/_assets/img" })
     .pipe(
       imagemin([
         imagemin.gifsicle({ interlaced: true }),
@@ -78,18 +78,18 @@ function optimiseImages() {
         })
       ])
     )
-    .pipe(gulp.dest("./src/assets/img/"));
+    .pipe(gulp.dest("./dist/img/"));
 }
 
 // optimize pngs in place
 function optimisePngs() {
-  return gulp.src("./img/**/main-3x2_3x.png", { base: "./img" })
+  return gulp.src("./src/_assets/img/**/main-3x2_3x.png", { base: "./src/_assets/img" })
     .pipe(imagemin([
       pngquant({
         quality: [.7, 1]
       })
     ]))
-    .pipe(gulp.dest("./img/"))
+    .pipe(gulp.dest("./dist/img/"))
 }
 
 // exports (Common JS)

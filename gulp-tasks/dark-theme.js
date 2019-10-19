@@ -3,9 +3,9 @@ const uglify = require('gulp-uglify');
 
 
 function build() {
-  return src('_js/darkmode.js')
+  return src('src/_assets/js/darkmode.js')
     .pipe(uglify())
-    .pipe(dest('./_includes/js/'));
+    .pipe(dest('./dist/_includes/js/'));
 }
 
 module.exports = {

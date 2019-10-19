@@ -6,16 +6,17 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('work', 'layouts/work.html');
   eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
 
-  eleventyConfig.addPassthroughCopy('css');
-  eleventyConfig.addPassthroughCopy('js');
-  eleventyConfig.addPassthroughCopy('img');
+  eleventyConfig.addPassthroughCopy('src/css');
+  eleventyConfig.addPassthroughCopy('src/js');
+  eleventyConfig.addPassthroughCopy('src/img');
+  eleventyConfig.addPassthroughCopy('src/favicon.png');
 
   eleventyConfig.addPlugin(syntaxHighlight);
 
   return {
     dir: {
-      input: "./",
-      output: "./_site"
+      input: "./src",
+      output: "./dist"
     },
     passthroughFileCopy: true
   };
