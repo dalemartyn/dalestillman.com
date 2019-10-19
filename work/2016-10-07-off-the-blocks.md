@@ -3,7 +3,7 @@ layout: work
 device: laptop
 title: "Off the Blocks"
 date: 2016-10-07T09:49:35+01:00
-category: work
+tags: work
 excerpt_separator: "##"
 tagline: A video site for swimming coaches
 image:

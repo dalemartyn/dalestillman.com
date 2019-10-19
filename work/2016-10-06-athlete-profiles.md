@@ -5,7 +5,7 @@ title: "Athlete Profiles"
 date: 2016-10-06T22:05:19+01:00
 tagline: "Using Google Sheets as backend to rapidly generate athlete stats"
 excerpt_separator: "<figure>"
-category: work
+tags: work
 image:
   main: /img/athlete-profiles/main-3x2_3x.webp
   color_light: "#F6525C"

@@ -1,13 +1,13 @@
 <article class="card">
-  <a href="{% if page.link %}{{ page.link }}{% else %}{{ page.url | relative_url }}{% endif %}">
+  <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">
 
     <div class="card__thumbnail c-image-background"
-      style="--img-bg-light: {{ page.image.color_light }}; --img-bg-dark: {{ page.image.color_dark }};">
-      <img src="{{ page.image.main }}" alt="{{ page.title }}" />
+      style="--img-bg-light: {{ post.data.image.color_light }}; --img-bg-dark: {{ post.data.image.color_dark }};">
+      <img src="{{ post.data.image.main }}" alt="{{ title }}" />
     </div>
 
     <div class="card__content card__content--work">
-      <h2 class="card__title ts-title">{{ page.title }}</h2>
+      <h2 class="card__title ts-title">{{ post.data.title }}</h2>
     </div>
   </a>
 </article>

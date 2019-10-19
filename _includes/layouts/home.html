@@ -19,7 +19,7 @@ layout: default
   <div class="container">
 
     <div class="grid">
-      {% for page in site.categories["work"] %}
+      {% for post in collections.work %}
         {% include partials/card.html %}
       {% endfor %}
     </div>

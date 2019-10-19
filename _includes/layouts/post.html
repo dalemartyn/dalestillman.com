@@ -17,6 +17,8 @@ layout: default
 
 <div class="post container col">
 
+  {{page.title}}
+
   <article class="post-content">
 
     <header class="post-header">
@@ -37,7 +39,7 @@ layout: default
 
     {{ content }}
 
-    <p class="ts-meta u-margin-vertical-xxlarge">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="ts-meta u-margin-vertical-xxlarge">{{ page.date | date: "%b %d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
 
   </article>
 

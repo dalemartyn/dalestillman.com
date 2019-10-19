@@ -35,15 +35,12 @@ exports.default = gulp.parallel(
     gulp.parallel(
       sass.watch,
       watch_built_files
-    )
-  ),
-  server.init,
-  argv.drafts ? jekyll.init_drafts : jekyll.init
+    ),
+  )
 );
 
 exports.build = gulp.series(
-  sass.build,
-  jekyll.build
+  sass.build
 );
 
 exports.img = img.resize;
