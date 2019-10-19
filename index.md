@@ -1,4 +1,6 @@
 ---
-layout: work
+layout: post
 exclude: true
 ---
+
+[Work](/work)
