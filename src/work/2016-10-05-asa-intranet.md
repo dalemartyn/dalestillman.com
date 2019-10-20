@@ -1,11 +1,9 @@
 ---
-layout: work
 device: laptop
 title: "ASA Intranet"
 date: 2016-10-05T18:44:17+01:00
 tagline: "A WordPress theme for internal communications"
 excerpt_separator: "<figure>"
-tags: work
 image:
   main: /img/intranet/main-3x2_3x.png
   color_light: "#26C6DA"

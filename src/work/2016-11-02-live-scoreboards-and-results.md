@@ -1,11 +1,9 @@
 ---
-layout: work
 device: phone
 title: "Live Scoreboards and Results"
 date: 2016-11-02T09:48:31+00:00
 tagline: "A responsive frontend to live aquatic events"
 excerpt: "<p>At The ASA and British Swimming, we had many swimming events that we wanted to show results for directly on the swimming.org site.</p><p>This post looks at how was able to take large quantities of tabular data and make it responsive and accessible.</p>"
-tags: work
 image:
   main: /img/results/main-3x2_3x.png
   color_light: "#53B1F3"
