@@ -64,15 +64,15 @@ blockquote, q {
 
 
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: '';
+blockquote::before, blockquote::after,
+q::before, q::after {
+  content: "";
   content: none;
 }
 
 
 
 ::selection {
-  background: rgba(#6dc9ca, .5);
+  background: rgba(color(blue-grey-600), .5);
   text-shadow: none;
 }

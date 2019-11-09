@@ -1,23 +1,23 @@
 $colors: (
-  'blue-grey-975': #192124,
-  'blue-grey-950': #1d262a,
-  'blue-grey-900': #212c31,
-  'blue-grey-800': #37474f,
-  'blue-grey-600': #546e7a,
-  'blue-grey-200': #b0bec5,
-  'grey-50':       #f7f7f7,
-  'white':         #ffffff,
+  "blue-grey-975": #192124,
+  "blue-grey-950": #1d262a,
+  "blue-grey-900": #212c31,
+  "blue-grey-800": #37474f,
+  "blue-grey-600": #546e7a,
+  "blue-grey-200": #b0bec5,
+  "grey-50":       #f7f7f7,
+  "white":         #ffffff,
 );
 
 $code_colors: (
-  'blue-500':      #3f51b5,
-  'blue-300':      #7986cb,
-  'green-500':     #4caf50,
-  'green-300':     #81c784,
-  'red-500':       #f44336,
-  'red-300':       #e57373,
-  'pink-500':      #e91e63,
-  'pink-300':      #f06292,
+  "blue-500":      #3f51b5,
+  "blue-300":      #7986cb,
+  "green-500":     #4caf50,
+  "green-300":     #81c784,
+  "red-500":       #f44336,
+  "red-300":       #e57373,
+  "pink-500":      #e91e63,
+  "pink-300":      #f06292,
 );
 
 $all_colors: map-merge($colors, $code_colors);
