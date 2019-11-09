@@ -2,7 +2,7 @@
 
   <div class="o-wrapper-wide">
 
-    <div class="c-site-header__main o-wrapper-wide">
+    <div class="c-site-header__main">
 
       <a href="{{ site.baseurl }}/" class="c-button">
         {% include svg/back.svg %}
@@ -16,6 +16,10 @@
       <button role="switch" aria-checked="false" aria-label="Dark Theme" class="c-button js-theme-toggle">
         {% include svg/dark-toggle.svg %}
       </button>
+    </div>
+
+    <div class="c-site-header__menu">
+      {% include components/components.site-menu.html %}
     </div>
 
   </div>

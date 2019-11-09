@@ -1,6 +1,4 @@
 @mixin layout-vars {
   --site-max-width:       #{rem(1080px)};
   --site-margin:          #{sp()};
-  --container-padding-x:  #{sp()};
-  --container-padding-y:  #{sp()};
 }

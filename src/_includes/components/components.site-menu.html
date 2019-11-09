@@ -1,0 +1,9 @@
+<nav class="c-site-menu">
+  <ul class="c-site-menu__list">
+    {% for item in menu %}
+      <li class="c-site-menu__item">
+        <a href="{{item.url}}" class="ts-menu-item">{{item.title}}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
