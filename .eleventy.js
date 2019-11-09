@@ -15,8 +15,11 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
   eleventyConfig.addFilter("cssrev", function cssrev(asset) {
-    const manifest = require('./dist/css/css-manifest.json');
-    return manifest[asset];
+    if (process.env.ELEVENTY_ENV === 'production'){
+      const manifest = require('./dist/css/css-manifest.json');
+      return manifest[asset];
+    }
+    return asset;
   });
 
   return {

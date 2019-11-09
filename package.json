@@ -35,7 +35,7 @@
     "dev": "run-p gulp:dev eleventy:serve",
     "gulp:build": "npx gulp build",
     "gulp:dev": "npx gulp",
-    "eleventy:build": "npx @11ty/eleventy",
-    "eleventy:serve":  "npx @11ty/eleventy --serve"
+    "eleventy:build": "ELEVENTY_ENV=production npx @11ty/eleventy",
+    "eleventy:serve": "ELEVENTY_ENV=development npx @11ty/eleventy --serve"
   }
 }
