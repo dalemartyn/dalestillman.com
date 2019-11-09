@@ -4,9 +4,9 @@ layout: default
 
 
 
-{% if page.image %}
+{% if image %}
 <div class="c-image-background"
-  style="--img-bg-light: {{ page.image.color_light }}; --img-bg-dark: {{ page.image.color_dark }};">
+  style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
   <div class="col-full">
     <figure class="post-header-image">
       {% include partials/main-image.html %}
@@ -17,29 +17,27 @@ layout: default
 
 <div class="post container col">
 
-  {{page.title}}
-
   <article class="post-content">
 
     <header class="post-header">
-      {% if page.category == 'links' %}
+      {% if category == 'links' %}
         <h1 class="post-title post-title--small">
-          <a href="{{ page.link }}">
-            {{ page.title }}
+          <a href="{{ link }}">
+            {{ title }}
           </a>
         </h1>
-        <p>From: {{ page.link | host }}</p>
+        <p>From: {{ link | host }}</p>
       {% else %}
-        <h1 class="post-title">{{ page.title }}</h1>
+        <h1 class="post-title">{{ title }}</h1>
       {% endif %}
-      {% if page.tagline %}
-        <p class="ts-post-tagline">{{ page.tagline }}</p>
+      {% if tagline %}
+        <p class="ts-post-tagline">{{ tagline }}</p>
       {% endif %}
     </header>
 
     {{ content }}
 
-    <p class="ts-meta u-margin-vertical-xxlarge">{{ page.date | date: "%b %d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+    <p class="ts-meta u-margin-vertical-xxlarge">{{ date | date: "%b %d, %Y" }}{% if author %} • {{ author }}{% endif %}{% if meta %} • {{ meta }}{% endif %}</p>
 
   </article>
 

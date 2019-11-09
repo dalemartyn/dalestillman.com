@@ -29,7 +29,7 @@ But then [last Thursday Microsoft announced a new product][8] that really makes 
 I don't think Microsoft emphasised the hinge enough at the event, as most of the media glossed over its relevance. The hinge uses a combination of springs to counterbalance the weight of the screen and give it a 'zero gravity' feel as it transforms from the regular desktop mode in to what they are calling the 'studio mode'.
 
 <figure>
-  <div class="c-image-background" style="--img-bg-light: {{ page.image.color_light }}; --img-bg-dark: {{ page.image.color_dark }};">
+  <div class="c-image-background" style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
     <img src="/img/surface/surfacestudio-studiomode.png" alt="Surface Studio in Studio mode">
   </div>
   <figcaption>The Surface Studio in studio mode.</figcaption>

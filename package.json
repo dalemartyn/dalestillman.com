@@ -31,7 +31,7 @@
     "yargs": "^14.2.0"
   },
   "scripts": {
-    "build": "run-p gulp:build eleventy:build",
+    "build": "run-s gulp:build eleventy:build",
     "dev": "run-p gulp:dev eleventy:serve",
     "gulp:build": "npx gulp build",
     "gulp:dev": "npx gulp",

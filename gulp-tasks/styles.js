@@ -3,7 +3,6 @@ const sass = require('gulp-sass');
 const touch = require('gulp-touch-cmd');
 
 const rev = require('gulp-rev');
-const rev_del = require('rev-del');
 
 const src_files = 'src/_assets/sass/**/*.scss';
 const entries = 'src/_assets/sass/main.scss';
@@ -26,12 +25,7 @@ function styles_build() {
     .pipe(rev())
     .pipe(gulp.dest('./dist/css'))
     .pipe(rev.manifest('css-manifest.json'))
-    .pipe(rev_del({
-      oldManifest: 'css-manifest.json',
-      suppress: false,
-      dest: './dist/css'
-    }))
-    .pipe(gulp.dest('.'));
+    .pipe(gulp.dest('./dist/css'));
 }
 
 function styles_watch() {

@@ -26,9 +26,9 @@ To speed up the process we created an array of Google Sheets. They covered all s
 
 The profiles were then updated by running [Gulp][2] command.
 
-{% highlight text %}
+``` text
 gulp save-stats
-{% endhighlight %}
+```
 
 This command would download the relevant spreadsheets and normalize the data. It would then proceed to generate a <abbr title="JavaScript Object Notation">JSON</abbr> document for each athlete profile, and upload it to our static file server using <abbr title="File Transfer Protocol">FTP</abbr>. The [Nodejs][3] scripts made heavy use of [lodash][4] and [async][5], with [google-spreadsheet][6] used to download the stats.
 
