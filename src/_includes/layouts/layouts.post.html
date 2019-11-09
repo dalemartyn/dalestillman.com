@@ -7,28 +7,28 @@ layout: default
 {% if image %}
 <div class="c-image-background"
   style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
-  <div class="col-full">
-    <figure class="post-header-image">
+  <div class="o-wrapper-wide-no-padding">
+    <figure class="">
       {% include components/components.main-image.html %}
     </figure>
   </div>
 </div>
 {% endif %}
 
-<div class="post container col">
+<div class="post o-wrapper">
 
   <article class="post-content">
 
-    <header class="post-header">
+    <header class="u-margin-vertical-xlarge">
       {% if category == 'links' %}
-        <h1 class="post-title post-title--small">
+        <h1 class="">
           <a href="{{ link }}">
             {{ title }}
           </a>
         </h1>
         <p>From: {{ link | host }}</p>
       {% else %}
-        <h1 class="post-title">{{ title }}</h1>
+        <h1 class="">{{ title }}</h1>
       {% endif %}
       {% if tagline %}
         <p class="ts-post-tagline">{{ tagline }}</p>

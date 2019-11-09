@@ -3,21 +3,13 @@ layout: default
 permalink: work/{{ title | slug }}/index.html
 ---
 
-<div class="c-image-background" style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
-  <div class="work-header">
-    <div class="o-ratio o-ratio--3:2">
-      <div class="o-ratio__content">
-        {% include components/components.main-image.html %}
-      </div>
-    </div>
-  </div>
-</div>
+{% include components/components.work-main-image.html %}
 
-<div class="post container col">
+<div class="post o-wrapper">
 
   <article class="post-content">
 
-    <header class="post-header">
+    <header class="u-margin-vertical-xlarge">
       <h1 class="post-title">{{ title }}</h1>
       {% if tagline %}
         <p class="ts-post-tagline">{{ tagline }}</p>

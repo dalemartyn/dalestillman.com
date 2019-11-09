@@ -15,20 +15,7 @@
 @import "04_generic/04_generic";
 @import "05_elements/05_elements";
 @import "06_objects/06_objects";
-
-@import "layouts/layout";
-
 @import "07_components/07_components";
 @import "08_utilities/08_utilities";
 
 /* stylelint-enable scss/partial-no-import */
-
-/**
- * in need of refactoring:
- *
- * - layouts/layout
- * - components/post
- * - components/card
- * - components/site-header
- *
- */

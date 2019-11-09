@@ -7,12 +7,10 @@ feature_text: "A collection of some of my favourite things I’ve worked on.
         team at a dozen eggs. View our full portfolio."
 ---
 
-<div class="col-full-with-padding">
-  <div class="container">
-    <div class="grid">
-      {% for post in collections.work %}
-        {% include components/components.card.html %}
-      {% endfor %}
-    </div>
+<div class="o-wrapper-wide">
+  <div class="o-grid-layout">
+    {% for post in collections.work %}
+      {% include components/components.work-card.html %}
+    {% endfor %}
   </div>
 </div>

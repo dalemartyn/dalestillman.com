@@ -1,17 +1,7 @@
 /* ==========================================================================
-   #BOX-SIZING
+   #CSS-FILTERS
    ========================================================================== */
 
-:root {
-  box-sizing: border-box;
-}
-
-* {
-
-  &,
-  &::before,
-  &::after {
-    box-sizing: inherit;
-  }
-
+.u-filter-oldstyle {
+  filter: grayscale(.5) brightness(99%);
 }

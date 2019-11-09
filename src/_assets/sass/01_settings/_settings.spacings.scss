@@ -1,15 +1,15 @@
 $spacing-directions: (
   null:          null,
-  '-top':        '-top',
-  '-right':      '-right',
-  '-bottom':     '-bottom',
-  '-left':       '-left',
-  '-vertical':   '-top' '-bottom',
+  "-top":        "-top",
+  "-right":      "-right",
+  "-bottom":     "-bottom",
+  "-left":       "-left",
+  "-vertical":   "-top" "-bottom",
 );
 
 $spacing-properties: (
-  'padding':     'padding',
-  'margin':      'margin',
+  "padding":     "padding",
+  "margin":      "margin",
 );
 
 $spacing-scale-factors: (

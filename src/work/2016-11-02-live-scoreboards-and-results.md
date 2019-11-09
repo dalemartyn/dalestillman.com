@@ -15,14 +15,14 @@ At The ASA and British Swimming, we had many swimming events that we wanted to s
 Here's how their startlists looked,
 
 <figure>
-  <img src="/img/results/before/startlists.png" alt="UI showing SportSystems full version of startlist for Women’s 100m Butterfly" class="oldstyle">
+  <img src="/img/results/before/startlists.png" alt="UI showing SportSystems full version of startlist for Women’s 100m Butterfly" class="u-filter-oldstyle">
   <figcaption>Start list for Women’s 100m Butterfly. You can see tables don’t align, making it harder to scan the data. It also doesn’t scale down to mobile.</figcaption>
 </figure>
 
 and here's a results page.
 
 <figure>
-  <img src="/img/results/before/results.png" alt="UI showing SportSystems full version of results for Women’s 800m Freestyle" class="oldstyle">
+  <img src="/img/results/before/results.png" alt="UI showing SportSystems full version of results for Women’s 800m Freestyle" class="u-filter-oldstyle">
   <figcaption>Results for Women’s 800m Freestyle. The split times span multiple rows.</figcaption>
 </figure>
 

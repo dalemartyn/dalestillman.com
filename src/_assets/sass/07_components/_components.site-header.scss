@@ -1,4 +1,8 @@
-.site-header {
+/* ==========================================================================
+   #SITE-HEADER
+   ========================================================================== */
+
+.c-site-header {
   align-items: center;
   box-sizing: content-box;
   top: 0;
@@ -21,21 +25,15 @@
   }
 }
 
-.page-content {
-  @include ms-respond(--site-title-size, 1.5);
-  padding-top: calc(2 * #{sp()} + var(--site-title-size));
-}
-
-.site-toolbar {
+.c-site-header__main {
   padding-top: sp();
   padding-bottom: sp();
-
   align-items: center;
   display: flex;
   flex-wrap: wrap;
 }
 
-.site-header .site-title {
+.c-site-header__site-title {
   @include mq($from: sm) {
     width: initial;
   }
@@ -45,7 +43,7 @@
   justify-content: center;
 }
 
-.site-header .site-title-link {
+.c-site-header__site-title-link {
   color: sem-color(text);
   transition: color $theme-transition;
   display: block;
@@ -60,8 +58,12 @@
 }
 
 
-.name {
-  flex: 1;
-  display: flex;
-  justify-content: center;
+
+/**
+ * Add padding to the element after the site header
+ */
+
+.c-site-header + main {
+  @include ms-respond(--site-title-size, 1.5);
+  padding-top: calc(2 * #{sp()} + var(--site-title-size));
 }

@@ -1,10 +1,12 @@
 /* ==========================================================================
-   OBJECTS
+   #OBJECTS
    ========================================================================== */
 
 
 /* stylelint-disable scss/partial-no-import */
 
 @import "objects.ratio";
+@import "objects.wrapper";
+@import "objects.grid-layout";
 
 /* stylelint-enable scss/partial-no-import */

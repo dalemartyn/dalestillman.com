@@ -1,0 +1,14 @@
+/* ==========================================================================
+   #GRID-LAYOUT
+   ========================================================================== */
+
+.o-grid-layout {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 45px 30px;
+  margin-bottom: 80px;
+
+  @include mq($from: md) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
