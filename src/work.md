@@ -1,4 +1,4 @@
 ---
-layout: home
+layout: work-archive
 exclude: true
 ---
