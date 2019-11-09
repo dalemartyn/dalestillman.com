@@ -1,6 +1,5 @@
 ---
-layout: post
-exclude: true
+layout: page
 title: What I’m doing now
 ---
 

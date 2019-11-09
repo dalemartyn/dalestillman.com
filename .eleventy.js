@@ -1,10 +1,10 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addLayoutAlias('work-archive', 'layouts/work-archive.html');
-  eleventyConfig.addLayoutAlias('post', 'layouts/post.html');
-  eleventyConfig.addLayoutAlias('work', 'layouts/work.html');
-  eleventyConfig.addLayoutAlias('default', 'layouts/default.html');
+  eleventyConfig.addLayoutAlias('page', 'layouts/layouts.page.html');
+  eleventyConfig.addLayoutAlias('post', 'layouts/layouts.post.html');
+  eleventyConfig.addLayoutAlias('work', 'layouts/layouts.work.html');
+  eleventyConfig.addLayoutAlias('default', 'layouts/layouts.default.html');
 
   eleventyConfig.addPassthroughCopy('src/css');
   eleventyConfig.addPassthroughCopy('src/js');

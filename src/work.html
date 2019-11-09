@@ -1,0 +1,18 @@
+---
+layout: page
+exclude: true
+title: Work
+feature_text: "A collection of some of my favourite things I’ve worked on.
+        Recent projects are made in collaboration with my
+        team at a dozen eggs. View our full portfolio."
+---
+
+<div class="col-full-with-padding">
+  <div class="container">
+    <div class="grid">
+      {% for post in collections.work %}
+        {% include components/components.card.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

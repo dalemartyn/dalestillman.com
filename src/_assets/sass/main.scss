@@ -1,88 +1,34 @@
+/* ==========================================================================
+   MAIN
+   ========================================================================== */
 
 
+/* stylelint-disable scss/partial-no-import */
 
-// VENDOR
 @import "node_modules/mathsass/dist/math";
 @import "node_modules/modularscale-sass/stylesheets/_modularscale.scss";
-@import 'node_modules/sass-mq/mq';
+@import "node_modules/sass-mq/mq";
 
+@import "01_settings/01_settings";
+@import "02_tools/02_tools";
+@import "03_variables/03_variables";
+@import "04_generic/04_generic";
+@import "05_elements/05_elements";
+@import "06_objects/06_objects";
 
+@import "layouts/layout";
 
-// SETTINGS
-@import 'settings/settings.colors';
-@import 'settings/settings.type';
-@import 'settings/settings.breakpoints';
-@import 'settings/settings.spacings';
-@import 'settings/settings.transitions';
+@import "07_components/07_components";
+@import "08_utilities/08_utilities";
 
+/* stylelint-enable scss/partial-no-import */
 
-
-// TOOLS
-@import 'tools/tools.shadows';
-@import 'tools/tools.hide-text';
-@import 'tools/tools.spacings';
-@import 'tools/tools.color';
-
-
-
-
-// CSS CUSTOM PROPERTIES
-@import 'variables/variables.spacings';
-@import 'variables/variables.layout';
-@import 'variables/variables.colors';
-
-
-
-
-// GENERIC
-@import 'generic/generic.fonts';
-@import 'generic/generic.box-sizing';
-@import 'generic/generic.normalize';
-@import 'generic/generic.reset';
-@import 'generic/generic.shared';
-@import 'generic/generic.custom-properties';
-
-
-
-
-// ELEMENTS
-@import 'elements/elements.page';
-@import 'elements/elements.headings';
-@import 'elements/elements.paragraphs';
-@import 'elements/elements.links';
-@import 'elements/elements.images';
-@import 'elements/elements.tables';
-@import 'elements/elements.lists';
-@import 'elements/elements.code';
-@import 'elements/elements.quotes';
-@import 'elements/elements.blockquotes';
-@import 'elements/elements.figures';
-@import 'elements/elements.abbr';
-
-
-
-// OBJECTS
-@import 'objects/objects.ratio';
-
-
-
-// LAYOUTS
-@import 'layouts/layout';
-
-
-
-// COMPONENTS
-@import 'components/components.site-header';
-@import 'components/components.buttons';
-@import 'components/components.code-highlight';
-@import 'components/components.post';
-@import 'components/components.card';
-@import 'components/components.image-background';
-@import 'components/components.transform-image';
-
-
-
-// UTILITIES
-@import 'utilities/utilities.type';
-@import 'utilities/utilities.spacings';
-// @import 'utilities/utilities.visually-hidden';
+/**
+ * in need of refactoring:
+ *
+ * - layouts/layout
+ * - components/post
+ * - components/card
+ * - components/site-header
+ *
+ */

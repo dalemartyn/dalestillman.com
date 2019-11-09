@@ -1,0 +1,11 @@
+---
+layout: page
+---
+
+<div class="col-full-with-padding">
+  <div class="container">
+  {% for item in menu %}
+    <a href="{{item.url}}">{{item.title}}</a>
+  {% endfor %}
+  </div>
+</div>
