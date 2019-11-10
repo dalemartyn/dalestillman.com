@@ -64,5 +64,5 @@
 
 .c-site-header + main {
   @include ms-respond(--site-title-size, 1.5);
-  padding-top: calc(2 * #{sp()} + var(--site-title-size));
+  padding-top: calc(2 * #{sp()} + var(--site-title-size) + 46px);
 }

@@ -3,24 +3,21 @@ layout: default
 permalink: work/{{ title | slug }}/index.html
 ---
 
-{% include components/components.work-main-image.html %}
 
-<div class="post o-wrapper">
+<article>
+  <header class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xlarge">
+    <h1 class="u-margin-bottom-tiny">{{ title }}</h1>
+    {% if tagline %}
+      <p class="ts-post-tagline">{{ tagline }}</p>
+    {% endif %}
+  </header>
 
-  <article class="post-content">
+  {% include components/components.work-main-image.html %}
 
-    <header class="u-margin-vertical-xlarge">
-      <h1 class="post-title">{{ title }}</h1>
-      {% if tagline %}
-        <p class="ts-post-tagline">{{ tagline }}</p>
-      {% endif %}
-    </header>
-
+  <div class="o-wrapper">
     {{ content }}
-
-    <p class="ts-meta u-margin-vertical-xxlarge">
-      <time class="date">{{ page.date | date: "%b %d, %Y" }}</time>
+    <p class="u-margin-vertical-xxlarge">
+      <time class="ts-meta">{{ page.date | date: "%b %d, %Y" }}</time>
     </p>
-  </article>
-
-</div>
+  </div>
+</article>

@@ -1,22 +1,22 @@
 [
   {
     "title": "Home",
-    "url": "/"
+    "slug": ""
   },
   {
     "title": "Work",
-    "url": "/work"
+    "slug": "work"
   },
   {
     "title": "Blog",
-    "url": "/blog"
+    "slug": "blog"
   },
   {
     "title": "Now",
-    "url": "/now"
+    "slug": "now"
   },
   {
     "title": "Twitter",
-    "url": "/twitter"
+    "slug": "twitter"
   }
 ]

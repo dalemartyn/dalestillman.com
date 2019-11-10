@@ -2,7 +2,7 @@
   <ul class="c-site-menu__list">
     {% for item in menu %}
       <li class="c-site-menu__item">
-        <a href="{{item.url}}" class="ts-menu-item">{{item.title}}</a>
+        <a href="/{{item.slug}}" class="ts-menu-item {% if item.slug == page.fileSlug %}is-active{% endif %}">{{item.title}}</a>
       </li>
     {% endfor %}
   </ul>

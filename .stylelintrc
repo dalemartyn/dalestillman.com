@@ -99,7 +99,9 @@
     "property-case": "lower",
     "property-no-unknown": true,
 
-    "rule-empty-line-before": "always",
+    "rule-empty-line-before": ["always", {
+      "except": "after-single-line-comment"
+    }],
 
     "selector-attribute-brackets-space-inside": "never",
     "selector-attribute-operator-space-after": "never",

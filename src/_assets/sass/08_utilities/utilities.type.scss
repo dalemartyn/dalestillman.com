@@ -2,11 +2,19 @@
    #TYPE-STYLES
    ========================================================================== */
 
-.ts-post-tagline {
-  @include ms-respond(font-size, 1.5);
-  line-height: 1.35;
+.ts-page-title {
+  @include ms-respond(font-size, 3.5);
+  line-height: 1.1;
+  letter-spacing: -.005em;
 }
 
+
+.ts-post-tagline {
+  @include ms-respond(font-size, 1.5);
+  line-height: 1.45;
+}
+
+/* Style for site title and card titles */
 .ts-title {
   @include ms-respond(font-size, 2, $modularscale_thread_b);
   font-weight: 675;

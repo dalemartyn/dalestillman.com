@@ -15,20 +15,20 @@ layout: default
 </div>
 {% endif %}
 
-<div class="post o-wrapper">
+<div class="o-wrapper">
 
-  <article class="post-content">
+  <article>
 
     <header class="u-margin-vertical-xlarge">
       {% if category == 'links' %}
-        <h1 class="">
+        <h1>
           <a href="{{ link }}">
             {{ title }}
           </a>
         </h1>
         <p>From: {{ link | host }}</p>
       {% else %}
-        <h1 class="">{{ title }}</h1>
+        <h1>{{ title }}</h1>
       {% endif %}
       {% if tagline %}
         <p class="ts-post-tagline">{{ tagline }}</p>
