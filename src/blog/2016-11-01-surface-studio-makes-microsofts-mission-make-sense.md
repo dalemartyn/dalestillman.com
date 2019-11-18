@@ -19,7 +19,7 @@ But then [last Thursday Microsoft announced a new product][8] that really makes 
 
 <figure>
   <div class="o-ratio o-ratio--16:9">
-    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5pBixW3h1zY?modestbranding" frameborder="0" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/5pBixW3h1zY?modestbranding" frameborder="0" allowfullscreen class="u-rounded"></iframe>
   </div>
   <figcaption>Starting at $3,000, even if noone buys this, it's worth it for Microsoft to show how its brand is now relevant again. I must have watched this video a dozen times, it's so well done.</figcaption>
 </figure>
@@ -29,7 +29,7 @@ But then [last Thursday Microsoft announced a new product][8] that really makes 
 I don't think Microsoft emphasised the hinge enough at the event, as most of the media glossed over its relevance. The hinge uses a combination of springs to counterbalance the weight of the screen and give it a 'zero gravity' feel as it transforms from the regular desktop mode in to what they are calling the 'studio mode'.
 
 <figure>
-  <div class="c-image-background" style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
+  <div class="c-image-background u-rounded" style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
     <img src="/img/surface/surfacestudio-studiomode.png" alt="Surface Studio in Studio mode">
   </div>
   <figcaption>The Surface Studio in studio mode.</figcaption>

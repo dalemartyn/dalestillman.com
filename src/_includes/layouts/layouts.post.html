@@ -2,43 +2,23 @@
 layout: default
 ---
 
+<article>
 
+  <header class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xlarge">
+    <h1 class="u-margin-bottom-tiny">{{ title }}</h1>
+    {% if tagline %}
+    <p class="ts-post-tagline">{{ tagline }}</p>
+    {% endif %}
+  </header>
 
-{% if image %}
-<div class="c-image-background"
-  style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
-  <div class="o-wrapper-wide-no-padding">
-    <figure class="">
-      {% include components/components.main-image.html %}
-    </figure>
+  {% include components/components.main-image.html %}
+
+  <div class="o-wrapper">
+
+      {{ content }}
+
+      <p class="ts-meta u-margin-vertical-xxlarge">{{ date | date: "%b %d, %Y" }}{% if author %} • {{ author }}{% endif %}{% if meta %} • {{ meta }}{% endif %}</p>
+
   </div>
-</div>
-{% endif %}
+</article>
 
-<div class="o-wrapper">
-
-  <article>
-
-    <header class="u-margin-vertical-xlarge">
-      {% if category == 'links' %}
-        <h1>
-          <a href="{{ link }}">
-            {{ title }}
-          </a>
-        </h1>
-        <p>From: {{ link | host }}</p>
-      {% else %}
-        <h1>{{ title }}</h1>
-      {% endif %}
-      {% if tagline %}
-        <p class="ts-post-tagline">{{ tagline }}</p>
-      {% endif %}
-    </header>
-
-    {{ content }}
-
-    <p class="ts-meta u-margin-vertical-xxlarge">{{ date | date: "%b %d, %Y" }}{% if author %} • {{ author }}{% endif %}{% if meta %} • {{ meta }}{% endif %}</p>
-
-  </article>
-
-</div>

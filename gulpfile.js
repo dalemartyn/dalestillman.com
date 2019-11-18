@@ -1,6 +1,5 @@
 "use strict";
 
-const argv = require('yargs').argv;
 const gulp = require('gulp');
 const livereload = require('gulp-livereload');
 
@@ -43,6 +42,5 @@ exports.build = gulp.series(
 );
 
 exports.img = img.resize;
-exports.png = img.png;
 exports.dark_theme = dark_theme_js.build;
 exports.js = scripts.build;

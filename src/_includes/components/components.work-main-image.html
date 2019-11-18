@@ -1,9 +1,10 @@
-<div class="o-wrapper-wide">
-  <div class="c-work-main-image">
-    <div class="c-image-background" style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
+<div class="o-wrapper-wide u-margin-bottom-xlarge">
+  <div class="c-image-background u-rounded"
+    style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
+    <div class="c-work-main-image">
       <div class="o-ratio o-ratio--3:2">
         <div class="o-ratio__content">
-          {% include components/components.main-image.html %}
+          <img src="{{ image.main }}" alt="{{ title }}" />
         </div>
       </div>
     </div>

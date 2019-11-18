@@ -10,18 +10,25 @@
 
 .c-site-menu__item {
   margin: 0;
-  margin-right: sp();
+  margin-right: sp(.5);
 
   > a {
     display: block;
     text-decoration: none;
-    padding: sp(small) 0;
+    padding: sp(-1.25) 0;
     color: sem-color(text-2);
     transition: color $theme-transition;
+    border-top: sp(-5) solid transparent;
+    border-bottom: sp(-5) solid transparent;
 
     &:hover,
     &:focus,
     &.is-active {
+      color: sem-color(text);
+    }
+
+    &.is-active {
+      border-bottom-color: sem-color(text);
       color: sem-color(text);
     }
   }
