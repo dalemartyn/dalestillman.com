@@ -1,0 +1,33 @@
+/* ==========================================================================
+   #SOCIAL-MENU
+   ========================================================================== */
+
+.c-social-menu {
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.c-social-menu__item {
+  margin: 0;
+  margin-left: sp();
+  padding: sp(-1.25) 0 sp(-2);
+
+  > a {
+    display: block;
+    text-decoration: none;
+    color: sem-color(text-2);
+
+    > svg {
+      transition: fill $theme-transition;
+    }
+
+    &:hover,
+    &:focus {
+
+      > svg {
+        fill: sem-color(text);
+      }
+    }
+  }
+}

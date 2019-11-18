@@ -57,6 +57,22 @@
 }
 
 
+.c-site-header__tabbar {
+  margin-left: calc(var(--site-margin) * -1);
+  margin-right: calc(var(--site-margin) * -1);
+  display: flex;
+  justify-content: space-between;
+  overflow-x: auto;
+}
+
+  .c-site-header__menu {
+    margin-left: var(--site-margin);
+  }
+
+  .c-site-header__social {
+    margin-right: var(--site-margin);
+  }
+
 
 /**
  * Add padding to the element after the site header
