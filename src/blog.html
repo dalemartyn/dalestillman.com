@@ -3,3 +3,15 @@ layout: page
 title: Blog
 feature_text: My posts about web things
 ---
+
+<div class="o-wrapper">
+  {% for post in collections.blog %}
+  <article>
+    <h2 class="">
+      <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">
+        {{ post.data.title }}
+      </a>
+    </h2>
+  </article>
+  {% endfor %}
+</div>

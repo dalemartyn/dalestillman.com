@@ -10,6 +10,10 @@ html {
     color $theme-transition;
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 1em;
+  font-feature-settings:
+    "kern" 1,
+    "liga" 1,
+    "calt" 1;
   line-height: 1.55;
   font-weight: 425;
   overflow-y: scroll; /* [2] */
