@@ -1,8 +1,9 @@
 $colors: (
-  "blue-grey-975": #192124,
+  "blue-grey-975": #171e21,
   "blue-grey-950": #1d262a,
   "blue-grey-900": #212c31,
   "blue-grey-800": #37474f,
+  "blue-grey-700": #455a64,
   "blue-grey-600": #546e7a,
   "blue-grey-500": #607d8b,
   "blue-grey-400": #78909c,
@@ -14,25 +15,18 @@ $colors: (
   "white":         #ffffff,
 );
 
-$code_colors: (
-  "blue-500":      #3f51b5,
-  "blue-300":      #7986cb,
-  "green-500":     #4caf50,
-  "green-300":     #81c784,
-  "red-500":       #f44336,
-  "red-300":       #e57373,
-  "pink-500":      #e91e63,
-  "pink-300":      #f06292,
-);
-
-$all_colors: map-merge($colors, $code_colors);
-
 @function color($color) {
-  @return map-get($all_colors, $color);
+  @return map-get($colors, $color);
 }
 
 @function rgb-triplet($color) {
-  $hex: map-get($all_colors, $color);
+  $hex: map-get($colors, $color);
+  $triplet: #{red($hex), green($hex), blue($hex)};
+  @return $triplet;
+}
+
+@function rgb-material($name, $variant) {
+  $hex: material-color($name, $variant);
   $triplet: #{red($hex), green($hex), blue($hex)};
   @return $triplet;
 }

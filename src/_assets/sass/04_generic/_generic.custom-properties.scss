@@ -5,6 +5,7 @@
 :root {
   @include spacing-vars;
   @include layout-vars;
+  @include radius-vars;
 
   color-scheme: light;
   @include light-color-vars;

@@ -39,10 +39,13 @@ $spacing-unit-scale-factors: (
 );
 
 $spacing_scale: (
+  ratio: 1.5,
   20em: (
     base: rem(18px),
+    ratio: 1.4
   ),
   60em: (
     base: rem(20px),
+    ratio: 1.5
   ),
 );

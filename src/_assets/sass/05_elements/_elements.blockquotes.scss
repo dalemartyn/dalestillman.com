@@ -4,6 +4,7 @@
 
 blockquote {
   border-left: 2px solid sem-color(border);
+  transition: border-color $theme-transition;
   padding: 0 0 0 sp();
 
   @include mq($from: sm) {

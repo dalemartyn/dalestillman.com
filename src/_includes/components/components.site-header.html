@@ -4,18 +4,21 @@
 
     <div class="c-site-header__main">
 
-      <a href="{{ site.baseurl }}/" class="c-button">
-        {% include svg/back.svg %}
-      </a>
-
+      <div class="c-site-header__back-button">
+        <a href="{{ site.baseurl }}/" class="c-button">
+          {% include svg/back.svg %}
+        </a>
+      </div>
 
       <div class="c-site-header__site-title">
         <a class="c-site-header__site-title-link ts-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
       </div>
 
-      <button role="switch" aria-checked="false" aria-label="Dark Theme" class="c-button js-theme-toggle">
-        {% include svg/dark-toggle.svg %}
-      </button>
+      <div class="c-site-header__darkmode">
+        <button role="switch" aria-checked="false" aria-label="Dark Theme" class="c-button js-theme-toggle">
+          {% include svg/dark-toggle.svg %}
+        </button>
+      </div>
     </div>
 
     <div class="c-site-header__tabbar">

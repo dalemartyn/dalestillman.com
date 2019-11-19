@@ -3,17 +3,6 @@
 }
 
 $modularscale: (
-  base: 13px,
-  ratio: 1.5
-);
-
-@debug ms(-1);
-@debug ms();
-@debug ms(0);
-@debug ms(1);
-@debug ms(2);
-
-$modularscale: (
   base: rem(13px),
   ratio: 1.4,
   20em: (
