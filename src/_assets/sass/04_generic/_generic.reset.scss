@@ -73,6 +73,6 @@ q::before, q::after {
 
 
 ::selection {
-  background: rgba(color(blue-grey-600), .5);
+  background-color: sem-color(selection, 1);
   text-shadow: none;
 }

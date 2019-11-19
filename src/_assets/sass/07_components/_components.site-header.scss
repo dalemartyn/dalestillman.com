@@ -52,6 +52,7 @@
   white-space: nowrap;
 
   &:hover {
+    color: sem-color(text);
     text-decoration: none;
   }
 }
@@ -66,11 +67,11 @@
 }
 
   .c-site-header__menu {
-    margin-left: var(--site-margin);
+    padding-left: var(--site-margin);
   }
 
   .c-site-header__social {
-    margin-right: var(--site-margin);
+    padding-right: var(--site-margin);
   }
 
 

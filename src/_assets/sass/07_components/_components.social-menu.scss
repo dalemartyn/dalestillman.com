@@ -16,10 +16,10 @@
   > a {
     display: block;
     text-decoration: none;
-    color: sem-color(text-2);
 
     > svg {
       transition: fill $theme-transition;
+      fill: sem-color(text-3);
     }
 
     &:hover,

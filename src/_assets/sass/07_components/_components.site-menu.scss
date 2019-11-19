@@ -16,8 +16,10 @@
     display: block;
     text-decoration: none;
     padding: sp(-1.25) 0;
-    color: sem-color(text-2);
-    transition: color $theme-transition;
+    color: sem-color(text-3);
+    transition:
+      color $theme-transition,
+      border-color $theme-transition;
     border-top: sp(-5) solid transparent;
     border-bottom: sp(-5) solid transparent;
 

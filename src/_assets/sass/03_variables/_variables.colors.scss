@@ -4,7 +4,9 @@
   --color-surface:           #{rgb-triplet("white")};
   --color-text:              #{rgb-triplet("blue-grey-900")};
   --color-text-2:            #{rgb-triplet("blue-grey-600")};
+  --color-text-3:            #{rgb-triplet("blue-grey-500")};
   --color-border:            #{rgb-triplet("blue-grey-600")};
+  --color-selection:         #{rgb-triplet("blue-grey-100")};
 
   --color-code-blue:         #{rgb-triplet("blue-500")};
   --color-code-green:        #{rgb-triplet("green-500")};
@@ -18,7 +20,9 @@
   --color-surface:           #{rgb-triplet("blue-grey-900")};
   --color-text:              #{rgb-triplet("white")};
   --color-text-2:            #{rgb-triplet("blue-grey-200")};
+  --color-text-3:            #{rgb-triplet("blue-grey-300")};
   --color-border:            #{rgb-triplet("blue-grey-200")};
+  --color-selection:         #{rgb-triplet("blue-grey-300")};
 
   --color-code-blue:         #{rgb-triplet("blue-300")};
   --color-code-green:        #{rgb-triplet("green-300")};
