@@ -21,8 +21,8 @@ module.exports = function (eleventyConfig) {
     return asset;
   });
 
-  let markdownIt = require("markdown-it");
-  let options = {
+  const markdownIt = require("markdown-it");
+  const options = {
     html: true,
     typographer: true
   };
