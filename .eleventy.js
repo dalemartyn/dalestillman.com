@@ -21,6 +21,14 @@ module.exports = function (eleventyConfig) {
     return asset;
   });
 
+  let markdownIt = require("markdown-it");
+  let options = {
+    html: true,
+    typographer: true
+  };
+
+  eleventyConfig.setLibrary("md", markdownIt(options));
+
   return {
     dir: {
       input: "./src",
