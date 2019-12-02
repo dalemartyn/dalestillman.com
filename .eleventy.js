@@ -1,5 +1,6 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const moment = require('moment');
+const twitterText = require('twitter-text');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('page', 'layouts/layouts.page.html');
@@ -30,12 +31,27 @@ module.exports = function (eleventyConfig) {
     return moment(time, 'ddd MMM D HH:mm:ss ZZ YYYY').toDate().toISOString();
   });
 
-  eleventyConfig.addFilter("tweet_time_to_human", function (time) {
+  eleventyConfig.addFilter("tweet_time_to_human", function(time) {
     const m = moment(time, 'ddd MMM D HH:mm:ss ZZ YYYY');
-    if (m.years() === moment().years()) {
+    if (m.year() === moment().year()) {
       return m.format("MMM D");
     }
     return m.format("MMM D, YYYY");
+  });
+
+  eleventyConfig.addFilter("twitter_text", function(tweet) {
+    let linkedText = twitterText.autoLink(tweet.full_text, {
+      urlEntities: tweet.entities.urls,
+      target: "_blank",
+      invisibleTagAttrs: 'class="u-visually-hidden"',
+      usernameIncludeSymbol: true
+    });
+
+    tweet.entities.urls.forEach(function(entity) {
+      linkedText = linkedText.replace(entity.url, entity.expanded_url);
+    });
+
+    return linkedText;
   });
 
   const markdownIt = require("markdown-it");

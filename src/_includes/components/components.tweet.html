@@ -15,8 +15,11 @@
   </div>
   <div class="c-tweet__main">
     <div class="c-tweet__user-meta">
-      <span class="c-tweet__user-name">{{display_tweet.user.name}}</span>
-      <span class="c-tweet__user-screen-name">@{{display_tweet.user.screen_name}}</span>
+      <a href="https://twitter.com/{{display_tweet.user.screen_name}}"
+        class="c-tweet__user-profile-link" target="_blank">
+        <span class="c-tweet__user-name">{{display_tweet.user.name}}</span>
+        <span class="c-tweet__user-screen-name">@{{display_tweet.user.screen_name}}</span>
+      </a>
       <span class="c-tweet__bullet-separator" aria-hidden="true">·</span>
       <a href="https://twitter.com/{{display_tweet.user.screen_name}}/status/{{display_tweet.id_str}}"
         class="c-tweet__permalink"
@@ -25,7 +28,7 @@
           class="c-tweet__date">{{display_tweet.created_at|tweet_time_to_human}}</time>
       </a>
     </div>
-    <div class="c-tweet__status">{{display_tweet.full_text|autop}}</div>
+    <div class="c-tweet__status">{{display_tweet|twitter_text|autop}}</div>
   </div>
 </div>
 {% endunless %}

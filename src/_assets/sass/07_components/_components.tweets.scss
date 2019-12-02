@@ -37,9 +37,21 @@
     }
   }
 
-      .c-tweet__user-name {
-        font-weight: 650;
+      .c-tweet__user-profile-link {
+        text-decoration: none;
+
+        &:hover {
+          color: inherit;
+
+          .c-tweet__user-name {
+            text-decoration: underline;
+          }
+        }
       }
+
+        .c-tweet__user-name {
+          font-weight: 650;
+        }
 
       .c-tweet__user-screen-name,
       .c-tweet__bullet-separator,
@@ -68,6 +80,17 @@
 
           &:last-child {
             margin-bottom: 0;
+          }
+
+          > a {
+            color: sem-color(code-deep-orange);
+            // color: sem-color(text-3);
+            transition: color $theme-transition;
+            text-decoration: none;
+
+            &:hover {
+              text-decoration: underline;
+            }
           }
         }
       }
