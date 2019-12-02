@@ -1,0 +1,24 @@
+{% if tweet.retweeted %}
+  {% assign display_tweet = tweet.retweeted_status %}
+{% else %}
+  {% assign display_tweet = tweet %}
+{% endif %}
+
+{% unless tweet.in_reply_to_user_id %}
+<div class="c-tweet">
+  <div class="c-tweet__profile-image {% if tweet.retweeted %}c-tweet__profile-image--retweet{% endif %}">
+    {% if tweet.retweeted %}
+      {% include svg/twitter/retweet-icon.svg %}
+    {% else %}
+      {% include svg/twitter/dale-icon.svg %}
+    {% endif %}
+  </div>
+  <div class="c-tweet__main">
+    <div class="c-tweet__user-meta">
+      <span class="c-tweet__user-name">{{display_tweet.user.name}}</span>
+      <span class="c-tweet__user-screen-name">@{{display_tweet.user.screen_name}}</span>
+    </div>
+    <div class="c-tweet__status">{{display_tweet.full_text|autop}}</div>
+  </div>
+</div>
+{% endunless %}

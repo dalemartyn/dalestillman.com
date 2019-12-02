@@ -5,3 +5,8 @@ title: Twitter
 feature_text: "My archive of tweets. I mostly retweet stuff about technology, web, and design."
 ---
 
+<div class="o-wrapper u-margin-bottom-xxxlarge">
+  {% for tweet in tweets %}
+    {% include components/components.tweet.html %}
+  {% endfor %}
+</div>

@@ -1,3 +1,4 @@
+{% if image %}
 <div class="o-wrapper-wide u-margin-bottom-xlarge">
   <div class="c-image-background u-rounded"
     style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
@@ -5,6 +6,4 @@
     </div>
   </div>
 </div>
-
-
-
+{% endif %}

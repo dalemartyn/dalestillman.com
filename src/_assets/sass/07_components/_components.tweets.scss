@@ -1,0 +1,62 @@
+/* ==========================================================================
+   #TWEETS
+   ========================================================================== */
+
+.c-tweet {
+  @include ms-respond(font-size, .75);
+  transition:
+    border-color $theme-transition;
+  padding: sp(large) 0;
+  border-bottom: 1px solid sem-color(border);
+  display: flex;
+
+  &:first-child {
+    border-top: 1px solid sem-color(border);
+  }
+}
+
+  .c-tweet__profile-image {
+    padding-right: sp(small);
+
+    > svg {
+      display: block;
+      @include ms-respond(width, 2.5, $spacing-scale);
+      @include ms-respond(height, 2.5, $spacing-scale);
+    }
+  }
+
+  .c-tweet__profile-image--retweet {
+
+    > svg {
+      border-radius: 100px;
+      box-shadow: 0 0 0 1px sem-color(border);
+      fill: sem-color(text);
+      transition:
+        fill $theme-transition,
+        box-shadow $theme-transition;
+    }
+  }
+
+      .c-tweet__user-name {
+        font-weight: 625;
+      }
+
+      .c-tweet__user-screen-name {
+        color: sem-color(text-2);
+        transition: color $theme-transition;
+      }
+
+
+      .c-tweet__status {
+        word-wrap: break-word;
+
+        > p {
+          @include ms-respond(font-size, .75);
+          margin-bottom: sp(small);
+          white-space: pre-wrap;
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }

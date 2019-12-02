@@ -21,6 +21,10 @@ module.exports = function (eleventyConfig) {
     return asset;
   });
 
+  eleventyConfig.addFilter("autop", function autoParagraph(text) {
+    return '<p>' + text.split(/\n\n+/).join('</p>\n<p>') + '</p>';
+  });
+
   const markdownIt = require("markdown-it");
   const options = {
     html: true,

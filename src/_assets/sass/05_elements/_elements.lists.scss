@@ -4,10 +4,12 @@
 
 ul,
 ol {
-  margin-left: sp(small);
+  margin-left: sp(large);
 }
 
 li {
+  @include ms-respond(font-size, 1);
+  margin-bottom: sp(tiny);
 
   > ul,
   > ol {
