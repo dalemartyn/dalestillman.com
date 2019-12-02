@@ -32,18 +32,29 @@
       box-shadow: 0 0 0 1px sem-color(border);
       fill: sem-color(text);
       transition:
-        fill $theme-transition,
+        // fill $theme-transition,
         box-shadow $theme-transition;
     }
   }
 
       .c-tweet__user-name {
-        font-weight: 625;
+        font-weight: 650;
       }
 
-      .c-tweet__user-screen-name {
-        color: sem-color(text-2);
+      .c-tweet__user-screen-name,
+      .c-tweet__bullet-separator,
+      .c-tweet__permalink,
+      .c-tweet__date {
+        color: sem-color(text-3);
         transition: color $theme-transition;
+      }
+
+      .c-tweet__permalink {
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
       }
 
 

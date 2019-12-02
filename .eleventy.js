@@ -1,4 +1,5 @@
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
+const moment = require('moment');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('page', 'layouts/layouts.page.html');
@@ -23,6 +24,18 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("autop", function autoParagraph(text) {
     return '<p>' + text.split(/\n\n+/).join('</p>\n<p>') + '</p>';
+  });
+
+  eleventyConfig.addFilter("tweet_time_to_iso", function(time) {
+    return moment(time, 'ddd MMM D HH:mm:ss ZZ YYYY').toDate().toISOString();
+  });
+
+  eleventyConfig.addFilter("tweet_time_to_human", function (time) {
+    const m = moment(time, 'ddd MMM D HH:mm:ss ZZ YYYY');
+    if (m.years() === moment().years()) {
+      return m.format("MMM D");
+    }
+    return m.format("MMM D, YYYY");
   });
 
   const markdownIt = require("markdown-it");
