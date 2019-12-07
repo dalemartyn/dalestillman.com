@@ -1,4 +1,5 @@
 {
   "layout": "post",
-  "tags": "blog"
+  "tags": "blog",
+  "parent": "/blog/"
 }

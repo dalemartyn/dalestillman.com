@@ -19,8 +19,8 @@
     fill: sem-color(text);
     transition: fill $theme-transition;
     display: block;
-    @include ms-respond(width, .45, $spacing-scale);
     @include ms-respond(height, .45, $spacing-scale);
+    width: auto;
   }
 }
 

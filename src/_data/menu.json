@@ -1,22 +1,27 @@
 [
   {
     "title": "Home",
-    "slug": ""
+    "slug": "",
+    "link": "/"
   },
   {
     "title": "Work",
-    "slug": "work"
+    "slug": "work",
+    "link": "/work/"
   },
   {
     "title": "Blog",
-    "slug": "blog"
+    "slug": "blog",
+    "link": "/blog/"
   },
   {
     "title": "Now",
-    "slug": "now"
+    "slug": "now",
+    "link": "/now/"
   },
   {
     "title": "Twitter",
-    "slug": "twitter"
+    "slug": "twitter",
+    "link": "/twitter/"
   }
 ]

@@ -1,7 +1,14 @@
 <nav class="c-site-menu">
   <ul class="c-site-menu__list">
     {% for item in menu %}
-      <li class="c-site-menu__item"><a href="/{{item.slug}}" class="ts-menu-item {% if item.slug == page.fileSlug %}is-active{% endif %}">{{item.title}}</a></li>
+      <li class="c-site-menu__item">
+        <a
+          href="{{item.link}}"
+          class="ts-menu-item{% if item.slug == page.fileSlug %} is-active{% endif %}{% if item.link == parent %} is-parent{% endif %}"
+        >
+          {{item.title}}
+        </a>
+      </li>
     {% endfor %}
   </ul>
 </nav>

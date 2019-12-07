@@ -1,6 +1,6 @@
 @mixin light-color-vars {
   --color-background:          #{rgb-triplet("white")};
-  --color-background-darker:   #{rgb-triplet("blue-grey-50")};
+  --color-background-darker:   #{rgb-triplet("blue-grey-25")};
   --color-surface:             #{rgb-triplet("white")};
   --color-text:                #{rgb-triplet("blue-grey-900")};
   --color-text-2:              #{rgb-triplet("blue-grey-600")};
@@ -11,7 +11,7 @@
 
   --color-code-red:            #{rgb-material("red", "500")};
   --color-code-pink:           #{rgb-material("pink", "800")};
-  --color-code-purple:         #{rgb-material("purple", "500")};
+  --color-code-purple:         #{rgb-material("purple", "400")};
   --color-code-deep-purple:    #{rgb-material("deep-purple", "600")};
   --color-code-indigo:         #{rgb-material("indigo", "800")};
   --color-code-blue:           #{rgb-material("blue", "800")};
@@ -23,8 +23,8 @@
   --color-code-lime:           #{rgb-material("lime", "800")};
   --color-code-yellow:         #{rgb-material("yellow", "800")};
   --color-code-amber:          #{rgb-material("amber", "800")};
-  --color-code-orange:         #{rgb-material("orange", "800")};
-  --color-code-deep-orange:    #{rgb-material("deep-orange", "600")};
+  --color-code-orange:         #{rgb-material("orange", "700")};
+  --color-code-deep-orange:    #{rgb-material("deep-orange", "500")};
   --color-code-brown:          #{rgb-material("brown", "800")};
   --color-code-blue-grey:      #{rgb-material("blue-grey", "500")};
   --color-code-dark-blue-grey: #{rgb-material("blue-grey", "700")};

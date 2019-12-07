@@ -29,6 +29,7 @@
       color: sem-color(text);
     }
 
+    &.is-parent,
     &.is-active {
       border-bottom-color: sem-color(text);
       color: sem-color(text);
