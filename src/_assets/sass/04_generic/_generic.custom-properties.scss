@@ -9,9 +9,11 @@
 
   color-scheme: light;
   @include light-color-vars;
+  @include light-shadow-vars;
 
   &.t-dark {
     color-scheme: dark;
     @include dark-color-vars;
+    @include dark-shadow-vars;
   }
 }

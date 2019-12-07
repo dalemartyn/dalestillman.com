@@ -13,15 +13,7 @@
   transition:
     background-color $theme-transition,
     box-shadow $theme-transition;
-  box-shadow:
-    0 1px 6px rgba(#000, .08),
-    0 4px 24px rgba(#000, .04);
-
-  .t-dark & {
-    box-shadow:
-      0 1px 6px rgba(#000, .16),
-      0 4px 24px rgba(#000, .12);
-  }
+  box-shadow: var(--shadow-2);
 }
 
 .c-site-header__main {
