@@ -14,11 +14,3 @@ q {
   letter-spacing: -.01em;
   margin: sp(xlarge) 0;
 }
-
-q.right {
-  @include mq($from: md) {
-    float: right;
-    margin: sp(xlarge) 0 sp(xlarge) sp(xlarge);
-    width: 40%;
-  }
-}

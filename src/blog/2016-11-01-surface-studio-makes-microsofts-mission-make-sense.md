@@ -4,8 +4,8 @@ tagline: "Microsoft demonstrate that they really are for the creatives"
 date: 2016-11-01T22:02:19+00:00
 image:
   main: /img/surface/surfacestudio.png
-color_light: "#00ACC1"
-color_dark: "#006064"
+color_light: "#2f9e8c"
+color_dark: "#1b5444"
 ---
 
 Last year at Microsoft's Surface event, CEO Satya Nadella reiterated the company's new mission statement. "Our mission at Microsoft is to empower every person and every organization on the planet to achieve more. We make things that help you make things and make things happen". When [probed further by Verge Senior Editor Nilay Patel][2], Nadella elaborated "we are the only company that I think thinks about digital technology in the hands of others to create things".
@@ -59,9 +59,7 @@ Matias is using the Sharpie as an analogy for tools that we can create in the di
 
 Last week Apple also announced new Macbook Pros with a touch bar instead of normal function keys above the keyboard. I was listening to the reaction on [Wired's Gadget Lab podcast][6] and [The Vergecast][7], and all five presenters said that they found themselves going from touching the touch bar to try and touch the (non-touchscreen) screen. David Pierce: "... I instinctively reached up and poked the screen. I tapped it twice before I realised, 'oh, this isn't a touchscreen'. And this woman who's giving the demo to me just started laughing hysterically, and she was like 'don't worry, everybody does that!'".
 
-<blockquote>
-  <q class="right">In the future all screens will have direct manipulation</q>
-</blockquote>
+<q class="c-quote c-quote--right">In the future all screens will have direct manipulation</q>
 
 It doesn't make sense that when we switch to a larger screen that we can no longer touch it. Even if in desktop mode on the Studio, you won't use touch 95% of the time, it's still useful. For those use cases when you are talking about work with a colleague and they want to scroll a pngage a bit, or point something out. Or those times when as a developer you are testing a touch interaction without having to switch to another device. It's a real value add, and I'm sure in the future all screens will have direct manipulation.
 

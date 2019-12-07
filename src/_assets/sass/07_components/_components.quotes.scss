@@ -15,3 +15,11 @@
   text-align: center;
   margin: sp(xxlarge);
 }
+
+.c-quote--right {
+  @include mq($from: md) {
+    float: right;
+    margin: sp(xlarge) 0 sp(xlarge) sp(xlarge);
+    width: 40%;
+  }
+}
