@@ -8,7 +8,7 @@
   font-style: normal;
   @include ms-respond(font-size, 1.5);
   line-height: 1.8;
-  color: sem-color(code-green);
+  color: sem-color(code-cyan);
   text-transform: uppercase;
   transition:
     color $theme-transition;

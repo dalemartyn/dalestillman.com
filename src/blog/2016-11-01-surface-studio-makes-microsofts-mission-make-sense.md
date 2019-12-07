@@ -4,8 +4,8 @@ tagline: "Microsoft demonstrate that they really are for the creatives"
 date: 2016-11-01T22:02:19+00:00
 image:
   main: /img/surface/surfacestudio.png
-  color_light: "#ff5252"
-  color_dark: "#9E2F42"
+color_light: "#00ACC1"
+color_dark: "#006064"
 ---
 
 Last year at Microsoft's Surface event, CEO Satya Nadella reiterated the company's new mission statement. "Our mission at Microsoft is to empower every person and every organization on the planet to achieve more. We make things that help you make things and make things happen". When [probed further by Verge Senior Editor Nilay Patel][2], Nadella elaborated "we are the only company that I think thinks about digital technology in the hands of others to create things".
@@ -26,7 +26,7 @@ But then [last Thursday Microsoft announced a new product][8] that really makes 
 I don't think Microsoft emphasised the hinge enough at the event, as most of the media glossed over its relevance. The hinge uses a combination of springs to counterbalance the weight of the screen and give it a 'zero gravity' feel as it transforms from the regular desktop mode in to what they are calling the 'studio mode'.
 
 <figure>
-  <div class="c-image-background u-rounded" style="--img-bg-light: {{ image.color_light }}; --img-bg-dark: {{ image.color_dark }};">
+  <div class="c-image-background u-rounded">
     <img src="/img/surface/surfacestudio-studiomode.png" alt="Surface Studio in Studio mode">
   </div>
   <figcaption>The Surface Studio in studio mode.</figcaption>

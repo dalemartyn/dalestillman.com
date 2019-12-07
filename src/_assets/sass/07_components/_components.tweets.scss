@@ -56,7 +56,7 @@
       .c-tweet__user-screen-name,
       .c-tweet__bullet-separator,
       .c-tweet__permalink,
-      .c-tweet__date {
+      .c-tweet__permalink:hover {
         color: sem-color(text-3);
         transition: color $theme-transition;
       }
@@ -83,7 +83,7 @@
           }
 
           > a {
-            color: sem-color(code-deep-orange);
+            color: sem-color(code-cyan);
             // color: sem-color(text-3);
             transition: color $theme-transition;
             text-decoration: none;

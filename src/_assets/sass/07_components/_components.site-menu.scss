@@ -25,8 +25,7 @@
     border-bottom: sp(-5) solid transparent;
 
     &:hover,
-    &:focus,
-    &.is-active {
+    &:focus {
       color: sem-color(text);
     }
 
