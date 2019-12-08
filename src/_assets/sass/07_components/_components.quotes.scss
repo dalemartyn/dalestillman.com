@@ -2,20 +2,6 @@
    #QUOTES
    ========================================================================== */
 
-.c-quote--mono {
-  font-family: IBM Plex Mono, Menlo, Roboto Mono, monospace, sans-serif;
-  font-weight: 450;
-  font-style: normal;
-  @include ms-respond(font-size, 1.5);
-  line-height: 1.8;
-  color: sem-color(code-cyan);
-  text-transform: uppercase;
-  transition:
-    color $theme-transition;
-  text-align: center;
-  margin: sp(xxlarge);
-}
-
 .c-quote--right {
   @include mq($from: md) {
     float: right;

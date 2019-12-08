@@ -26,7 +26,7 @@
   }
 
   function updateMetaTag(isDark) {
-    var color = isDark ? '#263238' : "fff";
+    var color = isDark ? '#212c31' : "fff";
     theme.setAttribute('content', color);
   }
 
