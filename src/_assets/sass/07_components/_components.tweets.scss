@@ -47,6 +47,8 @@
             text-decoration: underline;
           }
         }
+
+        @include focused-text;
       }
 
         .c-tweet__user-name {
@@ -67,11 +69,12 @@
         &:hover {
           text-decoration: underline;
         }
+
+        @include focused-text;
       }
 
 
       .c-tweet__status {
-        word-wrap: break-word;
 
         > p {
           @include ms-respond(font-size, .75);
@@ -84,13 +87,20 @@
 
           > a {
             color: sem-color(link);
-            // color: sem-color(text-3);
             transition: color $theme-transition;
             text-decoration: none;
+            word-break: break-word;
+            white-space: pre-wrap;
 
             &:hover {
               text-decoration: underline;
             }
+
+            @include focused-text;
           }
         }
+      }
+
+      .js-focus-visible .c-tweet__status > p > a.focus-visible {
+        @include focused-text-styles;
       }

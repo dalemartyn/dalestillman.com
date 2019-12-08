@@ -6,7 +6,8 @@ a {
   color: inherit;
   text-decoration: underline;
 
-  &:hover {
+  &:hover,
+  &:focus {
     color: sem-color(link);
   }
 }

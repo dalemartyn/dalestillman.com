@@ -4,8 +4,8 @@ tagline: "Microsoft demonstrate that they really are for the creatives"
 date: 2016-11-01T22:02:19+00:00
 image:
   main: /img/surface/surfacestudio.png
-color_light: "#2f9e8c"
-color_dark: "#1b5444"
+color_light: "#3fad9c"
+color_dark: "#227060"
 ---
 
 Last year at Microsoft's Surface event, CEO Satya Nadella reiterated the company's new mission statement. "Our mission at Microsoft is to empower every person and every organization on the planet to achieve more. We make things that help you make things and make things happen". When [probed further by Verge Senior Editor Nilay Patel][2], Nadella elaborated "we are the only company that I think thinks about digital technology in the hands of others to create things".

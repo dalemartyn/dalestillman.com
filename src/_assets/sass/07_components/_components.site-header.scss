@@ -25,13 +25,13 @@
 }
 
   .c-site-header__site-title {
-    @include mq($from: sm) {
-      width: initial;
-    }
-
     flex: 1;
     display: flex;
     justify-content: center;
+
+    @include mq($from: sm) {
+      width: initial;
+    }
   }
 
   .c-site-header__back-button {
@@ -60,9 +60,17 @@
       padding: auto;
       white-space: nowrap;
 
-      &:hover {
+      &:hover,
+      &:focus {
         color: sem-color(text);
         text-decoration: none;
+      }
+
+      @include focus-style {
+        outline: none;
+        box-shadow: 0 0 0 sp(-5) sem-color(link);
+        border-radius: 1px;
+        background-color: sem-color(link, .375);
       }
     }
 

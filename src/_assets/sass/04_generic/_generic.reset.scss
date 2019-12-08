@@ -73,6 +73,10 @@ q::before, q::after {
 
 
 ::selection {
-  background-color: sem-color(selection, 1);
+  background-color: sem-color(selection, .375);
   text-shadow: none;
+}
+
+::selection:window-inactive {
+  background-color: sem-color(selection-inactive, .375);
 }
