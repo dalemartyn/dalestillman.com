@@ -5,7 +5,7 @@
 .highlight {
   pre {
     background: sem-color(background-darker);
-    transition: background-color $theme-transition;
+    @include theme-transition(background-color);
   }
 
   .k,                                 // Keyword
@@ -17,7 +17,7 @@
   .kr,                                // Keyword.Reserved
   .kt {                               // Keyword.Type
     color: sem-color(code-blue);
-    transition: color $theme-transition;
+    @include theme-transition(color);
   }
 
   .gi,                                // Generic.Inserted
@@ -31,7 +31,7 @@
   .s1,                                // Literal.String.Single
   .ss {                               // Literal.String.Symbol
     color: sem-color(code-green);
-    transition: color $theme-transition;
+    @include theme-transition(color);
   }
 
   .l,                                 // Literal
@@ -45,7 +45,7 @@
   .si,                                // Literal.String.Interpol
   .il {                               // Literal.Number.Integer.Long
     color: sem-color(code-red);
-    transition: color $theme-transition;
+    @include theme-transition(color);
   }
 
   .c,                                 // Comment
@@ -58,7 +58,7 @@
   .gp,                                // Generic.Prompt
   .sd {                               // Literal.String.Doc
     color: sem-color(code-pink);
-    transition: color $theme-transition;
+    @include theme-transition(color);
   }
 
   .gp,                                // Generic.Prompt

@@ -10,9 +10,7 @@
   position: fixed;
   z-index: 3;
   background-color: sem-color(surface, .98);
-  transition:
-    background-color $theme-transition,
-    box-shadow $theme-transition;
+  @include theme-transition(background-color box-shadow);
   box-shadow: var(--shadow-2);
 }
 
@@ -55,7 +53,7 @@
 
     .c-site-header__site-title-link {
       color: sem-color(text);
-      transition: color $theme-transition;
+      @include theme-transition(color);
       display: block;
       text-align: center;
       text-decoration: none;

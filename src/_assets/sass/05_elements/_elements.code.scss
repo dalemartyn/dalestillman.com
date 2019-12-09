@@ -9,14 +9,12 @@ code {
   @include ms-respond(font-size, .5);
   background-color: sem-color(background-darker);
   color: sem-color(text);
-  transition:
-    color $theme-transition,
-    background-color $theme-transition;
+  @include theme-transition(color background-color);
   border-radius: var(--rounded-radius);
 
   span {
     color: sem-color(code-dark-blue-grey);
-    transition: color $theme-transition;
+    @include theme-transition(color);
   }
 }
 

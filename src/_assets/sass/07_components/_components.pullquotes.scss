@@ -17,7 +17,7 @@
     line-height: 1.8;
     color: sem-color(text);
     text-transform: uppercase;
-    transition: color $theme-transition;
+    @include theme-transition(color);
     text-align: center;
     padding-top: sp(xlarge);
     padding-bottom: sp(xlarge);

@@ -17,7 +17,7 @@
 
   > svg {
     fill: sem-color(text);
-    transition: fill $theme-transition;
+    @include theme-transition(fill);
     display: block;
     @include ms-respond(height, .45, $spacing-scale);
     width: auto;

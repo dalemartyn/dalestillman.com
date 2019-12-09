@@ -4,7 +4,7 @@
 
 .c-image-background {
   background-color: var(--img-bg-light);
-  transition: background-color $theme-transition;
+  @include theme-transition(background-color);
 
   .t-dark & {
     background-color: var(--img-bg-dark);

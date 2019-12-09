@@ -6,9 +6,8 @@
   background-color: sem-color(surface);
   box-shadow: var(--shadow-1);
   position: relative;
-  transition:
-    // box-shadow .4s cubic-bezier(.4, 0, .2, 1),
-    background-color $theme-transition;
+  // transition: box-shadow .4s cubic-bezier(.4, 0, .2, 1),
+  @include theme-transition(background-color);
   border-radius: var(--rounded-radius);
 }
 
@@ -17,7 +16,7 @@
     text-decoration: none;
     color: sem-color(text);
     border-radius: var(--rounded-radius);
-    transition: color $theme-transition;
+    @include theme-transition(color);
 
     @include focus-style {
       outline: none;

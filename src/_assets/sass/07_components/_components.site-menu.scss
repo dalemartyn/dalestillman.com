@@ -19,9 +19,7 @@
       text-decoration: none;
       padding: sp(-1.25) 0;
       color: sem-color(text-2);
-      transition:
-        color $theme-transition,
-        border-color $theme-transition;
+      @include theme-transition(border-color color);
       border-top: sp(-5) solid transparent;
       border-bottom: sp(-5) solid transparent;
 

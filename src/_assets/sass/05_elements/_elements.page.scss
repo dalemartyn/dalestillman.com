@@ -2,12 +2,10 @@
    #PAGE
    ========================================================================== */
 
-html {
+:root {
   background-color: sem-color(background);
   color: sem-color(text);
-  transition:
-    background-color $theme-transition,
-    color $theme-transition;
+  @include theme-transition(background-color color);
   font-family: "IBM Plex Sans", sans-serif;
   font-size: 1em;
   font-feature-settings:

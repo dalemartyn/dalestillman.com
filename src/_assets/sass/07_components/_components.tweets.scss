@@ -4,8 +4,7 @@
 
 .c-tweet {
   @include ms-respond(font-size, .75);
-  transition:
-    border-color $theme-transition;
+  @include theme-transition(border-color);
   padding: sp(large) 0;
   border-bottom: 1px solid sem-color(border);
   display: flex;
@@ -31,9 +30,7 @@
       border-radius: 100px;
       box-shadow: 0 0 0 1px sem-color(border);
       fill: sem-color(text);
-      transition:
-        fill $theme-transition,
-        box-shadow $theme-transition;
+      @include theme-transition(fill box-shadow);
     }
   }
 
@@ -60,7 +57,7 @@
       .c-tweet__permalink,
       .c-tweet__permalink:hover {
         color: sem-color(text-2);
-        transition: color $theme-transition;
+        @include theme-transition(color);
       }
 
       .c-tweet__permalink {
@@ -87,7 +84,7 @@
 
           > a {
             color: sem-color(link);
-            transition: color $theme-transition;
+            @include theme-transition(color);
             text-decoration: none;
             word-break: break-word;
             white-space: pre-wrap;

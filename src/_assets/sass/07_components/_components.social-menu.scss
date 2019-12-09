@@ -23,7 +23,7 @@
     text-decoration: none;
 
     > svg {
-      transition: fill $theme-transition;
+      @include theme-transition(fill);
       fill: sem-color(text-2);
       display: block;
     }

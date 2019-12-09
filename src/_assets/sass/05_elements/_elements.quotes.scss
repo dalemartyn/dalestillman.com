@@ -8,7 +8,7 @@ q {
   line-height: 1.2;
   font-style: italic;
   color: sem-color(text-2);
-  transition: color $theme-transition;
+  @include theme-transition(color);
   display: block;
   font-weight: 500;
   letter-spacing: -.01em;
