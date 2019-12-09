@@ -1,0 +1,21 @@
+/* ==========================================================================
+   #BREADCRUMB
+   ========================================================================== */
+
+.c-breadcrumb {
+  margin-bottom: sp(micro);
+}
+
+  .c-breadcrumb__item {
+    @include ms-respond(font-size, .25);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .005em;
+    line-height: 1.25;
+    text-decoration: none;
+    color: sem-color("text-2");
+
+    &:hover {
+      color: sem-color("text") !important;
+    }
+  }

@@ -7,7 +7,7 @@ const livereload = require('gulp-livereload');
 // tasks
 const img           = require('./gulp-tasks/images.js');
 const sass          = require('./gulp-tasks/styles.js');
-const dark_theme_js = require('./gulp-tasks/dark-theme.js');
+const dark_theme    = require('./gulp-tasks/dark-theme.js');
 const scripts       = require('./gulp-tasks/scripts.js');
 
 
@@ -30,17 +30,20 @@ exports.default = gulp.parallel(
   gulp.series(
     sass.dev,
     scripts.build,
+    dark_theme.build,
     gulp.parallel(
       sass.watch,
+      dark_theme.watch,
       watch_built_files
     )
   )
 );
 
 exports.build = gulp.series(
-  sass.build
+  sass.build,
+  scripts.build,
+  dark_theme.build,
 );
 
 exports.img = img.resize;
-exports.dark_theme = dark_theme_js.build;
 exports.js = scripts.build;

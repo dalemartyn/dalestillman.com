@@ -18,15 +18,15 @@
 
   @at-root {
 
-    @if is-superselector($current_selector, ":root:not(.is-heavy)") {
+    @if is-superselector($current_selector, ":root") {
 
-      #{$current_selector}:not(.is-heavy) {
+      #{$current_selector}:not(.is-heavy).is-transitioning {
         transition: $val;
       }
     }
     @else {
 
-      :root:not(.is-heavy) {
+      :root:not(.is-heavy).is-transitioning {
 
         #{$current_selector} {
           transition: $val;

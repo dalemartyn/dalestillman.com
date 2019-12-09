@@ -1,5 +1,8 @@
 {
   "layout": "work",
   "tags": "work",
-  "parent": "/work/"
+  "parent": {
+    "title": "Work",
+    "link": "/work/"
+  }
 }

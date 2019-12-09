@@ -7,7 +7,7 @@
   function toggle() {
     switched = !switched;
     setState(switched);
-    updateTheme(switched);
+    switchTheme();
   }
 
   function isDarkTheme() {
@@ -21,8 +21,31 @@
     updateButton(isDark);
   }
 
+  function switchTheme() {
+    document.documentElement.classList.add('is-transitioning');
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function() {
+        updateTheme();
+        setTimeout(function() {
+          document.documentElement.classList.remove('is-transitioning');
+        }, 250);
+      })
+    })
+  }
+
   function updateHtmlClass(isDark) {
     document.documentElement.classList.toggle('t-dark', isDark);
+  }
+
+  function updateHtmlClasses(isDark) {
+    var root = document.documentElement;
+    root.classList.add('is-transitioning');
+
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function() {
+        root.classList.toggle('t-dark', isDark);
+      })
+    })
   }
 
   function updateMetaTag(isDark) {

@@ -1,5 +1,8 @@
 {
   "layout": "post",
   "tags": "blog",
-  "parent": "/blog/"
+  "parent": {
+    "title": "Blog",
+    "link": "/blog/"
+  }
 }

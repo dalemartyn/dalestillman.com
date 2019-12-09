@@ -8,7 +8,7 @@
             c-site-menu__link
             ts-menu-item
             {% if item.slug == page.fileSlug %}is-active{% endif %}
-            {% if item.link == parent %} is-parent{% endif %}
+            {% if item.link == parent.link %} is-parent{% endif %}
           "
         >
           {{item.title}}
