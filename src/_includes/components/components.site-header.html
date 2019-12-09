@@ -8,7 +8,7 @@
         {% if layout == 'page' %}
           {% include svg/back-disabled.svg %}
         {% else %}
-          <a href="{{ parent }}" class="c-button">
+          <a href="{{ parent.link }}" class="c-button">
             {% include svg/back.svg %}
           </a>
         {% endif %}
