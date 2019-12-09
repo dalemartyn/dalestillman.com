@@ -5,9 +5,9 @@ date: 2016-10-07T09:49:35+01:00
 excerpt_separator: "##"
 tagline: A video site for swimming coaches
 image:
-  main: /img/offtheblocks/main-3x2_3x.png
-  color_light: "#009EE3"
-  color_dark: "#025E9E"
+  main: /img/off-the-blocks/off-the-blocks-3x2_3x.png
+color_light: "#009EE3"
+color_dark: "#025E9E"
 ---
 
 British Swimming exists to win medals in the pool. To do so they need the best coaching.  As part of their National Development Syllabus they were producing a range of video resources to make available to all coaches in Great Britain. This post will look how I created a low maintenance, easy to use site that was in line with the British Swimming brand.
@@ -269,7 +269,7 @@ I chose [Django][6] for the app, having used it on similar projects before. The 
 The "container model" design described above easily scales down to mobile. But I also needeed to take into account the bandwidth-constrained nature of poolside. Videos needed to be transcoded to multiple resolutions.
 
 <figure>
-  <img src="/img/offtheblocks/tablet.png" alt="Tablet displaying a video page">
+  <img src="/img/off-the-blocks/tablet.png" alt="Tablet displaying a video page">
 </figure>
 
 For this job I used the [AWS elastic transcoder][2], making use of [django elastic transcoder][3] -- a small wrapper around the excellent [boto][4] AWS library.

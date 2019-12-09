@@ -4,7 +4,11 @@ permalink: work/{{ title | slug }}/index.html
 ---
 
 
-<article class="s-article">
+<article
+  class="s-article"
+  style="{% if color_light %}--img-bg-light: {{ color_light }};{% endif %}
+    {% if color_dark %}--img-bg-dark: {{ color_dark }};{% endif%}
+">
   <header class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xlarge">
     {% include components/components.breadcrumb.html %}
     <h1 class="u-margin-bottom-tiny">{{ title }}</h1>

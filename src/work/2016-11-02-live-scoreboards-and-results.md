@@ -1,13 +1,12 @@
 ---
-device: phone
 title: "Live Scoreboards and Results"
 date: 2016-11-02T09:48:31+00:00
 tagline: "A responsive frontend to live aquatic events"
 excerpt: "<p>At The ASA and British Swimming, we had many swimming events that we wanted to show results for directly on the swimming.org site.</p><p>This post looks at how was able to take large quantities of tabular data and make it responsive and accessible.</p>"
 image:
-  main: /img/results/main-3x2_3x.png
-  color_light: "#53B1F3"
-  color_dark: "#2673BE"
+  main: /img/live-scoreboards-and-results/live-scoreboards-and-results-3x2_3x.png
+color_light: "#53B1F3"
+color_dark: "#2673BE"
 ---
 
 At The ASA and British Swimming, we had many swimming events that we wanted to show results for directly on the swimming.org site. The results service was provided by the volunteers at SportSystems, and displayed on [www.swimmingresults.org.uk][1]. They did all the work at the venue to capture the swimming results, using many legacy systems based on Visual Basic. Unfortunately as volunteers they didn't have a lot of time to spend to help us get the results onto our site.
@@ -15,14 +14,14 @@ At The ASA and British Swimming, we had many swimming events that we wanted to s
 Here's how their startlists looked,
 
 <figure>
-  <img src="/img/results/before/startlists.png" alt="UI showing SportSystems full version of startlist for Women’s 100m Butterfly" class="u-filter-oldstyle">
+  <img src="/img/live-scoreboards-and-results/before/startlists.png" alt="UI showing SportSystems full version of startlist for Women’s 100m Butterfly" class="u-filter-oldstyle">
   <figcaption>Start list for Women’s 100m Butterfly. You can see tables don’t align, making it harder to scan the data. It also doesn’t scale down to mobile.</figcaption>
 </figure>
 
 and here's a results page.
 
 <figure>
-  <img src="/img/results/before/results.png" alt="UI showing SportSystems full version of results for Women’s 800m Freestyle" class="u-filter-oldstyle">
+  <img src="/img/live-scoreboards-and-results/before/results.png" alt="UI showing SportSystems full version of results for Women’s 800m Freestyle" class="u-filter-oldstyle">
   <figcaption>Results for Women’s 800m Freestyle. The split times span multiple rows.</figcaption>
 </figure>
 
@@ -42,21 +41,21 @@ The tables were optimised for the desktop site, using fixed width columns. Below
 By adjusting the font size at several breakpoints I could make the data fit well at all sizes. I used shading on alternate rows to contrast them. But it was overly fiddly, and didn't feel right in the context of the site. Also, some names would flow on to a second row, which broke the vertical rhythm.
 
 <figure>
-  <img src="/img/results/masters/desktop.png" alt="Men’s 200m IM on the Master’s site on desktop">
+  <img src="/img/live-scoreboards-and-results/masters/desktop.png" alt="Men’s 200m IM on the Master’s site on desktop">
   <figcaption>Men’s 200m IM on the Master’s site on desktop.</figcaption>
 </figure>
 
 This felt too messy and insonsitent.
 
 <figure>
-  <img src="/img/results/masters/phone.png" alt="Men’s 200m IM on the Master’s site on mobile">
+  <img src="/img/live-scoreboards-and-results/masters/phone.png" alt="Men’s 200m IM on the Master’s site on mobile">
   <figcaption>Men’s 200m IM on the Master’s site on mobile. The font size was really small. To fit the club on it had to go on a new row. You can see at Pos 3 it flows on to a 3rd row. The columns aren’t consistent widths across events or between start lists and results.</figcaption>
 </figure>
 
 On tablet the the content became sparse.
 
 <figure>
-  <img src="/img/results/masters/tablet.png" alt="Men’s 200m IM on the Master’s site on tablet">
+  <img src="/img/live-scoreboards-and-results/masters/tablet.png" alt="Men’s 200m IM on the Master’s site on tablet">
   <figcaption>Tablet view - viewport with 720px width.</figcaption>
 </figure>
 
@@ -65,19 +64,19 @@ On tablet the the content became sparse.
 Content would wrap on to two lines if there was a long athlete name or club. To stop this happening I combined them into a single column at all screen sizes. At larger sizes I used a single row, with the club name in slightly smaller, grey text. All rows are single line. `overflow: ellipsis` is used in the rare cases of a long club name and long athlete name, with a `title` attribute added to the club name so that it will show on hover.
 
 <figure>
-  <img src="/img/results/after/desktop.png" alt="Women’s Open 100m Butterfly heats on desktop">
+  <img src="/img/live-scoreboards-and-results/after/desktop.png" alt="Women’s Open 100m Butterfly heats on desktop">
 </figure>
 
 To stop the content feeling too sparse on tablet, I added a `max-width` to the table and centred it. It makes scanning the results much easier.
 
 <figure>
-  <img src="/img/results/after/tablet.png" alt="Women’s Open 100m Butterfly heats on tablet">
+  <img src="/img/live-scoreboards-and-results/after/tablet.png" alt="Women’s Open 100m Butterfly heats on tablet">
 </figure>
 
 There is a single breakpoint that changes the font size to be slightly smaller on mobile, and puts the club name on to a new row. Each result has consistent vertical spacing, making it easy to search for results while scrolling the page.
 
 <figure>
-  <img src="/img/results/after/phone.png" alt="Women’s Open 100m Butterfly heats on mobile">
+  <img src="/img/live-scoreboards-and-results/after/phone.png" alt="Women’s Open 100m Butterfly heats on mobile">
 </figure>
 
 I was also able to make the table columns spacing consistent accross events, and across start lists and results. It makes all the difference when browsing results that the content doesn't visually shift. To do this I used a combination of `width`s and `min-width`s. Each column was given a percentage-based width. Trial and error was used to find the minimum width of a numerical column, which can vary across events - short distance events may have shorter times than longer ones.
@@ -116,7 +115,7 @@ The live scoreboard also followed the same design as described above. Columns li
 
 
 <figure>
-  <img src="/img/results/after/scoreboard.png" alt="Demonstration of the live scoreboard">
+  <img src="/img/live-scoreboards-and-results/after/scoreboard.png" alt="Demonstration of the live scoreboard">
 </figure>
 
 So that’s the scorebards and results. I was pretty happy with how clean, accessible and responsive I was able to make the results data. And also visually consistent with the [athlete profiles][4].

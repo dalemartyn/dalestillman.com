@@ -5,9 +5,9 @@ date: 2016-10-06T22:05:19+01:00
 tagline: "Using Google Sheets as backend to rapidly generate athlete stats"
 excerpt_separator: "<figure>"
 image:
-  main: /img/athlete-profiles/main-3x2_3x.png
-  color_light: "#de515f"
-  color_dark: "#9e2f42"
+  main: /img/athlete-profiles/athlete-profiles-3x2_3x.png
+color_light: "#de515f"
+color_dark: "#9e2f42"
 
 ---
 
@@ -44,7 +44,10 @@ The automated system allowed us to cover more athletes and show more stats. So i
 To make the stats clear and accessible, I spent time optimising the typography. I switched the font to [Source Sans Pro][9], used by the ASA in the marketing materials and event programmes, for its excellent legibility in small sizes and the performance of its lining figures. Next, I divided up the results into multiple smaller tables, making them easier to digest (it also allowed us to show the location of the venue in the title). Finally, I made sure that the table columns aligned accross results and tabs, so there wasn't the appearance of the content shifting around as you browse.
 
 <figure>
-  <img src="/img/athlete-profiles/swimming-and-synchro.png" alt="Swimming and Synchro profile stats"><figcaption>Profile stats for swimming (left) and synchronised swimming (right). Using <a href="http://getbootstrap.com/javascript/#tabs" title="Bootstrap 3 tabs">Bootstrap tabs</a>, along with the <a href="https://paypal.github.io/bootstrap-accessibility-plugin/" title="Bootstrap accessibility plugin"> accessibility plugin</a> made the tabs keyboard-navigable and screen reader compatible.</figcaption>
+  <div class="c-image-background u-rounded">
+    <img src="/img/athlete-profiles/swimming-and-synchro-3x2_3x.png" alt="Swimming and Synchro profile stats">
+  </div>
+  <figcaption>Profile stats for swimming (left) and synchronised swimming (right). Using <a href="http://getbootstrap.com/javascript/#tabs" title="Bootstrap 3 tabs">Bootstrap tabs</a>, along with the <a href="https://paypal.github.io/bootstrap-accessibility-plugin/" title="Bootstrap accessibility plugin"> accessibility plugin</a> made the tabs keyboard-navigable and screen reader compatible.</figcaption>
 </figure>
 
 ## Collaborating on new widgets
@@ -52,7 +55,10 @@ To make the stats clear and accessible, I spent time optimising the typography. 
 The spreadsheets of stats were also be used to create new 'ones to watch' widgets for aquatic competitions. Our Content Manager would write additional copy in a new sheet, as I worked on the design and implementation. (I later learned that The Verge used [a very similar technique][7] to build [The Verge 50][8]).
 
 <figure>
-  <img src="/img/athlete-profiles/ones-to-watch.png" alt="Ones To Watch widget, showing Molly Renshaw"><figcaption>Ones to watch widget for the ASA National Swimming Championships. <a href="https://en.wikipedia.org/wiki/Non-breaking_space">Non-breaking spaces</a> are used for the ‘events&nbsp;entered’, so that the line doesn’t break between distance and event.</figcaption>
+  <div class="c-image-background u-rounded">
+    <img src="/img/athlete-profiles/ones-to-watch-3x2_3x.png" alt="Ones To Watch widget, showing Molly Renshaw">
+  </div>
+  <figcaption>Ones to watch widget for the ASA National Swimming Championships. <a href="https://en.wikipedia.org/wiki/Non-breaking_space">Non-breaking spaces</a> are used for the ‘events&nbsp;entered’, so that the line doesn’t break between distance and event.</figcaption>
 </figure>
 
 
