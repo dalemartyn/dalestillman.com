@@ -24,6 +24,20 @@
   }
 }
 
+  :root .c-button--dark-theme #dark-theme-transition-path {
+    transform: translateX(50%);
+  }
+
+  :root.t-dark .c-button--dark-theme #dark-theme-transition-path {
+    transform: translateX(-50%);
+  }
+
+  :root.is-transitioning .c-button--dark-theme #dark-theme-transition-path {
+    transition: transform $theme-transition;
+  }
+
+
+
 .js-focus-visible :focus:not(.focus-visible) {
   outline: none;
 }
