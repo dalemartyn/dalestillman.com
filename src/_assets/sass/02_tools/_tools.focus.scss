@@ -21,23 +21,28 @@
 
 }
 
-@mixin focused-text-styles {
+@mixin focused-link-styles {
   outline: none;
-  color: sem-color(text) !important;
   box-shadow: 0 0 0 sp(-5) sem-color(link);
   border-radius: 1px;
   background-color: sem-color(link, .375);
+  color: sem-color(text) !important;
   text-decoration: none !important;
+}
 
-  > * {
-    text-decoration: none !important;
-    color: sem-color(text) !important;
+@mixin focused-link {
+  @include focus-style {
+    @include focused-link-styles;
   }
 }
 
-
-@mixin focused-text {
+@mixin focused-link-with-nested-content {
   @include focus-style {
-    @include focused-text-styles;
+    @include focused-link-styles;
+
+    > * {
+      color: sem-color(text) !important;
+      text-decoration: none !important;
+    }
   }
 }

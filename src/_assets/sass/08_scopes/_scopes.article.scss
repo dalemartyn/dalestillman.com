@@ -1,8 +1,12 @@
 /* ==========================================================================
-   #LINKS
+   #ARTICLE
    ========================================================================== */
 
-a {
-  color: inherit;
-  text-decoration: underline;
+
+.s-article a {
+  @include focused-link;
+
+  &:hover {
+    color: sem-color(link);
+  }
 }

@@ -1,5 +1,8 @@
 <article class="c-work-card">
-  <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">
+  <a
+    class="c-work-card__link"
+    href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}"
+  >
 
     <div class="c-work-card__thumbnail c-image-background"
       style="--img-bg-light: {{ post.data.image.color_light }}; --img-bg-dark: {{ post.data.image.color_dark }};">

@@ -4,23 +4,28 @@
 
 .c-social-menu {
   margin: 0;
+  height: 100%;
   list-style: none;
   display: flex;
 }
 
 .c-social-menu__item {
+  display: flex;
   margin: 0;
   margin-left: sp();
-  padding: sp(-1.25) 0 sp(-2);
+  padding: sp(-1.25) 0 sp(-1.25);
   font-size: inherit;
+}
 
-  > a {
-    display: block;
+  .c-social-menu__link {
+    display: flex;
+    align-items: center;
     text-decoration: none;
 
     > svg {
       transition: fill $theme-transition;
       fill: sem-color(text-2);
+      display: block;
     }
 
     &:hover,
@@ -30,5 +35,23 @@
         fill: sem-color(text);
       }
     }
+
+    @include focus-style {
+      outline: none;
+      position: relative;
+      z-index: 0;
+
+      &::before {
+        position: absolute;
+        content: "";
+        background: sem-color(link, .3);
+        width: calc(100% + 2 * #{sp(-2)});
+        height: calc(100% + 2 * #{sp(-3)});
+        left: calc(#{sp(-2)} * -1);
+        top: calc(#{sp(-3)} * -1);
+        border-radius: sp(-4);
+        border: sp(-5) solid sem-color(link);
+        z-index: -1;
+      }
+    }
   }
-}

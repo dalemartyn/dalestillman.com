@@ -32,7 +32,7 @@
       box-shadow: 0 0 0 1px sem-color(border);
       fill: sem-color(text);
       transition:
-        // fill $theme-transition,
+        fill $theme-transition,
         box-shadow $theme-transition;
     }
   }
@@ -48,7 +48,7 @@
           }
         }
 
-        @include focused-text;
+        @include focused-link-with-nested-content;
       }
 
         .c-tweet__user-name {
@@ -70,7 +70,7 @@
           text-decoration: underline;
         }
 
-        @include focused-text;
+        @include focused-link-with-nested-content;
       }
 
 
@@ -96,11 +96,11 @@
               text-decoration: underline;
             }
 
-            @include focused-text;
+            @include focused-link-with-nested-content;
           }
         }
       }
 
       .js-focus-visible .c-tweet__status > p > a.focus-visible {
-        @include focused-text-styles;
+        @include focused-link-styles;
       }

@@ -1,8 +1,10 @@
 /* ==========================================================================
-   #LINKS
+   #SCOPES
    ========================================================================== */
 
-a {
-  color: inherit;
-  text-decoration: underline;
-}
+
+/* stylelint-disable scss/partial-no-import */
+
+@import "scopes.article";
+
+/* stylelint-enable scss/partial-no-import */

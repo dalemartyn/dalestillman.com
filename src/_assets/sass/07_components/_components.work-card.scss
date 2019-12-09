@@ -9,33 +9,39 @@
   transition:
     // box-shadow .4s cubic-bezier(.4, 0, .2, 1),
     background-color $theme-transition;
-  border-radius: 4px;
+  border-radius: var(--rounded-radius);
+}
 
-  > a {
+  .c-work-card__link {
     display: block;
     text-decoration: none;
     color: sem-color(text);
+    border-radius: var(--rounded-radius);
     transition: color $theme-transition;
+
+    @include focus-style {
+      outline: none;
+      box-shadow: 0 0 0 sp(-5) sem-color(link);
+    }
   }
-}
 
 
-.c-work-card__content {
-  padding: sp();
-  line-height: 1;
-}
+    .c-work-card__content {
+      padding: sp();
+      line-height: 1;
+    }
 
-.c-work-card__title {
-  margin: 0;
-}
+      .c-work-card__title {
+        margin: 0;
+      }
 
-.c-work-card__thumbnail {
-  border-top-left-radius: 4px;
-  border-top-right-radius: 4px;
+    .c-work-card__thumbnail {
+      border-top-left-radius: var(--rounded-radius);
+      border-top-right-radius: var(--rounded-radius);
 
-  img {
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    width: 100%;
-  }
-}
+      img {
+        border-top-left-radius: var(--rounded-radius);
+        border-top-right-radius: var(--rounded-radius);
+        width: 100%;
+      }
+    }

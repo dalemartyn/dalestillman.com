@@ -42,6 +42,8 @@
     // disabled back button
     > svg {
       fill: sem-color(text-2);
+      @include ms-respond(height, .45, $spacing-scale);
+      width: auto;
     }
   }
 
@@ -60,18 +62,12 @@
       padding: auto;
       white-space: nowrap;
 
-      &:hover,
-      &:focus {
+      &:hover {
         color: sem-color(text);
         text-decoration: none;
       }
 
-      @include focus-style {
-        outline: none;
-        box-shadow: 0 0 0 sp(-5) sem-color(link);
-        border-radius: 1px;
-        background-color: sem-color(link, .375);
-      }
+      @include focused-link;
     }
 
 
