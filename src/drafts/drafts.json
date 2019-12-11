@@ -1,0 +1,9 @@
+{
+  "layout": "work",
+  "tags": "drafts",
+  "parent": {
+    "title": "Drafts",
+    "link": "/drafts/"
+  },
+  "permalink": "drafts/{{ title | slug }}/index.html"
+}

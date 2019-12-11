@@ -1,0 +1,15 @@
+---
+layout: page
+exclude: true
+title: Drafts
+feature_text: "Draft posts"
+---
+
+<div class="o-wrapper-wide">
+  <div class="o-grid-layout">
+    {% assign posts = collections.drafts | reverse %}
+    {% for post in posts %}
+      {% include components/components.work-card.html %}
+    {% endfor %}
+  </div>
+</div>

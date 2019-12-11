@@ -6,6 +6,8 @@
 
   blockquote {
     border-left: sp(tiny) solid sem-color(code-cyan);
+    padding: 0 sp(large);
+    margin-right: sp(tiny);
   }
 
   p {
@@ -23,9 +25,6 @@
     padding-bottom: sp(xlarge);
     margin-top: sp(xxlarge);
     margin-bottom: sp(xxlarge);
-    margin-left: auto;
-    margin-right: auto;
-    max-width: rem(640px);
   }
 
   p::before {
