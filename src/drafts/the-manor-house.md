@@ -7,6 +7,6 @@ tagline: ""
 category: work
 image:
   main: /img/the-manor-house/main-3x2_3x.png
-  color_light: "#8796AE"
-  color_dark: "#536075"
+color_light: "#8895ae"
+color_dark: "#434d5f"
 ---

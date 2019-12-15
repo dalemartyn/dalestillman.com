@@ -7,6 +7,6 @@ tagline: ""
 category: work
 image:
   main: /img/charnwood-brewery/main-3x2_3x.png
-  color_light: "#A3D5E0"
-  color_dark: "#46536C"
+color_light: "#7b89a5"
+color_dark: "#46536c"
 ---

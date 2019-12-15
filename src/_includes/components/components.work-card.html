@@ -4,10 +4,12 @@
     href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}"
   >
 
+    {% if post.data.image %}
     <div class="c-work-card__thumbnail c-image-background"
       style="--img-bg-light: {{ post.data.color_light }}; --img-bg-dark: {{ post.data.color_dark }};">
       <img src="{{ post.data.image.main }}" alt="{{ title }}" />
     </div>
+    {% endif %}
 
     <div class="c-work-card__content">
       <h2 class="c-work-card__title ts-title">{{ post.data.title }}</h2>

@@ -7,6 +7,6 @@ tagline: ""
 category: work
 image:
   main: /img/memo/main-3x2_3x.png
-  color_light: "#6DC9CA"
-  color_dark: "#006761"
+color_light: "#24b1ae"
+color_dark: "#00746e"
 ---

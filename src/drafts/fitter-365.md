@@ -9,6 +9,6 @@ bgcolor: ""
 bghex: "#a3d5e0"
 image:
   main: /img/fitter-365/main-3x2_3x.png
-  color_light: "#58B06B"
-  color_dark: "#30733F"
+color_light: "#70c270"
+color_dark: "#398438"
 ---

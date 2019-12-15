@@ -6,7 +6,7 @@ tagline: ""
 category: work
 image:
   main: /img/a-dozen-eggs/main-3x2_3x.png
-  color_light: "#48BCBB"
-  color_dark: "#009E98"
+color_light: "#13ACAB"
+color_dark: "#007F7A"
 date: 2019-05-04T15:17:16+01:00
 ---
