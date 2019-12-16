@@ -39,7 +39,7 @@
 
     // disabled back button
     > svg {
-      fill: sem-color(text-2);
+      fill: sem-color(text-3);
       @include ms-respond(height, .45, $spacing-scale);
       width: auto;
     }

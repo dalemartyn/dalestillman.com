@@ -22,7 +22,9 @@
 }
 
 .ts-meta {
-  @include ms-respond(font-size, 0);
+  @include ms-respond(font-size, .25);
+  color: sem-color(text-2);
+  @include theme-transition(color);
 }
 
 .ts-menu-item {
