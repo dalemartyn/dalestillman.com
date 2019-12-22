@@ -7,7 +7,11 @@
     {% if post.data.image %}
     <div class="c-work-card__thumbnail c-image-background"
       style="--img-bg-light: {{ post.data.color_light }}; --img-bg-dark: {{ post.data.color_dark }};">
-      <img src="{{ post.data.image.main }}" alt="{{ title }}" />
+      {% if post.data.image.main %}
+        <img src="{{ post.data.image.main }}" alt="{{ title }}" />
+      {% elsif post.data.image.json %}
+        {% card-image post.data.image.json %}
+      {% endif %}
     </div>
     {% endif %}
 

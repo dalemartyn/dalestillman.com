@@ -3,9 +3,11 @@
   <div class="c-image-background u-rounded">
     <div class="c-work-main-image">
       <div class="o-ratio o-ratio--3:2">
-        <div class="o-ratio__content">
-          <img src="{{ image.main }}" alt="{{ title }}" />
-        </div>
+        {% if image.main %}
+          <img src="{{ image.main }}" alt="{{ title }}" class="o-ratio__content" />
+        {% elsif image.json %}
+          {% image image.json %}
+        {% endif %}
       </div>
     </div>
   </div>

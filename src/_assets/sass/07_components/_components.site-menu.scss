@@ -10,14 +10,14 @@
 
   .c-site-menu__item {
     margin: 0;
-    margin-right: sp(.5);
+    margin-right: sp(.75);
     font-size: inherit;
   }
 
     .c-site-menu__link {
       display: block;
       text-decoration: none;
-      padding: sp(-1.25) 0;
+      padding: sp(-.75) 0;
       color: sem-color(text-3);
       @include theme-transition(border-color color);
       border-top: sp(-5) solid transparent;
