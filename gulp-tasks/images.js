@@ -1,8 +1,8 @@
 // packages
-const fs = require("fs");
-const path = require("path");
-const glob = require("glob");
-const sharp = require("sharp");
+const fs = require('fs');
+const path = require('path');
+const glob = require('glob');
+const sharp = require('sharp');
 const sizeOf = require('image-size');
 
 const srcDir = './src/_assets/img/';
