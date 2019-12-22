@@ -8,19 +8,16 @@ figure {
 
   img {
     width: 100%;
-  }
-
-  > img,
-  > video,
-  > svg {
-    display: block;
-  }
-
-  > img {
     border-radius: var(--rounded-radius);
   }
 
-  > svg {
+  img,
+  video,
+  svg {
+    display: block;
+  }
+
+  svg {
     height: auto;
     width: 100%;
   }

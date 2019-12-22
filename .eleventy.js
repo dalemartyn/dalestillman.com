@@ -57,22 +57,42 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addShortcode('image', function(imageDataFile) {
-    const imageFile = fs.readFileSync('./dist/figma-img' + imageDataFile);
+    const imageFile = fs.readFileSync('./dist/img' + imageDataFile);
     const image = JSON.parse(imageFile);
 
     return `<picture>
-      <source srcset="${image.webpSrcset}" type="image/webp" sizes="100vw">
-      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="100vw" class="o-ratio__content">
+      <source srcset="${image.webpSrcset}" type="image/webp" sizes="(min-width: 47.5em) 45em, 100vw">
+      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 47.5em) 45em, 100vw" alt="${image.alt}">
+    </picture>`;
+  });
+
+  eleventyConfig.addShortcode('work-main-image', function(imageDataFile) {
+    const imageFile = fs.readFileSync('./dist/img' + imageDataFile);
+    const image = JSON.parse(imageFile);
+
+    return `<picture>
+      <source srcset="${image.webpSrcset}" type="image/webp" sizes="(min-width: 59.45em) 911px, 100vw">
+      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 59.45em) 911px, 100vw" alt="${image.alt}" class="o-ratio__content">
+    </picture>`;
+  });
+
+  eleventyConfig.addShortcode('main-image', function(imageDataFile) {
+    const imageFile = fs.readFileSync('./dist/img' + imageDataFile);
+    const image = JSON.parse(imageFile);
+
+    return `<picture>
+      <source srcset="${image.webpSrcset}" type="image/webp" sizes="(min-width: 70em) 1080px, 100vw">
+      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 70em) 1080px, 100vw" alt="${image.alt}" class="o-ratio__content u-rounded">
     </picture>`;
   });
 
   eleventyConfig.addShortcode('card-image', function(imageDataFile) {
-    const imageFile = fs.readFileSync('./dist/figma-img' + imageDataFile);
+    const imageFile = fs.readFileSync('./dist/img' + imageDataFile);
     const image = JSON.parse(imageFile);
 
     return `<picture>
-      <source srcset="${image.webpSrcset}" type="image/webp" sizes="100vw">
-      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="100vw">
+      <source srcset="${image.webpSrcset}" type="image/webp" sizes="(min-width: 70em) 525px, (min-width: 52.5em) 50vw, 100vw">
+      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 70em) 525px, (min-width: 52.5em) 50vw, 100vw" alt="${image.alt}">
     </picture>`;
   });
 

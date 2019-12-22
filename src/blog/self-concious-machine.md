@@ -4,9 +4,9 @@ tagline: "To replicate ourselves, we first have to embrace human error. Sci-fi w
 date: 2019-11-01T22:02:19+00:00
 noindex: true
 image:
-  main: /img/blog/machine.jpg
-  color_light: "#26C6DA"
-  color_dark: "#0097A7"
+  json: /blog/how-to-build-a-self-concious-machine.json
+color_light: "#26C6DA"
+color_dark: "#0097A7"
 ---
 <h2>The Coolest Thing in the Universe</h2>
 <p><strong>The universe is full</strong> of some very cool stuff: neutron stars that weigh a ton a teaspoon;

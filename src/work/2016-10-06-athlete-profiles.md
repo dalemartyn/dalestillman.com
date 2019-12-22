@@ -5,7 +5,7 @@ date: 2016-10-06T22:05:19+01:00
 tagline: "Using Google Sheets as backend to rapidly generate athlete stats"
 excerpt_separator: "<figure>"
 image:
-  main: /img/athlete-profiles/athlete-profiles-3x2_3x.png
+  json: /athlete-profiles/athlete-profiles.json
 color_light: "#de515f"
 color_dark: "#9e2f42"
 
@@ -14,7 +14,7 @@ color_dark: "#9e2f42"
 By creating a new automated system, the laborious process of updating profiles was transformed into one that would enable quick and easy changes. The new system, backed by Google Sheets, enabled us create a larger amount of profiles, each one including more comprehensive stats. We also used the same backend to generate editorial 'ones to watch' widgets for a range of aquatic competitions.
 
 <figure>
-  <img src="/img/athlete-profiles/diving-historic.png" alt="Historic screen capture of Diver Tonia Couch's profile page, as seen in 2013">
+  {% image "/athlete-profiles/diving-historic.json" %}
   <figcaption>Diver Tonia Couch’s profile page as it was in 2013 (<a href="/img/athlete-profiles/diving-historic-full.jpg">full image</a>, via <a href="https://archive.is/O9Cyg">archive.is</a>). At the time, all stats had to be manually researched and updated in the Content Management System.</figcaption>
 </figure>
 
@@ -33,7 +33,7 @@ gulp save-stats
 This command would download the relevant spreadsheets and normalize the data. It would then proceed to generate a <abbr title="JavaScript Object Notation">JSON</abbr> document for each athlete profile, and upload it to our static file server using <abbr title="File Transfer Protocol">FTP</abbr>. The [Nodejs][3] scripts made heavy use of [lodash][4] and [async][5], with [google-spreadsheet][6] used to download the stats.
 
 <figure>
-  <img src="/img/athlete-profiles/diving-profile.png" alt="Screen capture of Diver Tonia Couch's profile page">
+  {% image "/athlete-profiles/diving-profile.json" %}
   <figcaption>The main content of Tonia’s profile page (<a href="https://web.archive.org/web/20161005195709/http://www.swimming.org/diving/tonia-couch/">webarchive.org</a>). The new profile stats widget, sits under the profile copy. An action shot, out of view in the screenshot, serves as the headline image.</figcaption>
 </figure>
 
@@ -45,7 +45,7 @@ To make the stats clear and accessible, I spent time optimising the typography. 
 
 <figure>
   <div class="c-image-background u-rounded">
-    <img src="/img/athlete-profiles/swimming-and-synchro-3x2_3x.png" alt="Swimming and Synchro profile stats">
+    {% image "/athlete-profiles/swimming-and-synchro.json" %}
   </div>
   <figcaption>Profile stats for swimming (left) and synchronised swimming (right). Using <a href="http://getbootstrap.com/javascript/#tabs" title="Bootstrap 3 tabs">Bootstrap tabs</a>, along with the <a href="https://paypal.github.io/bootstrap-accessibility-plugin/" title="Bootstrap accessibility plugin"> accessibility plugin</a> made the tabs keyboard-navigable and screen reader compatible.</figcaption>
 </figure>
@@ -56,7 +56,7 @@ The spreadsheets of stats were also be used to create new 'ones to watch' widget
 
 <figure>
   <div class="c-image-background u-rounded">
-    <img src="/img/athlete-profiles/ones-to-watch-3x2_3x.png" alt="Ones To Watch widget, showing Molly Renshaw">
+    {% image "/athlete-profiles/ones-to-watch.json" %}
   </div>
   <figcaption>Ones to watch widget for the ASA National Swimming Championships. <a href="https://en.wikipedia.org/wiki/Non-breaking_space">Non-breaking spaces</a> are used for the ‘events&nbsp;entered’, so that the line doesn’t break between distance and event.</figcaption>
 </figure>

@@ -3,9 +3,7 @@ title: "Surface Studio makes Microsoft’s mission make sense"
 tagline: "Microsoft demonstrate that they really are for the creatives"
 date: 2016-11-01T22:02:19+00:00
 image:
-  main: /img/surface/surfacestudio.png
-# color_light: "#3fad9c"
-# color_dark: "#227060"
+  json: /surface/surface-studio.json
 color_light: "#de515f"
 color_dark: "#9e2f42"
 ---
@@ -29,7 +27,7 @@ I don't think Microsoft emphasised the hinge enough at the event, as most of the
 
 <figure>
   <div class="c-image-background u-rounded">
-    <img src="/img/surface/surfacestudio-studiomode.png" alt="Surface Studio in Studio mode">
+    {% image "/surface/surface-studio-studio-mode.json" %}
   </div>
   <figcaption>The Surface Studio in studio mode.</figcaption>
 </figure>
@@ -70,7 +68,7 @@ It doesn't make sense that when we switch to a larger screen that we can no long
 One other cool thing Microsoft demoed is what they are calling "True Scale". Objects are real size on the display. It was demoed with Word; the 3:2 aspect ratio screen allows two 8.5x11\" sheets side by side. There would be plenty of room for a full A3 sheet, or A1 at 1:2 scale. Why hasn't this been done before?
 
 <figure>
-  <img src="/img/surface/truescale.jpg" alt="True Scale demoed on the Surface Studio">
+  {% image "/surface/surface-studio-true-scale.json" %}
   <figcaption>Panos Panay demonstrating True Scale at the <a href="https://www.microsoft.com/en-gb/octoberevent/microsoft-live-event" title="Microsoft October event">October event</a>.</figcaption>
 </figure>
 

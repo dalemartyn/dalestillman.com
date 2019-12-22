@@ -1,7 +1,13 @@
 {% if image %}
 <div class="o-wrapper-wide u-margin-bottom-xlarge">
   <div class="c-image-background u-rounded">
-    <img src="{{ image.main }}" alt="{{ title }}" class="u-rounded" />
+    <div class="o-ratio o-ratio--16:9">
+      {% if image.main %}
+        <img src="{{ image.main }}" alt="{{ title }}" class="o-ratio__content" />
+      {% elsif image.json %}
+        {% main-image image.json %}
+      {% endif %}
+    </div>
   </div>
 </div>
 {% endif %}

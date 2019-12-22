@@ -1,38 +1,74 @@
 [
   {
+    "project": "Google Earth Plotter",
+    "title": "Google Earth Plotter",
     "node": "I327:12;65:671",
-    "title": "Google Earth Plotter"
+    "alt":  "Window showing surveying data plotted in Google Earth"
   },
   {
+    "project": "ASA Intranet",
+    "title": "ASA Intranet",
     "node": "I3:107;24:146",
-    "title": "ASA Intranet"
+    "alt":  "Laptop showing the design of the ASA Intranet"
   },
   {
+    "project": "Athlete Profiles",
+    "title": "Athlete Profiles",
     "node": "I42:212;42:227",
-    "title": "Athlete Profiles"
+    "alt": "Tablet showing Molly Rensaw’s stats, and a phone showing Tonia Couch’s Diving Results"
   },
   {
+    "project": "Athlete Profiles",
+    "title": "Swimming and Synchro",
+    "node": "I1038:122;1038:89",
+    "alt":  "Two phones, one showing past swimming results from the British Championships, and the other showing International Synchronised Swimming results."
+  },
+  {
+    "project": "Athlete Profiles",
+    "title": "Ones To Watch",
+    "node": "I6:72;24:402",
+    "alt": "Tablet showing Molly Rensaw’s stats"
+  },
+  {
+    "project": "Off the Blocks",
+    "title": "Off the Blocks",
     "node": "I87:0;81:12",
-    "title": "Off the Blocks"
+    "alt":  "Tablet showing the design of the Off the Blocks website."
   },
   {
+    "project": "Off the Blocks",
+    "title": "Off the Blocks Video Page",
+    "node": "I1038:157;1038:153",
+    "alt":  "Tablet showing a video page on the Off the Blocks website."
+  },
+  {
+    "project": "Live Scoreboards and Results",
+    "title": "Live Scoreboards and Results",
     "node": "I6:68;24:383",
-    "title": "Live Scoreboards and Results"
+    "alt":  "Three phones, one displaying a live swimming scoreboard, one showing a swimming start list and one showing swimming results"
   },
   {
+    "project": "Charnwood Brewery",
+    "title": "Charnwood Brewery",
     "node": "I1098:784;1098:781",
-    "title": "Charnwood Brewery"
+    "alt":  "Tablet showing the design of the Charnwood Brewery website"
   },
   {
+    "project": "Helter Skelter",
+    "title": "Helter Skelter",
     "node": "I81:29;81:12",
-    "title": "Helter Skelter"
+    "alt": "Tablet showing the design of the Helter Skelter website"
   },
   {
+    "project": "Memo",
+    "title": "Memo",
     "node": "I1092:711;81:12",
-    "title": "Memo"
+    "alt": "Tablet showing the design of the Memo website"
   },
   {
+    "project": "Fitter 365",
+    "title": "Fitter 365",
     "node": "I1098:724;81:12",
-    "title": "Fitter 365"
+    "alt": "Tablet showing the design of the Fitter 365 website"
   }
 ]

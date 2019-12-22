@@ -1,10 +1,8 @@
-const fetch = require('node-fetch');
 const fs = require('fs');
 const path = require('path');
 const slugify = require('@sindresorhus/slugify');
-const figmaApi = require('./figma-api');
 const sharp = require('sharp');
-const imageSizes = require('./image-sizes');
+const imageSizes = require('../figma-images/image-sizes');
 const imagemin = require('imagemin');
 const imageminPngquant = require('imagemin-pngquant');
 const util = require('util');
@@ -37,15 +35,15 @@ function getImageFilename(imageTitle) {
   return `${slugify(imageTitle)}`;
 }
 
-async function downloadFigmaImage(image) {
+async function resizeImage(image) {
+  const src = './src/_assets/img/'
   const imageDir = getImageDir(image.project, image.title);
   const imageFilename = getImageFilename(image.title);
-
-  const imageUrl = await figmaApi.getImageUrl(image.node);
-  const response = await fetch(imageUrl);
-  if (!response.ok) {
-    throw new Error(`unexpected response ${response.statusText}`);
-  }
+  const filename = path.join(
+    src,
+    slugify(image.project),
+    `${imageFilename}.${image.format}`,
+  );
 
   const pipeline = sharp();
   const pipelines = [pipeline];
@@ -89,7 +87,10 @@ async function downloadFigmaImage(image) {
     pipelines.push(pngPipeline, webpPipeline);
   }
 
-  response.body.pipe(pipeline);
+  const readStream = fs.createReadStream(filename);
+  readStream.on('open', () => readStream.pipe(pipeline));
+  readStream.on('error', err => console.log(err));
+
   await Promise.all(pipelines);
 
   const mainSrc = getImagePath(imageDir, imageSizes[0].name, imageFilename);
@@ -104,4 +105,4 @@ async function downloadFigmaImage(image) {
   await writeFile(dataFilePath, JSON.stringify(imageData, null, 2));
 }
 
-module.exports = downloadFigmaImage;
+module.exports = resizeImage;

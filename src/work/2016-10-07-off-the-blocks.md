@@ -5,7 +5,7 @@ date: 2016-10-07T09:49:35+01:00
 excerpt_separator: "##"
 tagline: A video site for swimming coaches
 image:
-  main: /img/off-the-blocks/off-the-blocks-3x2_3x.png
+  json: /off-the-blocks/off-the-blocks.json
 color_light: "#3282C1"
 color_dark: "#19609C"
 ---
@@ -270,7 +270,7 @@ The "container model" design described above easily scales down to mobile. But I
 
 <figure>
   <div class="c-image-background u-rounded">
-    <img src="/img/off-the-blocks/off-the-blocks-video-3x2_3x.png" alt="Tablet displaying a video page">
+    {% image "/off-the-blocks/off-the-blocks-video-page.json" %}
   </div>
 </figure>
 

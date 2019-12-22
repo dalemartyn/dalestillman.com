@@ -6,7 +6,7 @@
         {% if image.main %}
           <img src="{{ image.main }}" alt="{{ title }}" class="o-ratio__content" />
         {% elsif image.json %}
-          {% image image.json %}
+          {% work-main-image image.json %}
         {% endif %}
       </div>
     </div>
