@@ -1,9 +1,8 @@
 ---
 title: "Oceanic Minima"
 tagline: "A minimal colour theme for VS code"
-bgcolor: "blue-grey"
 image:
-  main: /img/oceanic-minima/oceanic-minima-3x2_3x.png
-color_light: "#51bcff"
+  json: /oceanic-minima/oceanic-minima.json
+color_light: "#88cfff"
 color_dark: "#51bcff"
 ---

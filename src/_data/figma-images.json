@@ -52,7 +52,8 @@
     "title": "Masters Phone",
     "node": "I1120:71;1120:62",
     "alt": "Men’s 200m IM on the Master’s site on mobile"
-  }, {
+  },
+  {
     "project": "Live Scoreboards and Results",
     "title": "Masters Tablet",
     "node": "1120:31",
@@ -89,9 +90,51 @@
     "alt": "Tablet showing the design of the Memo website"
   },
   {
-    "project": "Fitter 365",
-    "title": "Fitter 365",
-    "node": "I1098:724;81:12",
-    "alt": "Tablet showing the design of the Fitter 365 website"
+    "project": "Memo",
+    "title": "Memo iPhone",
+    "node": "I1120:147;81:12",
+    "alt": "Interactive graphic demoing the Memo app on an iPhone"
+  },
+  {
+    "project": "Memo",
+    "title": "Memo Graph",
+    "node": "I1120:153;81:12",
+    "alt": "Graph showing how Memo tracks activity throughout the house"
+  },
+  {
+    "project": "Memo",
+    "title": "Memo Door Hinges",
+    "node": "I1120:159;81:12",
+    "alt": "Illustrated animation showing glowing door hinge sensors"
+  },
+  {
+    "project": "Memo",
+    "title": "Memo Hub",
+    "node": "I1120:165;81:12",
+    "alt": "3D render of the Memo hub"
+  },
+  {
+    "project": "The Manor House",
+    "title": "The Manor House",
+    "node": "I5:18;24:146",
+    "alt": "Laptop showing the design of The Manor House website"
+  },
+  {
+    "project": "a dozen eggs",
+    "title": "a dozen eggs",
+    "node": "I1120:175;1098:781",
+    "alt": "Two phones showing the design of the a dozen eggs website"
+  },
+  {
+    "project": "CMP Solutions",
+    "title": "CMP Solutions",
+    "node": "I1120:184;1098:781",
+    "alt": "Tablet showing the design of the CMP Solutions website"
+  },
+  {
+    "project": "Oceanic Minima",
+    "title": "Oceanic Minima",
+    "node": "I6:63;24:414",
+    "alt": "Window showing the VS Code code editor using the Oceanic Minima editor theme"
   }
 ]

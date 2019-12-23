@@ -12,7 +12,7 @@ const figmaApi = require('./figma-api');
 
 function getImageDir(projectName) {
   const dist = './dist/img/';
-  const imageDir = path.join(dist, slugify(projectName));
+  const imageDir = path.join(dist, slugify(projectName, { decamelize: false }));
 
   if (!fs.existsSync(imageDir)) {
     fs.mkdirSync(imageDir, {
@@ -34,16 +34,17 @@ function getImagePath(imageDir, imageSizeName, imageFilename) {
 }
 
 function getImageFilename(imageTitle) {
-  return `${slugify(imageTitle)}`;
+  return slugify(imageTitle, { decamelize: false });
 }
 
 function getLocalImagePath(image) {
   const src = './src/_assets/img/';
+  const filename =  slugify(image.title, { decamelize: false });
 
   return path.join(
     src,
-    slugify(image.project),
-    `${slugify(image.title)}.${image.format}`,
+    slugify(image.project,  { decamelize: false }),
+    `${filename}.${image.format}`,
   );
 }
 
