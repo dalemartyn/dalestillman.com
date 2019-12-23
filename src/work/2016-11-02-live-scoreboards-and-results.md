@@ -45,21 +45,27 @@ The tables were optimised for the desktop site, using fixed width columns. Below
 By adjusting the font size at several breakpoints I could make the data fit well at all sizes. I used shading on alternate rows to contrast them. But it was overly fiddly, and didn't feel right in the context of the site. Also, some names would flow on to a second row, which broke the vertical rhythm.
 
 <figure>
-  {% image "/live-scoreboards-and-results/masters-desktop.json" %}
+  <div class="c-image-background u-rounded" style="--img-bg-light: #00acc2; --img-bg-dark: #00838f;">
+    {% image "/live-scoreboards-and-results/masters-desktop.json" %}
+  </div>
   <figcaption>Men’s 200m IM on the Master’s site on desktop.</figcaption>
 </figure>
 
 This felt too messy and insonsitent.
 
 <figure>
-  {% image "/live-scoreboards-and-results/masters-phone.json" %}
+  <div class="c-image-background u-rounded" style="--img-bg-light: #00acc2; --img-bg-dark: #00838f;">
+    {% image "/live-scoreboards-and-results/masters-phone.json" %}
+  </div>
   <figcaption>Men’s 200m IM on the Master’s site on mobile. The font size was really small. To fit the club on it had to go on a new row. You can see at Pos 3 it flows on to a 3rd row. The columns aren’t consistent widths across events or between start lists and results.</figcaption>
 </figure>
 
 On tablet the the content became sparse.
 
 <figure>
-  {% image "/live-scoreboards-and-results/masters-tablet.json" %}
+  <div class="c-image-background u-rounded" style="--img-bg-light: #00acc2; --img-bg-dark: #00838f;">
+    {% image "/live-scoreboards-and-results/masters-tablet.json" %}
+  </div>
   <figcaption>Tablet view - viewport with 720px width.</figcaption>
 </figure>
 
@@ -74,13 +80,17 @@ Content would wrap on to two lines if there was a long athlete name or club. To 
 To stop the content feeling too sparse on tablet, I added a `max-width` to the table and centred it. It makes scanning the results much easier.
 
 <figure>
-  {% image "/live-scoreboards-and-results/after-tablet.json" %}
+  <div class="c-image-background u-rounded">
+    {% image "/live-scoreboards-and-results/after-tablet.json" %}
+  </div>
 </figure>
 
 There is a single breakpoint that changes the font size to be slightly smaller on mobile, and puts the club name on to a new row. Each result has consistent vertical spacing, making it easy to search for results while scrolling the page.
 
 <figure>
-  {% image "/live-scoreboards-and-results/after-phone.json" %}
+  <div class="c-image-background u-rounded">
+    {% image "/live-scoreboards-and-results/after-phone.json" %}
+  </div>
 </figure>
 
 I was also able to make the table columns spacing consistent accross events, and across start lists and results. It makes all the difference when browsing results that the content doesn't visually shift. To do this I used a combination of `width`s and `min-width`s. Each column was given a percentage-based width. Trial and error was used to find the minimum width of a numerical column, which can vary across events - short distance events may have shorter times than longer ones.

@@ -15,7 +15,7 @@ async function resizeLocalImages() {
 }
 
 async function resizeFigmaImages() {
-  for (let image of figmaImages) {
+  for (let image of figmaImages.slice(9, 10)) {
     console.log('downloading ' + image.title);
     try {
       await resizeFigmaImage(image);

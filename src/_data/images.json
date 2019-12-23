@@ -79,33 +79,9 @@
   },
   {
     "project": "Live Scoreboards and Results",
-    "title": "Masters Phone",
-    "format": "png",
-    "alt": "Men’s 200m IM on the Master’s site on mobile"
-  },
-  {
-    "project": "Live Scoreboards and Results",
-    "title": "Masters Tablet",
-    "format": "png",
-    "alt": "Men’s 200m IM on the Master’s site on tablet"
-  },
-  {
-    "project": "Live Scoreboards and Results",
     "title": "After Desktop",
     "format": "png",
     "alt": "Women’s Open 100m Butterfly heats on desktop"
-  },
-  {
-    "project": "Live Scoreboards and Results",
-    "title": "After Tablet",
-    "format": "png",
-    "alt": "Women’s Open 100m Butterfly heats on tablet"
-  },
-  {
-    "project": "Live Scoreboards and Results",
-    "title": "After Phone",
-    "format": "png",
-    "alt": "Women’s Open 100m Butterfly heats on mobile"
   },
   {
     "project": "Live Scoreboards and Results",
