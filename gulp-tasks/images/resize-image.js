@@ -2,11 +2,13 @@ const fs = require('fs');
 const path = require('path');
 const slugify = require('@sindresorhus/slugify');
 const sharp = require('sharp');
-const imageSizes = require('../figma-images/image-sizes');
+const imageSizes = require('./image-sizes');
 const imagemin = require('imagemin');
 const imageminPngquant = require('imagemin-pngquant');
 const util = require('util');
 const writeFile = util.promisify(fs.writeFile);
+const fetch = require('node-fetch');
+const figmaApi = require('./figma-api');
 
 function getImageDir(projectName) {
   const dist = './dist/img/';
@@ -35,15 +37,19 @@ function getImageFilename(imageTitle) {
   return `${slugify(imageTitle)}`;
 }
 
-async function resizeImage(image) {
-  const src = './src/_assets/img/'
-  const imageDir = getImageDir(image.project, image.title);
-  const imageFilename = getImageFilename(image.title);
-  const filename = path.join(
+function getLocalImagePath(image) {
+  const src = './src/_assets/img/';
+
+  return path.join(
     src,
     slugify(image.project),
-    `${imageFilename}.${image.format}`,
+    `${slugify(image.title)}.${image.format}`,
   );
+}
+
+async function resizeImage(imageStream, image) {
+  const imageDir = getImageDir(image.project, image.title);
+  const imageFilename = getImageFilename(image.title);
 
   const pipeline = sharp();
   const pipelines = [pipeline];
@@ -87,9 +93,7 @@ async function resizeImage(image) {
     pipelines.push(pngPipeline, webpPipeline);
   }
 
-  const readStream = fs.createReadStream(filename);
-  readStream.on('open', () => readStream.pipe(pipeline));
-  readStream.on('error', err => console.log(err));
+  imageStream.pipe(pipeline);
 
   await Promise.all(pipelines);
 
@@ -105,4 +109,25 @@ async function resizeImage(image) {
   await writeFile(dataFilePath, JSON.stringify(imageData, null, 2));
 }
 
-module.exports = resizeImage;
+async function resizeLocalImage(image) {
+  const filename = getLocalImagePath(image);
+
+  const imageStream = fs.createReadStream(filename);
+  await resizeImage(imageStream, image);
+}
+
+async function resizeFigmaImage(image) {
+  const imageUrl = await figmaApi.getImageUrl(image.node);
+  const response = await fetch(imageUrl);
+  if (!response.ok) {
+    throw new Error(`unexpected response ${response.statusText}`);
+  }
+
+  const imageStream = response.body;
+  await resizeImage(imageStream, image);
+}
+
+module.exports = {
+  resizeLocalImage,
+  resizeFigmaImage
+};

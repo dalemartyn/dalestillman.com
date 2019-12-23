@@ -9,7 +9,6 @@ const images        = require('./gulp-tasks/images');
 const sass          = require('./gulp-tasks/styles');
 const dark_theme    = require('./gulp-tasks/dark-theme');
 const scripts       = require('./gulp-tasks/scripts');
-const figma_images  = require('./gulp-tasks/figma-images');
 
 
 function watch_built_files() {
@@ -46,6 +45,6 @@ exports.build = gulp.series(
   dark_theme.build,
 );
 
-exports.img = images.resize;
 exports.js = scripts.build;
-exports.fig = figma_images.download;
+exports.img = images.local;
+exports.fig = images.figma;
