@@ -4,7 +4,7 @@ const localImages = require('../../src/_data/images.json');
 const figmaImages = require('../../src/_data/figma-images.json');
 
 async function resizeLocalImages() {
-  for (let image of localImages.slice(0, 1)) {
+  for (let image of localImages) {
     console.log('resizing ' + image.title);
     try {
       await resizeLocalImage(image);
@@ -15,7 +15,7 @@ async function resizeLocalImages() {
 }
 
 async function resizeFigmaImages() {
-  for (let image of figmaImages.slice(0, 1)) {
+  for (let image of figmaImages) {
     console.log('downloading ' + image.title);
     try {
       await resizeFigmaImage(image);
