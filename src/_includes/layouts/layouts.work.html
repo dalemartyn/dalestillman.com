@@ -10,7 +10,7 @@ permalink: work/{{ title | slug }}/index.html
     {% if color_dark %}--img-bg-dark: {{ color_dark }};{% endif%}
 ">
   <header class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xlarge">
-    {% include components/components.breadcrumb.html %}
+    {% include components/components.breadcrumb.html with parent %}
     <h1 class="u-margin-bottom-tiny">{{ title }}</h1>
     {% if tagline %}
       <p class="ts-post-tagline">{{ tagline }}</p>
@@ -26,3 +26,41 @@ permalink: work/{{ title | slug }}/index.html
     </p>
   </div>
 </article>
+
+{% assign posts = collections.work %}
+{% for item in posts %}
+  {% if item.url == page.url %}
+    {% assign currentItemIndex = forloop.index0 %}
+  {% endif %}
+{% endfor %}
+
+{% assign nextItemIndex = currentItemIndex | plus: 1 %}
+{% assign postsLengthMinusOne = posts.length | minus: 1 %}
+
+{% if currentItemIndex < postsLengthMinusOne %}
+  {% assign next = posts[nextItemIndex] %}
+  <a href="{{ next.url }}" class="c-next-project">
+    <div class="o-wrapper">
+      <hr class="c-next-project__hr">
+    </div>
+    <article
+      class="s-article"
+      style="{% if next.data.color_light %}--img-bg-light: {{ next.data.color_light }};{% endif %}
+        {% if next.data.color_dark %}--img-bg-dark: {{ next.data.color_dark }};{% endif%}
+    ">
+      <header class="o-wrapper u-padding-top-xxlarge u-margin-bottom-xlarge">
+        <div class="c-breadcrumb">
+          <span class="c-breadcrumb__item">Next Project</span>
+        </div>
+        <h1 class="u-margin-bottom-tiny">{{ next.data.title }}</h1>
+        {% if next.data.tagline %}
+          <p class="ts-post-tagline">{{ next.data.tagline }}</p>
+        {% endif %}
+      </header>
+
+      <div class="c-next-project__image">
+        {% include components/components.work-main-image.html with { image: next.data.image } %}
+      </div>
+    </article>
+  </a>
+{% endif %}

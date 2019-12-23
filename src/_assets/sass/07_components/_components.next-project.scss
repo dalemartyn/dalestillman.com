@@ -1,0 +1,21 @@
+/* ==========================================================================
+   #NEXT-PROJECT
+   ========================================================================== */
+
+.c-next-project {
+  text-decoration: none;
+}
+
+  .c-next-project__hr {
+    border: none;
+    margin: 0;
+    display: block;
+    border-bottom: 1px solid sem-color(border);
+    @include theme-transition(border-color);
+  }
+
+  .c-next-project__image {
+    height: calc(100vw / 3 - var(--site-margin) * 2);
+    max-height: 12.65625em;
+    overflow: hidden;
+  }

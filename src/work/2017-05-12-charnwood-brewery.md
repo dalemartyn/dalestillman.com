@@ -7,3 +7,21 @@ image:
 color_light: "#91b2b8"
 color_dark: "#628e96"
 ---
+
+<figure>
+  <div class="c-image-background u-rounded">
+    {% image "/charnwood-brewery/charnwood-brewery-home.json" %}
+  </div>
+  <figcaption>
+    Charnwood Brewery Home
+  </figcaption>
+</figure>
+
+<figure>
+  <div class="c-image-background u-rounded">
+    {% image "/charnwood-brewery/charnwood-brewery-phones-header-and-footer.json" %}
+  </div>
+  <figcaption>
+    Charnwood Brewery Header and Footer
+  </figcaption>
+</figure>

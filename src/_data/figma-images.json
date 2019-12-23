@@ -75,13 +75,49 @@
     "project": "Charnwood Brewery",
     "title": "Charnwood Brewery",
     "node": "I1098:784;1098:781",
-    "alt":  "Tablet showing the design of the Charnwood Brewery website"
+    "alt":  "Two phones showing the design of the Charnwood Brewery website"
+  },
+  {
+    "project": "Charnwood Brewery",
+    "title": "Charnwood Brewery Home",
+    "node": "I1098:742;81:12",
+    "alt":  "Tablet showing the Charnwood Brewery website home page"
+  },
+  {
+    "project": "Charnwood Brewery",
+    "title": "Charnwood Brewery Phones Header and Footer",
+    "node": "I1120:193;1098:781",
+    "alt":  "Phones showing the top and bottom of the Charnwood Brewery website home page"
   },
   {
     "project": "Helter Skelter",
     "title": "Helter Skelter",
     "node": "I81:29;81:12",
     "alt": "Tablet showing the design of the Helter Skelter website"
+  },
+  {
+    "project": "Helter Skelter",
+    "title": "Helter Skelter Parallax Bubbles",
+    "node": "I1120:205;81:12",
+    "alt": "Acts section on the Helter Skelter homepage with floating photo bubbles"
+  },
+  {
+    "project": "Helter Skelter",
+    "title": "Helter Skelter Acts Page",
+    "node": "I1120:223;81:12",
+    "alt": "Acts page grid layout on the Helter Skelter website"
+  },
+  {
+    "project": "Helter Skelter",
+    "title": "Helter Skelter Contact Page",
+    "node": "I1120:229;81:12",
+    "alt": "Contact page on the Helter Skelter website with an animation of a child using a Helter Skelter"
+  },
+  {
+    "project": "Helter Skelter",
+    "title": "Helter Skelter Gallery",
+    "node": "I1120:242;81:12",
+    "alt": "Gallery view on the Helter Skelter website"
   },
   {
     "project": "Memo",
