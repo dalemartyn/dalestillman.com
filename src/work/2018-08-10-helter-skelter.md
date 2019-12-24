@@ -4,7 +4,7 @@ tagline: ""
 image:
   json: /helter-skelter/helter-skelter.json
 color_light: "#fcd856"
-color_dark: "#aa205d"
+color_dark: "#971e59"
 date: 2018-08-10T12:00:00+01:00
 ---
 
