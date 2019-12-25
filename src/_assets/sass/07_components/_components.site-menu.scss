@@ -17,7 +17,7 @@
     .c-site-menu__link {
       display: block;
       text-decoration: none;
-      padding: sp(-.75) 0;
+      padding: calc(#{sp(-.5)} - #{sp(-5)}) 0;
       color: sem-color(text-3);
       @include theme-transition(border-color color);
       border-top: sp(-5) solid transparent;
