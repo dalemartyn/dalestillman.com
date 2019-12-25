@@ -26,6 +26,8 @@
       @include theme-transition(fill);
       fill: sem-color(text-3);
       display: block;
+      @include ms-respond(width, 1, $modularscale_thread_b);
+      @include ms-respond(height, 1, $modularscale_thread_b);
     }
 
     &:hover,

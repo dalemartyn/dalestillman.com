@@ -30,9 +30,8 @@
 }
 
 .ts-menu-item {
-  @include ms-respond(font-size, .25);
-  text-transform: uppercase;
+  @include ms-respond(font-size, 1, $modularscale_thread_b);
   font-weight: 525;
-  letter-spacing: .0075em;
+  letter-spacing: .005em;
   line-height: 1.25;
 }

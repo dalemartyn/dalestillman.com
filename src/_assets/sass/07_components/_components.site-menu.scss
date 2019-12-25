@@ -10,18 +10,16 @@
 
   .c-site-menu__item {
     margin: 0;
-    margin-right: sp(.75);
+    margin-right: sp(1);
     font-size: inherit;
   }
 
     .c-site-menu__link {
       display: block;
       text-decoration: none;
-      padding: calc(#{sp(-.5)} - #{sp(-5)}) 0;
+      padding: sp(-.5) 0;
       color: sem-color(text-3);
-      @include theme-transition(border-color color);
-      border-top: sp(-5) solid transparent;
-      border-bottom: sp(-5) solid transparent;
+      @include theme-transition(color);
 
       @include focus-style {
         outline: none;
@@ -33,11 +31,11 @@
           content: "";
           background: sem-color(link, .3);
           width: calc(100% + 2 * #{sp(-2)});
-          height: calc(100% + 2 * #{sp(-5)});
+          height: calc(100%);
           left: calc(#{sp(-2)} * -1);
-          top: calc(#{sp(-5)} * -1);
+          top: 0;
           border-radius: sp(-4);
-          border: sp(-5) solid sem-color(link);
+          border: 3px solid sem-color(link);
           z-index: -1;
         }
       }
@@ -49,7 +47,20 @@
 
       &.is-parent,
       &.is-active {
-        border-bottom-color: sem-color(text);
         color: sem-color(text);
+        position: relative;
+
+        &::after {
+          content: "";
+          display: block;
+          position: absolute;
+          background-color: sem-color(text);
+          bottom: 0;
+          height: 3px;
+          left: 0;
+          right: 0;
+          z-index: -2;
+          @include theme-transition(background-color);
+        }
       }
     }

@@ -23,7 +23,7 @@
 
 @mixin focused-link-styles {
   outline: none;
-  box-shadow: 0 0 0 sp(-5) sem-color(link);
+  box-shadow: 0 0 0 3px sem-color(link);
   border-radius: 1px;
   background-color: sem-color(link, .375);
   color: sem-color(text) !important;
