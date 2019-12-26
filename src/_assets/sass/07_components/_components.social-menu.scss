@@ -12,6 +12,7 @@
 .c-social-menu__item {
   display: flex;
   margin: 0;
+  align-items: center;
   margin-left: sp();
   padding: sp(-.5) 0 sp(-.5);
   font-size: inherit;
@@ -22,16 +23,16 @@
 }
 
   .c-social-menu__link {
-    display: flex;
-    align-items: center;
     text-decoration: none;
+    @include ms-respond(width, .725);
+    @include ms-respond(height, .725);
 
     > svg {
       @include theme-transition(fill);
       fill: sem-color(text-3);
       display: block;
-      @include ms-respond(width, .725);
-      @include ms-respond(height, .725);
+      width: 100%;
+      height: auto;
     }
 
     &:hover,
@@ -52,10 +53,9 @@
         content: "";
         background: sem-color(link, .3);
         width: calc(100% + 2 * #{sp(-2)});
-        height: calc(100% + 2 * #{sp(-3)});
+        height: calc(100% + 2 * #{sp(-2)});
         left: calc(#{sp(-2)} * -1);
-        top: calc(#{sp(-3)} * -1);
-        border-radius: sp(-4);
+        top: calc(#{sp(-2)} * -1);
         border-radius: 50%;
         border: sp(-5) solid sem-color(link);
         z-index: -1;
