@@ -2,9 +2,7 @@
   {% for item in social_accounts %}
   <li class="c-social-menu__item">
     <a class="c-social-menu__link" target="_blank" href="https://{{item.site}}.com/{{item.username}}">
-      <div class="o-ratio">
-        {% include "svg/social/" + item.site  + ".svg" %}
-      </div>
+      {% include "svg/social/" + item.site  + ".svg" %}
     </a>
   </li>
   {% endfor %}
