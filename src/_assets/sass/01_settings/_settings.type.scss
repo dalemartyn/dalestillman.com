@@ -3,25 +3,12 @@
 }
 
 $modularscale: (
-  base: rem(13px),
-  ratio: 1.4,
   20em: (
     base: rem(13px),
     ratio: 1.4
   ),
   60em: (
     base: rem(13px),
-    ratio: 1.5
-  ),
-);
-
-$modularscale_thread_b: (
-  20em: (
-    base: rem(11.5px),
-    ratio: 1.4
-  ),
-  60em: (
-    base: rem(11.5px),
     ratio: 1.5
   ),
 );

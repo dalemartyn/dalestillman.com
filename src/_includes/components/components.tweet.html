@@ -1,16 +1,16 @@
 {% if tweet.retweeted %}
-  {% assign display_tweet = tweet.retweeted_status %}
+  {% set display_tweet = tweet.retweeted_status %}
 {% else %}
-  {% assign display_tweet = tweet %}
+  {% set display_tweet = tweet %}
 {% endif %}
 
-{% unless tweet.in_reply_to_user_id %}
+{% if not tweet.in_reply_to_user_id %}
 <div class="c-tweet">
   <div class="c-tweet__profile-image {% if tweet.retweeted %}c-tweet__profile-image--retweet{% endif %}">
     {% if tweet.retweeted %}
-      {% include svg/twitter/retweet-icon.svg %}
+      {% include "svg/twitter/retweet-icon.svg" %}
     {% else %}
-      {% include svg/twitter/dale-icon.svg %}
+      {% include "svg/twitter/dale-icon.svg" %}
     {% endif %}
   </div>
   <div class="c-tweet__main">
@@ -31,4 +31,4 @@
     <div class="c-tweet__status">{{display_tweet|twitter_text|autop}}</div>
   </div>
 </div>
-{% endunless %}
+{% endif %}

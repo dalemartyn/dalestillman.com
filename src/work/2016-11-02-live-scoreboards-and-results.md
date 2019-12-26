@@ -2,7 +2,6 @@
 title: "Live Scoreboards and Results"
 date: 2016-11-02T09:48:31+00:00
 tagline: "A responsive frontend to live aquatic events"
-excerpt: "<p>At The ASA and British Swimming, we had many swimming events that we wanted to show results for directly on the swimming.org site.</p><p>This post looks at how was able to take large quantities of tabular data and make it responsive and accessible.</p>"
 image:
   json: /live-scoreboards-and-results/live-scoreboards-and-results.json
 color_light: "#39b1f2"
@@ -95,7 +94,7 @@ There is a single breakpoint that changes the font size to be slightly smaller o
 
 I was also able to make the table columns spacing consistent accross events, and across start lists and results. It makes all the difference when browsing results that the content doesn't visually shift. To do this I used a combination of `width`s and `min-width`s. Each column was given a percentage-based width. Trial and error was used to find the minimum width of a numerical column, which can vary across events - short distance events may have shorter times than longer ones.
 
-{% highlight css %}
+``` css
 .position {
   width: 10%;
 }
@@ -113,7 +112,7 @@ I was also able to make the table columns spacing consistent accross events, and
   width: 15%;
   min-width: 5em;
 }
-{% endhighlight %}
+```
 
 
 ## Controls

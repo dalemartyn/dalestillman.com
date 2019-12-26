@@ -3,6 +3,7 @@ const moment = require('moment');
 const twitterText = require('twitter-text');
 const markdownIt = require('markdown-it');
 const fs = require('fs');
+const Nunjucks = require("nunjucks");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('page', 'layouts/layouts.page.html');
@@ -15,7 +16,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({'src/_assets/fonts': 'fonts'});
   eleventyConfig.addPassthroughCopy('src/favicon.png');
 
-  eleventyConfig.addPlugin(syntaxHighlight);
+  eleventyConfig.addPlugin(syntaxHighlight, {
+    templateFormats: ["njk", "md"],
+  });
 
   eleventyConfig.addFilter('cssrev', function cssrev(asset) {
     if (process.env.ELEVENTY_ENV === 'production'){
@@ -66,7 +69,7 @@ module.exports = function (eleventyConfig) {
     </picture>`;
   });
 
-  eleventyConfig.addShortcode('work-main-image', function(imageDataFile) {
+  eleventyConfig.addShortcode('work_main_image', function(imageDataFile) {
     const imageFile = fs.readFileSync('./dist/img' + imageDataFile);
     const image = JSON.parse(imageFile);
 
@@ -76,7 +79,7 @@ module.exports = function (eleventyConfig) {
     </picture>`;
   });
 
-  eleventyConfig.addShortcode('main-image', function(imageDataFile) {
+  eleventyConfig.addShortcode('main_image', function(imageDataFile) {
     const imageFile = fs.readFileSync('./dist/img' + imageDataFile);
     const image = JSON.parse(imageFile);
 
@@ -86,7 +89,7 @@ module.exports = function (eleventyConfig) {
     </picture>`;
   });
 
-  eleventyConfig.addShortcode('card-image', function(imageDataFile) {
+  eleventyConfig.addShortcode('card_image', function(imageDataFile) {
     const imageFile = fs.readFileSync('./dist/img' + imageDataFile);
     const image = JSON.parse(imageFile);
 
@@ -101,11 +104,21 @@ module.exports = function (eleventyConfig) {
     typographer: true
   }));
 
+  eleventyConfig.setLibrary("njk", new Nunjucks.Environment(
+    new Nunjucks.FileSystemLoader("src/_includes"), {
+      lstripBlocks: true,
+      trimBlocks: true,
+      autoescape: false
+    }
+  ));
+
   return {
     dir: {
       input: './src',
       output: './dist'
     },
-    passthroughFileCopy: true
+    passthroughFileCopy: true,
+    htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk"
   };
 };

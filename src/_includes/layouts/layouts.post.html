@@ -5,25 +5,27 @@ layout: default
 <article
   class="s-article"
   style="{% if color_light %}--img-bg-light: {{ color_light }};{% endif %}
-    {% if color_dark %}--img-bg-dark: {{ color_dark }};{% endif%}
+    {% if color_dark %}--img-bg-dark: {{ color_dark }};{% endif %}
 ">
 
   <header class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xlarge">
-    {% include components/components.breadcrumb.html with parent %}
+    {% include "components/components.breadcrumb.html" %}
     <h1 class="u-margin-bottom-tiny">{{ title }}</h1>
     {% if tagline %}
-    <p class="ts-post-tagline">{{ tagline }}</p>
+      <p class="ts-post-tagline">{{ tagline }}</p>
     {% endif %}
   </header>
 
-  {% include components/components.main-image.html %}
+  {% include "components/components.main-image.html" %}
 
   <div class="o-wrapper">
 
       {{ content }}
 
-      <p class="ts-meta u-margin-vertical-xxlarge">{{ date | date: "%b %d, %Y" }}{% if author %} • {{ author }}{% endif %}{% if meta %} • {{ meta }}{% endif %}</p>
-
+      <p class="ts-meta u-margin-vertical-xxlarge">
+        {{ page.date.toUTCString() }}
+        {% if author %} • {{ author }}{% endif %}
+        {% if meta %} • {{ meta }}{% endif %}
+      </p>
   </div>
 </article>
-

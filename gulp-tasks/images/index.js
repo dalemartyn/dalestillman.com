@@ -1,7 +1,7 @@
 const { resizeLocalImage, resizeFigmaImage } = require('./resize-image');
 
-const localImages = require('../../src/_data/local-images.json');
-const figmaImages = require('../../src/_data/figma-images.json');
+const localImages = require('../../src/_data/local_images.json');
+const figmaImages = require('../../src/_data/figma_images.json');
 
 async function resizeLocalImages() {
   for (let image of localImages) {

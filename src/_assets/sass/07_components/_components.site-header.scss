@@ -95,7 +95,7 @@
  */
 
 .c-site-header + main {
-  @include ms-respond(--site-title-size, 2, $modularscale_thread_b);
-  @include ms-respond(--site-menu-text-size, 1, $modularscale_thread_b);
-  padding-top: calc(2 * #{sp()} + var(--site-title-size) + 2 * #{sp(-.5)} + var(--site-menu-text-size) * 1.25);
+  @include ms-respond(--site-title-size, 1.75);
+  @include ms-respond(--site-menu-text-size, .75);
+  padding-top: calc(2 * #{sp()} + var(--site-title-size) + 2 * #{sp(-.25)} + var(--site-menu-text-size) * 1.25);
 }

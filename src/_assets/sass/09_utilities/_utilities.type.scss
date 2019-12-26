@@ -18,7 +18,7 @@
 
 /* Style for site title and card titles */
 .ts-title {
-  @include ms-respond(font-size, 2, $modularscale_thread_b);
+  @include ms-respond(font-size, 1.75);
   line-height: 1;
   font-weight: 675;
 }
@@ -30,7 +30,7 @@
 }
 
 .ts-menu-item {
-  @include ms-respond(font-size, 1, $modularscale_thread_b);
+  @include ms-respond(font-size, .75);
   font-weight: 525;
   letter-spacing: .005em;
   line-height: 1.25;

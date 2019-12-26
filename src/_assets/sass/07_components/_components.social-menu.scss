@@ -13,8 +13,12 @@
   display: flex;
   margin: 0;
   margin-left: sp();
-  padding: sp(-1.25) 0 sp(-1.25);
+  padding: sp(-.5) 0 sp(-.5);
   font-size: inherit;
+
+  &:first-child {
+    margin-left: 0;
+  }
 }
 
   .c-social-menu__link {
@@ -26,8 +30,8 @@
       @include theme-transition(fill);
       fill: sem-color(text-3);
       display: block;
-      @include ms-respond(width, 1, $modularscale_thread_b);
-      @include ms-respond(height, 1, $modularscale_thread_b);
+      @include ms-respond(width, .8);
+      @include ms-respond(height, .8);
     }
 
     &:hover,
@@ -52,6 +56,7 @@
         left: calc(#{sp(-2)} * -1);
         top: calc(#{sp(-3)} * -1);
         border-radius: sp(-4);
+        border-radius: 50%;
         border: sp(-5) solid sem-color(link);
         z-index: -1;
       }
