@@ -20,10 +20,10 @@ layout: default
 
   <div class="o-wrapper">
 
-      {{ content }}
+      {{ content | safe }}
 
       <p class="ts-meta u-margin-vertical-xxlarge">
-        {{ page.date.toUTCString() }}
+        {{ page.date | format_post_date }}
         {% if author %} • {{ author }}{% endif %}
         {% if meta %} • {{ meta }}{% endif %}
       </p>

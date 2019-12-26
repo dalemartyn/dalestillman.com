@@ -20,9 +20,9 @@ permalink: work/{{ title | slug }}/index.html
   {% include "components/components.work-main-image.html" %}
 
   <div class="o-wrapper">
-    {{ content }}
+    {{ content | safe }}
     <p class="u-margin-vertical-xxlarge">
-      <time class="ts-meta">{{ page.date.toUTCString() }}</time>
+      <time class="ts-meta">{{ page.date | format_post_date }}</time>
     </p>
   </div>
 </article>

@@ -43,6 +43,11 @@ module.exports = function (eleventyConfig) {
     return m.format('MMM D, YYYY');
   });
 
+  eleventyConfig.addFilter('format_post_date', function(time) {
+    const m = moment(time);
+    return m.format('MMMM YYYY');
+  });
+
   eleventyConfig.addFilter('twitter_text', function(tweet) {
     let linkedText = twitterText.autoLink(tweet.full_text, {
       urlEntities: tweet.entities.urls,
