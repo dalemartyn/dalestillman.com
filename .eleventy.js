@@ -3,7 +3,6 @@ const moment = require('moment');
 const twitterText = require('twitter-text');
 const markdownIt = require('markdown-it');
 const fs = require('fs');
-const Nunjucks = require("nunjucks");
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('page', 'layouts/layouts.page.html');
@@ -103,14 +102,6 @@ module.exports = function (eleventyConfig) {
     html: true,
     typographer: true
   }));
-
-  eleventyConfig.setLibrary("njk", new Nunjucks.Environment(
-    new Nunjucks.FileSystemLoader("src/_includes"), {
-      lstripBlocks: true,
-      trimBlocks: true,
-      autoescape: false
-    }
-  ));
 
   return {
     dir: {

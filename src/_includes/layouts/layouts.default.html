@@ -18,7 +18,7 @@
     {% include "components/components.site-header.html" %}
 
     <main>
-      {{ content }}
+      {{ content | safe }}
     </main>
 
     <script src="/js/main.js"></script>

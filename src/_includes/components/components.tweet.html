@@ -28,7 +28,7 @@
           class="c-tweet__date">{{display_tweet.created_at|tweet_time_to_human}}</time>
       </a>
     </div>
-    <div class="c-tweet__status">{{display_tweet|twitter_text|autop}}</div>
+    <div class="c-tweet__status">{{ display_tweet | twitter_text | autop | safe }}</div>
   </div>
 </div>
 {% endif %}
