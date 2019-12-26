@@ -30,8 +30,8 @@
       @include theme-transition(fill);
       fill: sem-color(text-3);
       display: block;
-      @include ms-respond(width, .8);
-      @include ms-respond(height, .8);
+      @include ms-respond(width, .725);
+      @include ms-respond(height, .725);
     }
 
     &:hover,
