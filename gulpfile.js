@@ -29,7 +29,7 @@ exports.default = gulp.parallel(
   livereload_listen,
   gulp.series(
     sass.dev,
-    scripts.build,
+    scripts.dev,
     dark_theme.build,
     gulp.parallel(
       sass.watch,

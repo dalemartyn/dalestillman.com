@@ -8,8 +8,7 @@
 
   .c-breadcrumb__item {
     @include ms-respond(font-size, .75);
-    font-weight: 575;
-    letter-spacing: .005em;
+    font-weight: 550;
     line-height: 1.25;
     text-decoration: none;
     color: sem-color("text-3");

@@ -3,28 +3,21 @@ const { resizeLocalImage, resizeFigmaImage } = require('./resize-image');
 const localImages = require('../../src/_data/local_images.json');
 const figmaImages = require('../../src/_data/figma_images.json');
 
-async function resizeLocalImages() {
-  for (let image of localImages) {
-    console.log('resizing ' + image.title);
-    try {
-      await resizeLocalImage(image);
-    } catch (e) {
-      console.log(e);
+function resizeImages(images, resizeFunction, logString) {
+  return async function() {
+    for (let image of images) {
+      console.log(logString + image.title);
+      try {
+        await resizeFunction(image);
+      } catch (e) {
+        console.log(e);
+      }
     }
   }
 }
 
-async function resizeFigmaImages() {
-  for (let image of figmaImages) {
-    console.log('downloading ' + image.title);
-    try {
-      await resizeFigmaImage(image);
-    } catch (e) {
-      console.log(e);
-    }
-  }
-}
-
+const resizeLocalImages = resizeImages(localImages, resizeLocalImage, 'resizing ');
+const resizeFigmaImages = resizeImages(figmaImages, resizeFigmaImage, 'downloading ');
 
 module.exports = {
   local: resizeLocalImages,

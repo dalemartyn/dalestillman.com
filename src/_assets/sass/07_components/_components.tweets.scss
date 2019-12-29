@@ -5,7 +5,7 @@
 .c-tweet {
   @include ms-respond(font-size, .75);
   @include theme-transition(border-color);
-  padding: sp(large) sp(xxxlarge) sp(large) 0;
+  padding: sp(large) 0;
   border-bottom: 1px solid sem-color(border);
   display: flex;
   line-height: 1.45;

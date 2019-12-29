@@ -17,10 +17,13 @@
 
     {% include "components/components.site-header.html" %}
 
+    {% block main %}
     <main>
       {{ content | safe }}
     </main>
+    {% endblock %}
 
     <script src="/js/main.js"></script>
+    {% block scripts %}{% endblock %}
   </body>
 </html>

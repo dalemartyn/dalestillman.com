@@ -31,7 +31,6 @@
 
 .ts-menu-item {
   @include ms-respond(font-size, .75);
-  font-weight: 575;
-  letter-spacing: .005em;
+  font-weight: 550;
   line-height: 1.25;
 }

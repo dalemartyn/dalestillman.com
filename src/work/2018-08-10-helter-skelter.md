@@ -1,6 +1,6 @@
 ---
 title: "Helter Skelter"
-tagline: ""
+tagline: "Circus entertainment to remember"
 image:
   json: /helter-skelter/helter-skelter.json
 color_light: "#fcd856"

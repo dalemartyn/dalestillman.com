@@ -1,12 +1,10 @@
-const gulp = require('gulp');
 const rollup = require('rollup');
 const resolve = require('rollup-plugin-node-resolve');
 const commonjs = require('rollup-plugin-commonjs');
 
-const entry = 'src/_assets/js/main.js';
-const output = './dist/js/main.js';
 
-function scripts_build() {
+module.exports = function prod_bundler(entry, output_file, output_name) {
+
   return rollup.rollup({
     input: entry,
     plugins: [
@@ -15,19 +13,10 @@ function scripts_build() {
     ]
   }).then(bundle => {
     return bundle.write({
-      file: output,
+      file: output_file,
       format: 'iife',
-      name: 'app',
+      name: output_name,
       sourcemap: true
     });
   });
 }
-
-function scripts_watch() {
-  gulp.watch(entry, js.build);
-}
-
-module.exports = {
-  build: scripts_build,
-  watch: scripts_watch
-};

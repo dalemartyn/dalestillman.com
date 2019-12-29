@@ -28,6 +28,7 @@
     @include ms-respond(height, .725);
 
     > svg {
+      transition: fill .2s ease;
       @include theme-transition(fill);
       fill: sem-color(text-3);
       display: block;

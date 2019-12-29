@@ -4,5 +4,6 @@
   "parent": {
     "title": "Work",
     "link": "/work/"
-  }
+  },
+  "permalink": "work/{{ title | slug }}/index.html"
 }

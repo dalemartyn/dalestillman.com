@@ -27,6 +27,10 @@ module.exports = function (eleventyConfig) {
     return asset;
   });
 
+  eleventyConfig.addFilter('first_10', function(array) {
+    return array.slice(0, 10);
+  });
+
   eleventyConfig.addFilter('autop', function autoParagraph(text) {
     return '<p>' + text.split(/\n\n+/).join('</p>\n<p>') + '</p>';
   });
