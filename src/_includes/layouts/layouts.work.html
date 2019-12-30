@@ -3,31 +3,37 @@
 {% block main %}
 <main>
   <article
-    class="s-article js-work-article"
+    class="c-project s-article js-project"
     style="{% if color_light %}--img-bg-light: {{ color_light }};{% endif %}
       {% if color_dark %}--img-bg-dark: {{ color_dark }};{% endif%}
   ">
-    <header class="o-wrapper u-padding-top-xxlarge u-margin-bottom-xlarge">
-      {% include "components/components.breadcrumb.html" %}
-      <h1 class="u-margin-bottom-micro">{{ title | safe }}</h1>
-      {% if tagline %}
-        <p class="ts-post-tagline">{{ tagline | safe }}</p>
-      {% endif %}
-    </header>
+    <div class="js-project-inner">
+      <header class="o-wrapper u-padding-top-xxlarge u-margin-bottom-xlarge">
+        {% include "components/components.breadcrumb.html" %}
+        <h1 class="u-margin-bottom-micro">{{ title | safe }}</h1>
+        {% if tagline %}
+          <p class="ts-post-tagline">{{ tagline | safe }}</p>
+        {% endif %}
+      </header>
 
-    {% include "components/components.work-main-image.html" %}
+      <div class="c-project__image">
+        {% include "components/components.work-main-image.html" %}
+      </div>
 
-    <div class="o-wrapper">
-      {{ content | safe }}
-      <p class="u-margin-vertical-xxlarge">
-        <time class="ts-meta">{{ page.date | format_post_date }}</time>
-      </p>
+      <div class="o-wrapper">
+        <div class="c-project__content">
+          {{ content | safe }}
+          <p class="u-margin-vertical-xxlarge">
+            <time class="ts-meta">{{ page.date | format_post_date }}</time>
+          </p>
+        </div>
+      </div>
     </div>
   </article>
 
   {% set currentItemIndex = 0 %}
 
-  {% set posts = collections.work | reverse %}
+  {% set posts = collections[tags] | reverse %}
   {% for item in posts %}
     {% if item.url == page.url %}
       {% set currentItemIndex = loop.index0 %}
@@ -38,15 +44,12 @@
 
   {% if currentItemIndex < posts.length - 1 %}
     {% set next = posts[nextItemIndex] %}
-    <div class="o-wrapper">
-      <hr />
-    </div>
     <article
-      class="c-next-project js-next-project"
+      class="c-project js-project is-next-project"
       style="{% if next.data.color_light %}--img-bg-light: {{ next.data.color_light }};{% endif %}
         {% if next.data.color_dark %}--img-bg-dark: {{ next.data.color_dark }};{% endif%}
     ">
-      <a href="{{ next.url }}" class="c-next-project__link js-next-project-link">
+      <a href="{{ next.url }}" class="c-project__link js-project-link">
         <header class="o-wrapper u-padding-top-xxlarge u-margin-bottom-xlarge">
           <div class="c-breadcrumb">
             <span class="c-breadcrumb__item">Next Project</span>
@@ -57,7 +60,7 @@
           {% endif %}
         </header>
 
-        <div class="c-next-project__image">
+        <div class="c-project__image">
           {% set image = next.data.image %}
           {% include "components/components.work-main-image.html" %}
         </div>
@@ -69,5 +72,5 @@
 {% endblock %}
 
 {% block scripts %}
-  <script src="/js/work-article.js"></script>
+  <script src="/js/project.js"></script>
 {% endblock %}

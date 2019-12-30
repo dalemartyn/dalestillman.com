@@ -1,0 +1,81 @@
+/* ==========================================================================
+   #PROJECT
+   ========================================================================== */
+
+.c-project {
+  transition: background-color .2s ease;
+  @include theme-transition(background-color);
+
+  &.is-next-project:hover {
+    background-color: sem-color(background-darker);
+  }
+}
+
+
+  /**
+   * Divider in between projects.
+   */
+
+  .c-project:not(:last-child) .c-project__content {
+    border-bottom: 1px solid sem-color(border);
+    @include theme-transition(border-color);
+  }
+
+
+  /**
+   * Next project preview links.
+   */
+
+  .c-project__link {
+    text-decoration: none;
+    display: block;
+
+    @include focus-style {
+      outline: none;
+      position: relative;
+      z-index: 0;
+      overflow: hidden;
+
+      &::before {
+        position: absolute;
+        content: "";
+        background: sem-color(link, .3);
+        width: 100%;
+        height: calc(100% + #{sp(-4)});
+        left: 0;
+        top: 0;
+        border-radius: sp(-4);
+        border: 3px solid sem-color(link);
+        z-index: -1;
+      }
+    }
+  }
+
+
+    /**
+     * Main project images:
+     *  - Crop main project image to 1/4 its height when it is a prevew.
+     *  - Zoom slightly on preview image when hovering the preview (not link).
+     *  - Transition back smoothly when it becomes the main project.
+     */
+
+    .c-project__image img {
+      transition: transform .2s ease-out;
+    }
+
+    .c-project.is-next-project {
+
+      .c-project__image {
+        height: calc(((100vw - var(--site-margin) * 2) * 2 / 3) / 4);
+        max-height: #{((911.25 / 16 * 1rem) * 2 / 3) / 4};
+        overflow: hidden;
+      }
+
+      &:hover,
+      &:focus {
+
+        .c-project__image img {
+          transform: scale(1.0125);
+        }
+      }
+    }
