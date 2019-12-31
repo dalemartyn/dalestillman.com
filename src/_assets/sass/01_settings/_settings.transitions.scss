@@ -1,1 +1,10 @@
 $theme-transition: .2s ease-out;
+
+/**
+ * Material design easing curves
+ * https://material.io/design/motion/speed.html#easing
+ */
+
+$standard-easing: cubic-bezier(.4, 0, .2, 1);
+$decelerate-easing: cubic-bezier(0, 0, .2, 1);
+$accelerate-easing: cubic-bezier(.4, 0, 1, 1);
