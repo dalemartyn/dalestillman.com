@@ -1,4 +1,6 @@
 import scrollTo from "./scroll-to.js";
+import draf from "./double-raf.js";
+import debounce from "lodash/debounce";
 
 let current_project;
 let preview_ele;
@@ -20,6 +22,8 @@ function preload_next_project() {
 }
 
 function load_next_project() {
+  update_history();
+  update_head();
 
   const project = body_ele.querySelector('.js-project');
   const project_inner = project.querySelector('.js-project-inner');
@@ -30,26 +34,42 @@ function load_next_project() {
     project_inner.parentElement.parentElement.appendChild(next_preview);
   }
 
+  draf(function() {
+    preview_ele.classList.replace('is-next-project', 's-article');
 
-  requestAnimationFrame(function() {
-    requestAnimationFrame(function() {
-      preview_ele.classList.remove('is-next-project');
-
-      const headerHeight = document.getElementById('site-header').offsetHeight;
-      const top = preview_ele.offsetTop - headerHeight;
-      scrollTo(top, function () {
-        requestAnimationFrame(function () {
-          requestAnimationFrame(function () {
-            remove_last_project();
-            setup_loader();
-          })
-        });
+    const headerHeight = document.getElementById('site-header').offsetHeight;
+    const top = preview_ele.offsetTop - headerHeight;
+    scrollTo(top, function() {
+      draf(() => {
+        remove_last_project();
+        setup_loader();
       });
-    })
+    });
   });
 
-
 }
+
+function update_head() {
+  const title = head_ele.querySelector('title').textContent;
+  document.title = title;
+
+  const new_description_ele = head_ele.querySelector('meta[name="description"]')
+  const dom_description_ele = document.querySelector('meta[name="description"]')
+  if (new_description_ele && dom_description_ele) {
+    const new_description = new_description_ele.getAttribute('content');
+    dom_description_ele.setAttribute('content', new_description);
+  }
+}
+
+function update_history() {
+  save_scroll_state();
+
+  history.pushState({
+    scrollX: window.scrollX,
+    scrollY: 0
+  }, '', next_project_url);
+};
+
 
 function remove_last_project() {
   current_project.remove();
@@ -65,6 +85,7 @@ function add_next_project_event_listener() {
 }
 
 function setup_loader() {
+  history.scrollRestoration = 'manual';
   current_project = document.querySelector('.js-project:not(.is-next-project)');
   preview_ele = document.querySelector('.js-project.is-next-project');
 
@@ -76,4 +97,57 @@ function setup_loader() {
   }
 }
 
-export default setup_loader;
+function popstate_event_handler(event) {
+  const url = location.href;
+  fetch(url)
+    .then(res => res.text())
+    .then(html => {
+      const html_ele = document.createElement("html");
+      html_ele.innerHTML = html;
+      head_ele = html_ele.querySelector("head");
+      body_ele = html_ele.querySelector("body") || document.createElement("body");
+      const current_main = document.querySelector(".js-main");
+      const new_main = body_ele.querySelector(".js-main");
+      update_head();
+      current_main.replaceWith(new_main);
+      setup_loader();
+      restore_scroll_state(event.state);
+    });
+}
+
+function restore_scroll_state(state = history.state) {
+  if (state && 'scrollY' in state) {
+    let scrollX = ('scrollX' in state) ? state.scrollX : 0;
+    let scrollY = state.scrollY;
+    // double raf helps firefox go back to right position.
+    draf(function () {
+      // force a slight scroll on chrome so that smooth scroll works if you
+      // immediately hit the next project link after going back.
+      window.scrollTo({
+        top: scrollY - 1,
+        left: scrollX
+      });
+      window.scrollBy(0, 1);
+    });
+  }
+}
+
+function save_scroll_state() {
+  history.replaceState({
+    scrollX: window.scrollX,
+    scrollY: window.scrollY
+  }, '', location.href);
+}
+
+function init() {
+  window.addEventListener('popstate', popstate_event_handler);
+
+  history.scrollRestoration = 'manual';
+  restore_scroll_state();
+
+  window.addEventListener('scroll', debounce(save_scroll_state, 200));
+  setup_loader();
+}
+
+
+export default init;
