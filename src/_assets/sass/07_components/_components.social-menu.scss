@@ -28,7 +28,7 @@
     @include ms-respond(height, .725);
 
     > svg {
-      transition: fill .1s $sharp-easing;
+      transition: fill .1s $standard-easing;
       @include theme-transition(fill);
       fill: sem-color(text-3);
       display: block;

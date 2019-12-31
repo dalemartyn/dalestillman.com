@@ -21,6 +21,7 @@ h2 {
 }
 
 h3 {
-  @include ms-respond(font-size, 1);
-  margin-bottom: sp(micro);
+  @include ms-respond(font-size, 1.5);
+  margin-top: sp(xlarge);
+  margin-bottom: sp(small);
 }
