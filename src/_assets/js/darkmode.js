@@ -28,7 +28,7 @@
         updateTheme();
         setTimeout(function() {
           document.documentElement.classList.remove('is-transitioning');
-        }, 250);
+        }, 340);
       })
     })
   }

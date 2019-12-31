@@ -72,7 +72,7 @@
       }
 
       &:hover,
-      &:focus {
+      .c-project__link:focus {
 
         .c-project__image img {
           transform: scale(1.0125);
