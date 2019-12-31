@@ -7,7 +7,7 @@ code {
   font-family: IBM Plex Mono, Menlo, Roboto Mono, monospace, sans-serif;
   font-weight: 450;
   @include ms-respond(font-size, .5);
-  background-color: sem-color(background-darker);
+  background-color: sem-color(background-code);
   color: sem-color(text);
   @include theme-transition(color background-color);
   border-radius: var(--rounded-radius);

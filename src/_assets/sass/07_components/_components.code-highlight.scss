@@ -4,7 +4,7 @@
 
 .highlight {
   pre {
-    background: sem-color(background-darker);
+    background: sem-color(background-code);
     @include theme-transition(background-color);
   }
 
