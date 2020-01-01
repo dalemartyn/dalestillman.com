@@ -18,18 +18,6 @@
     "alt": "ASA Intranet Around the ASA"
   },
   {
-    "project": "ASA Intranet",
-    "title": "Old Intranet",
-    "format": "png",
-    "alt": "The old ASA and British Swimming Intranet"
-  },
-  {
-    "project": "Athlete Profiles",
-    "title": "Diving Historic",
-    "format": "png",
-    "alt": "Historic screen capture of Diver Tonia Couch's profile page, as seen in 2013"
-  },
-  {
     "project": "Athlete Profiles",
     "title": "Diving Profile",
     "format": "png",
@@ -58,36 +46,6 @@
     "title": "Surface Studio True Scale",
     "format": "jpg",
     "alt": "True Scale demoed on the Surface Studio"
-  },
-  {
-    "project": "Live Scoreboards and Results",
-    "title": "Before Startlists",
-    "format": "png",
-    "alt": "UI showing SportSystems full version of startlist for Women’s 100m Butterfly"
-  },
-  {
-    "project": "Live Scoreboards and Results",
-    "title": "Before Results",
-    "format": "png",
-    "alt": "UI showing SportSystems full version of results for Women’s 800m Freestyle"
-  },
-  {
-    "project": "Live Scoreboards and Results",
-    "title": "Masters Desktop",
-    "format": "png",
-    "alt": "Men’s 200m IM on the Master’s site on desktop"
-  },
-  {
-    "project": "Live Scoreboards and Results",
-    "title": "After Desktop",
-    "format": "png",
-    "alt": "Women’s Open 100m Butterfly heats on desktop"
-  },
-  {
-    "project": "Live Scoreboards and Results",
-    "title": "After Scoreboard",
-    "format": "png",
-    "alt": "Demonstration of the live scoreboard"
   },
   {
     "project": "Memo",

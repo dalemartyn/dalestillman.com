@@ -6,15 +6,17 @@ tagline: "Using Google Sheets as backend to rapidly generate athlete stats"
 excerpt_separator: "<figure>"
 image:
   json: /athlete-profiles/athlete-profiles.json
-color_light: "#de515f"
-color_dark: "#9e2f42"
+color_light: "#dd4c59"
+color_dark: "#962639"
 
 ---
 
 By creating a new automated system, the laborious process of updating profiles was transformed into one that would enable quick and easy changes. The new system, backed by Google Sheets, enabled us create a larger amount of profiles, each one including more comprehensive stats. We also used the same backend to generate editorial 'ones to watch' widgets for a range of aquatic competitions.
 
 <figure>
-  {% image "/athlete-profiles/diving-historic.json" %}
+  <div class="c-image-background u-rounded">
+    {% image "/athlete-profiles/diving-historic.json" %}
+  </div>
   <figcaption>Diver Tonia Couch’s profile page as it was in 2013 (<a href="/img/athlete-profiles/diving-historic-full.jpg">full image</a>, via <a href="https://archive.is/O9Cyg">archive.is</a>). At the time, all stats had to be manually researched and updated in the Content Management System.</figcaption>
 </figure>
 
@@ -33,7 +35,9 @@ gulp save-stats
 This command would download the relevant spreadsheets and normalize the data. It would then proceed to generate a <abbr title="JavaScript Object Notation">JSON</abbr> document for each athlete profile, and upload it to our static file server using <abbr title="File Transfer Protocol">FTP</abbr>. The [Nodejs][3] scripts made heavy use of [lodash][4] and [async][5], with [google-spreadsheet][6] used to download the stats.
 
 <figure>
-  {% image "/athlete-profiles/diving-profile.json" %}
+  <div class="c-image-background u-rounded">
+    {% image "/athlete-profiles/diving-profile.json" %}
+  </div>
   <figcaption>The main content of Tonia’s profile page (<a href="https://web.archive.org/web/20161005195709/http://www.swimming.org/diving/tonia-couch/">webarchive.org</a>). The new profile stats widget, sits under the profile copy. An action shot, out of view in the screenshot, serves as the headline image.</figcaption>
 </figure>
 

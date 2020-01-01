@@ -4,6 +4,12 @@
     "img": false,
     "node_modules": false
   },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "dist": true
+  },
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#37474f",
     "titleBar.activeForeground": "#fff"

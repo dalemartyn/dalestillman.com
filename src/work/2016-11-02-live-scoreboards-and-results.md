@@ -13,7 +13,7 @@ At The ASA and British Swimming, we had many swimming events that we wanted to s
 Here's how their startlists looked,
 
 <figure>
-  <div class="u-filter-oldstyle">
+  <div class="c-image-background u-rounded">
     {% image "/live-scoreboards-and-results/before-startlists.json" %}
   </div>
   <figcaption>Start list for Women’s 100m Butterfly. You can see tables don’t align, making it harder to scan the data. It also doesn’t scale down to mobile.</figcaption>
@@ -22,7 +22,7 @@ Here's how their startlists looked,
 and here's a results page.
 
 <figure>
-  <div class="u-filter-oldstyle">
+  <div class="c-image-background u-rounded">
     {% image "/live-scoreboards-and-results/before-results.json" %}
   </div>
   <figcaption>Results for Women’s 800m Freestyle. The split times span multiple rows.</figcaption>
@@ -73,7 +73,9 @@ On tablet the the content became sparse.
 Content would wrap on to two lines if there was a long athlete name or club. To stop this happening I combined them into a single column at all screen sizes. At larger sizes I used a single row, with the club name in slightly smaller, grey text. All rows are single line. `overflow: ellipsis` is used in the rare cases of a long club name and long athlete name, with a `title` attribute added to the club name so that it will show on hover.
 
 <figure>
-  {% image "/live-scoreboards-and-results/after-desktop.json" %}
+  <div class="c-image-background u-rounded">
+    {% image "/live-scoreboards-and-results/after-desktop.json" %}
+  </div>
 </figure>
 
 To stop the content feeling too sparse on tablet, I added a `max-width` to the table and centred it. It makes scanning the results much easier.
@@ -128,7 +130,9 @@ The live scoreboard also followed the same design as described above. Columns li
 
 
 <figure>
-  {% image "/live-scoreboards-and-results/after-scoreboard.json" %}
+  <div class="c-image-background u-rounded">
+    {% image "/live-scoreboards-and-results/after-scoreboard.json" %}
+  </div>
 </figure>
 
 So that’s the scorebards and results. I was pretty happy with how clean, accessible and responsive I was able to make the results data. And also visually consistent with the [athlete profiles][4].

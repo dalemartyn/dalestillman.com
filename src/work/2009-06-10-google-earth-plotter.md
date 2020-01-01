@@ -9,3 +9,12 @@ color_dark: "#37538C"
 ---
 
 About the Google Earth Plotter Project
+
+<figure>
+  <div class="c-image-background u-rounded">
+    {% image "/google-earth-plotter/google-earth-plotter.json" %}
+  </div>
+  <figcaption>
+    Google Earth
+  </figcaption>
+</figure>

@@ -13,7 +13,7 @@ color_dark: "#0097A7"
 Company intranets can become neglected with poorly designed, overly complex interfaces that make it hard for employees to engage or find relevant content. By building from the ground up, we were able to create an intranet focused on internal communications. Allowing our colleagues to find out the latest staff news, website posts, and social media, along with important documents and how tos.
 
 <figure>
-  <div class="u-filter-oldstyle">
+  <div class="c-image-background u-rounded">
     {% image "/asa-intranet/old-intranet.json" %}
   </div>
   <figcaption>The old internet was overdue retirement. The ASA and British Swimming were no longer one, and timesheets and profiles were being split off to go to a new HR system.</figcaption>
