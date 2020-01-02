@@ -22,10 +22,8 @@ layout: default
 
       {{ content | safe }}
 
-      <p class="ts-meta u-margin-vertical-xxlarge">
-        {{ page.date | format_post_date }}
-        {% if author %} • {{ author }}{% endif %}
-        {% if meta %} • {{ meta }}{% endif %}
+      <p class="ts-meta u-margin-top-xlarge u-margin-bottom-xxlarge">
+        <time class="ts-meta">{{ page.date | format_post_date }}</time>
       </p>
   </div>
 </article>
