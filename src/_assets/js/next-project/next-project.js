@@ -34,17 +34,19 @@ function load_next_project() {
     project_inner.parentElement.parentElement.appendChild(next_preview);
   }
 
-  draf(function() {
-    preview_ele.classList.replace('is-next-project', 's-article');
+  const headerHeight = document.getElementById('site-header').offsetHeight;
+  const top = preview_ele.offsetTop - headerHeight;
+  preview_ele.classList.replace('is-next-project', 's-article');
 
-    const headerHeight = document.getElementById('site-header').offsetHeight;
-    const top = preview_ele.offsetTop - headerHeight;
-    scrollTo(top, function() {
-      draf(() => {
-        remove_last_project();
-        setup_loader();
+  draf(function() {
+    setTimeout(function() {
+      scrollTo(top, function() {
+        draf(() => {
+          remove_last_project();
+          setup_loader();
+        });
       });
-    });
+    }, 50);
   });
 
 }
