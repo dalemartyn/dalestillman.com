@@ -79,3 +79,18 @@
         }
       }
     }
+
+
+    @media print {
+
+      .c-project {
+
+        &.is-next-project {
+          display: none;
+        }
+
+        &:not(:last-child) .c-project__content {
+          border: none;
+        }
+      }
+    }
