@@ -177,22 +177,19 @@
     "project": "Memo",
     "title": "Memo",
     "node": "I1092:711;81:12",
-    "alt": "Tablet showing the design of the Memo website",
-    "gradient": true
+    "alt": "Tablet showing the design of the Memo website"
   },
   {
     "project": "Memo",
     "title": "Memo iPhone",
     "node": "I1120:147;81:12",
-    "alt": "Interactive graphic demoing the Memo app on an iPhone",
-    "gradient": true
+    "alt": "Interactive graphic demoing the Memo app on an iPhone"
   },
   {
     "project": "Memo",
     "title": "Memo Graph",
     "node": "I1120:153;81:12",
-    "alt": "Graph showing how Memo tracks activity throughout the house",
-    "gradient": true
+    "alt": "Graph showing how Memo tracks activity throughout the house"
   },
   {
     "project": "Memo",
@@ -210,21 +207,18 @@
     "project": "Memo",
     "title": "Memo - window",
     "node": "I1165:333;1165:164",
-    "alt": "Window showing the design of the Memo website",
-    "gradient": true
+    "alt": "Window showing the design of the Memo website"
   },
   {
     "project": "Memo",
     "title": "Memo iPhone - window",
     "node": "I1165:348;1165:164",
-    "alt": "Interactive graphic demoing the Memo app on an iPhone",
-    "gradient": true
+    "alt": "Interactive graphic demoing the Memo app on an iPhone"
   }, {
     "project": "Memo",
     "title": "Memo Graph - window",
     "node": "I1165:363;1165:164",
-    "alt": "Graph showing how Memo tracks activity throughout the house",
-    "gradient": true
+    "alt": "Graph showing how Memo tracks activity throughout the house"
   }, {
     "project": "Memo",
     "title": "Memo Door Hinges - window",

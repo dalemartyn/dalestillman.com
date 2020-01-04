@@ -83,8 +83,8 @@ async function resizeImage(imageStream, image) {
 
     const webpPipeline = sizePipeline.clone()
       .webp({
-        quality: image.gradient ? 60 : 90,
-        nearLossless: image.gradient ? true : false
+        quality: 80,
+        nearLossless: true
       })
       .toFile(`${imagePath}.webp`)
       .then(info => {
