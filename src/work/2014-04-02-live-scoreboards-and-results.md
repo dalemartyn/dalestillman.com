@@ -1,6 +1,6 @@
 ---
 title: "Live Scoreboards and Results"
-date: 2016-11-02T09:48:31+00:00
+date: 2014-04-02T09:48:31+00:00
 tagline: "A responsive frontend to live aquatic events"
 image:
   json: /live-scoreboards-and-results/live-scoreboards-and-results.json
@@ -44,7 +44,7 @@ The tables were optimised for the desktop site, using fixed width columns. Below
 By adjusting the font size at several breakpoints I could make the data fit well at all sizes. I used shading on alternate rows to contrast them. But it was overly fiddly, and didn't feel right in the context of the site. Also, some names would flow on to a second row, which broke the vertical rhythm.
 
 <figure>
-  <div class="c-image-background u-rounded" style="--img-bg-light: #00bcd4; --img-bg-dark: #00838f;">
+  <div class="c-image-background u-rounded" style="--img-bg-light: #26c6da; --img-bg-dark: #00838f;">
     {% image "/live-scoreboards-and-results/masters-desktop.json" %}
   </div>
   <figcaption>Men’s 200m IM on the Master’s site on desktop.</figcaption>
@@ -53,7 +53,7 @@ By adjusting the font size at several breakpoints I could make the data fit well
 This felt too messy and insonsitent.
 
 <figure>
-  <div class="c-image-background u-rounded" style="--img-bg-light: #00bcd4; --img-bg-dark: #00838f;">
+  <div class="c-image-background u-rounded" style="--img-bg-light: #26c6da; --img-bg-dark: #00838f;">
     {% image "/live-scoreboards-and-results/masters-phone.json" %}
   </div>
   <figcaption>Men’s 200m IM on the Master’s site on mobile. The font size was really small. To fit the club on it had to go on a new row. You can see at Pos 3 it flows on to a 3rd row. The columns aren’t consistent widths across events or between start lists and results.</figcaption>
@@ -62,7 +62,7 @@ This felt too messy and insonsitent.
 On tablet the the content became sparse.
 
 <figure>
-  <div class="c-image-background u-rounded" style="--img-bg-light: #00bcd4; --img-bg-dark: #00838f;">
+  <div class="c-image-background u-rounded" style="--img-bg-light: #26c6da; --img-bg-dark: #00838f;">
     {% image "/live-scoreboards-and-results/masters-tablet.json" %}
   </div>
   <figcaption>Tablet view - viewport with 720px width.</figcaption>

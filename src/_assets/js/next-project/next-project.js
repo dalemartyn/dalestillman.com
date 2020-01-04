@@ -46,7 +46,7 @@ function load_next_project() {
           setup_loader();
         });
       });
-    }, 50);
+    }, 100);
   });
 
 }

@@ -70,7 +70,7 @@ async function resizeImage(imageStream, image) {
         pngSizes.push(`${imagePath.replace('dist', '')}.png ${info.width}w`);
         return imagemin.buffer(data, {
           plugins: [
-            imageminPngquant({quality: [0.3, 0.7]})
+            imageminPngquant({quality: [0.6, 1]})
           ]
         })
       })
@@ -82,7 +82,9 @@ async function resizeImage(imageStream, image) {
       });
 
     const webpPipeline = sizePipeline.clone()
-      .webp()
+      .webp({
+        quality: 85,
+      })
       .toFile(`${imagePath}.webp`)
       .then(info => {
         webpSizes.push(`${imagePath.replace('dist', '')}.webp ${info.width}w`);

@@ -6,8 +6,8 @@ tagline: "Using Google Sheets as backend to rapidly generate athlete stats"
 excerpt_separator: "<figure>"
 image:
   json: /athlete-profiles/athlete-profiles.json
-color_light: "#dd4c59"
-color_dark: "#962639"
+color_light: "#d0495e"
+color_dark: "#8b2b42"
 
 ---
 
