@@ -12,8 +12,10 @@
   @include light-shadow-vars;
 
   &.t-dark {
-    color-scheme: dark;
-    @include dark-color-vars;
-    @include dark-shadow-vars;
+    @media not print {
+      color-scheme: dark;
+      @include dark-color-vars;
+      @include dark-shadow-vars;
+    }
   }
 }

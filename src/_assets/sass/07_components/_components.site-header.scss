@@ -3,15 +3,17 @@
    ========================================================================== */
 
 .c-site-header {
-  align-items: center;
-  top: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
-  z-index: 3;
-  background-color: sem-color(surface, .98);
-  @include theme-transition(background-color box-shadow);
-  box-shadow: var(--shadow-2);
+  @media not print {
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 3;
+    background-color: sem-color(surface, .98);
+    @include theme-transition(background-color box-shadow);
+    box-shadow: var(--shadow-2);
+  }
 }
 
 .c-site-header__main {
@@ -42,12 +44,20 @@
       @include ms-respond(height, .45, $spacing-scale);
       width: auto;
     }
+
+    @media print {
+      display: none;
+    }
   }
 
   .c-site-header__darkmode {
     width: 2rem;
     display: flex;
     justify-content: flex-end;
+
+    @media print {
+      display: none;
+    }
   }
 
     .c-site-header__site-title-link {
@@ -78,6 +88,10 @@
   &::-webkit-scrollbar {
     display: none !important;
   }
+
+  @media print {
+    display: none;
+  }
 }
 
   .c-site-header__menu {
@@ -93,8 +107,11 @@
  * Add padding to the element after the site header
  */
 
-.c-site-header + main {
-  @include ms-respond(--site-title-size, 1.75);
-  @include ms-respond(--site-menu-text-size, .75);
-  padding-top: calc(2 * #{sp()} + var(--site-title-size) + 2 * #{sp(-.25)} + var(--site-menu-text-size) * 1.25);
+@media not print {
+
+  .c-site-header + main {
+    @include ms-respond(--site-title-size, 1.75);
+    @include ms-respond(--site-menu-text-size, .75);
+    padding-top: calc(2 * #{sp()} + var(--site-title-size) + 2 * #{sp(-.25)} + var(--site-menu-text-size) * 1.25);
+  }
 }
