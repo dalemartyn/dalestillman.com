@@ -8,7 +8,6 @@ noindex: true
 ## Build
 - crop card titles using lhcrop
 - design blog list layout
-- add hover states site header buttons and menu items
 - change spacings to use modular scale (e.g. 1.4 on mobile)
 
 ## Content

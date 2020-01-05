@@ -33,6 +33,10 @@
         background-color: sem-color(hover-state, .06);
       }
 
+      &:active {
+        background-color: sem-color(hover-state, .12);
+      }
+
       &.is-parent,
       &.is-active {
         color: sem-color(text);

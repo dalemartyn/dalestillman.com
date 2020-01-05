@@ -53,6 +53,10 @@
       }
     }
 
+    &:active {
+      background-color: sem-color(hover-state, .12);
+    }
+
     @include focus-style {
       outline: none;
       box-shadow: 0 0 0 3px sem-color(link) inset;

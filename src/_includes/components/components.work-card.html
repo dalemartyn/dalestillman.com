@@ -3,6 +3,9 @@
     class="c-work-card__link"
     href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}"
   >
+    <div class="c-work-card__content">
+      <h2 class="c-work-card__title ts-title">{{ post.data.title }}</h2>
+    </div>
 
     {% if post.data.image %}
     <div class="c-work-card__thumbnail c-image-background"
@@ -14,9 +17,5 @@
       {% endif %}
     </div>
     {% endif %}
-
-    <div class="c-work-card__content">
-      <h2 class="c-work-card__title ts-title">{{ post.data.title }}</h2>
-    </div>
   </a>
 </article>

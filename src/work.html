@@ -9,10 +9,10 @@ feature_text: "A collection of some of my favourite things I’ve worked on.
 ---
 
 <div class="o-wrapper-wide">
-  <div class="o-grid-layout">
+  <ol class="o-card-layout">
     {% set posts = collections.work | reverse %}
     {% for post in posts %}
-      {% include "components/components.work-card.html" %}
+      <li class="o-card-layout__item">{% include "components/components.work-card.html" %}</li>
     {% endfor %}
-  </div>
+  </ol>
 </div>

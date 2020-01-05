@@ -11,7 +11,7 @@
   transition: box-shadow .2s $standard-easing;
 
   &::after {
-    transition: background-color .2s $standard-easing;
+    transition: background-color .1s $standard-easing;
     content: "";
     pointer-events: none;
     position: absolute;
@@ -33,7 +33,8 @@
 }
 
   .c-work-card__link {
-    display: block;
+    display: flex;
+    flex-direction: column;
     text-decoration: none;
     color: sem-color(text);
     border-radius: var(--rounded-radius);
@@ -42,6 +43,7 @@
     @include focus-style {
       outline: none;
       box-shadow: 0 0 0 sp(-5) sem-color(link);
+      background-color: sem-color(link, .2);
     }
   }
 
@@ -49,6 +51,7 @@
     .c-work-card__content {
       padding: sp();
       line-height: 1;
+      order: 1;
     }
 
       .c-work-card__title {
