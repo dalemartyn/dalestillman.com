@@ -214,17 +214,20 @@
     "title": "Memo iPhone - window",
     "node": "I1165:348;1165:164",
     "alt": "Interactive graphic demoing the Memo app on an iPhone"
-  }, {
+  },
+  {
     "project": "Memo",
     "title": "Memo Graph - window",
     "node": "I1165:363;1165:164",
     "alt": "Graph showing how Memo tracks activity throughout the house"
-  }, {
+  },
+  {
     "project": "Memo",
     "title": "Memo Door Hinges - window",
     "node": "I1165:378;1165:164",
     "alt": "Illustrated animation showing glowing door hinge sensors"
-  }, {
+  },
+  {
     "project": "Memo",
     "title": "Memo Hub - window",
     "node": "I1165:393;1165:164",
