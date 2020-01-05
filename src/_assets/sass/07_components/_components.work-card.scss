@@ -6,21 +6,8 @@
   background-color: sem-color(surface);
   box-shadow: var(--shadow-1);
   position: relative;
-  @include theme-transition(background-color);
   border-radius: var(--rounded-radius);
   transition: box-shadow .2s $standard-easing;
-
-  &::after {
-    transition: background-color .1s $standard-easing;
-    content: "";
-    pointer-events: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border-radius: var(--rounded-radius);
-  }
 
   &:hover,
   &:focus-within {
@@ -38,7 +25,31 @@
     text-decoration: none;
     color: sem-color(text);
     border-radius: var(--rounded-radius);
-    @include theme-transition(color);
+    @include theme-transition(background-color color);
+
+    &::after {
+      transition: background-color .1s $standard-easing;
+      content: "";
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: var(--rounded-radius);
+    }
+
+    &:hover,
+    &:focus {
+
+      &::after {
+        background-color: sem-color(hover-state, .06);
+      }
+    }
+
+    &:active::after {
+      background-color: sem-color(hover-state, .12);
+    }
 
     @include focus-style {
       outline: none;
