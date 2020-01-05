@@ -17,39 +17,27 @@
     .c-site-menu__link {
       display: block;
       text-decoration: none;
-      padding: sp(-.25) 0;
+      padding: sp(-.25) sp(-1);
+      margin: 0 calc(#{sp(-1)} * -1);
       color: sem-color(text-3);
-      transition: .1s $standard-easing;
-      @include theme-transition(color);
-
-      @include focus-style {
-        outline: none;
-        position: relative;
-        z-index: 0;
-
-        &::before {
-          position: absolute;
-          content: "";
-          background: sem-color(link, .3);
-          width: calc(100% + 2 * #{sp(-2)});
-          height: calc(100%);
-          left: calc(#{sp(-2)} * -1);
-          top: 0;
-          border-radius: sp(-4);
-          border: 3px solid sem-color(link);
-          z-index: -1;
-        }
-      }
+      transition:
+        background-color .1s $standard-easing,
+        box-shadow .1s $standard-easing,
+        color .1s $standard-easing;
+      @include theme-transition(color background-color box-shadow);
+      border-radius: sp(-4);
 
       &:hover,
       &:focus {
         color: sem-color(text);
+        background-color: sem-color(hover-state, .06);
       }
 
       &.is-parent,
       &.is-active {
         color: sem-color(text);
         position: relative;
+        z-index: 0;
 
         &::after {
           content: "";
@@ -59,10 +47,16 @@
           height: 4px;
           // box shadow sized to match the width of the svg isons in header
           box-shadow: 0 calc(-1 * #{sp(-4.29879)}) #{sem-color(text)} inset;
-          left: 0;
-          right: 0;
+          left: sp(-1);
+          right: sp(-1);
           z-index: -2;
           @include theme-transition(box-shadow);
         }
+      }
+
+      @include focus-style {
+        outline: none;
+        box-shadow: 0 0 0 3px sem-color(link) inset;
+        background-color: sem-color(link, .375);
       }
     }

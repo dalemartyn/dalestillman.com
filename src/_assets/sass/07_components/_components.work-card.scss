@@ -27,7 +27,7 @@
     box-shadow: var(--shadow-3);
 
     &::after {
-      background-color: sem-color(hover-state, .04);
+      background-color: sem-color(hover-state, .06);
     }
   }
 }

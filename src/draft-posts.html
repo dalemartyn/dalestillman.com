@@ -1,0 +1,17 @@
+---
+layout: page
+exclude: true
+title: Draft Posts
+---
+
+<div class="o-wrapper">
+  {% for post in collections["draft-posts"] %}
+  <article>
+    <h2 class="">
+      <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">
+        {{ post.data.title }}
+      </a>
+    </h2>
+  </article>
+  {% endfor %}
+</div>

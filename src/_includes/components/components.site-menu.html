@@ -31,5 +31,20 @@
         </a>
       </li>
     {% endif %}
+    {% if page.fileSlug == "draft-posts" or parent.link == "/draft-posts/" %}
+      <li class="c-site-menu__item">
+        <a
+          href="{{parent.link}}"
+          class="
+            c-site-menu__link
+            ts-menu-item
+            {% if 'draft-posts' == page.fileSlug %}is-active{% endif %}
+            {% if '/draft-posts/' == parent.link %} is-parent{% endif %}
+          "
+        >
+          Draft Posts
+        </a>
+      </li>
+    {% endif %}
   </ul>
 </nav>

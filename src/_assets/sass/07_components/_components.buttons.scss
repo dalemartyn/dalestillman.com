@@ -14,12 +14,30 @@
 
 .c-button {
   @include button-reset;
+  padding: sp(-2);
+  margin: calc(#{sp(-2)} * -1);
+  transition:
+    background-color .1s $standard-easing
+    box-shadow .1s $standard-easing;
+  @include theme-transition(background-color box-shadow);
+  border-radius: 50%;
+
+  &:hover {
+    background-color: sem-color(hover-state, .06);
+  }
+
+  @include focus-style {
+    outline: none;
+    box-shadow: 0 0 0 3px sem-color(link) inset;
+    background-color: sem-color(link, .375);
+  }
 
   > svg {
     fill: sem-color(text);
     @include theme-transition(fill);
     display: block;
     @include ms-respond(height, .45, $spacing-scale);
+    @include ms-respond(width, .45, $spacing-scale);
     width: auto;
   }
 }

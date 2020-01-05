@@ -3,11 +3,15 @@
    ========================================================================== */
 
 .c-project {
-  transition: background-color .2s ease;
+  transition: background-color .1s $standard-easing;
   @include theme-transition(background-color);
 
   &.is-next-project:hover {
-    background-color: sem-color(hover-state-solid);
+    background-color: sem-color(hover-state, .06);
+  }
+
+  &.is-next-project:focus-within:hover {
+    background: none;
   }
 }
 

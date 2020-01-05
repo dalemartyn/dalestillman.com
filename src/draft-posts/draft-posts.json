@@ -1,0 +1,9 @@
+{
+  "layout": "post",
+  "tags": "draft-posts",
+  "parent": {
+    "title": "Draft Posts",
+    "link": "/draft-posts/"
+  },
+  "permalink": "draft-posts/{{ title | slug }}/index.html"
+}

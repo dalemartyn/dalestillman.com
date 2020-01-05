@@ -1,6 +1,6 @@
 @mixin light-color-vars {
   --color-background:          #{rgb-triplet("white")};
-  --color-background-code:     #{rgb-triplet("white", $darken: 4%)};
+  --color-background-code:     #{rgb-triplet("white", $darken: 6%)};
   --color-surface:             #{rgb-triplet("white")};
   --color-text:                #{rgb-triplet("blue-grey-950")};
   --color-text-2:              #{rgb-triplet("blue-grey-500")};
@@ -10,7 +10,6 @@
   --color-selection:           #{rgb-triplet("green-500")};
   --color-selection-inactive:  #{rgb-triplet("blue-grey-300")};
   --color-hover-state:         #{rgb-triplet("blue-grey-600")};
-  --color-hover-state-solid:   #{rgb-triplet("white", $darken: 4%)};
   --color-link:                #{rgb-triplet("green-500")};
 
   --color-code-red:            #{rgb-material("red", "500")};
@@ -46,7 +45,6 @@
   --color-selection:           #{rgb-triplet("green-300")};
   --color-selection-inactive:  #{rgb-triplet("blue-grey-300")};
   --color-hover-state:         #{rgb-triplet("white")};
-  --color-hover-state-solid:   #{rgb-triplet("blue-grey-950", $lighten: 4%)};
   --color-link:                #{rgb-triplet("green-300")};
 
   --color-code-red:            #{rgb-material("red", "200")};
