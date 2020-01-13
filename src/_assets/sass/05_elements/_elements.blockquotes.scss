@@ -3,7 +3,7 @@
    ========================================================================== */
 
 blockquote {
-  border-left: sp(-4.25) solid sem-color(quote-border);
+  border-left: sp(xxmicro) solid sem-color(quote-border);
   @include theme-transition(border-color);
   padding: 0 0 0 sp();
 

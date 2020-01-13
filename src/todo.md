@@ -8,7 +8,6 @@ noindex: true
 ## Build
 - crop card titles using lhcrop
 - design blog list layout
-- change spacings to use modular scale (e.g. 1.4 on mobile)
 
 ## Content
 - write fitter 365

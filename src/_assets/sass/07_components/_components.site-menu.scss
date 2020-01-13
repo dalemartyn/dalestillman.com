@@ -50,7 +50,7 @@
           bottom: 0;
           height: 4px;
           // box shadow sized to match the width of the svg isons in header
-          box-shadow: 0 calc(-1 * #{sp(xmicro)}) #{sem-color(text)} inset;
+          box-shadow: 0 calc(-1 * #{sp(xxmicro)}) #{sem-color(text)} inset;
           left: sp(small);
           right: sp(small);
           z-index: -2;
