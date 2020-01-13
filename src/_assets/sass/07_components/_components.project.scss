@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .c-project {
-  transition: background-color .1s $standard-easing;
+  transition: background-color $hover-transition;
   @include theme-transition(background-color);
 
   &.is-next-project:hover {
@@ -42,10 +42,10 @@
         content: "";
         background: sem-color(link, .3);
         width: 100%;
-        height: calc(100% + #{sp(-4)});
+        height: calc(100% + #{sp(xmicro)});
         left: 0;
         top: 0;
-        border-radius: sp(-4);
+        border-radius: var(--rounded-radius);
         border: 3px solid sem-color(link);
         z-index: -1;
       }

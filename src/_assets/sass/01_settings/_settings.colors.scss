@@ -25,25 +25,3 @@ $colors: (
   "green-100":     #b7e2dc,
   "green-50":      #e2f3f1,
 );
-
-@function color($color) {
-  @return map-get($colors, $color);
-}
-
-@function rgb-triplet($color, $lighten: false, $darken: false) {
-  $hex: map-get($colors, $color);
-  @if $lighten {
-    $hex: mix(color("white"), $hex, $lighten);
-  }
-  @if $darken {
-    $hex: mix(color("blue-grey-600"), $hex, $darken);
-  }
-  $triplet: #{red($hex), green($hex), blue($hex)};
-  @return $triplet;
-}
-
-@function rgb-material($name, $variant) {
-  $hex: material-color($name, $variant);
-  $triplet: #{red($hex), green($hex), blue($hex)};
-  @return $triplet;
-}

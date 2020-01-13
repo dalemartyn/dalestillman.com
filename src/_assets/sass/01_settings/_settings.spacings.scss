@@ -12,36 +12,25 @@ $spacing-properties: (
   "margin":      "margin",
 );
 
-$spacing-scale-factors: (
-  null:           1,
-  "-none":        0,
-  "-micro":       pow(1.5, -3),
-  "-tiny":        pow(1.5, -2),
-  "-small":       pow(1.5, -1),
-  "-large":       pow(1.5, 1),
-  "-xlarge":      pow(1.5, 2),
-  "-xxlarge":     pow(1.5, 3),
-  "-xxxlarge":    pow(1.5, 4),
-  "-xxxxlarge":   pow(1.5, 5),
-);
-
-$spacing-unit-scale-factors: (
-  null:           1,
-  none:           0,
-  micro:          pow(1.5, -3),
-  tiny:           pow(1.5, -2),
-  small:          pow(1.5, -1),
-  large:          pow(1.5, 1),
-  xlarge:         pow(1.5, 2),
-  xxlarge:        pow(1.5, 3),
-  xxxlarge:       pow(1.5, 4),
-  xxxxlarge:      pow(1.5, 5),
+/**
+ * Exponents used in spacing system. e.g. 1.5^x
+ */
+$spacing-unit-sizes: (
+  xmicro:        -4,
+  micro:         -3,
+  tiny:          -2,
+  small:         -1,
+  null:           0,
+  large:          1,
+  xlarge:         2,
+  xxlarge:        3,
+  xxxlarge:       4,
+  xxxxlarge:      5,
 );
 
 
 // ratio not being used here at present.
 $spacing_scale: (
-  ratio: 1.5,
   20em: (
     base: rem(18px),
     ratio: 1.4

@@ -27,19 +27,36 @@
    */
   @each $direction-namespace, $direction-rules in $spacing-directions {
 
+    .u-#{$property-namespace}#{$direction-namespace}-none {
+      @each $direction in $direction-rules {
+        #{$property}#{$direction}: 0 !important;
+      }
+    }
+
     /**
      * loop over sizes (tiny, small, large etc)
      */
-    @each $size-namespace, $scale-factor in $spacing-scale-factors {
+    @each $size-name, $size in $spacing-unit-sizes {
 
       /**
        * e.g. u-padding-left-large
        */
 
+      $size-namespace: '';
+
+      @if ($size-name != null) {
+        $size-namespace: '-#{$size-name}';
+      }
+
       .u-#{$property-namespace}#{$direction-namespace}#{$size-namespace} {
 
         @each $direction in $direction-rules {
-          #{$property}#{$direction}: calc(var(--spacing-unit) * #{$scale-factor}) !important;
+          @if ($size-name != null) {
+            #{$property}#{$direction}: var(--spacing-unit-#{$size-name}) !important;
+          }
+          @else {
+            #{$property}#{$direction}: var(--spacing-unit) !important;
+          }
         }
 
       }

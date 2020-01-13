@@ -8,14 +8,11 @@
   position: relative;
   border-radius: var(--rounded-radius);
   transition: box-shadow .2s $standard-easing;
+  @include theme-transition(background-color);
 
   &:hover,
   &:focus-within {
     box-shadow: var(--shadow-3);
-
-    &::after {
-      background-color: sem-color(hover-state, .06);
-    }
   }
 }
 
@@ -28,7 +25,7 @@
     @include theme-transition(background-color color);
 
     &::after {
-      transition: background-color .1s $standard-easing;
+      transition: background-color $hover-transition;
       content: "";
       pointer-events: none;
       position: absolute;
@@ -43,17 +40,17 @@
     &:focus {
 
       &::after {
-        background-color: sem-color(hover-state, .06);
+        background-color: $color-focus;
       }
     }
 
     &:active::after {
-      background-color: sem-color(hover-state, .12);
+      background-color: $color-active;
     }
 
     @include focus-style {
       outline: none;
-      box-shadow: 0 0 0 sp(-5) sem-color(link);
+      box-shadow: 0 0 0 sp(xmicro) sem-color(link);
       background-color: sem-color(link, .2);
     }
   }

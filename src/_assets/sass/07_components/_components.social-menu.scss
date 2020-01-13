@@ -12,7 +12,7 @@
 .c-social-menu__item {
   display: flex;
   align-items: center;
-  margin: 0 0 0 sp(.5);
+  margin: 0 0 0 sp();
   font-size: inherit;
 
   &:first-child {
@@ -25,18 +25,18 @@
     box-sizing: content-box;
     @include ms-respond(width, .725);
     @include ms-respond(height, .725);
-    padding: sp(-1.5);
-    margin: calc(#{sp(-1.5)} * -1);
+    padding: sp(tiny);
+    margin: calc(#{sp(tiny)} * -1);
     display: block;
     border-radius: 50%;
     transition:
-      background-color .1s $standard-easing,
-      box-shadow .1s $standard-easing;
+      background-color $hover-transition,
+      box-shadow $hover-transition;
     @include theme-transition(background-color);
 
 
     > svg {
-      transition: fill .1s $standard-easing;
+      transition: fill $hover-transition;
       @include theme-transition(fill);
       fill: sem-color(text-3);
       display: block;
@@ -46,7 +46,7 @@
 
     &:hover,
     &:focus {
-      background-color: sem-color(hover-state, .06);
+      background-color: $color-focus;
 
       > svg {
         fill: sem-color(text);
@@ -54,7 +54,7 @@
     }
 
     &:active {
-      background-color: sem-color(hover-state, .12);
+      background-color: $color-active;
     }
 
     @include focus-style {

@@ -2,19 +2,11 @@
  * Get a responsive size.
  *
  * Size is e.g. 'tiny', 'small', 'large', 'xlarge'.
- * or an exponent of 1.5
  */
 @function sp($size: null) {
 
   @if $size {
-    @if (type-of($size) == number) {
-      $scale-factor: pow(1.5, $size);
-      @return calc(var(--spacing-unit) * #{$scale-factor});
-    }
-    @else {
-      $scale-factor: map-get($spacing-unit-scale-factors, $size);
-      @return calc(var(--spacing-unit) * #{$scale-factor});
-    }
+    @return var(--spacing-unit-#{$size});
   }
   @else {
     @return var(--spacing-unit);

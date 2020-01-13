@@ -10,31 +10,31 @@
 
   .c-site-menu__item {
     margin: 0;
-    margin-right: sp(1);
+    margin-right: sp(large);
     font-size: inherit;
   }
 
     .c-site-menu__link {
       display: block;
       text-decoration: none;
-      padding: sp(-.25) sp(-1);
-      margin: 0 calc(#{sp(-1)} * -1);
+      padding: sp() sp(small);
+      margin: 0 calc(#{sp(small)} * -1);
       color: sem-color(text-3);
       transition:
-        background-color .1s $standard-easing,
-        box-shadow .1s $standard-easing,
-        color .1s $standard-easing;
+        background-color $hover-transition,
+        box-shadow $hover-transition,
+        color $hover-transition;
       @include theme-transition(color background-color box-shadow);
-      border-radius: sp(-4);
+      border-radius: var(--rounded-radius);
 
       &:hover,
       &:focus {
         color: sem-color(text);
-        background-color: sem-color(hover-state, .06);
+        background-color: $color-focus;
       }
 
       &:active {
-        background-color: sem-color(hover-state, .12);
+        background-color: $color-active;
       }
 
       &.is-parent,
@@ -50,9 +50,9 @@
           bottom: 0;
           height: 4px;
           // box shadow sized to match the width of the svg isons in header
-          box-shadow: 0 calc(-1 * #{sp(-4.29879)}) #{sem-color(text)} inset;
-          left: sp(-1);
-          right: sp(-1);
+          box-shadow: 0 calc(-1 * #{sp(xmicro)}) #{sem-color(text)} inset;
+          left: sp(small);
+          right: sp(small);
           z-index: -2;
           @include theme-transition(box-shadow);
         }

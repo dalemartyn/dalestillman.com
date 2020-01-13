@@ -64,22 +64,22 @@
       text-align: center;
       text-decoration: none;
       white-space: nowrap;
-      padding: sp(-2);
-      margin: calc(#{sp(-2)} * -1);
+      padding: sp(tiny);
+      margin: calc(#{sp(tiny)} * -1);
       transition:
-        background-color .1s $standard-easing,
-        box-shadow .1s $standard-easing;
+        background-color $hover-transition,
+        box-shadow $hover-transition;
       @include theme-transition(color background-color);
-      border-radius: sp(-4);
+      border-radius: sp(xmicro);
 
       &:hover {
-        background-color: sem-color(hover-state, .06);
+        background-color: $color-focus;
         color: sem-color(text);
         text-decoration: none;
       }
 
       &:active {
-        background-color: sem-color(hover-state, .12);
+        background-color: $color-active;
       }
 
       @include focus-style {
