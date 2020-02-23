@@ -2,6 +2,26 @@
    #SITE-MENU
    ========================================================================== */
 
+.c-site-menu {
+  @include mq($until: lg) {
+    padding-left: var(--site-margin);
+    margin-left: calc(var(--site-margin) * -1);
+    margin-right: calc(var(--site-margin) * -1);
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      display: none !important;
+    }
+
+    @media print {
+      display: none;
+    }
+  }
+}
+
+
 .c-site-menu__list {
   margin: 0;
   list-style: none;
@@ -12,12 +32,21 @@
     margin: 0;
     margin-right: sp(large);
     font-size: inherit;
+
+    @include mq($from: md) {
+      &:last-child {
+        margin-right: 0;
+      }
+    }
   }
 
     .c-site-menu__link {
       display: block;
       text-decoration: none;
-      padding: sp() sp(small);
+      padding-left: sp(small);
+      padding-right: sp(small);
+      padding-top: sp();
+      padding-bottom: sp();
       margin: 0 calc(#{sp(small)} * -1);
       color: sem-color(text-3);
       transition:
@@ -26,6 +55,12 @@
         color $hover-transition;
       @include theme-transition(color background-color box-shadow);
       border-radius: var(--rounded-radius);
+
+      @include mq($from: lg) {
+        @include ms-respond(margin-top, -5, $spacing-scale);
+        @include ms-respond(padding-top, .5, $spacing-scale);
+        @include ms-respond(padding-bottom, .5, $spacing-scale);
+      }
 
       &:hover,
       &:focus {
@@ -49,8 +84,7 @@
           position: absolute;
           bottom: 0;
           height: 4px;
-          // box shadow sized to match the width of the svg isons in header
-          box-shadow: 0 calc(-1 * #{sp(xxmicro)}) #{sem-color(text)} inset;
+          box-shadow: 0 4px #{sem-color(text)} inset;
           left: sp(small);
           right: sp(small);
           z-index: -2;

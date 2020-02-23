@@ -4,18 +4,12 @@
 
     <div class="c-site-header__main">
 
-      <div class="c-site-header__back-button">
-        {% if layout == 'page' %}
-          {% include "svg/back-disabled.svg" %}
-        {% else %}
-          <a href="{{ parent.link }}" class="c-button">
-            {% include "svg/back.svg" %}
-          </a>
-        {% endif %}
+      <div class="c-site-header__logo">
+        <a class="c-site-header__logo-link ts-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
       </div>
 
-      <div class="c-site-header__site-title">
-        <a class="c-site-header__site-title-link ts-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+      <div class="c-site-header__menu">
+        {% include "components/components.site-menu.html" %}
       </div>
 
       <div class="c-site-header__darkmode">
@@ -23,17 +17,6 @@
           {% include "svg/dark-toggle.svg" %}
         </button>
       </div>
-    </div>
-
-    <div class="c-site-header__tabbar">
-      <div class="c-site-header__menu">
-        {% include "components/components.site-menu.html" %}
-      </div>
-      <div class="c-site-header__social">
-        {% include "components/components.social-menu.html" %}
-      </div>
-
-
     </div>
 
   </div>

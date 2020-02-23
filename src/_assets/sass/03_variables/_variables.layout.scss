@@ -1,5 +1,6 @@
 @mixin layout-vars {
   --site-max-width:       #{rem(1080px)};
+  --site-max-width:       #{rem(972px)};
   --site-margin:          #{sp()};
 
   @include mq($from: sm) {
