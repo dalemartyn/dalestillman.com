@@ -6,12 +6,14 @@
 
 {% if not tweet.in_reply_to_user_id %}
 <div class="c-tweet">
-  <div class="c-tweet__profile-image {% if tweet.retweeted %}c-tweet__profile-image--retweet{% endif %}">
-    {% if tweet.retweeted %}
-      {% include "svg/twitter/retweet-icon.svg" %}
-    {% else %}
-      {% include "svg/twitter/dale-icon.svg" %}
-    {% endif %}
+  <div class="c-tweet__profile-image-container">
+    <div class="c-tweet__profile-image {% if tweet.retweeted %}c-tweet__profile-image--retweet{% else %}c-tweet__profile-image--dale{% endif %}">
+      {% if tweet.retweeted %}
+        {% include "svg/twitter/retweet-icon.svg" %}
+      {% else %}
+        {% include "svg/twitter/dale-icon.svg" %}
+      {% endif %}
+    </div>
   </div>
   <div class="c-tweet__main">
     <div class="c-tweet__user-meta">

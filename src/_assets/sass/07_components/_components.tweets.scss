@@ -15,25 +15,32 @@
   }
 }
 
-  .c-tweet__profile-image {
+  .c-tweet__profile-image-container {
     padding-right: sp(small);
+  }
 
-    > svg {
-      display: block;
+    .c-tweet__profile-image {
+      border-radius: 100px;
       @include ms-respond(width, 2.5, $spacing-scale);
       @include ms-respond(height, 2.5, $spacing-scale);
-    }
-  }
 
-  .c-tweet__profile-image--retweet {
-
-    > svg {
-      border-radius: 100px;
-      box-shadow: 0 0 0 1px sem-color(border);
-      fill: sem-color(text);
-      @include theme-transition(fill box-shadow);
+      > svg {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
     }
-  }
+
+    // .c-tweet__profile-image--dale {}
+
+    .c-tweet__profile-image--retweet {
+      background-color: sem-color(twitter-profile);
+
+      > svg {
+        fill: sem-color(text);
+        @include theme-transition(fill);
+      }
+    }
 
       .c-tweet__user-profile-link {
         text-decoration: none;
