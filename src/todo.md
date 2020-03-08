@@ -32,3 +32,4 @@ noindex: true
 - downloading and optimizing images using the figma api
 - my vs code setup
 - instagram basic api
+- my site redesign – design decisions
