@@ -1,4 +1,9 @@
-const { resizeLocalImage, resizeFigmaImage } = require('./resize-image');
+const {
+  resizeLocalImage,
+  resizeFigmaImage,
+  saveFigmaImage,
+  resizeLocalFigmaImage
+} = require('./resize-image');
 
 const localImages = require('../../src/_data/local_images.json');
 const figmaImages = require('../../src/_data/figma_images.json');
@@ -16,10 +21,14 @@ function resizeImages(images, resizeFunction, logString) {
   }
 }
 
-const resizeLocalImages = resizeImages(localImages, resizeLocalImage, 'resizing ');
 const resizeFigmaImages = resizeImages(figmaImages, resizeFigmaImage, 'downloading ');
+const saveFigmaImages = resizeImages(figmaImages, saveFigmaImage, 'saving ');
+const resizeLocalImages = resizeImages(localImages, resizeLocalImage, 'resizing ');
+const resizeLocalFigmaImages = resizeImages(figmaImages, resizeLocalFigmaImage, 'optimizing ');
 
 module.exports = {
-  local: resizeLocalImages,
-  figma: resizeFigmaImages
+  resizeFigmaImages,
+  saveFigmaImages,
+  resizeLocalImages,
+  resizeLocalFigmaImages
 };

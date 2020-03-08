@@ -37,14 +37,31 @@ function getImageFilename(imageTitle) {
   return slugify(imageTitle, { decamelize: false });
 }
 
-function getLocalImagePath(image) {
-  const src = './src/_assets/img/';
+function getLocalImageDir(image, src = './src/_assets/img/') {
   const filename =  slugify(image.title, { decamelize: false });
+
+  const imageDir = path.join(
+    src,
+    slugify(image.project,  { decamelize: false })
+  );
+
+  if (!fs.existsSync(imageDir)) {
+    fs.mkdirSync(imageDir, {
+      recursive: true
+    });
+  }
+
+  return imageDir;
+}
+
+function getLocalImagePath(image, src = './src/_assets/img/') {
+  const filename =  slugify(image.title, { decamelize: false });
+  const format = image.format ? image.format : 'png';
 
   return path.join(
     src,
     slugify(image.project,  { decamelize: false }),
-    `${filename}.${image.format}`,
+    `${filename}.${format}`,
   );
 }
 
@@ -113,11 +130,15 @@ async function resizeImage(imageStream, image) {
   await writeFile(dataFilePath, JSON.stringify(imageData, null, 2));
 }
 
-async function resizeLocalImage(image) {
-  const filename = getLocalImagePath(image);
+async function resizeLocalImage(image, src = './src/_assets/img/') {
+  const filename = getLocalImagePath(image, src);
 
   const imageStream = fs.createReadStream(filename);
   await resizeImage(imageStream, image);
+}
+
+async function resizeLocalFigmaImage(image) {
+  await resizeLocalImage(image, './src/_assets/figma/');
 }
 
 async function resizeFigmaImage(image) {
@@ -131,7 +152,24 @@ async function resizeFigmaImage(image) {
   await resizeImage(imageStream, image);
 }
 
+async function saveFigmaImage(image) {
+  const imageUrl = await figmaApi.getImageUrl(image.node);
+  const response = await fetch(imageUrl);
+  if (!response.ok) {
+    throw new Error(`unexpected response ${response.statusText}`);
+  }
+
+  getLocalImageDir(image, './src/_assets/figma/');
+  image.format = 'png';
+
+  const filePath = getLocalImagePath(image, './src/_assets/figma/');
+  const buffer = await response.buffer();
+  await writeFile(filePath, buffer);
+}
+
 module.exports = {
   resizeLocalImage,
-  resizeFigmaImage
+  resizeFigmaImage,
+  saveFigmaImage,
+  resizeLocalFigmaImage
 };
