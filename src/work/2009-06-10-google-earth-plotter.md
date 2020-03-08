@@ -8,9 +8,9 @@ color_light: "#4C81BF"
 color_dark: "#37538C"
 ---
 
-This was my final year project for my Civil Engineering degree at Loughbrough University. I created a computer program to plot survey data measured with a total station (digital measuring tool on a tripod) in Google Earth.
+This was my final year project for my Civil Engineering degree at Loughbrough University. I created a computer program to plot surveying data measured with a total station (a digital measuring tool on a tripod) in Google Earth.
 
-To be able to visualise the data from the detail survey in Google Earth, the application had to transform the coordinates from local cooridate systems to a global coordinate system, WGS84.
+To be able to visualise the data from the detail survey, the application had to transform the coordinates from local cooridate systems to the global coordinate system WGS84.
 
 <figure>
   <div class="c-image-background u-rounded">
@@ -21,7 +21,7 @@ To be able to visualise the data from the detail survey in Google Earth, the app
   </figcaption>
 </figure>
 
-I wrote a dissertation and journal paper on the the development of the program, as well as accuracy tests which assessed the accuracy of the aerial imagery used in Google Earth, as well as the accuracy of the Helmert transformation used by the program.
+I wrote a dissertation and journal paper about the program, and it also discussed accuracy tests which assessed the accuracy of the aerial imagery used in Google Earth, as well as the accuracy of the Helmert transformation used by the program.
 
 <ul>
   <li>
