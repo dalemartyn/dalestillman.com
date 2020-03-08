@@ -1,0 +1,10 @@
+{
+  "layout": "post",
+  "tags": "cached",
+  "parent": {
+    "title": "Cached",
+    "link": "/cached/"
+  },
+  "permalink": "cached/{{ title | slug }}/index.html",
+  "noindex": true
+}

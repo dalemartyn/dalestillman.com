@@ -67,18 +67,23 @@
     .c-project.is-next-project {
 
       .c-project__image {
-        height: calc(((100vw - var(--site-margin) * 2) * 2 / 3) / 4);
-        max-height: #{((911.25 / 16 * 1rem) * 2 / 3) / 4};
         overflow: hidden;
-      }
+        height: calc(((100vw - var(--site-margin) * 2) * 2 / 3) / 4 + var(--site-menu-height));
+        margin-bottom: calc(var(--site-menu-height) * -1);
 
-      &:hover,
-      .c-project__link:focus {
-
-        .c-project__image img {
-          transform: scale(1.0125);
+        @include mq($from: lg) {
+          height: calc(((100vw - var(--site-margin) * 2) * 2 / 3) / 4);
+          max-height: #{((911.25 / 16 * 1rem) * 2 / 3) / 4};
         }
       }
+
+      // &:hover,
+      // .c-project__link:focus {
+
+      //   .c-project__image img {
+      //     transform: scale(1.0125);
+      //   }
+      // }
     }
 
 

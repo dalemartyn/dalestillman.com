@@ -1,5 +1,47 @@
 ---
-layout: page
+layout: default
 title: Now
-feature_text: What I’m doing now...
 ---
+
+<div class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xxlarge">
+  <article class="s-article">
+    <header>
+      <h1 class="ts-page-title u-margin-bottom-small">{{ title }}</h1>
+      <p class="ts-post-tagline">What I’m doing now.</p>
+    </header>
+
+      <p>
+        Right now I am...
+      </p>
+
+      <ul>
+        <li>Working 5 days a week as a web developer at <em><a href="https://www.adozeneggs.co.uk" target="_blank">a dozen eggs</a></em> in Loughborough</li>
+        <li>Writing up some of my <a href="/work">work</a></li>
+        <li>Playing football once a week</li>
+        <li>Listening to Happy by Derren Brown</li>
+        <li>Watching Liverpool win the league</li>
+      </ul>
+
+      <p class="ts-meta u-margin-top-xxlarge">
+        Updated 8th March 2020 from Loughborough, England.
+      </p>
+
+      <p class="ts-meta">
+        This is <a href="https://nownownow.com/about">a now page</a>, and if you have your own site, <a href="https://nownownow.com/about">you should make one</a>, too.
+      </p>
+
+    </article>
+
+    <hr class="u-margin-top-xlarge u-margin-bottom-xlarge">
+
+    <ul class="c-social-menu">
+      {% for item in social_accounts %}
+      <li class="c-social-menu__item">
+        <a class="c-social-menu__link" target="_blank" href="https://{{item.site}}.com/{{item.username}}">
+          {% include "svg/social/" + item.site  + ".svg" %}
+          {{item.site|capitalize}}
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+</div>

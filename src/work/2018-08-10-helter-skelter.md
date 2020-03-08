@@ -6,6 +6,7 @@ image:
 color_light: "#fcd856"
 color_dark: "#8a294d"
 date: 2018-08-10T12:00:00+01:00
+tags: "drafts"
 ---
 
 <figure>

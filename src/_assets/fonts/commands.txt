@@ -22,7 +22,7 @@ pyftsubset plex-sans-ttf/IBMPlexSansVar-Roman.ttf \
      --unicodes="U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD" \
 
 pyftsubset plex-sans-ttf/IBMPlexSansVar-Roman.ttf \
-     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
+     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E,U+2022" \
     --layout-features="kern,liga" \
     --flavor="woff" \
     --output-file="test3.woff"
@@ -33,38 +33,38 @@ pyftsubset plex-sans-ttf/IBMPlexSansVar-Roman.ttf \
 
 
 pyftsubset plex-sans-ttf/IBMPlexSansVar-Roman-VF.ttf \
-     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
+     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E,U+2022" \
     --layout-features="kern,liga" \
     --flavor="woff2" \
     --output-file="plex-roman-subset.woff2"
 
 pyftsubset plex-sans-ttf/IBMPlexSansVar-Italic-VF.ttf \
-     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
+     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E,U+2022" \
     --layout-features="kern,liga" \
     --flavor="woff2" \
     --output-file="plex-italic-subset.woff2"
 
 
 pyftsubset plex-mono-ttf/IBMPlexMono-Text.ttf \
-     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
+     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E,U+2022" \
     --layout-features="kern,liga" \
     --flavor="woff2" \
     --output-file="plex-mono/plex-mono-text-subset.woff2"
 
 pyftsubset plex-mono-ttf/IBMPlexMono-Medium.ttf \
-     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
+     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E,U+2022" \
     --layout-features="kern,liga" \
     --flavor="woff2" \
     --output-file="plex-mono/plex-mono-medium-subset.woff2"
 
 pyftsubset plex-mono-ttf/IBMPlexMono-SemiBold.ttf \
-     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
+     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E,U+2022" \
     --layout-features="kern,liga" \
     --flavor="woff2" \
     --output-file="plex-mono/plex-mono-semibold-subset.woff2"
 
 pyftsubset plex-mono-ttf/IBMPlexMono-Bold.ttf \
-     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
+     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E,U+2022" \
     --layout-features="kern,liga" \
     --flavor="woff2" \
     --output-file="plex-mono/plex-mono-bold-subset.woff2"
@@ -76,14 +76,14 @@ pyftsubset plex-mono-ttf/IBMPlexMono-Bold.ttf \
 
 
 pyftsubset plex-sans-ttf/IBMPlexSansVar-Roman-VF-XS.ttf \
-     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
+     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E,U+2022" \
     --layout-features="kern,liga" \
     --flavor="woff2" \
     --output-file="plex-sans/plex-roman-subset-xs.woff2"
 
 
 pyftsubset plex-sans-ttf/IBMPlexSansVar-Italic-VF-XS.ttf \
-     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E" \
+     --unicodes="U+0000-00A4,U+0020,U+00A0,U+2013-201E,U+2022" \
     --layout-features="kern,liga" \
     --flavor="woff2" \
     --output-file="plex-sans/plex-italic-subset-xs.woff2"

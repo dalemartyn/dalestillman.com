@@ -4,20 +4,25 @@
 
 .c-site-menu {
   @include mq($until: lg) {
-    padding-left: var(--site-margin);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: sem-color(surface, .98);
+    @include theme-transition(background-color box-shadow);
+    box-shadow: var(--shadow-2);
     margin-left: calc(var(--site-margin) * -1);
     margin-right: calc(var(--site-margin) * -1);
     display: flex;
-    justify-content: space-between;
     overflow-x: auto;
 
     &::-webkit-scrollbar {
       display: none !important;
     }
 
-    @media print {
-      display: none;
-    }
+  }
+
+  @media print {
+    display: none;
   }
 }
 
@@ -26,6 +31,10 @@
   margin: 0;
   list-style: none;
   display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-left: var(--site-margin);
+  padding-right: var(--site-margin);
 }
 
   .c-site-menu__item {
@@ -33,10 +42,8 @@
     margin-right: sp(large);
     font-size: inherit;
 
-    @include mq($from: md) {
-      &:last-child {
-        margin-right: 0;
-      }
+    &:last-child {
+      margin-right: 0;
     }
   }
 
@@ -82,13 +89,20 @@
           content: "";
           display: block;
           position: absolute;
-          bottom: 0;
           height: 4px;
           box-shadow: 0 4px #{sem-color(text)} inset;
           left: sp(small);
           right: sp(small);
           z-index: -2;
           @include theme-transition(box-shadow);
+
+          @include mq($until: lg) {
+            top: 0;
+          }
+
+          @include mq($from: lg) {
+            bottom: 0;
+          }
         }
       }
 

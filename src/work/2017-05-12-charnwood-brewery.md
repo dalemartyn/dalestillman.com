@@ -6,6 +6,7 @@ image:
   json: /charnwood-brewery/charnwood-brewery.json
 color_light: "#91b2b8"
 color_dark: "#628e96"
+tags: "drafts"
 ---
 
 <figure>

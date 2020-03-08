@@ -55,6 +55,12 @@
   },
   {
     "project": "Off the Blocks",
+    "title": "Off the Blocks Window",
+    "node": "I1335:0;1165:164",
+    "alt":  "Window showing the design of the Off the Blocks website."
+  },
+  {
+    "project": "Off the Blocks",
     "title": "Off the Blocks Video Page",
     "node": "I1038:157;1038:153",
     "alt":  "Tablet showing a video page on the Off the Blocks website."

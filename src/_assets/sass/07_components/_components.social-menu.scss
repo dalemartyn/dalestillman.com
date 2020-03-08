@@ -7,12 +7,13 @@
   height: 100%;
   list-style: none;
   display: flex;
+  flex-direction: column;
 }
 
 .c-social-menu__item {
   display: flex;
   align-items: center;
-  margin: 0 0 0 sp();
+  margin: sp() sp(xlarge) 0 0;
   font-size: inherit;
 
   &:first-child {
@@ -23,25 +24,20 @@
   .c-social-menu__link {
     text-decoration: none;
     box-sizing: content-box;
-    @include ms-respond(width, .725);
-    @include ms-respond(height, .725);
     padding: sp(tiny);
     margin: calc(#{sp(tiny)} * -1);
-    display: block;
-    border-radius: 50%;
-    transition:
-      background-color $hover-transition,
-      box-shadow $hover-transition;
-    @include theme-transition(background-color);
+    display: flex;
+    align-items: center;
+    border-radius: var(--rounded-radius);
 
 
     > svg {
+      @include ms-respond(width, .725);
+      @include ms-respond(height, .725);
       transition: fill $hover-transition;
       @include theme-transition(fill);
-      fill: sem-color(text-3);
-      display: block;
-      width: 100%;
-      height: auto;
+      fill: sem-color(text);
+      margin-right: sp(tiny);
     }
 
     &:hover,

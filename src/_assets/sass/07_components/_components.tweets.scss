@@ -31,13 +31,18 @@
       }
     }
 
-    // .c-tweet__profile-image--dale {}
+    .c-tweet__profile-image--dale {
+
+      > svg > rect {
+        fill: sem-color(twitter-profile);
+      }
+    }
 
     .c-tweet__profile-image--retweet {
       background-color: sem-color(twitter-profile);
 
       > svg {
-        fill: sem-color(text);
+        fill: color("white");
         @include theme-transition(fill);
       }
     }

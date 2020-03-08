@@ -17,7 +17,7 @@ function resizeImages(images, resizeFunction, logString) {
 }
 
 const resizeLocalImages = resizeImages(localImages, resizeLocalImage, 'resizing ');
-const resizeFigmaImages = resizeImages(figmaImages, resizeFigmaImage, 'downloading ');
+const resizeFigmaImages = resizeImages(figmaImages.slice(8,10), resizeFigmaImage, 'downloading ');
 
 module.exports = {
   local: resizeLocalImages,
