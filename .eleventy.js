@@ -103,7 +103,7 @@ module.exports = function (eleventyConfig) {
 
     return `<picture>
       <source srcset="${image.webpSrcset}" type="image/webp" sizes="(min-width: 78.75em) 585px, (min-width: 47.5em) 50vw, 100vw">
-      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 78.75em) 585px, (min-width: 47.5em) 50vw, 100vw" alt="${image.alt}">
+      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 78.75em) 585px, (min-width: 47.5em) 50vw, 100vw" alt="${image.alt}" class="o-ratio__content">
     </picture>`;
   });
 
