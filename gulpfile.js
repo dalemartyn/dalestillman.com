@@ -43,6 +43,8 @@ exports.build = gulp.series(
   sass.build,
   scripts.build,
   dark_theme.build,
+  images.local,
+  images.figma
 );
 
 exports.js = scripts.build;
