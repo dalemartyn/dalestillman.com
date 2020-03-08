@@ -2,9 +2,9 @@
 
 const sizes = [
   {
-    name: '1822',
+    name: '1800',
     options: {
-      width: 1822
+      width: 1800
     }
   },
   {
@@ -14,15 +14,15 @@ const sizes = [
     }
   },
   {
-    name: '1050',
+    name: '1170',
     options: {
-      width: 1050
+      width: 1170
     }
   },
   {
-    name: '911',
+    name: '900',
     options: {
-      width: 911
+      width: 900
     }
   },
   {
@@ -32,9 +32,9 @@ const sizes = [
     }
   },
   {
-    name: '525',
+    name: '585',
     options: {
-      width: 525
+      width: 585
     }
   }
 ];
