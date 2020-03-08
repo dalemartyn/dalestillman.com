@@ -8,8 +8,9 @@ noindex: true
 ## Build
 - crop card titles using lhcrop
 - update blog list layout design
+- update image sizes (in gulp task and frontend)
 
-## Content
+## Work content
 - write charnwood brewery
 - write helter skelter
 - write memo
