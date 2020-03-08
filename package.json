@@ -37,14 +37,18 @@
     "sass-mq": "^5.0.1",
     "sharp": "^0.23.4",
     "stylelint": "^11.1.1",
-    "stylelint-scss": "^3.13.0"
+    "stylelint-scss": "^3.13.0",
+    "superstatic": "^6.0.4"
   },
   "scripts": {
     "build": "run-s gulp:build eleventy:build",
-    "dev": "run-p gulp:dev eleventy:serve",
+    "dev": "run-p gulp:dev eleventy:watch serve",
+    "dev:sync": "run-p gulp:dev eleventy:serve",
     "gulp:build": "npx gulp build",
     "gulp:dev": "npx gulp",
     "eleventy:build": "ELEVENTY_ENV=production npx @11ty/eleventy",
-    "eleventy:serve": "ELEVENTY_ENV=development npx @11ty/eleventy --serve"
+    "eleventy:serve": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
+    "eleventy:watch": "ELEVENTY_ENV=development npx @11ty/eleventy --watch",
+    "serve": "superstatic dist --port 8080 --host 0.0.0.0"
   }
 }
