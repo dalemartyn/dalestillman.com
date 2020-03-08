@@ -33,3 +33,7 @@ noindex: true
 - my vs code setup
 - instagram basic api
 - my site redesign – design decisions
+
+## Short design blog posts
+- Advanced design for engineers (video)
+- Color tools
