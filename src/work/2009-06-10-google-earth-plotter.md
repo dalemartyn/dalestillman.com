@@ -8,9 +8,9 @@ color_light: "#4C81BF"
 color_dark: "#37538C"
 ---
 
-This was my final year project for my Civil Engineering degree at Loughbrough University. I created a computer program to plot surveying data measured with a total station (a digital measuring tool on a tripod) in Google Earth.
+This was my final year project for my Civil Engineering degree at Loughbrough University. I created a computer program to plot surveying data measured with a [total station][1] (a digital measuring tool on a tripod) in Google Earth.
 
-To be able to visualise the data from the detail survey, the application had to transform the coordinates from local cooridate systems to the global coordinate system WGS84.
+The program transformed data captured in local cooridinate systems to the global coordinate system [WGS84][2].
 
 <figure>
   <div class="c-image-background u-rounded">
@@ -21,17 +21,13 @@ To be able to visualise the data from the detail survey, the application had to 
   </figcaption>
 </figure>
 
-I wrote a dissertation and journal paper about the program, and it also discussed accuracy tests which assessed the accuracy of the aerial imagery used in Google Earth, as well as the accuracy of the Helmert transformation used by the program.
+I wrote a dissertation and journal paper about the project. They discussed the development of the program, the accuracy of the aerial imagery used in Google Earth, and the accuracy of the [Helmert transformation][3] used by the program.
 
-<ul>
-  <li>
-    <a href="https://drive.google.com/open?id=1wJ9ogtOm4-zhMnOq_-wlF7dPzRjz5e6W" target="_blank">
-      Final year report
-    </a>
-  </li>
-  <li>
-    <a href="https://drive.google.com/open?id=1T1JZ-E6xS4kG7JKPL-yGgJH2z_gDZXL5" target="_blank">
-      Journal paper
-    </a>
-  </li>
-</ul>
+- [Final year report][4]
+- [Journal paper][5]
+
+[1]: https://en.wikipedia.org/wiki/Total_station "Total station on Wikipedia"
+[2]: https://en.wikipedia.org/wiki/World_Geodetic_System "World Geodetic System on Wikipedia"
+[3]: https://en.wikipedia.org/wiki/Helmert_transformation "Helmert transformation on Wikipedia"
+[4]: https://drive.google.com/open?id=1wJ9ogtOm4-zhMnOq_-wlF7dPzRjz5e6W "Plotting Surveying Data in Google Earth – Final year report"
+[5]: https://drive.google.com/open?id=1T1JZ-E6xS4kG7JKPL-yGgJH2z_gDZXL5 "Plotting Surveying Data in Google Earth – Journal paper"
