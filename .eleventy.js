@@ -92,8 +92,8 @@ module.exports = function (eleventyConfig) {
     const image = JSON.parse(imageFile);
 
     return `<picture>
-      <source srcset="${image.webpSrcset}" type="image/webp" sizes="(min-width: 70em) 1080px, 100vw">
-      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 70em) 1080px, 100vw" alt="${image.alt}" class="o-ratio__content u-rounded">
+      <source srcset="${image.webpSrcset}" type="image/webp" sizes="(min-width: 56.25em) 960px, 100vw">
+      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 56.25em) 960px, 100vw" alt="${image.alt}" class="o-ratio__content u-rounded">
     </picture>`;
   });
 
@@ -102,8 +102,8 @@ module.exports = function (eleventyConfig) {
     const image = JSON.parse(imageFile);
 
     return `<picture>
-      <source srcset="${image.webpSrcset}" type="image/webp" sizes="(min-width: 70em) 525px, (min-width: 52.5em) 50vw, 100vw">
-      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 70em) 525px, (min-width: 52.5em) 50vw, 100vw" alt="${image.alt}">
+      <source srcset="${image.webpSrcset}" type="image/webp" sizes="(min-width: 78.75em) 585px, (min-width: 47.5em) 50vw, 100vw">
+      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 78.75em) 585px, (min-width: 47.5em) 50vw, 100vw" alt="${image.alt}">
     </picture>`;
   });
 
