@@ -8,6 +8,10 @@
   list-style: none;
   display: flex;
   flex-direction: column;
+
+  @include mq($from: lg) {
+    flex-direction: row;
+  }
 }
 
 .c-social-menu__item {
@@ -29,15 +33,17 @@
     display: flex;
     align-items: center;
     border-radius: var(--rounded-radius);
-
+    @include ms-respond(font-size, .75);
+    font-weight: 600;
+    line-height: 1.25;
 
     > svg {
-      @include ms-respond(width, .725);
-      @include ms-respond(height, .725);
+      @include ms-respond(width, 1);
+      @include ms-respond(height, 1);
       transition: fill $hover-transition;
       @include theme-transition(fill);
       fill: sem-color(text);
-      margin-right: sp(tiny);
+      margin-right: sp(small);
     }
 
     &:hover,
