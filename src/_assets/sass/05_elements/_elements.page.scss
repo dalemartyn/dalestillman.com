@@ -31,7 +31,7 @@
   --site-menu-height: calc(#{sp()} * 2 + var(--menu-item-font-size) * 1.25);
 
   @include mq($until: lg) {
-    margin-bottom: var(--site-menu-height);
+    padding-bottom: var(--site-menu-height);
   }
 }
 

@@ -46,5 +46,20 @@
         </a>
       </li>
     {% endif %}
+    {% if page.fileSlug == "cached" or parent.link == "/cached/" %}
+      <li class="c-site-menu__item">
+        <a
+          href="{{parent.link}}"
+          class="
+            c-site-menu__link
+            ts-menu-item
+            {% if 'cached' == page.fileSlug %}is-active{% endif %}
+            {% if '/cached/' == parent.link %} is-parent{% endif %}
+          "
+        >
+          Cached
+        </a>
+      </li>
+    {% endif %}
   </ul>
 </nav>

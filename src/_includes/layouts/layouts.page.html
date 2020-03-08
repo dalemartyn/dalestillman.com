@@ -7,7 +7,9 @@ layout: default
   <article class="s-article">
     <header class="u-margin-top-xxlarge u-margin-bottom-xxlarge">
       <h1 class="ts-page-title u-margin-bottom-small">{{ title }}</h1>
-      <p class="ts-post-tagline">{{ feature_text | safe }}</p>
+      {% if feature_text %}
+        <p class="ts-post-tagline">{{ feature_text | safe }}</p>
+      {% endif %}
     </header>
   </article>
 </div>

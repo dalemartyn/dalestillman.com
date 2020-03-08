@@ -1,17 +1,25 @@
 ---
 layout: page
 title: Blog
-feature_text: My posts about web things
 ---
 
-<div class="o-wrapper">
+<div class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xxlarge">
   {% for post in collections.blog %}
   <article>
-    <h2 class="">
-      <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">
+    <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" class="c-link">
+      <figure
+        style="{% if post.data.color_light %}--img-bg-light: {{ post.data.color_light }};{% endif %}
+          {% if post.data.color_dark %}--img-bg-dark: {{ post.data.color_dark }};{% endif %}"
+        class="u-margin-bottom"
+      >
+        <div class="c-image-background u-rounded">
+          {% image post.data.image.json %}
+        </div>
+      </figure>
+      <h2 class="ts-display-2 u-margin-top">
         {{ post.data.title }}
-      </a>
-    </h2>
+      </h2>
+    </a>
   </article>
   {% endfor %}
 </div>
