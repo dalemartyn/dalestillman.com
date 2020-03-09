@@ -77,7 +77,7 @@ One other cool thing Microsoft demoed is what they are calling "True Scale". Obj
 
 By creating these hero devices I think Microsoft can achieve a number of things. Firstly, it legitimises touch and pen based inputs on PCs. That will help push the ecosystem of apps forward as partners create software to take advatage of these features. It also takes the risk away from OEMs. Microsoft takes the risk in creating the new computing categories and stimulating demand for the ecosystem. Finally, for Microsoft, it improves their brand. They can now be seen as an innovative company that is pushing technology forwards.
 
-There is an opportunity win over creatives, many of whom have become increasingly frustrated and dissilusioned Apple. Apple have been [focussing their efforts, understadably, on their iOS devices][11].
+There is an opportunity win over creatives, many of whom have become increasingly frustrated and dissilusioned Apple. Apple have been [focussing their efforts, understandably, on their iOS devices][11].
 
 Here’s Satya, again talking last year:
 
