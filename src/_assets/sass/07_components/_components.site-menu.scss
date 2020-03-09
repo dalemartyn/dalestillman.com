@@ -64,7 +64,6 @@
       border-radius: var(--rounded-radius);
 
       @include mq($from: lg) {
-        @include ms-respond(margin-top, -5, $spacing-scale);
         @include ms-respond(padding-top, .5, $spacing-scale);
         @include ms-respond(padding-bottom, .5, $spacing-scale);
       }
