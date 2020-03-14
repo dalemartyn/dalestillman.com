@@ -29,6 +29,7 @@ $ratios: (
     display: block;
     width: 100%;
     padding-bottom: 100%; /* [1] */
+    padding-bottom: calc(var(--img-height) / var(--img-width) * 100%);
   }
 
 }
@@ -72,7 +73,7 @@ $ratios: (
       @error "`#{$consequent}` needs to be a number."
     }
 
-    .o-ratio--#{$antecedent}\:#{$consequent}:before {
+    .o-ratio--#{$antecedent}\:#{$consequent}::before {
       padding-bottom: ($consequent/$antecedent) * 100%;
     }
 

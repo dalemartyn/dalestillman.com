@@ -71,9 +71,9 @@ module.exports = function (eleventyConfig) {
     const imageFile = fs.readFileSync('./dist/img' + imageDataFile);
     const image = JSON.parse(imageFile);
 
-    return `<picture>
+    return `<picture class="o-ratio" style="--img-width: ${image.size.width}; --img-height: ${image.size.height};">
       <source srcset="${image.webpSrcset}" type="image/webp" sizes="(min-width: 47.5em) 45em, 100vw">
-      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 47.5em) 45em, 100vw" alt="${image.alt}">
+      <img src="${image.src}" srcset="${image.pngSrcset}" sizes="(min-width: 47.5em) 45em, 100vw" alt="${image.alt}" class="o-ratio__content">
     </picture>`;
   });
 

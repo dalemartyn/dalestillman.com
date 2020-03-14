@@ -5,10 +5,11 @@ const livereload = require('gulp-livereload');
 
 
 // tasks
-const images        = require('./gulp-tasks/images');
-const sass          = require('./gulp-tasks/styles');
-const dark_theme    = require('./gulp-tasks/dark-theme');
-const scripts       = require('./gulp-tasks/scripts');
+const images     = require('./gulp-tasks/images');
+const sass       = require('./gulp-tasks/styles');
+const dark_theme = require('./gulp-tasks/dark-theme');
+const scripts    = require('./gulp-tasks/scripts');
+const svgs       = require('./gulp-tasks/svgs');
 
 
 function watch_built_files() {
@@ -28,12 +29,16 @@ function livereload_listen(done) {
 exports.default = gulp.parallel(
   livereload_listen,
   gulp.series(
-    sass.dev,
-    scripts.dev,
-    dark_theme.build,
+    gulp.parallel(
+      sass.dev,
+      scripts.dev,
+      dark_theme.build,
+      svgs.optimize,
+    ),
     gulp.parallel(
       sass.watch,
       dark_theme.watch,
+      svgs.watch,
       watch_built_files
     )
   )
@@ -43,6 +48,7 @@ exports.build = gulp.series(
   sass.build,
   scripts.build,
   dark_theme.build,
+  svgs.optimize,
   images.resizeLocalImages,
   images.resizeLocalFigmaImages
 );

@@ -4,7 +4,8 @@ title: Blog
 ---
 
 <div class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xxlarge">
-  {% for post in collections.blog %}
+  {% set posts = collections.blog | reverse %}
+  {% for post in posts %}
   <article>
     <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" class="c-link">
       <figure
@@ -13,7 +14,11 @@ title: Blog
         class="u-margin-bottom"
       >
         <div class="c-image-background u-rounded">
-          {% image post.data.image.json %}
+          {% if post.data.image.main %}
+            <img src="{{ post.data.image.main }}" alt="{{ post.data.title }}" />
+          {% elif post.data.image.json %}
+            {% image post.data.image.json %}
+          {% endif %}
         </div>
       </figure>
       <h2 class="ts-display-2 u-margin-top">

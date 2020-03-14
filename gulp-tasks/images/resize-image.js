@@ -68,11 +68,25 @@ function getLocalImagePath(image, src = './src/_assets/img/') {
 async function resizeImage(imageStream, image) {
   const imageDir = getImageDir(image.project, image.title);
   const imageFilename = getImageFilename(image.title);
+  const mainSrc = getImagePath(imageDir, imageSizes[0].name, imageFilename);
+  const imageData = {
+    src: `${mainSrc.replace('dist', '')}.png`,
+    alt: image.alt,
+    title: image.title
+  };
 
   const pipeline = sharp();
   const pipelines = [pipeline];
   const pngSizes = [];
   const webpSizes = [];
+  pipeline.clone()
+    .metadata()
+    .then(function(metadata) {
+      imageData.size = {
+        width: metadata.width,
+        height: metadata.height
+      };
+    });
 
   for (let size of imageSizes) {
     const imagePath = getImagePath(imageDir, size.name, imageFilename);
@@ -118,14 +132,8 @@ async function resizeImage(imageStream, image) {
 
   await Promise.all(pipelines);
 
-  const mainSrc = getImagePath(imageDir, imageSizes[0].name, imageFilename);
-  const imageData = {
-    src: `${mainSrc.replace('dist', '')}.png`,
-    pngSrcset: pngSizes.join(", "),
-    webpSrcset: webpSizes.join(", "),
-    alt: image.alt,
-    title: image.title
-  };
+  imageData.pngSrcset = pngSizes.join(", ");
+  imageData.webpSrcset = webpSizes.join(", ");
   const dataFilePath = path.join(imageDir, imageFilename + '.json');
   await writeFile(dataFilePath, JSON.stringify(imageData, null, 2));
 }
