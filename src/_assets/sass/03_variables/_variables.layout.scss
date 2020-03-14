@@ -1,9 +1,6 @@
 @mixin layout-vars {
   --container-width:      #{rem(960px)};
-  // --container-width:      #{rem(972px)};
-  // --container-width-xl:   #{rem(1080px)};
   --container-width-xl:   #{rem(1200px)};
-  // --container-width-xl:   #{rem(1224px)};
   --site-margin:          #{sp()};
 
   @include mq($from: sm) {

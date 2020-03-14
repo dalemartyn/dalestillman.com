@@ -8,9 +8,9 @@
     "twitter-text": "^3.0.1"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^0.9.0",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
-    "@sindresorhus/slugify": "^0.9.1",
+    "@11ty/eleventy": "^0.10.0",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "@sindresorhus/slugify": "^0.11.0",
     "camelcase": "^5.3.1",
     "chokidar": "^3.3.1",
     "dotenv": "^8.2.0",
@@ -33,15 +33,17 @@
     "node-sass": "^4.13.1",
     "npm-run-all": "^4.1.5",
     "rev-del": "^2.0.0",
-    "rollup": "^1.27.8",
+    "rollup": "^2.0.6",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-svelte": "^5.1.1",
     "sass-material-colors": "0.0.5",
     "sass-mq": "^5.0.1",
-    "sharp": "^0.23.4",
-    "stylelint": "^11.1.1",
-    "stylelint-scss": "^3.13.0",
-    "superstatic": "^6.0.4"
+    "sharp": "^0.25.1",
+    "stylelint": "^13.2.1",
+    "stylelint-scss": "^3.14.2",
+    "superstatic": "^6.0.4",
+    "svelte": "^3.19.2"
   },
   "scripts": {
     "build": "run-s gulp:build eleventy:build",

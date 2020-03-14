@@ -6,7 +6,8 @@ const prod_bundler = require('./prod-bundler');
 
 const entries = [
   'src/_assets/js/main.js',
-  'src/_assets/js/project.js'
+  'src/_assets/js/project.js',
+  'src/_assets/js/blog/variable-fonts.js'
 ];
 
 const dist = './dist/js/';

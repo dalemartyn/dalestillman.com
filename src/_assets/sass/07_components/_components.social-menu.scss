@@ -34,7 +34,7 @@
     align-items: center;
     border-radius: var(--rounded-radius);
     @include ms-respond(font-size, .75);
-    font-weight: 600;
+    font-weight: fw(semibold);
     line-height: 1.25;
 
     > svg {

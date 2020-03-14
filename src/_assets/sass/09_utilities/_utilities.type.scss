@@ -6,21 +6,21 @@
   @include ms-respond(font-size, 3.5);
   line-height: 1.1;
   letter-spacing: -.005em;
-  font-weight: 675;
+  font-weight: fw(bold);
 }
 
 
 .ts-post-tagline {
   @include ms-respond(font-size, 1.5);
   line-height: 1.35;
-  font-weight: 450;
+  font-weight: fw(regular);
 }
 
 /* Style for site title and card titles */
 .ts-title {
   @include ms-respond(font-size, 1.75);
   line-height: 1;
-  font-weight: 675;
+  font-weight: fw(bold);
 }
 
 .ts-meta {
@@ -31,12 +31,18 @@
 
 .ts-menu-item {
   @include ms-respond(font-size, .75);
-  font-weight: 600;
+  font-weight: fw(semibold);
+  line-height: 1.25;
+}
+
+.ts-label {
+  @include ms-respond(font-size, .5);
+  font-weight: fw(regular);
   line-height: 1.25;
 }
 
 .ts-h1__text {
-  font-weight: 450;
+  font-weight: fw(regular);
 }
 
 .ts-display-1 {

@@ -26,6 +26,11 @@ const saveFigmaImages = resizeImages(figmaImages, saveFigmaImage, 'saving ');
 const resizeLocalImages = resizeImages(localImages, resizeLocalImage, 'resizing ');
 const resizeLocalFigmaImages = resizeImages(figmaImages, resizeLocalFigmaImage, 'optimizing ');
 
+resizeFigmaImages.displayName = 'resize_figma_images';
+saveFigmaImages.displayName = 'save_figma_images';
+resizeLocalImages.displayName = 'resize_local_images';
+resizeLocalFigmaImages.displayName = 'resize_local_figma_images';
+
 module.exports = {
   resizeFigmaImages,
   saveFigmaImages,

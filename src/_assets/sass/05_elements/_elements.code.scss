@@ -5,7 +5,7 @@
 pre,
 code {
   font-family: IBM Plex Mono, Menlo, Roboto Mono, monospace, sans-serif;
-  font-weight: 450;
+  font-weight: fw(regular);
   @include ms-respond(font-size, .5);
   background-color: sem-color(background-code);
   color: sem-color(text);
