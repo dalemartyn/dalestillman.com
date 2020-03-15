@@ -3,6 +3,7 @@ const moment = require('moment');
 const twitterText = require('twitter-text');
 const markdownIt = require('markdown-it');
 const fs = require('fs');
+const slugify = require('@sindresorhus/slugify');
 
 module.exports = function (eleventyConfig) {
   eleventyConfig.addLayoutAlias('page', 'layouts/layouts.page.html');
@@ -25,6 +26,19 @@ module.exports = function (eleventyConfig) {
       return manifest[asset];
     }
     return asset;
+  });
+
+  eleventyConfig.addFilter('slugify', input => {
+    if (!input) {
+      return false;
+    }
+    return slugify(input, {
+      customReplacements: [
+        ["'", ''],
+        ['’', ''],
+        ['‘', '']
+      ]
+    });
   });
 
   eleventyConfig.addFilter('first_10', function(array) {

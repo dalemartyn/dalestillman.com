@@ -4,5 +4,6 @@
   "parent": {
     "title": "Blog",
     "link": "/blog/"
-  }
+  },
+  "permalink": "blog/{{ title | slugify }}/index.html"
 }

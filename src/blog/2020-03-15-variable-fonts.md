@@ -1,7 +1,7 @@
 ---
 title: "Variable fonts"
 tagline: "What variable fonts are and how can they be used to improve typesetting on the web"
-date: 2020-03-09T20:22:00+00:00
+date: 2020-03-15T20:22:00+00:00
 image:
   main: /img/blog/variable-fonts.svg
 color_light: "#2b917f"
