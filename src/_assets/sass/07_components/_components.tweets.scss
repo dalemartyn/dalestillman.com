@@ -7,13 +7,9 @@
   padding: sp(large) 0;
   border-bottom: 1px solid sem-color(border);
   display: flex;
-  @include ms-respond(font-size, .5);
-  --tweet-line-height: #{ms-fluid(1.35em, 1.45em, 20em, 60em)};
+  --tweet-line-height: #{ms-fluid(1.4em, 1.45em, 20em, 60em)};
   line-height: var(--tweet-line-height);
-
-  @include mq($from: sm) {
-    @include ms-respond(font-size, .75);
-  }
+  @include ms-respond(font-size, .75);
 
   &:first-child {
     border-top: 1px solid sem-color(border);
@@ -21,13 +17,17 @@
 }
 
   .c-tweet__profile-image-container {
-    padding-right: sp(small);
+    padding-right: sp(tiny);
+
+    @include mq($from: sm) {
+      padding-right: sp(small);
+    }
   }
 
     .c-tweet__profile-image {
       border-radius: 100px;
-      @include ms-respond(width, 2.5, $spacing-scale);
-      @include ms-respond(height, 2.5, $spacing-scale);
+      width: calc(var(--spacing-unit-large) * 1.75);
+      height: calc(var(--spacing-unit-large) * 1.75);
 
       > svg {
         width: 100%;
@@ -94,12 +94,8 @@
         > p {
           margin-bottom: sp(small);
           white-space: pre-wrap;
-          @include ms-respond(font-size, .5);
+          @include ms-respond(font-size, .75);
           line-height: var(--tweet-line-height);
-
-          @include mq($from: sm) {
-            @include ms-respond(font-size, .75);
-          }
 
           &:last-child {
             margin-bottom: 0;
