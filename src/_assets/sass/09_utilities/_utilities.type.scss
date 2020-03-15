@@ -47,8 +47,17 @@
 
 .ts-display-1 {
   @include ms-respond(font-size, 3);
-  line-height: 1.25;
   letter-spacing: -.005em;
+  margin-bottom: 0;
+  line-height: 1.2em;
+
+  @include mq($from: 20em, $until: 60em) {
+    line-height: ms-fluid(1.2em, 1.25em, 20em, 60em);
+  }
+
+  @include mq($from: 60em) {
+    line-height: 1.25em;
+  }
 }
 
 .ts-display-2 {

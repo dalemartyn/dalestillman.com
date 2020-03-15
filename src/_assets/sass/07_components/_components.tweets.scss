@@ -6,11 +6,18 @@
   @include theme-transition(border-color);
   padding: sp(large) 0;
   display: flex;
-  --tweet-line-height: #{ms-fluid(1.4em, 1.45em, 20em, 60em)};
-  line-height: var(--tweet-line-height);
   @include ms-respond(font-size, .75);
   border-top: 1px solid sem-color(border);
-  // border-bottom: 1px solid sem-color(border);
+  line-height: var(--tweet-line-height);
+  --tweet-line-height: 1.4em;
+
+  @include mq($from: 20em, $until: 60em) {
+    --tweet-line-height: ms-fluid(1.4em, 1.45em, 20em, 60em);
+  }
+
+  @include mq($from: 60em) {
+    --tweet-line-height: 1.45em;
+  }
 }
 
   .c-tweet__profile-image-container {
