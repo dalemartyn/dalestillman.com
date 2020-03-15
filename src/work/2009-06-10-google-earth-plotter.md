@@ -29,5 +29,5 @@ I wrote a dissertation and journal paper about the project. They discussed the d
 [1]: https://en.wikipedia.org/wiki/Total_station "Total station on Wikipedia"
 [2]: https://en.wikipedia.org/wiki/World_Geodetic_System "World Geodetic System on Wikipedia"
 [3]: https://en.wikipedia.org/wiki/Helmert_transformation "Helmert transformation on Wikipedia"
-[4]: https://drive.google.com/open?id=1wJ9ogtOm4-zhMnOq_-wlF7dPzRjz5e6W "Plotting Surveying Data in Google Earth – Final year report"
+[4]: https://drive.google.com/open?id=1kkMI9dDiy3w4DaTmG9UvNJO5ReWGfLG9 "Plotting Surveying Data in Google Earth – Final year report"
 [5]: https://drive.google.com/open?id=1T1JZ-E6xS4kG7JKPL-yGgJH2z_gDZXL5 "Plotting Surveying Data in Google Earth – Journal paper"
