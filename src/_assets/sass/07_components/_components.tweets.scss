@@ -3,12 +3,17 @@
    ========================================================================== */
 
 .c-tweet {
-  @include ms-respond(font-size, .75);
   @include theme-transition(border-color);
   padding: sp(large) 0;
   border-bottom: 1px solid sem-color(border);
   display: flex;
-  line-height: 1.45;
+  @include ms-respond(font-size, .5);
+  --tweet-line-height: #{ms-fluid(1.35em, 1.45em, 20em, 60em)};
+  line-height: var(--tweet-line-height);
+
+  @include mq($from: sm) {
+    @include ms-respond(font-size, .75);
+  }
 
   &:first-child {
     border-top: 1px solid sem-color(border);
@@ -87,9 +92,14 @@
       .c-tweet__status {
 
         > p {
-          @include ms-respond(font-size, .75);
           margin-bottom: sp(small);
           white-space: pre-wrap;
+          @include ms-respond(font-size, .5);
+          line-height: var(--tweet-line-height);
+
+          @include mq($from: sm) {
+            @include ms-respond(font-size, .75);
+          }
 
           &:last-child {
             margin-bottom: 0;

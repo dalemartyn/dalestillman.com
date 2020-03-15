@@ -51,13 +51,13 @@ Variable fonts already have excellent [browser support][1], however, they are a 
 
 <script src="/js/variable-fonts.js"></script>
 
-## Further reading
+## More on variable fonts
 
-- [Introducing OpenType Variable Fonts][3]
-- [OpenType Font Variations Overview][4]
+- [Introducing OpenType variable fonts][3]
+- [OpenType font variations overview][4]
 - [How to use variable fonts in the real world][5]
-- [Typographic Potential of Variable Fonts][7]
-- [An Exploration of Variable Fonts][8]
+- [Typographic potential of variable fonts][7]
+- [An exploration of variable fonts][8]
 
 [1]: https://caniuse.com/#feat=variable-fonts
 [2]: https://www.ibm.com/plex/

@@ -8,7 +8,7 @@ blockquote {
   padding: 0 0 0 sp();
 
   @include mq($from: sm) {
-    padding: 0 sp(xlarge);
+    padding: 0 sp(large);
     margin: sp(xlarge) 0;
   }
 
