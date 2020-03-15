@@ -5,15 +5,12 @@
 .c-tweet {
   @include theme-transition(border-color);
   padding: sp(large) 0;
-  border-bottom: 1px solid sem-color(border);
   display: flex;
   --tweet-line-height: #{ms-fluid(1.4em, 1.45em, 20em, 60em)};
   line-height: var(--tweet-line-height);
   @include ms-respond(font-size, .75);
-
-  &:first-child {
-    border-top: 1px solid sem-color(border);
-  }
+  border-top: 1px solid sem-color(border);
+  // border-bottom: 1px solid sem-color(border);
 }
 
   .c-tweet__profile-image-container {

@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: sp(xlarge) sp(large);
-  margin: 0 0 sp(xxlarge);
+  margin: sp(xlarge) 0;
   list-style: none;
 
   @include mq($from: md) {

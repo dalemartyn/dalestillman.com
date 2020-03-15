@@ -20,14 +20,14 @@ Variable fonts also allow font designers to expose custom axes of variation. Try
 
 ## Performance
 
-When we're are using more than a couple of styles, variable fonts give us a smaller file size and faster download performance.
+When we're are using more than a couple of styles, using variable fonts gives us a smaller file size and faster download performance.
 
 <blockquote>
 <p>The reason for the savings is that fonts are stored as a set of mathematical curves. Variable fonts give you the ability to interpolate between two or more set of curves called masters and as a result generate a number of intermediate weights without storing additional data.</p>
 <cite><a href="https://blog.prototypr.io/an-exploration-of-variable-fonts-37f85a91a048">Mathieu Triay</a>, who created the awesome variable font <a href="https://www.readvisions.com/marvin">Marvin Visions</a>.</cite>
 </blockquote>
 
-I'm using [IBM Plex Sans][2] on this site, which contains axes for weight and width. I used the source code on [Github][11] to build a version of the font that doesn't include the lighter font weights (100 up to 400). My version comes in at 21KB for the roman version and 25KB for the italic, making a 36KB total. A single regular woff2 web font for Plex Sans with the same set of glyphs would be 10KB, or 11KB for the italic. Using three font weights would take us to 63KB, 75% larger than the variable font version. The more styles we use, the more the savings add up.
+I'm using [IBM Plex Sans][2] on this site, which contains axes for weight and width. I used the [source code from Github][11] to build a version of the font that doesn't include the lighter font weights (100 up to 400). My version comes in at 21KB for the roman version and 25KB for the italic, making a 36KB total. A single regular woff2 web font for Plex Sans with the same set of glyphs would be 10KB or 11KB for the italic. Using three font weights would take us to 63KB, 75% larger than the variable font version. The more styles we use, the more the savings add up.
 
 ## Typesetting
 

@@ -8,7 +8,7 @@ layout: default
     {% if color_dark %}--img-bg-dark: {{ color_dark }};{% endif %}
 ">
 
-  <header class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xlarge">
+  <header class="o-wrapper u-margin-top-xlarge u-margin-bottom-xlarge">
     {% include "components/components.breadcrumb.html" %}
     <h1 class="u-margin-bottom-micro">{{ title }}</h1>
     {% if tagline %}
@@ -22,7 +22,7 @@ layout: default
 
       {{ content | safe }}
 
-      <p class="ts-meta u-margin-top-xlarge u-margin-bottom-xxlarge">
+      <p class="ts-meta u-margin-top-xlarge u-margin-bottom-xlarge">
         <time class="ts-meta">{{ page.date | format_post_date }}</time>
       </p>
   </div>
