@@ -8,13 +8,14 @@ blockquote {
   padding: 0 0 0 sp();
 
   @include mq($from: sm) {
-    padding: 0 0 0 sp(large);
+    padding: 0 sp(xlarge);
+    margin: sp(xlarge) 0;
   }
 
   > p {
     @include ms-respond(font-size, .875);
     line-height: 1.55em;
-    margin-bottom: sp(micro);
+    margin-bottom: 0;
 
     @include mq($from: 20em, $until: 60em) {
       line-height: ms-fluid(1.55em, 1.6em, 20em, 60em);
@@ -23,6 +24,14 @@ blockquote {
     @include mq($from: 60em) {
       line-height: 1.6em;
     }
+  }
+
+  > p + * {
+    margin-top: sp();
+  }
+
+  > cite {
+    display: block;
   }
 }
 

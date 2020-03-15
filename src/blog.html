@@ -15,7 +15,9 @@ title: Blog
       >
         <div class="c-image-background u-rounded">
           {% if post.data.image.main %}
-            <img src="{{ post.data.image.main }}" alt="{{ post.data.title }}" />
+            <picture class="o-ratio o-ratio--16:9">
+              <img src="{{ post.data.image.main }}" alt="{{ post.data.title }}" class="o-ratio__content" />
+            </picture>
           {% elif post.data.image.json %}
             {% image post.data.image.json %}
           {% endif %}

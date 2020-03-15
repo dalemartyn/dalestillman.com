@@ -20,7 +20,7 @@ Variable fonts also allow font designers to expose custom axes of variation. Try
 
 ## Performance
 
-When we're are using more than a couple of styles, variable fonts give us a lower file size and faster download performance.
+When we're are using more than a couple of styles, variable fonts give us a smaller file size and faster download performance.
 
 <blockquote>
 <p>The reason for the savings is that fonts are stored as a set of mathematical curves. Variable fonts give you the ability to interpolate between two or more set of curves called masters and as a result generate a number of intermediate weights without storing additional data.</p>
