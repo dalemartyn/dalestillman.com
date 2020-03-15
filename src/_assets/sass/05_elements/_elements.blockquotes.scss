@@ -14,6 +14,7 @@ blockquote {
   > p {
     @include ms-respond(font-size, .875);
     line-height: 1.55em;
+    margin-bottom: sp(micro);
 
     @include mq($from: 20em, $until: 60em) {
       line-height: ms-fluid(1.55em, 1.6em, 20em, 60em);
@@ -23,4 +24,11 @@ blockquote {
       line-height: 1.6em;
     }
   }
+}
+
+cite {
+  @include ms-respond(font-size, .25);
+  color: sem-color(text-2);
+  @include theme-transition(color);
+  font-style: normal;
 }

@@ -23,6 +23,6 @@
 </label>
 
 <label class="ts-label u-display-block u-margin-bottom-tiny">
-	<input type="range" min="95" max="100" bind:value={width} on:input={updateStyles} class="u-margin-right-tiny">
-	Width {width}
+	<input type="range" min="95" max="100" step="0.1" bind:value={width} on:input={updateStyles} class="u-margin-right-tiny">
+	Width {width.toFixed(1)}
 </label>

@@ -21,19 +21,14 @@ function resizeImages(images, resizeFunction, logString) {
   }
 }
 
-const resizeFigmaImages = resizeImages(figmaImages, resizeFigmaImage, 'downloading ');
-const saveFigmaImages = resizeImages(figmaImages, saveFigmaImage, 'saving ');
-const resizeLocalImages = resizeImages(localImages, resizeLocalImage, 'resizing ');
-const resizeLocalFigmaImages = resizeImages(figmaImages, resizeLocalFigmaImage, 'optimizing ');
-
-resizeFigmaImages.displayName = 'resize_figma_images';
-saveFigmaImages.displayName = 'save_figma_images';
-resizeLocalImages.displayName = 'resize_local_images';
-resizeLocalFigmaImages.displayName = 'resize_local_figma_images';
+function resize_figma_images() { return resizeImages(figmaImages, resizeFigmaImage, 'downloading ')(); }
+function save_figma_images() { return resizeImages(figmaImages, saveFigmaImage, 'saving ')(); }
+function resize_local_images() { return resizeImages(localImages, resizeLocalImage, 'resizing ')(); }
+function resize_local_figma_images() { return resizeImages(figmaImages, resizeLocalFigmaImage, 'optimizing ')(); }
 
 module.exports = {
-  resizeFigmaImages,
-  saveFigmaImages,
-  resizeLocalImages,
-  resizeLocalFigmaImages
+  resize_figma_images,
+  save_figma_images,
+  resize_local_images,
+  resize_local_figma_images
 };

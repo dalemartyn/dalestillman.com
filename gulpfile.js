@@ -49,12 +49,12 @@ exports.build = gulp.series(
   scripts.build,
   dark_theme.build,
   svgs.optimize,
-  images.resizeLocalImages,
-  images.resizeLocalFigmaImages
+  images.resize_local_images,
+  images.resize_local_figma_images
 );
 
 exports.js = scripts.build;
-exports.img = images.resizeLocalImages;
-exports.fig = images.resizeFigmaImages;
-exports.savefig = images.saveFigmaImages;
-exports.optfig = images.resizeLocalFigmaImages;
+exports.img = images.resize_local_images;
+exports.fig = images.resize_figma_images;
+exports.savefig = images.save_figma_images;
+exports.optfig = images.resize_local_figma_images;
