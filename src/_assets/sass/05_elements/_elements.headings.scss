@@ -17,7 +17,7 @@ h2 {
   @include ms-respond(font-size, 2);
   line-height: 1.2;
   margin-top: sp(xxlarge);
-  margin-bottom: sp();
+  margin-bottom: sp(small);
 }
 
 h3 {

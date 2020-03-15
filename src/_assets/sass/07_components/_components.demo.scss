@@ -1,0 +1,19 @@
+/* ==========================================================================
+   #DEMO
+   ========================================================================== */
+
+/**
+ * Styles for a box to contain a demo in in a blog post.
+ */
+
+.c-demo {
+  background-color: sem-color(background-code);
+  color: sem-color(text);
+  @include theme-transition(color background-color);
+  border-radius: var(--rounded-radius);
+  padding: sp();
+
+  @include mq($from: sm) {
+    padding: sp(large);
+  }
+}

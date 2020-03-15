@@ -3,10 +3,10 @@
   let width = 100;
 </script>
 
-<div class="c-vf">
+<div class="c-demo">
 
   <div
-    class="c-vf__text-sample ts-page-title u-margin-bottom-xlarge"
+    class="c-text-sample ts-page-title u-margin-bottom-xlarge"
     style='font-variation-settings: "wght" {weight}, "wdth" {width};'
   >
     AaBbCcDdEeFfGg...
@@ -25,29 +25,11 @@
 </div>
 
 <style>
-.c-vf {
-  background-color: rgba(var(--color-background-code), 1);
-  padding: var(--spacing-unit);
-  overflow-x: auto;
-  border-radius: var(--rounded-radius);
-  transition:
-    background-color .3s cubic-bezier(0, 0, .2, 1),
-    color-color .3s cubic-bezier(0, 0, .2, 1);
-}
-
-@media (min-width: 41.25em) {
-
-  .c-vf {
-    padding: calc(var(--spacing-unit) * 1.5);
-  }
-}
-
-.c-vf__text-sample {
+.c-text-sample {
   color: #3fad9c;
-  transition: color .3s cubic-bezier(0, 0, .2, 1);
 }
 
-:global(.t-dark) .c-vf__text-sample {
+:global(.t-dark) .c-text-sample {
   color: #5cbcae;
 }
 </style>

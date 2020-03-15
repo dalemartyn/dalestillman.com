@@ -9,7 +9,7 @@ ol {
 
 li {
   @include ms-respond(font-size, 1);
-  margin-bottom: sp(tiny);
+  margin-bottom: sp(micro);
 
   > ul,
   > ol {
