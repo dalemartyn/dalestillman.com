@@ -29,6 +29,10 @@
   color: #3fad9c;
 }
 
+input {
+  vertical-align: middle;
+}
+
 :global(.t-dark) .c-text-sample {
   color: #5cbcae;
 }

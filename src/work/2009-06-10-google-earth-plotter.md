@@ -8,9 +8,9 @@ color_light: "#4C81BF"
 color_dark: "#37538C"
 ---
 
-This was my final year project for my Civil Engineering degree at Loughbrough University. I created a computer program to plot surveying data measured with a [total station][1] (a digital measuring tool on a tripod) in Google Earth.
+This was my final year project for my Civil Engineering degree at Loughborough University. I created a computer program to plot surveying data measured with a [total station][1] (a digital measuring tool on a tripod) on Google Earth.
 
-The program transformed data captured in local cooridinate systems to the global coordinate system [WGS84][2].
+The program transformed data captured in local coordinate systems to the global coordinate system [WGS84][2].
 
 <figure>
   <div class="c-image-background u-rounded">
