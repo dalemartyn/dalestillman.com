@@ -20,7 +20,7 @@ Variable fonts also allow font designers to expose custom axes of variation. Try
 
 ## Performance
 
-When we're are using more than a couple of styles, using variable fonts gives us a smaller file size and faster download performance.
+When we are using more than a couple of styles, using variable fonts gives us a smaller file size and faster download performance.
 
 <blockquote>
 <p>The reason for the savings is that fonts are stored as a set of mathematical curves. Variable fonts give you the ability to interpolate between two or more set of curves called masters and as a result generate a number of intermediate weights without storing additional data.</p>
@@ -31,7 +31,7 @@ I'm using [IBM Plex Sans][2] on this site, which contains axes for weight and wi
 
 ## Typesetting
 
-It's usual for typesetters to make adjustments to type depending on its context. One example is tracking. If you have an optically small type style like a for caption or button, you open it up slightly to improve its legibility. A large type style like a display title is tightened so it's not too loose. It's small tweaks like these that add polish to design, and variable fonts give us more control than we've ever had before.
+It's usual for typesetters to make adjustments to type depending on its context. One example is tracking. If you have an optically small type style like for a caption or button, you open it up slightly to improve its legibility. A large type style like a display title is tightened so it's not too loose. It's small tweaks like these that add polish to design, and variable fonts give us more control than we've ever had before.
 
 Some micro-adjustments we can make to our typography include:
 
