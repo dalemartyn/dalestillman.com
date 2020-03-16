@@ -12,7 +12,7 @@
   --tweet-line-height: 1.4em;
 
   @include mq($from: 20em, $until: 60em) {
-    --tweet-line-height: ms-fluid(1.4em, 1.45em, 20em, 60em);
+    --tweet-line-height: #{ms-fluid(1.4em, 1.45em, 20em, 60em)};
   }
 
   @include mq($from: 60em) {
