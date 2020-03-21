@@ -4,8 +4,8 @@
 <main class="js-main">
   <article
     class="c-project s-article js-project"
-    style="{% if color_light %}--img-bg-light: {{ color_light }};{% endif %}
-      {% if color_dark %}--img-bg-dark: {{ color_dark }};{% endif%}
+    style="{% if color_light %}--img-bg-light: {{ color_light | to_rgb }};{% endif %}
+      {% if color_dark %}--img-bg-dark: {{ color_dark | to_rgb }};{% endif%}
   ">
     <div class="js-project-inner">
       <header class="o-wrapper u-padding-top-xlarge u-margin-bottom-xlarge">
@@ -46,8 +46,8 @@
     {% set next = posts[nextItemIndex] %}
     <article
       class="c-project js-project is-next-project"
-      style="{% if next.data.color_light %}--img-bg-light: {{ next.data.color_light }};{% endif %}
-        {% if next.data.color_dark %}--img-bg-dark: {{ next.data.color_dark }};{% endif%}
+      style="{% if next.data.color_light %}--img-bg-light: {{ next.data.color_light | to_rgb }};{% endif %}
+        {% if next.data.color_dark %}--img-bg-dark: {{ next.data.color_dark | to_rgb }};{% endif%}
     ">
       <a href="{{ next.url }}" class="c-project__link js-project-link">
         <header class="o-wrapper u-padding-top-xlarge u-margin-bottom-xlarge">

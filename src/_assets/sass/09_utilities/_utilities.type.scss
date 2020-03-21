@@ -41,14 +41,9 @@
   line-height: 1.25;
 }
 
-.ts-h1__text {
-  font-weight: fw(semibold);
-}
-
 .ts-display-1 {
   @include ms-respond(font-size, 3);
   letter-spacing: -.005em;
-  margin-bottom: 0;
 }
 
 .ts-display-2 {
@@ -57,4 +52,16 @@
 
 .u-nobr {
   white-space: nowrap;
+}
+
+.u-semibold {
+  font-weight: fw(semibold);
+}
+
+.u-regular {
+  font-weight: fw(regular);
+}
+
+.u-text-center {
+  text-align: center;
 }

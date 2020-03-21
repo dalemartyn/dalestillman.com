@@ -3,10 +3,10 @@
    ========================================================================== */
 
 .c-image-background {
-  background-color: var(--img-bg-light);
+  background-color: rgba(var(--img-bg-light), 1);
   @include theme-transition(background-color);
 
   .t-dark & {
-    background-color: var(--img-bg-dark);
+    background-color: rgba(var(--img-bg-dark), 1);
   }
 }

@@ -9,7 +9,7 @@
 
     {% if post.data.image %}
     <div class="c-work-card__thumbnail c-image-background"
-      style="--img-bg-light: {{ post.data.color_light }}; --img-bg-dark: {{ post.data.color_dark }};">
+      style="--img-bg-light: {{ post.data.color_light | to_rgb }}; --img-bg-dark: {{ post.data.color_dark | to_rgb }};">
       <div class="o-ratio o-ratio--3:2">
       {% if post.data.image.main %}
         <img src="{{ post.data.image.main }}" alt="{{ title }}" class="o-ratio__content" />

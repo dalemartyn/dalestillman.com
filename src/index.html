@@ -2,14 +2,31 @@
 layout: default
 ---
 
-<div class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xxlarge">
+<div class="o-wrapper u-margin-top-xlarge u-margin-bottom-xxlarge">
+
+  <div class="c-profile-image">{% include "svg/twitter/dale-icon.svg" %}</div>
+
   <h1 class="ts-display-1">
-    Dale Stillman
-    <span class="ts-h1__text">
-      &bull; Web developer at
-      <em><a href="https://www.adozeneggs.co.uk" target="_blank" class="c-link"><span class="u-nobr">a dozen</span> eggs</a></em>,
+    Dale Stillman.
+    <span class="u-semibold">
+      Web developer at
+      <em><a href="https://www.adozeneggs.co.uk" target="_blank" class="c-link"><span class="u-nobr">a dozen</span>
+          eggs</a></em>,
       a brand and design studio.
     </span>
   </h1>
+
+  <!-- <hr class="u-margin-top-xlarge u-margin-bottom-xlarge"> -->
+
+  <ul class="c-social-menu u-margin-top-xlarge">
+    {% for item in social_accounts %}
+    <li class="c-social-menu__item">
+      <a class="c-social-menu__link" target="_blank" href="https://{{item.site}}.com/{{item.username}}">
+        {% include "svg/social/" + item.site  + ".svg" %}
+        {{item.site|capitalize}}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
 
 </div>

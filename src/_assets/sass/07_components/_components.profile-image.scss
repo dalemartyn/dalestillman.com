@@ -1,0 +1,23 @@
+/* ==========================================================================
+   #PROFILE-IMAGE
+   ========================================================================== */
+
+
+.c-profile-image {
+  border-radius: 100px;
+  width: calc(var(--spacing-unit-xlarge) * 2.5);
+  height: calc(var(--spacing-unit-xlarge) * 2.5);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: sp();
+
+  > svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  > svg > rect {
+    fill: sem-color(twitter-profile);
+    @include theme-transition(fill);
+  }
+}

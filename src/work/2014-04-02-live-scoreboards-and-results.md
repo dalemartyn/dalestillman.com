@@ -44,7 +44,7 @@ The tables were optimised for the desktop site, using fixed width columns. Below
 By adjusting the font size at several breakpoints I could make the data fit well at all sizes. I used shading on alternate rows to contrast them. But it was overly fiddly, and didn't feel right in the context of the site. Also, some names would flow on to a second row, which broke the vertical rhythm.
 
 <figure>
-  <div class="c-image-background u-rounded" style="--img-bg-light: #26c6da; --img-bg-dark: #00838f;">
+  <div class="c-image-background u-rounded" style="--img-bg-light: {{ '#26c6da' | to_rgb }}; --img-bg-dark: {{ '#00838f' |to_rgb }};">
     {% image "/live-scoreboards-and-results/masters-desktop.json" %}
   </div>
   <figcaption>Men’s 200m IM on the Master’s site on desktop.</figcaption>

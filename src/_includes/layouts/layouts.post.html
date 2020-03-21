@@ -4,8 +4,8 @@ layout: default
 
 <article
   class="s-article"
-  style="{% if color_light %}--img-bg-light: {{ color_light }};{% endif %}
-    {% if color_dark %}--img-bg-dark: {{ color_dark }};{% endif %}
+  style="{% if color_light %}--img-bg-light: {{ color_light | to_rgb }};{% endif %}
+    {% if color_dark %}--img-bg-dark: {{ color_dark | to_rgb }};{% endif %}
 ">
 
   <header class="o-wrapper u-margin-top-xlarge u-margin-bottom-xlarge">

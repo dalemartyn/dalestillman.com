@@ -81,6 +81,18 @@ module.exports = function (eleventyConfig) {
     return linkedText;
   });
 
+  eleventyConfig.addFilter('to_rgb', function(hex) {
+    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+
+    if (!result) return null;
+
+    let r = parseInt(result[1], 16);
+    let g = parseInt(result[2], 16);
+    let b = parseInt(result[3], 16);
+
+    return `${r}, ${g}, ${b}`;
+  });
+
   eleventyConfig.addShortcode('image', function(imageDataFile) {
     const imageFile = fs.readFileSync('./dist/img' + imageDataFile);
     const image = JSON.parse(imageFile);
