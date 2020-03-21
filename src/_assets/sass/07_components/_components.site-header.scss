@@ -33,10 +33,6 @@
     justify-self: start;
     padding-top: sp();
     padding-bottom: sp();
-
-    @include mq($from: lg) {
-      margin-bottom: sp(xmicro);
-    }
   }
 
   .c-site-header__darkmode {

@@ -1,6 +1,6 @@
 <script>
-  let regular = 450;
-  let bold = 675;
+  let regular = 425;
+  let bold = 650;
   let width = 100;
 
   function updateStyles() {
