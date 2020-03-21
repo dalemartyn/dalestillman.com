@@ -36,6 +36,7 @@
     @include ms-respond(font-size, .75);
     font-weight: fw(semibold);
     line-height: 1.25;
+    transition: background-color $hover-transition;
 
     > svg {
       @include ms-respond(width, 1);

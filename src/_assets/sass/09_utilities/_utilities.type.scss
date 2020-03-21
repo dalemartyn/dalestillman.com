@@ -10,6 +10,12 @@
 }
 
 
+.ts-page-intro {
+  @include ms-respond(font-size, 1.5);
+  line-height: 1.35;
+  font-weight: fw(regular);
+}
+
 .ts-post-tagline {
   @include ms-respond(font-size, 1.5);
   line-height: 1.35;

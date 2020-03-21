@@ -53,7 +53,7 @@ By adjusting the font size at several breakpoints I could make the data fit well
 This felt too messy and insonsitent.
 
 <figure>
-  <div class="c-image-background u-rounded" style="--img-bg-light: #26c6da; --img-bg-dark: #00838f;">
+  <div class="c-image-background u-rounded" style="--img-bg-light: {{ '#26c6da' | to_rgb }}; --img-bg-dark: {{ '#00838f' |to_rgb }};">
     {% image "/live-scoreboards-and-results/masters-phone.json" %}
   </div>
   <figcaption>Men’s 200m IM on the Master’s site on mobile. The font size was really small. To fit the club on it had to go on a new row. You can see at Pos 3 it flows on to a 3rd row. The columns aren’t consistent widths across events or between start lists and results.</figcaption>
@@ -62,7 +62,7 @@ This felt too messy and insonsitent.
 On tablet the the content became sparse.
 
 <figure>
-  <div class="c-image-background u-rounded" style="--img-bg-light: #26c6da; --img-bg-dark: #00838f;">
+  <div class="c-image-background u-rounded" style="--img-bg-light: {{ '#26c6da' | to_rgb }}; --img-bg-dark: {{ '#00838f' |to_rgb }};">
     {% image "/live-scoreboards-and-results/masters-tablet.json" %}
   </div>
   <figcaption>Tablet view - viewport with 720px width.</figcaption>
