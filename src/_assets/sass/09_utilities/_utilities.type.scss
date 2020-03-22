@@ -3,7 +3,7 @@
    ========================================================================== */
 
 .ts-page-title {
-  @include ms-respond(font-size, 3.5);
+  @include ms-respond(font-size, 3.75);
   line-height: 1.1;
   letter-spacing: -.005em;
   font-weight: fw(bold);
@@ -13,13 +13,13 @@
 .ts-page-intro {
   @include ms-respond(font-size, 1.5);
   line-height: 1.35;
-  font-weight: fw(regular);
+  font-weight: fw(text);
 }
 
 .ts-post-tagline {
   @include ms-respond(font-size, 1.5);
   line-height: 1.35;
-  font-weight: fw(regular);
+  font-weight: fw(text);
 }
 
 /* Style for site title and card titles */
@@ -62,6 +62,10 @@
 
 .u-semibold {
   font-weight: fw(semibold);
+}
+
+.u-text {
+  font-weight: fw(text);
 }
 
 .u-regular {
