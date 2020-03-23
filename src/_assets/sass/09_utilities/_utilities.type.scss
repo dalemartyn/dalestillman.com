@@ -51,10 +51,12 @@
 .ts-display-1 {
   @include ms-respond(font-size, 3.5);
   letter-spacing: -.005em;
+  line-height: 1.1;
 }
 
 .ts-display-2 {
-  @include ms-respond(font-size, 3);
+  @include ms-respond(font-size, 2.75);
+  line-height: 1.2;
   letter-spacing: -.005em;
 }
 
@@ -64,6 +66,10 @@
 
 .u-nobr {
   white-space: nowrap;
+}
+
+.u-bold {
+  font-weight: fw(bold);
 }
 
 .u-semibold {

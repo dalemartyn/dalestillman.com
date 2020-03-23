@@ -42,6 +42,10 @@
     margin-right: sp(large);
     font-size: inherit;
 
+    @include mq($from: sm) {
+      margin-right: calc(#{sp(large)} + #{sp(micro)});
+    }
+
     &:last-child {
       margin-right: 0;
     }
