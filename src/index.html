@@ -5,21 +5,12 @@ layout: default
 <div class="u-margin-top-xxxlarge u-margin-bottom-xxlarge">
   <div class="o-wrapper">
 
-    <div class="ts-display-1 u-semibold">
+    <div class="ts-display-1 u-semibold u-margin-bottom-xxxlarge">
       Developer at
       <em><a href="https://www.adozeneggs.co.uk" target="_blank" class="c-link"><span class="u-nobr">a dozen</span> eggs</a></em>,
       a brand and design studio.
     </div>
 
-    <ul class="c-social-menu u-margin-top-xxxlarge">
-      {% for item in social_accounts %}
-      <li class="c-social-menu__item">
-        <a class="c-social-menu__link" target="_blank" href="https://{{item.site}}.com/{{item.username}}">
-          {% include "svg/social/" + item.site  + ".svg" %}
-          {{item.site|capitalize}}
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
+    {% include "components/components.social-menu.html" %}
   </div>
 </div>

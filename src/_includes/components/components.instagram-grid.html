@@ -1,0 +1,18 @@
+<ul class="c-instagram-grid">
+  {% for item in instagram | first_10 %}
+  <li class="c-instagram-grid__item o-ratio o-ratio--1:1">
+    <a class="c-instagram-grid__link o-ratio__content" target="_blank" href="{{item.permalink}}">
+      <img src="{{item.permalink}}media/?size=m"
+        srcset="{{item.permalink}}media/?size=l 1080w,
+          {{item.permalink}}media/?size=m 320w,
+          {{item.permalink}}media/?size=t 150w"
+        sizes="(min-width: 63.75em) 181px,
+          (min-width: 41.25em) 20vw,
+          25vw"
+        alt="{{item.caption}}"
+        class="c-instagram-grid__img"
+      />
+    </a>
+  </li>
+  {% endfor %}
+</ul>
