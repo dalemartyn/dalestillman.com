@@ -3,15 +3,13 @@ layout: default
 ---
 
 
-<div class="o-wrapper">
-  <article class="s-article">
-    <header class="u-margin-top-xxlarge u-margin-bottom-xxlarge">
+<article>
+  <header class="u-margin-top-xxlarge u-margin-bottom-xxlarge">
+    <div class="o-wrapper">
       <h1 class="ts-page-title u-margin-bottom-small">{{ title }}</h1>
-      {% if feature_text %}
-        <!-- <p class="ts-page-intro">{{ feature_text | safe }}</p> -->
-      {% endif %}
-    </header>
-  </article>
-</div>
+    </div>
+  </header>
 
-{{ content | safe }}
+  {{ content | safe }}
+</article>
+
