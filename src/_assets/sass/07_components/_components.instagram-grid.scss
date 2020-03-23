@@ -35,6 +35,7 @@
         height: 100%;
         object-fit: cover;
         border-radius: 2px;
+        background-color: sem-color(background-code);
 
         @include mq($from: sm) {
           border-radius: sp(xxmicro);
