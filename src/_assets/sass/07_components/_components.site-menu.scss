@@ -49,6 +49,36 @@
     &:last-child {
       margin-right: 0;
     }
+
+    &.is-parent,
+    &.is-active {
+      color: sem-color(text);
+      position: relative;
+      z-index: 0;
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 4px;
+        box-shadow: 0 4px #{sem-color(text)} inset;
+        left: sp(small);
+        right: sp(small);
+        left: 0;
+        right: 0;
+        z-index: -2;
+        @include theme-transition(box-shadow);
+
+        @include mq($until: lg) {
+          top: 0;
+        }
+
+        @include mq($from: lg) {
+          bottom: 0;
+        }
+      }
+    }
+
   }
 
     .c-site-menu__link {
@@ -68,8 +98,8 @@
       border-radius: var(--rounded-radius);
 
       @include mq($from: lg) {
-        @include ms-respond(padding-top, .5, $spacing-scale);
-        @include ms-respond(padding-bottom, .5, $spacing-scale);
+        margin-top: 4px;
+        margin-bottom: 4px;
       }
 
       &:hover,
@@ -82,31 +112,11 @@
         background-color: $color-active;
       }
 
-      &.is-parent,
-      &.is-active {
+      .is-parent > &,
+      .is-active > & {
         color: sem-color(text);
         position: relative;
         z-index: 0;
-
-        &::after {
-          content: "";
-          display: block;
-          position: absolute;
-          height: 4px;
-          box-shadow: 0 4px #{sem-color(text)} inset;
-          left: sp(small);
-          right: sp(small);
-          z-index: -2;
-          @include theme-transition(box-shadow);
-
-          @include mq($until: lg) {
-            top: 0;
-          }
-
-          @include mq($from: lg) {
-            bottom: 0;
-          }
-        }
       }
 
       @include focus-style {

@@ -41,5 +41,5 @@
   @return rgba(var(--color-#{$color_name}), #{$opacity});
 }
 
-$color-focus:  sem-color(hover-state, .08);
-$color-active: sem-color(hover-state, .14);
+$color-focus:  sem-color(hover-state, .14);
+$color-active: sem-color(hover-state, .28);

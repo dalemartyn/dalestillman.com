@@ -1,16 +1,10 @@
 <nav class="c-site-menu">
   <ul class="c-site-menu__list">
     {% for item in site_menu %}
-      <li class="c-site-menu__item">
-        <a
-          href="{{item.link}}"
-          class="
-            c-site-menu__link
-            ts-menu-item
-            {% if item.slug == page.fileSlug %}is-active{% endif %}
-            {% if item.link == parent.link %} is-parent{% endif %}
-          "
-        >
+      <li class="c-site-menu__item
+          {% if item.slug == page.fileSlug %}is-active{% endif %}
+          {% if item.link == parent.link %} is-parent{% endif %}">
+        <a href="{{item.link}}" class="c-site-menu__link ts-menu-item">
           {{item.title}}
         </a>
       </li>
