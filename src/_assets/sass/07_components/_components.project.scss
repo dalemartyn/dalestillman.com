@@ -7,7 +7,7 @@
   @include theme-transition(background-color);
 
   &.is-next-project:hover {
-    background-color: sem-color(hover-state, .06);
+    background-color: sem-color(hover-state, .12);
   }
 
 }
