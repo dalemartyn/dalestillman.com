@@ -6,7 +6,7 @@
 <div class="c-demo">
 
   <div
-    class="c-text-sample ts-page-title u-margin-bottom-xlarge"
+    class="c-text-sample ts-display-1 u-margin-bottom-xlarge"
     style='font-variation-settings: "wght" {weight}, "wdth" {width};'
   >
     AaBbCcDdEeFfGg...
