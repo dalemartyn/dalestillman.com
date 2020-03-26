@@ -23,11 +23,11 @@
   border-radius: 50%;
 
   &:hover {
-    background-color: $color-focus;
+    background-color: var(--state-color-hover);
   }
 
   &:active {
-    background-color: $color-active;
+    background-color: var(--state-color-active);
   }
 
   @include focus-style {

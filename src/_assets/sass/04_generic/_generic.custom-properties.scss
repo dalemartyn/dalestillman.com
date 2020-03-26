@@ -10,12 +10,14 @@
 
   color-scheme: light;
   @include light-color-vars;
+  @include light-state-color-vars;
   @include light-shadow-vars;
 
   &.t-dark {
     @media not print {
       color-scheme: dark;
       @include dark-color-vars;
+      @include dark-state-color-vars;
       @include dark-shadow-vars;
     }
   }

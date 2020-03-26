@@ -105,11 +105,11 @@
       &:hover,
       &:focus {
         color: sem-color(text);
-        background-color: $color-focus;
+        background-color: var(--state-color-hover);
       }
 
       &:active {
-        background-color: $color-active;
+        background-color: var(--state-color-active);
       }
 
       .is-parent > &,

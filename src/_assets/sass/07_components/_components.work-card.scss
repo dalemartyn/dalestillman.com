@@ -40,12 +40,12 @@
     &:focus {
 
       &::after {
-        background-color: $color-focus;
+        background-color: var(--state-color-hover);
       }
     }
 
     &:active::after {
-      background-color: $color-active;
+      background-color: var(--state-color-active);
     }
 
     @include focus-style {

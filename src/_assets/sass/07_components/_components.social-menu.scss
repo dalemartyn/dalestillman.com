@@ -49,7 +49,7 @@
 
     &:hover,
     &:focus {
-      background-color: $color-focus;
+      background-color: var(--state-color-hover);
 
       > svg {
         fill: sem-color(text);
@@ -57,7 +57,7 @@
     }
 
     &:active {
-      background-color: $color-active;
+      background-color: var(--state-color-active);
     }
 
     @include focus-style {

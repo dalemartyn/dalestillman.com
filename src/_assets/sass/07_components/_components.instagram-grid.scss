@@ -44,7 +44,7 @@
       &:focus {
 
         &::after {
-          background-color: $color-focus-img;
+          background-color: var(--state-color-hover-img);
           transition: background-color $hover-transition;
           content: "";
           pointer-events: none;
@@ -57,7 +57,7 @@
       }
 
       &:active::after {
-        background-color: $color-active-img;
+        background-color: var(--state-color-active-img);
       }
 
       @include focus-style {

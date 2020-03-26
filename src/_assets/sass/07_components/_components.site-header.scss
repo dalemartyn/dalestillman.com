@@ -63,13 +63,13 @@
       border-radius: sp(xmicro);
 
       &:hover {
-        background-color: $color-focus;
+        background-color: var(--state-color-hover);
         color: sem-color(text);
         text-decoration: none;
       }
 
       &:active {
-        background-color: $color-active;
+        background-color: var(--state-color-active);
       }
 
       @include focus-style {
