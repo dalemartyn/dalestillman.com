@@ -25,9 +25,8 @@ $profile_image_size: calc(#{sp(xxlarge)} * 1.5);
 }
 
 .c-twitter-profile__main {
-  padding: 0 sp() sp(large);
+  padding: sp() sp() sp(large);
   transition: box-shadow .2s $standard-easing;
-  border-top: 1px solid sem-color("border");
   @include theme-transition(border-color);
 
   @include mq($from: sm) {
@@ -44,7 +43,7 @@ $profile_image_size: calc(#{sp(xxlarge)} * 1.5);
     background-color: sem-color("background");
     @include theme-transition(box-shadow background-color);
     margin-bottom: sp(tiny);
-    margin-top: calc(#{$profile_image_size} * -1 / 2);
+    margin-top: calc(#{$profile_image_size} * -1 / 2 - #{sp()});
 
     > svg {
       width: 100%;
@@ -54,6 +53,7 @@ $profile_image_size: calc(#{sp(xxlarge)} * 1.5);
 
     > svg > rect {
       fill: sem-color(twitter-profile);
+      @include theme-transition(fill);
     }
   }
 
@@ -62,7 +62,6 @@ $profile_image_size: calc(#{sp(xxlarge)} * 1.5);
   }
 
     .c-twitter-profile__link {
-      @include ms-respond(font-size, 2);
       line-height: 1.25;
       font-weight: fw(bold);
       text-decoration: none;
@@ -81,17 +80,22 @@ $profile_image_size: calc(#{sp(xxlarge)} * 1.5);
 
     }
 
+    .c-twitter-profile__name {
+      @include ms-respond(font-size, 2);
+    }
+
     .c-twitter-profile__screen-name {
-      @include ms-respond(font-size, .75);
+      @include ms-respond(font-size, 1);
       font-weight: fw(text);
       color: sem-color("text-3");
       @include theme-transition(color);
     }
 
     .c-twitter-profile__bio {
-      @include ms-respond(font-size, .75);
+      @include ms-respond(font-size, 1);
       line-height: 1.35;
       margin: 0;
       color: sem-color("text");
       @include theme-transition(color);
+      font-weight: fw(text);
     }
