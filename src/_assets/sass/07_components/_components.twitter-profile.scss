@@ -41,7 +41,8 @@ $profile_image_size: calc(#{sp(xxlarge)} * 1.5);
     width: $profile_image_size;
     height: $profile_image_size;
     box-shadow: 0 0 0 sp(xxmicro) sem-color("background");
-    @include theme-transition(box-shadow);
+    background-color: sem-color("background");
+    @include theme-transition(box-shadow background-color);
     margin-bottom: sp(tiny);
     margin-top: calc(#{$profile_image_size} * -1 / 2);
 
