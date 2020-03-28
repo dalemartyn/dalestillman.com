@@ -1,0 +1,75 @@
+/* ==========================================================================
+   #TWITTER-PROFILE
+   ========================================================================== */
+
+$profile_image_size: calc(#{sp(xxlarge)} * 1.25);
+
+.c-twitter-profile {
+  padding: 0 sp() sp(large);
+  transition: box-shadow .2s $standard-easing;
+  border-top: 1px solid sem-color("border");
+  margin-top: sp(xxxlarge);
+  @include theme-transition(border-color);
+
+  @include mq($from: sm) {
+    margin-top: 0;
+    border-left: 1px solid sem-color("border");
+    border-right: 1px solid sem-color("border");
+    border-top-right-radius: var(--rounded-radius);
+    border-top-left-radius: var(--rounded-radius);
+  }
+}
+
+  .c-twitter-profile__profile-picture {
+    border-radius: 100px;
+    width: $profile_image_size;
+    height: $profile_image_size;
+    box-shadow: 0 0 0 sp(xxmicro) sem-color("background");
+    margin-bottom: sp(tiny);
+    margin-top: calc(#{$profile_image_size} * -1 / 2);
+
+    > svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    > svg > rect {
+      fill: sem-color(twitter-profile);
+    }
+  }
+
+  .c-twitter-profile__info {
+    //
+  }
+
+    .c-twitter-profile__link {
+      @include ms-respond(font-size, 1.5);
+      line-height: 1.25;
+      font-weight: fw(bold);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: sp(xmicro);
+      color: sem-color("text");
+
+      &:hover {
+
+        .c-twitter-profile__name {
+          text-decoration: underline;
+        }
+      }
+
+    }
+
+    .c-twitter-profile__screen-name {
+      @include ms-respond(font-size, .75);
+      font-weight: fw(text);
+      color: sem-color("text-3");
+    }
+
+    .c-twitter-profile__bio {
+      @include ms-respond(font-size, .75);
+      line-height: 1.35;
+      margin: 0;
+      color: sem-color("text");
+    }

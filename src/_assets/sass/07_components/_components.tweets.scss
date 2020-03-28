@@ -4,7 +4,7 @@
 
 .c-tweet {
   @include theme-transition(border-color);
-  padding: sp() 0 sp(large);
+  padding: sp() sp() sp(large);
   display: flex;
   @include ms-respond(font-size, .75);
   border-top: 1px solid sem-color(border);
@@ -17,6 +17,11 @@
 
   @include mq($from: 60em) {
     --tweet-line-height: 1.45em;
+  }
+
+  @include mq($from: sm) {
+    border-left: 1px solid sem-color(border);
+    border-right: 1px solid sem-color(border);
   }
 }
 
