@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Twitter
-is_heavy: true
+#is_heavy: true
 ---
 
 <div class="o-wrapper@sm">
   {% include "components/components.twitter-profile.html" %}
-  {% for tweet in tweets %}
+  {% for tweet in tweets|first_20 %}
     {% include "components/components.tweet.html" %}
   {% endfor %}
 </div>

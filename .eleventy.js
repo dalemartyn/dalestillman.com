@@ -15,6 +15,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy('src/js');
   eleventyConfig.addPassthroughCopy({'src/_assets/fonts': 'fonts'});
   eleventyConfig.addPassthroughCopy('src/favicon.png');
+  eleventyConfig.addPassthroughCopy('src/twitter.svg');
 
   eleventyConfig.addPlugin(syntaxHighlight, {
     templateFormats: ["njk", "md"],
@@ -39,6 +40,10 @@ module.exports = function (eleventyConfig) {
         ['‘', '']
       ]
     });
+  });
+
+  eleventyConfig.addFilter('first_20', function(array) {
+    return array.slice(0, 20);
   });
 
   eleventyConfig.addFilter('first_10', function(array) {

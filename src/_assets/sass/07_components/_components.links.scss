@@ -5,8 +5,11 @@
 .c-link {
   text-decoration: none;
 
-  &:focus,
   &:hover {
     text-decoration: underline;
+  }
+
+  &:focus {
+    @include focused-link-styles;
   }
 }

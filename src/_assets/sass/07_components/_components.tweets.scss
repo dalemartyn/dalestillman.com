@@ -3,11 +3,11 @@
    ========================================================================== */
 
 .c-tweet {
-  @include theme-transition(border-color);
   padding: sp() sp() sp(large);
   display: flex;
   @include ms-respond(font-size, .75);
   border-top: 1px solid sem-color(border);
+  @include theme-transition(border-color);
   line-height: var(--tweet-line-height);
   --tweet-line-height: 1.4em;
 
@@ -50,6 +50,7 @@
 
       > svg > rect {
         fill: sem-color(twitter-profile);
+        @include theme-transition(fill);
       }
     }
 
