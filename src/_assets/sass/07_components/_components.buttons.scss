@@ -40,8 +40,8 @@
     fill: sem-color(text);
     @include theme-transition(fill);
     display: block;
-    @include ms-respond(height, .5, $spacing-scale);
-    @include ms-respond(width, .5, $spacing-scale);
+    @include ms-respond(height, 1.55);
+    @include ms-respond(width, 1.55);
     width: auto;
   }
 }
