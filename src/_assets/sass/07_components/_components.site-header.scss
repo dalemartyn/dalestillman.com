@@ -54,8 +54,8 @@
       text-align: center;
       text-decoration: none;
       white-space: nowrap;
-      padding: sp(tiny);
-      margin: calc(#{sp(tiny)} * -1);
+      padding: sp(small) sp(tiny);
+      margin: calc(#{sp(small)} * -1) calc(#{sp(tiny)} * -1);
       transition:
         background-color $hover-transition,
         box-shadow $hover-transition;

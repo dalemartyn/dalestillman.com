@@ -58,12 +58,11 @@
 
     .c-work-card__content {
       padding: sp();
-      line-height: 1;
       order: 1;
     }
 
       .c-work-card__title {
-        margin: 0;
+        margin: sp(xmicro) 0;
       }
 
     .c-work-card__thumbnail {
