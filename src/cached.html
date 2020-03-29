@@ -3,23 +3,11 @@ layout: page
 title: Cached
 ---
 
-<div class="o-wrapper u-margin-top-xxlarge u-margin-bottom-xxlarge">
-  {% for post in collections["cached"] %}
-  <article>
-    <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" class="c-link">
-      <figure
-        style="{% if post.data.color_light %}--img-bg-light: {{ post.data.color_light }};{% endif %}
-          {% if post.data.color_dark %}--img-bg-dark: {{ post.data.color_dark }};{% endif %}"
-        class="u-margin-bottom"
-      >
-        <div class="c-image-background u-rounded">
-          {% image post.data.image.json %}
-        </div>
-      </figure>
-      <h2 class="ts-display-3 u-margin-top">
-        {{ post.data.title }}
-      </h2>
-    </a>
-  </article>
+<div class="o-wrapper u-margin-top-xlarge u-margin-bottom-xlarge">
+  {% set posts = collections.cached | reverse %}
+  {% set post = posts|first %}
+  {% include "components/components.tease-large.html" %}
+  {% for post in posts|slice(1) %}
+    {% include "components/components.tease.html" %}
   {% endfor %}
 </div>

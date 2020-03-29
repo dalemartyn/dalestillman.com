@@ -1,0 +1,25 @@
+<article class="c-tease-large">
+  <a href="{{ post.url }}" class="c-tease-large__link">
+
+    <figure style="{% if post.data.color_light %}--img-bg-light: {{ post.data.color_light | to_rgb }};{% endif %}
+        {% if post.data.color_dark %}--img-bg-dark: {{ post.data.color_dark | to_rgb }};{% endif %}"
+      class="u-margin-none">
+      <div class="c-image-background u-rounded c-tease-large__image">
+        {% if post.data.image.main %}
+          <picture class="o-ratio o-ratio--16:9">
+            <img src="{{ post.data.image.main }}" alt="{{ post.data.title }}" class="o-ratio__content" />
+          </picture>
+        {% elif post.data.image.json %}
+          {% image post.data.image.json %}
+        {% endif %}
+      </div>
+    </figure>
+
+    <h2 class="ts-display-3 u-margin-top u-margin-bottom-xmicro c-tease-large__title">
+      {{ post.data.title }}
+    </h2>
+
+    <p class="u-margin-bottom-none">{{ post.data.tagline }}</p>
+
+  </a>
+</article>

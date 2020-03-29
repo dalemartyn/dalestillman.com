@@ -54,6 +54,10 @@ module.exports = function (eleventyConfig) {
     return array.slice(0, 8);
   });
 
+  eleventyConfig.addFilter('slice', function(array, i=0, j=array.length) {
+    return array.slice(i, j);
+  });
+
   eleventyConfig.addFilter('autop', function autoParagraph(text) {
     return '<p>' + text.split(/\n\n+/).join('</p>\n<p>') + '</p>';
   });

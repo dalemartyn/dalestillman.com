@@ -1,0 +1,48 @@
+/* ==========================================================================
+   #TEASE-LARGE
+   ========================================================================== */
+
+.c-tease-large {}
+
+.c-tease-large__link {
+  text-decoration: none;
+  position: relative;
+  display: block;
+  padding: sp() sp() sp(large);
+  margin: calc(#{sp()} * -1) calc(#{sp()} * -1) 0;
+  display: flow-root;
+
+  @include focus-style {
+    outline: none;
+
+    &::after {
+      box-shadow: 0 0 0 sp(xmicro) sem-color(link);
+      background-color: sem-color(link, .2);
+      border-radius: var(--rounded-radius);
+    }
+  }
+
+  &::after {
+    transition: background-color $hover-transition;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--rounded-radius);
+  }
+
+  &:hover,
+  &:focus {
+
+    &::after {
+      background-color: var(--state-color-hover);
+    }
+  }
+
+  &:active::after {
+    background-color: var(--state-color-active);
+  }
+}

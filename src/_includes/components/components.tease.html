@@ -1,0 +1,11 @@
+<article class="c-tease">
+  <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}"
+    class="c-tease__link">
+
+    <h2 class="ts-display-4 u-margin-top-none u-margin-bottom-xmicro c-tease__title">
+      {{ post.data.title }}
+    </h2>
+    <p class="u-margin-bottom-none">{{ post.data.tagline }}</p>
+
+  </a>
+</article>

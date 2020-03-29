@@ -63,8 +63,28 @@
       }
     }
 
+
+      /**
+       * Tweet user meta.
+       */
+
+      .c-tweet__main {
+        flex-shrink: 1;
+        min-width: 0;
+      }
+
+      .c-tweet__user-meta {
+        display: flex;
+        min-width: 0;
+      }
+
       .c-tweet__user-profile-link {
         text-decoration: none;
+        display: flex;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
 
         &:hover {
           color: inherit;
@@ -79,6 +99,15 @@
 
         .c-tweet__user-name {
           font-weight: fw(bold);
+          margin-right: sp(xxmicro);
+        }
+
+        .c-tweet__user-screen-name {
+          flex-shrink: 1;
+          min-width: 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
         }
 
       .c-tweet__user-screen-name,
@@ -89,8 +118,15 @@
         @include theme-transition(color);
       }
 
+      .c-tweet__bullet-separator {
+        margin-left: sp(xxmicro);
+        margin-right: sp(xxmicro);
+        white-space: nowrap;
+      }
+
       .c-tweet__permalink {
         text-decoration: none;
+        white-space: nowrap;
 
         &:hover {
           text-decoration: underline;

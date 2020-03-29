@@ -19,8 +19,12 @@
     <div class="c-tweet__user-meta">
       <a href="https://twitter.com/{{display_tweet.user.screen_name}}"
         class="c-tweet__user-profile-link" target="_blank">
-        <span class="c-tweet__user-name">{{display_tweet.user.name}}</span>
-        <span class="c-tweet__user-screen-name">@{{display_tweet.user.screen_name}}</span>
+        <div class="c-tweet__user-name">
+          {{display_tweet.user.name}}
+        </div>
+        <div class="c-tweet__user-screen-name">
+          @{{display_tweet.user.screen_name}}
+        </div>
       </a>
       <span class="c-tweet__bullet-separator" aria-hidden="true">·</span>
       <a href="https://twitter.com/{{display_tweet.user.screen_name}}/status/{{display_tweet.id_str}}"

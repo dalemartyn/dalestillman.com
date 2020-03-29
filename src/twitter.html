@@ -6,7 +6,7 @@ title: Twitter
 
 <div class="o-wrapper@sm">
   {% include "components/components.twitter-profile.html" %}
-  {% for tweet in tweets|first_20 %}
+  {% for tweet in tweets %}
     {% include "components/components.tweet.html" %}
   {% endfor %}
 </div>

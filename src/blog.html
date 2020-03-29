@@ -5,28 +5,9 @@ title: Blog
 
 <div class="o-wrapper u-margin-top-xlarge u-margin-bottom-xlarge">
   {% set posts = collections.blog | reverse %}
-  {% for post in posts %}
-  <article>
-    <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" class="c-main-blog-post">
-      <figure
-        style="{% if post.data.color_light %}--img-bg-light: {{ post.data.color_light | to_rgb }};{% endif %}
-          {% if post.data.color_dark %}--img-bg-dark: {{ post.data.color_dark | to_rgb }};{% endif %}"
-        class="u-margin-bottom"
-      >
-        <div class="c-image-background u-rounded c-main-blog-post__image">
-          {% if post.data.image.main %}
-            <picture class="o-ratio o-ratio--16:9">
-              <img src="{{ post.data.image.main }}" alt="{{ post.data.title }}" class="o-ratio__content" />
-            </picture>
-          {% elif post.data.image.json %}
-            {% image post.data.image.json %}
-          {% endif %}
-        </div>
-      </figure>
-      <h2 class="ts-display-3 u-margin-top c-main-blog-post__title">
-        {{ post.data.title }}
-      </h2>
-    </a>
-  </article>
+  {% set post = posts|first %}
+  {% include "components/components.tease-large.html" %}
+  {% for post in posts|slice(1) %}
+    {% include "components/components.tease.html" %}
   {% endfor %}
 </div>

@@ -66,6 +66,10 @@
   @include ms-respond(font-size, 2.25);
 }
 
+.ts-display-4 {
+  @include ms-respond(font-size, 1.75);
+}
+
 .u-nobr {
   white-space: nowrap;
 }
