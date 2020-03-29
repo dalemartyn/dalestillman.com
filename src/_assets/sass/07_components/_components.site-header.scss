@@ -16,10 +16,15 @@
 .c-site-header__main {
   align-items: center;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr min-content;
   grid-template-areas:
     "logo darkmode"
     "menu menu";
+
+  @include mq($until: lg) {
+    padding-top: sp(xxmicro);
+    padding-bottom: sp(xxmicro);
+  }
 
   @include mq($from: lg) {
     grid-template-columns: 200px 1fr 200px;

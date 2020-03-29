@@ -5,11 +5,6 @@ date: 2020-01-05T12:00:00+00:00
 noindex: true
 ---
 
-## Build
-- crop card titles using lhcrop
-- update blog list layout design
-- update image sizes (in gulp task and frontend)
-
 ## Work content
 - write charnwood brewery
 - write helter skelter
