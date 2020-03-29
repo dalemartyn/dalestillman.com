@@ -1,0 +1,42 @@
+/* ==========================================================================
+   #MAIN-BLOG-POST
+   ========================================================================== */
+
+.c-main-blog-post {
+  text-decoration: none;
+  position: relative;
+  display: block;
+
+  @include focus-style {
+    outline: none;
+
+    &::after {
+      box-shadow: 0 0 0 sp(xmicro) sem-color(link);
+      background-color: sem-color(link, .2);
+      border-radius: var(--rounded-radius);
+    }
+  }
+
+  &::after {
+    transition: background-color $hover-transition;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    top: calc(#{sp()} * -1);
+    left: calc(#{sp()} * -1);
+    right: calc(#{sp()} * -1);
+    bottom: calc(#{sp()} * -1);
+  }
+
+  &:hover,
+  &:focus {
+
+    &::after {
+      background-color: var(--state-color-hover);
+    }
+  }
+
+  &:active::after {
+    background-color: var(--state-color-active);
+  }
+}

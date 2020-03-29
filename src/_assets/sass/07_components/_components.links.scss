@@ -9,7 +9,5 @@
     text-decoration: underline;
   }
 
-  &:focus {
-    @include focused-link-styles;
-  }
+  @include focused-link;
 }
