@@ -28,13 +28,9 @@
 
     .c-instagram-grid__link {
       display: block;
-      border-radius: 2px;
       background-color: sem-color(background-code);
       overflow: hidden;
-
-      @include mq($from: sm) {
-        border-radius: sp(xxmicro);
-      }
+      border-radius: sp(xxmicro);
 
       &::after {
         transition: background-color $hover-transition;

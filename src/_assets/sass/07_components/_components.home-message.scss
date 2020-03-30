@@ -1,0 +1,19 @@
+/* ==========================================================================
+   #HOME-MESSAGE
+   ========================================================================== */
+
+.c-home-message {
+  margin-top: calc(25vh - 2em);
+  margin-bottom: calc(25vh - 2em);
+
+  @include mq($from: sm) {
+    margin-top: calc(30vh - 1em);
+    margin-bottom: calc(30vh - 1em);
+
+    @media (min-height: 45em) {
+      margin-top: calc(#{45rem * .3} - 1em);
+      margin-bottom: calc(#{45rem * .3} - 1em);
+    }
+  }
+
+}
