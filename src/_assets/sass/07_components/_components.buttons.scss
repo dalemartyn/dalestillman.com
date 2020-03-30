@@ -21,6 +21,7 @@
     box-shadow $hover-transition;
   @include theme-transition(background-color box-shadow);
   border-radius: 50%;
+  touch-action: manipulation;
 
   &:hover {
     background-color: var(--state-color-hover);
