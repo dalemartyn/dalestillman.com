@@ -1,4 +1,5 @@
 @mixin spacing-vars {
+  --spacing-unit-xxmicro: 3px;
 
   @each $size-name, $size in $spacing-unit-sizes {
     @if ($size-name != null) {

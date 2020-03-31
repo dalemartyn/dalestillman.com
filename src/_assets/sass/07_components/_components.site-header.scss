@@ -22,8 +22,8 @@
     "menu menu";
 
   @include mq($until: lg) {
-    padding-top: sp(xxmicro);
-    padding-bottom: sp(xxmicro);
+    padding-top: sp(xmicro);
+    padding-bottom: sp(xmicro);
   }
 
   @include mq($from: lg) {
