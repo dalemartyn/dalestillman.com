@@ -1,8 +1,9 @@
 const livereload = require('gulp-livereload');
 
 const rollup = require('rollup');
-const resolve = require('rollup-plugin-node-resolve');
-const commonjs = require('rollup-plugin-commonjs');
+const resolve = require('@rollup/plugin-node-resolve');
+const commonjs = require('@rollup/plugin-commonjs');
+const json = require('@rollup/plugin-json');
 const svelte = require('rollup-plugin-svelte');
 
 
@@ -11,6 +12,7 @@ module.exports = function dev_bundler(entry, output_file, output_name) {
   const inputOptions = {
     input: entry,
     plugins: [
+      json(),
       svelte({
         dev: true
       }),

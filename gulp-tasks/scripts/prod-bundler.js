@@ -1,6 +1,7 @@
 const rollup = require('rollup');
-const resolve = require('rollup-plugin-node-resolve');
-const commonjs = require('rollup-plugin-commonjs');
+const resolve = require('@rollup/plugin-node-resolve');
+const commonjs = require('@rollup/plugin-commonjs');
+const json = require('@rollup/plugin-json');
 const svelte = require('rollup-plugin-svelte');
 
 
@@ -9,6 +10,7 @@ module.exports = function prod_bundler(entry, output_file, output_name) {
   return rollup.rollup({
     input: entry,
     plugins: [
+      json(),
       svelte({
         dev: true
       }),

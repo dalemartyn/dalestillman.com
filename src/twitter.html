@@ -1,12 +1,11 @@
 ---
 layout: page
 title: Twitter
-is_heavy: true
 ---
 
 <div class="o-wrapper@sm">
   {% include "components/components.twitter-profile.html" %}
-  {% for tweet in tweets %}
-    {% include "components/components.tweet.html" %}
-  {% endfor %}
+  <div class="c-twitter-feed" id="twitter-feed"></div>
 </div>
+
+<script src="/js/twitter-feed.js"></script>

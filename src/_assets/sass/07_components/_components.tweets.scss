@@ -38,28 +38,12 @@
       border-radius: 100px;
       width: calc(var(--spacing-unit-large) * 1.75);
       height: calc(var(--spacing-unit-large) * 1.75);
+      background-color: sem-color(twitter-profile);
 
       > svg {
         width: 100%;
         height: auto;
         display: block;
-      }
-    }
-
-    .c-tweet__profile-image--dale {
-
-      > svg > rect {
-        fill: sem-color(twitter-profile);
-        @include theme-transition(fill);
-      }
-    }
-
-    .c-tweet__profile-image--retweet {
-      background-color: sem-color(twitter-profile);
-
-      > svg {
-        fill: color("white");
-        @include theme-transition(fill);
       }
     }
 

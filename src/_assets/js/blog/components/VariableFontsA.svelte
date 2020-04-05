@@ -1,5 +1,5 @@
 <script>
-	let weight = 400;
+  let weight = 400;
   let width = 100;
 </script>
 

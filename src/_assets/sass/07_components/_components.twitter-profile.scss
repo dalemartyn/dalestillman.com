@@ -93,5 +93,4 @@ $profile_image_size: calc(#{sp(xxlarge)} * 1.5);
 
     .c-twitter-profile__bio {
       margin: 0;
-      @include theme-transition(color);
     }
