@@ -57,7 +57,7 @@
     end = i;
 
     const remaining = items.length - end;
-    average_height = (top + content_height) / end * 2;
+    average_height = (top + content_height) / end;
 
     bottom = remaining * average_height;
     height_map.length = items.length;
@@ -66,8 +66,6 @@
 
   async function handle_scroll() {
     const { scrollTop } = viewport;
-
-    console.log(height_map);
 
     const old_start = start;
 
