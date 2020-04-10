@@ -1,6 +1,6 @@
 // options: https://sharp.pixelplumbing.com/en/stable/api-resize/#parameters
 
-const sizes = [
+module.exports = [
   {
     name: '1800',
     options: {
@@ -38,5 +38,3 @@ const sizes = [
     }
   }
 ];
-
-module.exports = sizes;
