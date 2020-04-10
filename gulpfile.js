@@ -52,7 +52,8 @@ exports.build = gulp.series(
   dark_theme.build,
   svgs.optimize,
   images.resize_local_images,
-  images.resize_local_figma_images
+  images.resize_local_figma_images,
+  images.resize_local_instagram_images
 );
 
 exports.js = scripts.build;
