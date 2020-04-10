@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 const slugify = require('@sindresorhus/slugify');
 const sharp = require('sharp');
-const imageSizes = require('./image-sizes').site_image_sizes;
+const imageSizes = require('./image-sizes');
 const imagemin = require('imagemin');
 const imageminPngquant = require('imagemin-pngquant');
 const util = require('util');
@@ -65,15 +65,20 @@ function getLocalImagePath(image, src = './src/_assets/img/') {
   );
 }
 
-async function resizeImage(imageStream, image) {
-  const imageDir = getImageDir(image.project, image.title);
-  const imageFilename = getImageFilename(image.title);
-  const mainSrc = getImagePath(imageDir, imageSizes[0].name, imageFilename);
+async function resizeImage(imageStream, image, sizes) {
+  const mainSrc = getImagePath(image.dest, sizes[0].name, image.filename);
+
+  /**
+   * Data for the image json file that we will use for our 11ty <img>s.
+   */
   const imageData = {
     src: `${mainSrc.replace('dist', '')}.png`,
-    alt: image.alt,
-    title: image.title
+    alt: image.alt
   };
+
+  if (image.title) {
+    imageData.title = image.title;
+  }
 
   const pipeline = sharp();
   const pipelines = [pipeline];
@@ -88,8 +93,8 @@ async function resizeImage(imageStream, image) {
       };
     });
 
-  for (let size of imageSizes) {
-    const imagePath = getImagePath(imageDir, size.name, imageFilename);
+  for (let size of sizes) {
+    const imagePath = getImagePath(image.dest, size.name, image.filename);
     const sizePipeline = pipeline.clone()
       .resize(size.options);
 
@@ -97,7 +102,7 @@ async function resizeImage(imageStream, image) {
       .png()
       .toBuffer({ resolveWithObject: true })
       .then(({ data, info }) => {
-        console.log(`saving ${image.title} at ${info.width}x${info.height} as ${info.format}`);
+        console.log(`saving ${image.title ? image.title : 'image'} at ${info.width}x${info.height} as ${info.format}`);
         pngSizes.push(`${imagePath.replace('dist', '')}.png ${info.width}w`);
         return imagemin.buffer(data, {
           plugins: [
@@ -134,15 +139,23 @@ async function resizeImage(imageStream, image) {
 
   imageData.pngSrcset = pngSizes.join(", ");
   imageData.webpSrcset = webpSizes.join(", ");
-  const dataFilePath = path.join(imageDir, imageFilename + '.json');
+  const dataFilePath = path.join(image.dest, image.filename + '.json');
   await writeFile(dataFilePath, JSON.stringify(imageData, null, 2));
 }
 
 async function resizeLocalImage(image, src = './src/_assets/img/') {
   const filename = getLocalImagePath(image, src);
-
   const imageStream = fs.createReadStream(filename);
-  await resizeImage(imageStream, image);
+
+  await resizeImage(
+    imageStream,
+    {
+      dest: getImageDir(image.project, image.title),
+      filename: getImageFilename(image.title),
+      alt: image.alt,
+      title: image.title,
+    },
+    imageSizes.site_image_sizes);
 }
 
 async function resizeLocalFigmaImage(image) {
@@ -157,7 +170,17 @@ async function resizeFigmaImage(image) {
   }
 
   const imageStream = response.body;
-  await resizeImage(imageStream, image);
+
+  await resizeImage(
+    imageStream,
+    {
+      dest: getImageDir(image.project, image.title),
+      filename: getImageFilename(image.title),
+      alt: image.alt,
+      title: image.title,
+    },
+    imageSizes.site_image_sizes
+  );
 }
 
 async function saveFigmaImage(image) {
@@ -175,9 +198,53 @@ async function saveFigmaImage(image) {
   await writeFile(filePath, buffer);
 }
 
+async function saveInstagramImage(image) {
+  const imageUrl = image.media_url;
+  const response = await fetch(imageUrl);
+  if (!response.ok) {
+    throw new Error(`unexpected response ${response.statusText}`);
+  }
+
+  const filePath = path.join(
+    './src/_assets/instagram/',
+    `${image.id}.jpg`,
+  );
+  const buffer = await response.buffer();
+  await writeFile(filePath, buffer);
+}
+
+async function resizeLocalInstagramImage(image) {
+  const imageDir = `./dist/img/instagram/${image.id}`;
+
+  if (!fs.existsSync(imageDir)) {
+    fs.mkdirSync(imageDir, {
+      recursive: true
+    });
+  }
+
+  const filePath = path.join(
+    './src/_assets/instagram/',
+    `${image.id}.jpg`,
+  );
+
+  const imageStream = fs.createReadStream(filePath);
+
+  await resizeImage(
+    imageStream,
+    {
+      dest: imageDir,
+      filename: image.id,
+      alt: image.caption ? image.caption : '',
+    },
+    imageSizes.instagram_image_sizes
+  );
+}
+
 module.exports = {
   resizeLocalImage,
   resizeFigmaImage,
   saveFigmaImage,
-  resizeLocalFigmaImage
+  resizeLocalFigmaImage,
+  saveInstagramImage,
+  resizeLocalInstagramImage
 };

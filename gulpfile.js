@@ -62,3 +62,5 @@ exports.savefig = images.save_figma_images;
 exports.optfig = images.resize_local_figma_images;
 exports.insta = instagram.save_instagram_data;
 exports.twitter = twitter.save_twitter_data;
+exports.saveinsta = images.save_instagram_images;
+exports.resizeinsta = images.resize_local_instagram_images;

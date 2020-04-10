@@ -30,7 +30,7 @@ async function save_instagram_data() {
   const data = await get_instagram_data();
   const filename = './src/_data/instagram.json';
 
-  const images = data.data.slice(0, 12);
+  const images = data.data.slice(0, 10);
 
   await writeFile(filename, JSON.stringify(images, null, 2));
 }

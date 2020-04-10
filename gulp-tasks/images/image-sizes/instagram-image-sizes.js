@@ -2,15 +2,17 @@
 
 module.exports = [
   {
-    name: '360',
+    name: '362',
     options: {
-      width: 360
+      width: 362,
+      height: 362
     }
   },
   {
-    name: '180',
+    name: '181',
     options: {
-      width: 180
+      width: 181,
+      height: 181
     }
   }
 ];
