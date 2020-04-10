@@ -10,7 +10,8 @@ const sass       = require('./gulp-tasks/styles');
 const dark_theme = require('./gulp-tasks/dark-theme');
 const scripts    = require('./gulp-tasks/scripts');
 const svgs       = require('./gulp-tasks/svgs');
-const instagram  = require('./gulp-tasks/images/instagram');
+const instagram  = require('./gulp-tasks/apis/instagram');
+const twitter    = require('./gulp-tasks/apis/twitter');
 
 
 function watch_built_files() {
@@ -60,3 +61,4 @@ exports.fig = images.resize_figma_images;
 exports.savefig = images.save_figma_images;
 exports.optfig = images.resize_local_figma_images;
 exports.insta = instagram.save_instagram_data;
+exports.twitter = twitter.save_twitter_data;

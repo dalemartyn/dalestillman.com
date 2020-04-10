@@ -1,9 +1,7 @@
 require('dotenv').config();
 
 const fetch = require('node-fetch');
-const fs = require('fs');
-const util = require('util');
-const writeFile = util.promisify(fs.writeFile);
+const writeFile = require('../utils/write-file');
 
 const INSTAGRAM_ACCESS_TOKEN = process.env.INSTAGRAM_ACCESS_TOKEN;
 

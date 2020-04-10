@@ -8,7 +8,7 @@ const imageminPngquant = require('imagemin-pngquant');
 const util = require('util');
 const writeFile = util.promisify(fs.writeFile);
 const fetch = require('node-fetch');
-const figmaApi = require('./figma-api');
+const figmaApi = require('../apis/figma');
 
 function getImageDir(projectName) {
   const dist = './dist/img/';
