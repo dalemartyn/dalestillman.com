@@ -1,10 +1,10 @@
 const moment = require('moment');
 const twitterText = require('twitter-text');
 
-function processTweet(tweet) {
+function processTweet(tweet, type) {
   return {
     "text": autoParagraph(linkedText(tweet)),
-    "retweeted": tweet.retweeted,
+    "type": type,
     "iso_time": isoTime(tweet.created_at),
     "human_time": humanTime(tweet.created_at),
     "user": {

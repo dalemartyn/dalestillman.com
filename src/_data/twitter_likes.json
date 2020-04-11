@@ -1,7 +1,7 @@
 [
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/aardrian\" data-screen-name=\"aardrian\" rel=\"nofollow\">@aardrian</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/simevidas\" data-screen-name=\"simevidas\" rel=\"nofollow\">@simevidas</a> &lt;svg width=1em height=1em&gt; is my jam: works well without CSS, easy to style with CSS.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-09T21:48:22.000Z",
     "human_time": "Apr 9",
     "user": {
@@ -12,7 +12,7 @@
   },
   {
     "text": "<p>📢 Hello all you creative people!\n🤓 I've created you an easy way to share your photos, illustrations, and web comics called **Ga11ery**</p>\n<p>It's based on <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/eleven_ty\" data-screen-name=\"eleven_ty\" rel=\"nofollow\">@eleven_ty</a> and <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/NetlifyCMS\" data-screen-name=\"NetlifyCMS\" rel=\"nofollow\">@NetlifyCMS</a> so it's easy to install. And it features a 🤤RANDOM BUTTON🤤</p>\n<p><a target=\"_blank\" href=\"https://github.com/Heydon/ga11ery\" title=\"https://github.com/Heydon/ga11ery\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>github.com/Heydon/ga11ery</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-09T15:17:18.000Z",
     "human_time": "Apr 9",
     "user": {
@@ -23,7 +23,7 @@
   },
   {
     "text": "<p>Now trying the newly arrived Ooni 16” - I guess I’m a full time pizza oven startup reporter now. What a beast this is. <a target=\"_blank\" href=\"https://t.co/Yv89eIWlHo\" rel=\"nofollow\">https://t.co/Yv89eIWlHo</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-09T00:51:49.000Z",
     "human_time": "Apr 9",
     "user": {
@@ -34,7 +34,7 @@
   },
   {
     "text": "<p>Getting confined means diving back into old projects. Here’s some sort of a mashup with what I’ve been up to the last two years. </p>\n<p>Through this post, I also wanna thanks all the folks that supported me along my journey as a young designer and helped me grow as a man.</p>\n<p>Cheers 💙 <a target=\"_blank\" href=\"https://t.co/gBVYENFrGO\" rel=\"nofollow\">https://t.co/gBVYENFrGO</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-05T11:50:47.000Z",
     "human_time": "Apr 5",
     "user": {
@@ -45,7 +45,7 @@
   },
   {
     "text": "<p>Today is an absolutely cracking day to be sat in the garden reading a book (so far I’m sat with a book on my lap while I scroll through Twitter)</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-05T10:01:48.000Z",
     "human_time": "Apr 5",
     "user": {
@@ -56,7 +56,7 @@
   },
   {
     "text": "<p>Choosing your quarantine character 🍾👏😂</p>\n<p> <a target=\"_blank\" href=\"https://t.co/tgsQfH1ZIZ\" rel=\"nofollow\">https://t.co/tgsQfH1ZIZ</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-05T03:16:33.000Z",
     "human_time": "Apr 5",
     "user": {
@@ -67,7 +67,7 @@
   },
   {
     "text": "<p>This will be the absolute business tonight. <a target=\"_blank\" href=\"https://twitter.com/TheAnfieldWrap/status/1246409186864443392\" title=\"https://twitter.com/TheAnfieldWrap/status/1246409186864443392\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/TheAnfieldWrap</span><span class=\"u-visually-hidden\">/status/1246409186864443392</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-04T12:32:58.000Z",
     "human_time": "Apr 4",
     "user": {
@@ -78,7 +78,7 @@
   },
   {
     "text": "<p>So cool! An online arcade that you can join and hangout with others, built with <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/glitch\" data-screen-name=\"glitch\" rel=\"nofollow\">@glitch</a> + <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/p5xjs\" data-screen-name=\"p5xjs\" rel=\"nofollow\">@p5xjs</a> + node.js. <a target=\"_blank\" href=\"https://twitter.com/likelikearcade/status/1246174550678740997\" title=\"https://twitter.com/likelikearcade/status/1246174550678740997\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/likelikearcade</span><span class=\"u-visually-hidden\">/status/1246174550678740997</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-04T11:56:49.000Z",
     "human_time": "Apr 4",
     "user": {
@@ -89,7 +89,7 @@
   },
   {
     "text": "<p>I just spent two hours debugging my Perlin noise generator until I tracked down the mistake to my vector dot product implementation...</p>\n<p>Good to know I still got it. <a target=\"_blank\" href=\"https://t.co/V8JjL0JldH\" rel=\"nofollow\">https://t.co/V8JjL0JldH</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-04T01:18:10.000Z",
     "human_time": "Apr 4",
     "user": {
@@ -100,7 +100,7 @@
   },
   {
     "text": "<p>Fuck off im doing my best <a target=\"_blank\" href=\"https://twitter.com/oFabz/status/1246093496844419072\" title=\"https://twitter.com/oFabz/status/1246093496844419072\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/oFabz/status/1</span><span class=\"u-visually-hidden\">246093496844419072</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-03T18:55:42.000Z",
     "human_time": "Apr 3",
     "user": {
@@ -111,7 +111,7 @@
   },
   {
     "text": "<p>After just shy of 5 years working on <a target=\"_blank\" href=\"http://FT.com\" title=\"http://FT.com\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>FT.com</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> today is my last day in the team.</p>\n<p>It feels strange to put so much accumulated knowledge over to one side but I'm super excited to get started again from a different perspective.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-03T14:12:00.000Z",
     "human_time": "Apr 3",
     "user": {
@@ -122,7 +122,7 @@
   },
   {
     "text": "<p>New Design for <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/robinpowered\" data-screen-name=\"robinpowered\" rel=\"nofollow\">@robinpowered</a> coming soon by Voila <a target=\"_blank\" href=\"https://t.co/YR9omX7mxV\" rel=\"nofollow\">https://t.co/YR9omX7mxV</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-03T00:36:11.000Z",
     "human_time": "Apr 3",
     "user": {
@@ -133,7 +133,7 @@
   },
   {
     "text": "<p>The walkthrough for this exploit is a great read. <a target=\"_blank\" href=\"https://twitter.com/_hg8_/status/1245776405687873537\" title=\"https://twitter.com/_hg8_/status/1245776405687873537\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/_hg8_/status/1</span><span class=\"u-visually-hidden\">245776405687873537</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-02T21:20:08.000Z",
     "human_time": "Apr 2",
     "user": {
@@ -144,7 +144,7 @@
   },
   {
     "text": "<p>oh no, the virus has spread to Null Island! </p>\n<p>the big dot off the west coast\nit's not a real place\nit's a digital mapping joke, not a good joke at all\n<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Null_Island\" title=\"https://en.wikipedia.org/wiki/Null_Island\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>en.wikipedia.org/wiki/Null_Isla</span><span class=\"u-visually-hidden\">nd</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a>\ni'm trying to stop myself from tweeting this <a target=\"_blank\" href=\"https://t.co/BAuWvYAF6P\" rel=\"nofollow\">https://t.co/BAuWvYAF6P</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-02T06:19:22.000Z",
     "human_time": "Apr 2",
     "user": {
@@ -155,7 +155,7 @@
   },
   {
     "text": "<p>Here's a non-corona thread for you about how last month I got all of <a target=\"_blank\" href=\"http://Ghost.org\" title=\"http://Ghost.org\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>Ghost.org</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> kicked off Google and our entire domain no longer appeared for a single search result. Our traffic immediately tanked and things looked very bad.</p>\n<p>It all started with illegal pornography:</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-04-01T15:20:09.000Z",
     "human_time": "Apr 1",
     "user": {
@@ -166,7 +166,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/cullylarson\" data-screen-name=\"cullylarson\" rel=\"nofollow\">@cullylarson</a> If you don't need the files in node_modules to run the code (after building), it's a dev dependency imo</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-31T17:34:26.000Z",
     "human_time": "Mar 31",
     "user": {
@@ -177,7 +177,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/0xca0a\" data-screen-name=\"0xca0a\" rel=\"nofollow\">@0xca0a</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/mrdoob\" data-screen-name=\"mrdoob\" rel=\"nofollow\">@mrdoob</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/schteppe\" data-screen-name=\"schteppe\" rel=\"nofollow\">@schteppe</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/threejs_org\" data-screen-name=\"threejs_org\" rel=\"nofollow\">@threejs_org</a> I don't see handling non-js assets manually as a problem. Maybe that's because I don't use React or similar frameworks though. </p>\n<p>You can load/parse a JSON file in one line:\nawait (await fetch('file.json')).json()</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-31T13:52:11.000Z",
     "human_time": "Mar 31",
     "user": {
@@ -188,7 +188,7 @@
   },
   {
     "text": "<p>here are all the new use-cannon features <a target=\"_blank\" href=\"https://github.com/react-spring/use-cannon\" title=\"https://github.com/react-spring/use-cannon\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>github.com/react-spring/u</span><span class=\"u-visually-hidden\">se-cannon</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> thx to the awesome contributions by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/StockHuman\" data-screen-name=\"StockHuman\" rel=\"nofollow\">@StockHuman</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/codyrnova\" data-screen-name=\"codyrnova\" rel=\"nofollow\">@codyrnova</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/heyo_sean\" data-screen-name=\"heyo_sean\" rel=\"nofollow\">@heyo_sean</a> 👉 compound bodies, convex-polyhedrons, chains, all constraints, springs, rays, materials. play with a full sandbox here: <a target=\"_blank\" href=\"https://codesandbox.io/s/red-field-uhb7w\" title=\"https://codesandbox.io/s/red-field-uhb7w\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>codesandbox.io/s/red-field-uh</span><span class=\"u-visually-hidden\">b7w</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/aVTFgVpxuM\" rel=\"nofollow\">https://t.co/aVTFgVpxuM</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-31T11:27:26.000Z",
     "human_time": "Mar 31",
     "user": {
@@ -199,7 +199,7 @@
   },
   {
     "text": "<p>I've decided I'm ignoring the advice going around...</p>\n<p>(full video <a target=\"_blank\" href=\"https://youtu.be/-G8ru4twFAI\" title=\"https://youtu.be/-G8ru4twFAI\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>youtu.be/-G8ru4twFAI</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a>) <a target=\"_blank\" href=\"https://t.co/wCHGU19iuJ\" rel=\"nofollow\">https://t.co/wCHGU19iuJ</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-30T14:23:38.000Z",
     "human_time": "Mar 30",
     "user": {
@@ -210,7 +210,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" href=\"https://twitter.com/jimwaterson/status/1244152346504040448\" title=\"https://twitter.com/jimwaterson/status/1244152346504040448\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/jimwaterson/st</span><span class=\"u-visually-hidden\">atus/1244152346504040448</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/BoddpCFNTb\" rel=\"nofollow\">https://t.co/BoddpCFNTb</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-29T08:28:05.000Z",
     "human_time": "Mar 29",
     "user": {
@@ -221,7 +221,7 @@
   },
   {
     "text": "<p>Love this. What a player. What a season that was. <a target=\"_blank\" href=\"https://twitter.com/ahmedIfc/status/1243960978842288128\" title=\"https://twitter.com/ahmedIfc/status/1243960978842288128\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/ahmedIfc/statu</span><span class=\"u-visually-hidden\">s/1243960978842288128</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-28T19:57:37.000Z",
     "human_time": "Mar 28",
     "user": {
@@ -232,7 +232,7 @@
   },
   {
     "text": "<p>Snack tip: half an avocado + Everything Bagel seasoning. <a target=\"_blank\" href=\"https://t.co/NmCkuP1fPX\" rel=\"nofollow\">https://t.co/NmCkuP1fPX</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-28T18:56:04.000Z",
     "human_time": "Mar 28",
     "user": {
@@ -243,7 +243,7 @@
   },
   {
     "text": "<p>After being made redundant, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/StephenVoisey\" data-screen-name=\"StephenVoisey\" rel=\"nofollow\">@StephenVoisey</a> got in touch with an idea for a site to promote those who are out of work due to <a target=\"_blank\" href=\"https://twitter.com/search?q=%23covid19\" title=\"#covid19\" class=\"tweet-url hashtag\" rel=\"nofollow\">#covid19</a>.</p>\n<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/__ccld\" data-screen-name=\"__ccld\" rel=\"nofollow\">@__ccld</a> got involved, and now we’re close to putting a v1 out that may help myself, and others, get work.</p>\n<p>Sign-up here <a target=\"_blank\" href=\"http://bit.ly/l-w-t\" title=\"http://bit.ly/l-w-t\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>bit.ly/l-w-t</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/4KCNs3EPsz\" rel=\"nofollow\">https://t.co/4KCNs3EPsz</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-28T09:45:59.000Z",
     "human_time": "Mar 28",
     "user": {
@@ -254,7 +254,7 @@
   },
   {
     "text": "<p>Today I accepted a job at <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Netlify\" data-screen-name=\"Netlify\" rel=\"nofollow\">@Netlify</a> on their Developer Experience Engineering team!</p>\n<p>I'm SO excited to join, everyone I interviewed with is brilliant and hilarious, and I'll be starting at the end of April! 🤩</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-28T06:00:12.000Z",
     "human_time": "Mar 28",
     "user": {
@@ -265,7 +265,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/thorstenball\" data-screen-name=\"thorstenball\" rel=\"nofollow\">@thorstenball</a> This would allow people to both model shared computers (think: a family) as well as model modes of operation for power users (think: work project vs editing a video vs personal browsing on netflix in the evening.) State perfectly sustained.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-26T17:20:08.000Z",
     "human_time": "Mar 26",
     "user": {
@@ -276,7 +276,7 @@
   },
   {
     "text": "<p>me want to play <a target=\"_blank\" href=\"https://twitter.com/nowthisnews/status/1243040734061768706\" title=\"https://twitter.com/nowthisnews/status/1243040734061768706\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/nowthisnews/st</span><span class=\"u-visually-hidden\">atus/1243040734061768706</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-26T05:25:00.000Z",
     "human_time": "Mar 26",
     "user": {
@@ -287,7 +287,7 @@
   },
   {
     "text": "<p>The genius concept Guinness ad we don’t want to love (but really do). <a target=\"_blank\" href=\"https://bit.ly/2UA6NCL\" title=\"https://bit.ly/2UA6NCL\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>bit.ly/2UA6NCL</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/jKXM7ECJLd\" rel=\"nofollow\">https://t.co/jKXM7ECJLd</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-25T21:15:05.000Z",
     "human_time": "Mar 25",
     "user": {
@@ -298,7 +298,7 @@
   },
   {
     "text": "<p>So my new working hours are 10-4 Monday to Saturday. My ma says I should question being made to work 6 days a week including every Saturday, what else am i going to be doing with my time? Not like I’m missing out on brunch and shopping with the girls right now is it?</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-25T20:51:43.000Z",
     "human_time": "Mar 25",
     "user": {
@@ -309,7 +309,7 @@
   },
   {
     "text": "<p>That was an epic logo. There's a giant batch of merch in a warehouse destined to become collector's items. <a target=\"_blank\" href=\"https://t.co/dLtNg3V8YG\" rel=\"nofollow\">https://t.co/dLtNg3V8YG</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-25T00:26:27.000Z",
     "human_time": "Mar 25",
     "user": {
@@ -320,7 +320,7 @@
   },
   {
     "text": "<p>The wait is over. After months in betas and Safari Technology Preview, today’s releases take another important step to a better web. Learn about the latest updates to Safari’s Intelligent Tracking Prevention: full third-party cookie blocking and more. <a target=\"_blank\" href=\"https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/\" title=\"https://webkit.org/blog/10218/full-third-party-cookie-blocking-and-more/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>webkit.org/blog/10218/ful</span><span class=\"u-visually-hidden\">l-third-party-cookie-blocking-and-more/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/TJayR5GHA5\" rel=\"nofollow\">https://t.co/TJayR5GHA5</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-24T18:02:14.000Z",
     "human_time": "Mar 24",
     "user": {
@@ -331,7 +331,7 @@
   },
   {
     "text": "<p>multiplayer screen sharing.. this could be huge <a target=\"_blank\" href=\"https://screen.so\" title=\"https://screen.so\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>screen.so</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> </p>\n<p>lots of people can have their cursors on your screen and interact with any app.. <a target=\"_blank\" href=\"https://t.co/Y3ABbmaCvA\" rel=\"nofollow\">https://t.co/Y3ABbmaCvA</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-24T17:54:19.000Z",
     "human_time": "Mar 24",
     "user": {
@@ -342,7 +342,7 @@
   },
   {
     "text": "<p>Got a new plant and am now prepared to wfh for the rest of my life ✨🌿 <a target=\"_blank\" href=\"https://t.co/ARa6D5jGFP\" rel=\"nofollow\">https://t.co/ARa6D5jGFP</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-23T21:03:28.000Z",
     "human_time": "Mar 23",
     "user": {
@@ -353,7 +353,7 @@
   },
   {
     "text": "<p>The more I learn the more I think that the issues I had understanding the spread of the virus go back to us not naturally grasping exponentiality. <a target=\"_blank\" href=\"https://t.co/5jtxDen20Y\" rel=\"nofollow\">https://t.co/5jtxDen20Y</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-23T10:31:34.000Z",
     "human_time": "Mar 23",
     "user": {
@@ -364,7 +364,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/rauchg\" data-screen-name=\"rauchg\" rel=\"nofollow\">@rauchg</a> Here's my theory:</p>\n<p>Image means you don't have to leave slack/twitter to see what the link is.</p>\n<p>You don't click on the Amazon link because you know what the link is</p>\n<p>That's a missed opportunity to get someone onto Amazon and convert them</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-21T21:11:26.000Z",
     "human_time": "Mar 21",
     "user": {
@@ -375,7 +375,7 @@
   },
   {
     "text": "<p>Still the best looking iPhone ever <a target=\"_blank\" href=\"https://t.co/13450yd8Pu\" rel=\"nofollow\">https://t.co/13450yd8Pu</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-21T18:01:05.000Z",
     "human_time": "Mar 21",
     "user": {
@@ -386,7 +386,7 @@
   },
   {
     "text": "<p>Everyone working remotely:</p>\n<p>ZOOM monitors the activity on your computer and collects data on the programs running and captures which window you have focus on. </p>\n<p>If you manage the calls, you can monitor what programs users on the call are running as well. It's fucked up.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-21T16:16:05.000Z",
     "human_time": "Mar 21",
     "user": {
@@ -397,7 +397,7 @@
   },
   {
     "text": "<p>📝 New Post: Maintaining Performance. Or... How I shaved ~33s off my page load times by fixing fonts.</p>\n<p><a target=\"_blank\" href=\"https://daverupert.com/2020/03/maintaining-performance/\" title=\"https://daverupert.com/2020/03/maintaining-performance/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>daverupert.com/2020/03/mainta</span><span class=\"u-visually-hidden\">ining-performance/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-20T21:03:20.000Z",
     "human_time": "Mar 20",
     "user": {
@@ -408,7 +408,7 @@
   },
   {
     "text": "<p>Found it</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-20T18:07:31.000Z",
     "human_time": "Mar 20",
     "user": {
@@ -419,7 +419,7 @@
   },
   {
     "text": "<p>Cool, got it working. This is _not_ using the server for syncing at all, this is the entire backend running in a background process with SharedWorker. All tabs connect to the same worker and share the same app. Makes for lightweight clients, all in sync, flexible workflows <a target=\"_blank\" href=\"https://t.co/cFqM7v6Xb9\" rel=\"nofollow\">https://t.co/cFqM7v6Xb9</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-20T16:36:00.000Z",
     "human_time": "Mar 20",
     "user": {
@@ -430,7 +430,7 @@
   },
   {
     "text": "<p>OH MY GOD IT WORKS AAAAAAAAAHHHHHHHH <a target=\"_blank\" href=\"https://t.co/4Dd8h8CuBP\" rel=\"nofollow\">https://t.co/4Dd8h8CuBP</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-20T04:43:01.000Z",
     "human_time": "Mar 20",
     "user": {
@@ -441,7 +441,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/jaffathecake\" data-screen-name=\"jaffathecake\" rel=\"nofollow\">@jaffathecake</a> Are there any limes?</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-19T00:31:36.000Z",
     "human_time": "Mar 19",
     "user": {
@@ -452,7 +452,7 @@
   },
   {
     "text": "<p>My parents got a puppy to help fill the time. The world may be burning but lil chewbacca just wanna nap. <a target=\"_blank\" href=\"https://t.co/Kf3oCbkSMp\" rel=\"nofollow\">https://t.co/Kf3oCbkSMp</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-17T18:58:39.000Z",
     "human_time": "Mar 17",
     "user": {
@@ -463,7 +463,7 @@
   },
   {
     "text": "<p>Got around to doing that thing where I change the favicon for local development. Get so confusing otherwise when you have both open, which is very common for me. <a target=\"_blank\" href=\"https://t.co/6Eu4MMfp5I\" rel=\"nofollow\">https://t.co/6Eu4MMfp5I</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-17T13:28:44.000Z",
     "human_time": "Mar 17",
     "user": {
@@ -474,7 +474,7 @@
   },
   {
     "text": "<p>I didn't know this existed.🙈 `image-set` in CSS. </p>\n<p><a target=\"_blank\" href=\"https://twitter.com/search?q=%23devsheets\" title=\"#devsheets\" class=\"tweet-url hashtag\" rel=\"nofollow\">#devsheets</a> </p>\n<p>🔗MDN: <a target=\"_blank\" href=\"https://developer.mozilla.org/en-US/docs/Web/CSS/image-set\" title=\"https://developer.mozilla.org/en-US/docs/Web/CSS/image-set\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>developer.mozilla.org/en-US/docs/Web</span><span class=\"u-visually-hidden\">/CSS/image-set</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a>\n🔗Specification: <a target=\"_blank\" href=\"https://drafts.csswg.org/css-images-4/#image-set-notation\" title=\"https://drafts.csswg.org/css-images-4/#image-set-notation\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>drafts.csswg.org/css-images-4/#</span><span class=\"u-visually-hidden\">image-set-notation</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>\n<p>Video alt: Usage of CSS `image-set`. Browser support is not great but PostCSS offers a nice way to transform `image-set` into media queries. <a target=\"_blank\" href=\"https://t.co/hQJHbhLqLR\" rel=\"nofollow\">https://t.co/hQJHbhLqLR</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-17T08:48:05.000Z",
     "human_time": "Mar 17",
     "user": {
@@ -485,7 +485,7 @@
   },
   {
     "text": "<p>It said it took a study from Imperial to understand the likely burden of COVID-19 on the NHS. But read the first paper we published on COVID-19 on Jan 24. 32% admitted to ITU with 15% mortality. We have wasted 7 weeks. This crisis was entirely preventable. <a target=\"_blank\" href=\"https://www.theguardian.com/world/2020/mar/16/pm-tells-britons-to-avoid-non-essential-contact-with-others?CMP=share_btn_tw\" title=\"https://www.theguardian.com/world/2020/mar/16/pm-tells-britons-to-avoid-non-essential-contact-with-others?CMP=share_btn_tw\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>theguardian.com/world/2020/mar</span><span class=\"u-visually-hidden\">/16/pm-tells-britons-to-avoid-non-essential-contact-with-others?CMP=share_btn_tw</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-17T06:56:37.000Z",
     "human_time": "Mar 17",
     "user": {
@@ -496,7 +496,7 @@
   },
   {
     "text": "<p>Exciting news - we're hiring another frontend developer at <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/taproomagency\" data-screen-name=\"taproomagency\" rel=\"nofollow\">@taproomagency</a>! 🎉</p>\n<p>If you're passionate about ecommerce and want to work with some super fun brands to build out their <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Shopify\" data-screen-name=\"Shopify\" rel=\"nofollow\">@Shopify</a> stores, we'd love to hear from you!</p>\n<p>Apply here ⬇️</p>\n<p><a target=\"_blank\" href=\"https://thetaproom.com/pages/frontend-developer\" title=\"https://thetaproom.com/pages/frontend-developer\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>thetaproom.com/pages/frontend</span><span class=\"u-visually-hidden\">-developer</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-16T22:42:59.000Z",
     "human_time": "Mar 16",
     "user": {
@@ -507,7 +507,7 @@
   },
   {
     "text": "<p>Microsoft is like, the best company now? <a target=\"_blank\" href=\"http://bit.ly/3b1AFyK\" title=\"http://bit.ly/3b1AFyK\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>bit.ly/3b1AFyK</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-16T20:47:00.000Z",
     "human_time": "Mar 16",
     "user": {
@@ -518,7 +518,7 @@
   },
   {
     "text": "<p>Reminder: The programming courses on <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/KhanAcademy\" data-screen-name=\"KhanAcademy\" rel=\"nofollow\">@KhanAcademy</a> are all free. You can learn ProcessingJS, HTML/CSS, or SQL. \n<a target=\"_blank\" href=\"https://www.khanacademy.org/computing/computer-programming\" title=\"https://www.khanacademy.org/computing/computer-programming\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>khanacademy.org/computing/comp</span><span class=\"u-visually-hidden\">uter-programming</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a>\nYou can also review AP CSP if you're taking that exam:\n<a target=\"_blank\" href=\"https://www.khanacademy.org/computing/ap-computer-science-principles\" title=\"https://www.khanacademy.org/computing/ap-computer-science-principles\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>khanacademy.org/computing/ap-c</span><span class=\"u-visually-hidden\">omputer-science-principles</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a>\nOo, and our Pixar content is quite fun:\n<a target=\"_blank\" href=\"https://www.khanacademy.org/partner-content/pixar\" title=\"https://www.khanacademy.org/partner-content/pixar\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>khanacademy.org/partner-conten</span><span class=\"u-visually-hidden\">t/pixar</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-16T19:18:46.000Z",
     "human_time": "Mar 16",
     "user": {
@@ -529,7 +529,7 @@
   },
   {
     "text": "<p>The new <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/dribbble\" data-screen-name=\"dribbble\" rel=\"nofollow\">@dribbble</a> looks live to me! — <a target=\"_blank\" href=\"https://dribbble.com/\" title=\"https://dribbble.com/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>dribbble.com</span><span class=\"u-visually-hidden\">/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/BYLQ5lmITc\" rel=\"nofollow\">https://t.co/BYLQ5lmITc</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-16T14:28:33.000Z",
     "human_time": "Mar 16",
     "user": {
@@ -540,7 +540,7 @@
   },
   {
     "text": "<p>It's a terrible day to release a big but complicated tech story, but here goes... \n<a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Brave\" data-screen-name=\"Brave\" rel=\"nofollow\">@Brave</a> files GDPR \"purpose limitation\" complaint against Google's internal data free-for-all. Enforcement could radically change Google. \n<a target=\"_blank\" href=\"https://brave.com/google-internal-data-free-for-all/\" title=\"https://brave.com/google-internal-data-free-for-all/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>brave.com/google-interna</span><span class=\"u-visually-hidden\">l-data-free-for-all/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-16T05:44:51.000Z",
     "human_time": "Mar 16",
     "user": {
@@ -551,7 +551,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" href=\"https://t.co/WxpuBqavgN\" rel=\"nofollow\">https://t.co/WxpuBqavgN</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-16T03:43:57.000Z",
     "human_time": "Mar 16",
     "user": {
@@ -562,7 +562,7 @@
   },
   {
     "text": "<p>To make good use of my home-alone time, I tried to rewrite that virus spread simulator that Washington Post published earlier so I can play with the parameters:</p>\n<p>It’s ugly, the collision detection is buggy, but it works good enough, lol.</p>\n<p><a target=\"_blank\" href=\"https://covid-19.surma.technology/\" title=\"https://covid-19.surma.technology/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>covid-19.surma.technology</span><span class=\"u-visually-hidden\">/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/nNcygj4omZ\" rel=\"nofollow\">https://t.co/nNcygj4omZ</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-15T23:27:26.000Z",
     "human_time": "Mar 15",
     "user": {
@@ -573,7 +573,7 @@
   },
   {
     "text": "<p>I modded <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/washingtonpost\" data-screen-name=\"washingtonpost\" rel=\"nofollow\">@washingtonpost</a>’s “Coronavirus Simulator” to see what it’s like if 2000 people instead of 200 people were trapped in the confined space</p>\n<p>original version: <a target=\"_blank\" href=\"https://www.washingtonpost.com/graphics/2020/world/corona-simulator/\" title=\"https://www.washingtonpost.com/graphics/2020/world/corona-simulator/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>washingtonpost.com/graphics/2020/</span><span class=\"u-visually-hidden\">world/corona-simulator/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/uLjwUn84L8\" rel=\"nofollow\">https://t.co/uLjwUn84L8</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-15T11:32:23.000Z",
     "human_time": "Mar 15",
     "user": {
@@ -584,7 +584,7 @@
   },
   {
     "text": "<p>You create the bricks of your piece in two hours. After the session you can fill in any gaps with \"mortar\" (research, quotes extra context). </p>\n<p>It's easy to get lost in too much detail when writing. Don't make the mistake of adding mortar first. Start with bricks.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-14T18:34:50.000Z",
     "human_time": "Mar 14",
     "user": {
@@ -595,7 +595,7 @@
   },
   {
     "text": "<p>\"It would be absolutely ridiculous (if the <a target=\"_blank\" href=\"https://twitter.com/search?q=%23EPL\" title=\"#EPL\" class=\"tweet-url hashtag\" rel=\"nofollow\">#EPL</a> was declared null &amp; void, robbing Liverpool of the title) but Karren Brady says a lot of things that are absolutely ridiculous &amp; she shouldn't be taken seriously at any stage of the proceedings\".\n<a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Knox_Harrington\" data-screen-name=\"Knox_Harrington\" rel=\"nofollow\">@Knox_Harrington</a>/ <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/TheAnfieldWrap\" data-screen-name=\"TheAnfieldWrap\" rel=\"nofollow\">@TheAnfieldWrap</a> 🤣</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-14T10:37:12.000Z",
     "human_time": "Mar 14",
     "user": {
@@ -606,7 +606,7 @@
   },
   {
     "text": "<p>This is my nephew absolutely made up because his Uncle Neil is on the telly from our spare room, also known as well Flamingo Room. </p>\n<p>All I can see is <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Knox_Harrington\" data-screen-name=\"Knox_Harrington\" rel=\"nofollow\">@Knox_Harrington</a> not having moved my baskets of shite  used to transport stuff upstairs. Ffs. <a target=\"_blank\" href=\"https://t.co/9nWMIpDdy9\" rel=\"nofollow\">https://t.co/9nWMIpDdy9</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-14T09:20:44.000Z",
     "human_time": "Mar 14",
     "user": {
@@ -617,7 +617,7 @@
   },
   {
     "text": "<p>I love podcasts, but I can't stand audiobooks.</p>\n<p>Audiobook narrators should speak with more enthusiasm, production managers should add background noises, and writers should create books that are designed to be listened to.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-13T21:04:42.000Z",
     "human_time": "Mar 13",
     "user": {
@@ -628,7 +628,7 @@
   },
   {
     "text": "<p>🌈🌟 New tutorial: Creating stacked rainbow cards using box-shadows 👉 <a target=\"_blank\" href=\"https://fossheim.io/writing/posts/css-box-shadow-animation/\" title=\"https://fossheim.io/writing/posts/css-box-shadow-animation/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>fossheim.io/writing/posts/</span><span class=\"u-visually-hidden\">css-box-shadow-animation/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/zLGQmnKRfb\" rel=\"nofollow\">https://t.co/zLGQmnKRfb</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-13T16:51:27.000Z",
     "human_time": "Mar 13",
     "user": {
@@ -639,7 +639,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/WhatNathSaid\" data-screen-name=\"WhatNathSaid\" rel=\"nofollow\">@WhatNathSaid</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/GNev2\" data-screen-name=\"GNev2\" rel=\"nofollow\">@GNev2</a> 25 pts clear so to make it fair a play off final Liverpool v city but city have 4 men on the pitch 🤷🏻‍♂️</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-12T22:39:44.000Z",
     "human_time": "Mar 12",
     "user": {
@@ -650,7 +650,7 @@
   },
   {
     "text": "<p>Our latest work, made in collaboration with <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/WrayAndNephewUK\" data-screen-name=\"WrayAndNephewUK\" rel=\"nofollow\">@WrayAndNephewUK</a> 💛💚</p>\n<p>See it live → <a target=\"_blank\" href=\"http://straightfromyard.co.uk\" title=\"http://straightfromyard.co.uk\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>straightfromyard.co.uk</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/Y0h5fFdagm\" rel=\"nofollow\">https://t.co/Y0h5fFdagm</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-12T11:32:34.000Z",
     "human_time": "Mar 12",
     "user": {
@@ -661,7 +661,7 @@
   },
   {
     "text": "<p>I'm not too happy with most of the Table of Contents WordPress plugins. So I created my own!</p>\n<p>This Table of Contents can be inserted into any post or page as an <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/wp_acf\" data-screen-name=\"wp_acf\" rel=\"nofollow\">@wp_acf</a>  <a target=\"_blank\" href=\"https://twitter.com/search?q=%23Gutenberg\" title=\"#Gutenberg\" class=\"tweet-url hashtag\" rel=\"nofollow\">#Gutenberg</a> block and updates live as you edit your content using <a target=\"_blank\" href=\"http://wp.data\" title=\"http://wp.data\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>wp.data</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a>.subscribe() function <a target=\"_blank\" href=\"https://t.co/Kk9XyazOBt\" rel=\"nofollow\">https://t.co/Kk9XyazOBt</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-12T02:18:52.000Z",
     "human_time": "Mar 12",
     "user": {
@@ -672,7 +672,7 @@
   },
   {
     "text": "<p>Piccalilli #33 should be on its way to your inboxes 💌</p>\n<p>This week, it features work by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/themarkup\" data-screen-name=\"themarkup\" rel=\"nofollow\">@themarkup</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/lynnandtonic\" data-screen-name=\"lynnandtonic\" rel=\"nofollow\">@lynnandtonic</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/trysmudford\" data-screen-name=\"trysmudford\" rel=\"nofollow\">@trysmudford</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/j98\" data-screen-name=\"j98\" rel=\"nofollow\">@j98</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/sarah_edo\" data-screen-name=\"sarah_edo\" rel=\"nofollow\">@sarah_edo</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/liatrisbian\" data-screen-name=\"liatrisbian\" rel=\"nofollow\">@liatrisbian</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/cassiecodes\" data-screen-name=\"cassiecodes\" rel=\"nofollow\">@cassiecodes</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/cobra_winfrey\" data-screen-name=\"cobra_winfrey\" rel=\"nofollow\">@cobra_winfrey</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Mandy_Kerr\" data-screen-name=\"Mandy_Kerr\" rel=\"nofollow\">@Mandy_Kerr</a> and <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/aaroniker_me\" data-screen-name=\"aaroniker_me\" rel=\"nofollow\">@aaroniker_me</a> </p>\n<p><a target=\"_blank\" href=\"https://piccalil.li/newsletter/33/\" title=\"https://piccalil.li/newsletter/33/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>piccalil.li/newsletter/33/</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-10T11:27:58.000Z",
     "human_time": "Mar 10",
     "user": {
@@ -683,7 +683,7 @@
   },
   {
     "text": "<p>It took 26 hours but I made it to Minneapolis! </p>\n<p>And my hotel room is insane. Never seen a hotel room with STAIRS before what the heck?? <a target=\"_blank\" href=\"https://t.co/f7fhdj9hAs\" rel=\"nofollow\">https://t.co/f7fhdj9hAs</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-10T08:01:31.000Z",
     "human_time": "Mar 10",
     "user": {
@@ -694,7 +694,7 @@
   },
   {
     "text": "<p>Me trying not to touch my face while working <a target=\"_blank\" href=\"https://t.co/A4PuG3YWiD\" rel=\"nofollow\">https://t.co/A4PuG3YWiD</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-09T23:04:57.000Z",
     "human_time": "Mar 9",
     "user": {
@@ -705,7 +705,7 @@
   },
   {
     "text": "<p>“You will be much more successful if you discover the main journeys that customers are on and design for them.” This weekend I finished reading “Top Tasks” by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/gerrymcgovern\" data-screen-name=\"gerrymcgovern\" rel=\"nofollow\">@gerrymcgovern</a>. An excellent how-to guide on the top tasks methodology. <a target=\"_blank\" href=\"https://twitter.com/search?q=%23UX\" title=\"#UX\" class=\"tweet-url hashtag\" rel=\"nofollow\">#UX</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23UserExperience\" title=\"#UserExperience\" class=\"tweet-url hashtag\" rel=\"nofollow\">#UserExperience</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23design\" title=\"#design\" class=\"tweet-url hashtag\" rel=\"nofollow\">#design</a> <a target=\"_blank\" href=\"https://t.co/qB1Qc1CtmT\" rel=\"nofollow\">https://t.co/qB1Qc1CtmT</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-09T22:48:06.000Z",
     "human_time": "Mar 9",
     "user": {
@@ -716,7 +716,7 @@
   },
   {
     "text": "<p>Y’all.. I have like 30 houseplants... tell me why I’m going plant shopping... my spirit is telling me I need more. <a target=\"_blank\" href=\"https://t.co/TioDjxx0ud\" rel=\"nofollow\">https://t.co/TioDjxx0ud</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-08T20:54:08.000Z",
     "human_time": "Mar 8",
     "user": {
@@ -727,7 +727,7 @@
   },
   {
     "text": "<p>I keep on experimenting with motion effects in Procreate app. This time I came up with an asteroid which got carried away from more classic style into something new for me. And this one was tough to create, I hope you will like the motion! ☄️💜 <a target=\"_blank\" href=\"https://t.co/sCZaAUGc1V\" rel=\"nofollow\">https://t.co/sCZaAUGc1V</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-08T13:12:28.000Z",
     "human_time": "Mar 8",
     "user": {
@@ -738,7 +738,7 @@
   },
   {
     "text": "<p>Ok Auto Layout is changing the way I design 🤯 <a target=\"_blank\" href=\"https://t.co/WyTqinb2vq\" rel=\"nofollow\">https://t.co/WyTqinb2vq</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-06T21:33:27.000Z",
     "human_time": "Mar 6",
     "user": {
@@ -749,7 +749,7 @@
   },
   {
     "text": "<p>In my writing, I’ve almost completely switched from “you” to “we”—I find it more engaging.</p>\n<p>Example:\n– Before: “If a property can be omitted, you put a question mark after its name.”\n– After: “If a property can be omitted, we put a question mark after its name.”</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-06T17:26:48.000Z",
     "human_time": "Mar 6",
     "user": {
@@ -760,7 +760,7 @@
   },
   {
     "text": "<p>The way charts are designed has a big impact on perception. Mapping COVID-19, responsibly \n<a target=\"_blank\" href=\"https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/\" title=\"https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>esri.com/arcgis-blog/pr</span><span class=\"u-visually-hidden\">oducts/product/mapping/mapping-coronavirus-responsibly/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/4WMdrLuFKA\" rel=\"nofollow\">https://t.co/4WMdrLuFKA</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-06T02:40:09.000Z",
     "human_time": "Mar 6",
     "user": {
@@ -771,7 +771,7 @@
   },
   {
     "text": "<p>They definitely could get a ring in here &gt;_&gt; <a target=\"_blank\" href=\"https://t.co/v4joXWRoV0\" rel=\"nofollow\">https://t.co/v4joXWRoV0</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-05T16:54:22.000Z",
     "human_time": "Mar 5",
     "user": {
@@ -782,7 +782,7 @@
   },
   {
     "text": "<p>Loving this thread! Go in-depth on how <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/asallen\" data-screen-name=\"asallen\" rel=\"nofollow\">@asallen</a> used Figma to design a 24-hour analog clock for his kids. <a target=\"_blank\" href=\"https://twitter.com/asallen/status/1235268950482513920\" title=\"https://twitter.com/asallen/status/1235268950482513920\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/asallen/status</span><span class=\"u-visually-hidden\">/1235268950482513920</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-05T01:27:08.000Z",
     "human_time": "Mar 5",
     "user": {
@@ -793,7 +793,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/gruber\" data-screen-name=\"gruber\" rel=\"nofollow\">@gruber</a> Except Messenger wasn’t a React Native app. 🤷‍♂️</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-03T19:11:47.000Z",
     "human_time": "Mar 3",
     "user": {
@@ -804,7 +804,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/ebbo\" data-screen-name=\"ebbo\" rel=\"nofollow\">@ebbo</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/schteppe\" data-screen-name=\"schteppe\" rel=\"nofollow\">@schteppe</a> can't show it right now, it's a work project im working on. super early stage. but i'll share full sources when im done.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-03T15:22:07.000Z",
     "human_time": "Mar 3",
     "user": {
@@ -815,7 +815,7 @@
   },
   {
     "text": "<p>Damn. It has been only two days since I shared the cannon.js + gpu instancing experiment and we already have a react component that makes it reusable and moves the physics out of the main thread 🤯\n<a target=\"_blank\" href=\"https://twitter.com/search?q=%23opensource\" title=\"#opensource\" class=\"tweet-url hashtag\" rel=\"nofollow\">#opensource</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23webcommunity\" title=\"#webcommunity\" class=\"tweet-url hashtag\" rel=\"nofollow\">#webcommunity</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23ftw\" title=\"#ftw\" class=\"tweet-url hashtag\" rel=\"nofollow\">#ftw</a> <a target=\"_blank\" href=\"https://twitter.com/0xca0a/status/1234840102049865736\" title=\"https://twitter.com/0xca0a/status/1234840102049865736\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/0xca0a/status/</span><span class=\"u-visually-hidden\">1234840102049865736</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-03T14:18:02.000Z",
     "human_time": "Mar 3",
     "user": {
@@ -826,7 +826,7 @@
   },
   {
     "text": "<p>Singapore is getting praised for its handling of COVID-19, but Taiwan deserves credit too, particularly as an example of a society that is open and free and handling the outbreak well because of it.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-03T07:30:24.000Z",
     "human_time": "Mar 3",
     "user": {
@@ -837,7 +837,7 @@
   },
   {
     "text": "<p>Design: who knew being unsatisfied with everything could be a career?</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-03T07:03:39.000Z",
     "human_time": "Mar 3",
     "user": {
@@ -848,7 +848,7 @@
   },
   {
     "text": "<p>📱👨‍🔧👩‍🏭👷‍♂️👳‍♂️🧕👨‍💼\nWe're pretty happy to have helped our friends from <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/bigspringio\" data-screen-name=\"bigspringio\" rel=\"nofollow\">@bigspringio</a> relaunch <a target=\"_blank\" href=\"http://bigspring.io\" title=\"http://bigspring.io\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>bigspring.io</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> with a little dose of <a target=\"_blank\" href=\"https://twitter.com/search?q=%23scrollytelling\" title=\"#scrollytelling\" class=\"tweet-url hashtag\" rel=\"nofollow\">#scrollytelling</a> <a target=\"_blank\" href=\"https://t.co/7pJbhHGnaS\" rel=\"nofollow\">https://t.co/7pJbhHGnaS</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-02T09:23:13.000Z",
     "human_time": "Mar 2",
     "user": {
@@ -859,7 +859,7 @@
   },
   {
     "text": "<p>Just a little fun with Google's Quick Draw dataset, <a target=\"_blank\" href=\"https://twitter.com/search?q=%23penplotter\" title=\"#penplotter\" class=\"tweet-url hashtag\" rel=\"nofollow\">#penplotter</a> drawing 1,026 spiders. <a target=\"_blank\" href=\"https://twitter.com/search?q=%23axidraw\" title=\"#axidraw\" class=\"tweet-url hashtag\" rel=\"nofollow\">#axidraw</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23plottertwitter\" title=\"#plottertwitter\" class=\"tweet-url hashtag\" rel=\"nofollow\">#plottertwitter</a> <a target=\"_blank\" href=\"https://t.co/mDrD3Dc1mP\" rel=\"nofollow\">https://t.co/mDrD3Dc1mP</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-01T21:58:35.000Z",
     "human_time": "Mar 1",
     "user": {
@@ -870,7 +870,7 @@
   },
   {
     "text": "<p>Last year, I designed a desk and some shelving for an alcove, sent the SketchUp files to a carpenter, and they've just finished building and installing them. 🤩 <a target=\"_blank\" href=\"https://t.co/cauhsyunl9\" rel=\"nofollow\">https://t.co/cauhsyunl9</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-03-01T18:32:20.000Z",
     "human_time": "Mar 1",
     "user": {
@@ -881,7 +881,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/netmag\" data-screen-name=\"netmag\" rel=\"nofollow\">@netmag</a> Thinking, Fast and Slow by Daniel Kahneman — an absolute classic and invaluable for designers.</p>\n<p>The Design of Everyday Things by Don Norman — another design/psychology staple, and one that changed how I think about design.</p>\n<p>Designing for Emotion by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/aarron\" data-screen-name=\"aarron\" rel=\"nofollow\">@aarron</a> — another personal fav.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-29T12:58:21.000Z",
     "human_time": "Feb 29",
     "user": {
@@ -892,7 +892,7 @@
   },
   {
     "text": "<p>The latest cover from the <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/NewYorker\" data-screen-name=\"NewYorker\" rel=\"nofollow\">@NewYorker</a>. Trump blinding himself to the danger of a global threat—so powerful.</p>\n<p>Also, that triple chin 👌🏽 <a target=\"_blank\" href=\"https://t.co/sqlHfSwkLR\" rel=\"nofollow\">https://t.co/sqlHfSwkLR</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-28T22:23:39.000Z",
     "human_time": "Feb 28",
     "user": {
@@ -903,7 +903,7 @@
   },
   {
     "text": "<p>Visual hierarchy is important. The lighter the color, the more it brings focus. When it’s the same color, you can use shadows to add depth. <a target=\"_blank\" href=\"https://t.co/GPIXJLKgHH\" rel=\"nofollow\">https://t.co/GPIXJLKgHH</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-28T20:42:26.000Z",
     "human_time": "Feb 28",
     "user": {
@@ -914,7 +914,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/aaroniker_me\" data-screen-name=\"aaroniker_me\" rel=\"nofollow\">@aaroniker_me</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/CodePen\" data-screen-name=\"CodePen\" rel=\"nofollow\">@CodePen</a> Super clean! But I kinda wish the error line would shake side to side, like shaking your head no, instead of up and down implying yes. I think Google did a good job here, particularly how they animate incomprehension and confirmation. <a target=\"_blank\" href=\"https://t.co/TTnq12b9w2\" rel=\"nofollow\">https://t.co/TTnq12b9w2</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-28T20:38:00.000Z",
     "human_time": "Feb 28",
     "user": {
@@ -925,7 +925,7 @@
   },
   {
     "text": "<p>this is kind of genius 😮 <a target=\"_blank\" href=\"https://twitter.com/amyzima/status/1233008044314943489\" title=\"https://twitter.com/amyzima/status/1233008044314943489\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/amyzima/status</span><span class=\"u-visually-hidden\">/1233008044314943489</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-28T05:22:59.000Z",
     "human_time": "Feb 28",
     "user": {
@@ -936,7 +936,7 @@
   },
   {
     "text": "<p>Great blog post from my teammate Hanna Laakso on why you should probably avoid using &lt;input type=number /&gt;</p>\n<p><a target=\"_blank\" href=\"https://technology.blog.gov.uk/2020/02/24/why-the-gov-uk-design-system-team-changed-the-input-type-for-numbers\" title=\"https://technology.blog.gov.uk/2020/02/24/why-the-gov-uk-design-system-team-changed-the-input-type-for-numbers\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>technology.blog.gov.uk/2020/02/24/why</span><span class=\"u-visually-hidden\">-the-gov-uk-design-system-team-changed-the-input-type-for-numbers</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-27T13:58:31.000Z",
     "human_time": "Feb 27",
     "user": {
@@ -947,7 +947,7 @@
   },
   {
     "text": "<p>“But the main observation I came home with after this trip is this: America is a rich country that feels like a poor country.” —&gt; <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/kottke\" data-screen-name=\"kottke\" rel=\"nofollow\">@kottke</a> nails it. Exactly how I feel every time I return from extended time in Europe or Japan. <a target=\"_blank\" href=\"https://kottke.org/20/02/my-trip-to-vietnam-singapore-and-qatar\" title=\"https://kottke.org/20/02/my-trip-to-vietnam-singapore-and-qatar\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>kottke.org/20/02/my-trip-</span><span class=\"u-visually-hidden\">to-vietnam-singapore-and-qatar</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-26T23:50:38.000Z",
     "human_time": "Feb 26",
     "user": {
@@ -958,7 +958,7 @@
   },
   {
     "text": "<p>Headless WordPress with <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/wpgraphql\" data-screen-name=\"wpgraphql\" rel=\"nofollow\">@wpgraphql</a> and <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/gatsbyjs\" data-screen-name=\"gatsbyjs\" rel=\"nofollow\">@gatsbyjs</a> is getting exciting!</p>\n<p><a target=\"_blank\" href=\"https://www.youtube.com/watch?v=ZEytXfaWwcc\" title=\"https://www.youtube.com/watch?v=ZEytXfaWwcc\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>youtube.com/watch?v=ZEytXf</span><span class=\"u-visually-hidden\">aWwcc</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-26T21:50:45.000Z",
     "human_time": "Feb 26",
     "user": {
@@ -969,7 +969,7 @@
   },
   {
     "text": "<p>When writing alt text, imagine you're describing the image to someone over the phone.</p>\n<p>Love this tip from <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/IlanaDavisHR\" data-screen-name=\"IlanaDavisHR\" rel=\"nofollow\">@IlanaDavisHR</a>!</p>",
-    "retweeted": true,
+    "type": "like",
     "iso_time": "2020-02-26T11:55:23.000Z",
     "human_time": "Feb 26",
     "user": {
@@ -980,7 +980,7 @@
   },
   {
     "text": "<p>The Markup <a target=\"_blank\" href=\"https://themarkup.org/\" title=\"https://themarkup.org/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>themarkup.org</span><span class=\"u-visually-hidden\">/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-26T10:55:15.000Z",
     "human_time": "Feb 26",
     "user": {
@@ -991,18 +991,18 @@
   },
   {
     "text": "<p>Procrastinating by doing compound grid visualizations and making fractal bits in <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/figmadesign\" data-screen-name=\"figmadesign\" rel=\"nofollow\">@figmadesign</a> ... where vector snapping is a thing, and this activity is pleasing and not painful. <a target=\"_blank\" href=\"https://t.co/doaM2NoHQH\" rel=\"nofollow\">https://t.co/doaM2NoHQH</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-26T00:41:16.000Z",
     "human_time": "Feb 26",
     "user": {
-      "name": "Miguel Cardona—Online Professor 🧱RIT 🐯",
+      "name": "Miguel Cardona—Professor at a Distance 🧱RIT 🐯",
       "screen_name": "miggi"
     },
     "id_str": "1232465618370101248"
   },
   {
     "text": "<p>Beautiful project by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/JulienRenvoye\" data-screen-name=\"JulienRenvoye\" rel=\"nofollow\">@JulienRenvoye</a> with a nice touch of illustration! — <a target=\"_blank\" href=\"https://56k.cloud\" title=\"https://56k.cloud\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>56k.cloud</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/yIGNEoVK16\" rel=\"nofollow\">https://t.co/yIGNEoVK16</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-25T08:56:01.000Z",
     "human_time": "Feb 25",
     "user": {
@@ -1013,7 +1013,7 @@
   },
   {
     "text": "<p>When your consultants watched a lot of game footage <a target=\"_blank\" href=\"https://t.co/Gf5ZkkNe0Z\" rel=\"nofollow\">https://t.co/Gf5ZkkNe0Z</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-25T04:07:50.000Z",
     "human_time": "Feb 25",
     "user": {
@@ -1024,7 +1024,7 @@
   },
   {
     "text": "<p>Who photoshopped him green 🤷‍♂️😂😂 <a target=\"_blank\" href=\"https://t.co/UzrliNRdT3\" rel=\"nofollow\">https://t.co/UzrliNRdT3</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-25T02:21:09.000Z",
     "human_time": "Feb 25",
     "user": {
@@ -1035,7 +1035,7 @@
   },
   {
     "text": "<p>Every entrepreneur should have a Design Library.</p>\n<p>It's a random collection of logos, websites, and aesthetics you like.</p>\n<p>Best to collect these assets over time instead of waiting until crunch time, when you need them instantly.</p>\n<p>This habit has saved me hundreds of hours. <a target=\"_blank\" href=\"https://t.co/IjAHfWViod\" rel=\"nofollow\">https://t.co/IjAHfWViod</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-24T23:36:39.000Z",
     "human_time": "Feb 24",
     "user": {
@@ -1046,7 +1046,7 @@
   },
   {
     "text": "<p>BOSS pre-sale info for <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/DUALIPA\" data-screen-name=\"DUALIPA\" rel=\"nofollow\">@DUALIPA</a> </p>\n<p>Link: <a target=\"_blank\" href=\"http://tiny.cc/BOSSdua\" title=\"http://tiny.cc/BOSSdua\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>tiny.cc/BOSSdua</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a>\nPassword: ONEKISS</p>\n<p>On sale Wednesday 9am <a target=\"_blank\" href=\"https://t.co/EhQMqKVRpr\" rel=\"nofollow\">https://t.co/EhQMqKVRpr</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-24T14:46:24.000Z",
     "human_time": "Feb 24",
     "user": {
@@ -1057,7 +1057,7 @@
   },
   {
     "text": "<p>Introducing: <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/LottieFiles\" data-screen-name=\"LottieFiles\" rel=\"nofollow\">@LottieFiles</a> x Figma.</p>\n<p>Install the LottieFiles plugin to insert any of your Lottie animations into your design as a GIF, and access a library of thousands of free animations.</p>\n<p><a target=\"_blank\" href=\"https://www.figma.com/community/plugin/809860933081065308/LottieFiles\" title=\"https://www.figma.com/community/plugin/809860933081065308/LottieFiles\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>figma.com/community/plug</span><span class=\"u-visually-hidden\">in/809860933081065308/LottieFiles</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/md56lF54gF\" rel=\"nofollow\">https://t.co/md56lF54gF</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-24T14:07:12.000Z",
     "human_time": "Feb 24",
     "user": {
@@ -1068,7 +1068,7 @@
   },
   {
     "text": "<p>This is offensive to look at. <a target=\"_blank\" href=\"https://twitter.com/SwissRamble/status/1231847153443667969\" title=\"https://twitter.com/SwissRamble/status/1231847153443667969\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/SwissRamble/st</span><span class=\"u-visually-hidden\">atus/1231847153443667969</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-24T14:06:06.000Z",
     "human_time": "Feb 24",
     "user": {
@@ -1079,7 +1079,7 @@
   },
   {
     "text": "<p>WFH to make Microsoft Great Again <a target=\"_blank\" href=\"https://t.co/vbY1BZjfxA\" rel=\"nofollow\">https://t.co/vbY1BZjfxA</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-23T03:43:59.000Z",
     "human_time": "Feb 23",
     "user": {
@@ -1090,7 +1090,7 @@
   },
   {
     "text": "<p>Why is <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/stripe\" data-screen-name=\"stripe\" rel=\"nofollow\">@stripe</a>'s API so good?</p>\n<p>Teams debate the naming of each field, talk about trade-offs, and attempt to plan ahead for new features that may change the shape of the API.</p>\n<p>We *take the time* to get it right, and individual engineers recognize the best design requires teamwork.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-21T19:57:02.000Z",
     "human_time": "Feb 21",
     "user": {
@@ -1101,7 +1101,7 @@
   },
   {
     "text": "<p>get it! 🙌 <a target=\"_blank\" href=\"https://twitter.com/st8rmi/status/1230585510785175552\" title=\"https://twitter.com/st8rmi/status/1230585510785175552\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/st8rmi/status/</span><span class=\"u-visually-hidden\">1230585510785175552</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-20T20:42:09.000Z",
     "human_time": "Feb 20",
     "user": {
@@ -1112,7 +1112,7 @@
   },
   {
     "text": "<p>👋Proud to share my latest collaboration with <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/jackismissing\" data-screen-name=\"jackismissing\" rel=\"nofollow\">@jackismissing</a> : the website for the Dutch architecture office Loer Architecten!</p>\n<p>Check it out at <a target=\"_blank\" href=\"https://loerarchitecten.com/en/\" title=\"https://loerarchitecten.com/en/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>loerarchitecten.com/en/</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/JkeesVtK0R\" rel=\"nofollow\">https://t.co/JkeesVtK0R</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-20T10:55:31.000Z",
     "human_time": "Feb 20",
     "user": {
@@ -1123,7 +1123,7 @@
   },
   {
     "text": "<p>This changelog is eye candy 😍</p>\n<p><a target=\"_blank\" href=\"https://linear.app/changelog\" title=\"https://linear.app/changelog\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>linear.app/changelog</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/fgySRcaWoy\" rel=\"nofollow\">https://t.co/fgySRcaWoy</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-18T07:11:25.000Z",
     "human_time": "Feb 18",
     "user": {
@@ -1134,7 +1134,7 @@
   },
   {
     "text": "<p>Look at this absolute interaction magic!</p>\n<p>More from 👉 <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/KhonokLee\" data-screen-name=\"KhonokLee\" rel=\"nofollow\">@KhonokLee</a> <a target=\"_blank\" href=\"https://t.co/bikWHSdULY\" rel=\"nofollow\">https://t.co/bikWHSdULY</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-17T11:39:49.000Z",
     "human_time": "Feb 17",
     "user": {
@@ -1145,7 +1145,7 @@
   },
   {
     "text": "<p>Last Friday I wanted to quickly test different color palletes in Figma, but didn't find an easy way to import hex codes. \nSo I wrote a little something this weekend with Scripter by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/rsms\" data-screen-name=\"rsms\" rel=\"nofollow\">@rsms</a> </p>\n<p>Now I can just copy &amp; paste the hex codes and it creates the artboards. <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/figmadesign\" data-screen-name=\"figmadesign\" rel=\"nofollow\">@figmadesign</a> <a target=\"_blank\" href=\"https://t.co/6LXgyn3VYg\" rel=\"nofollow\">https://t.co/6LXgyn3VYg</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-17T08:05:48.000Z",
     "human_time": "Feb 17",
     "user": {
@@ -1156,7 +1156,7 @@
   },
   {
     "text": "<p>My 5 year old has just made a hands free iPad viewer out of an empty box.\nDisturbing Blue Peter / Black Mirror crossover 😂 <a target=\"_blank\" href=\"https://t.co/WwsdsFCktn\" rel=\"nofollow\">https://t.co/WwsdsFCktn</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-16T17:40:17.000Z",
     "human_time": "Feb 16",
     "user": {
@@ -1167,7 +1167,7 @@
   },
   {
     "text": "<p>oh no, our secret has been revealed! (women with bangs are all plotting to become bank robbers) <a target=\"_blank\" href=\"https://twitter.com/penguinyz/status/1228866836445270016\" title=\"https://twitter.com/penguinyz/status/1228866836445270016\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/penguinyz/stat</span><span class=\"u-visually-hidden\">us/1228866836445270016</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-16T17:34:37.000Z",
     "human_time": "Feb 16",
     "user": {
@@ -1178,7 +1178,7 @@
   },
   {
     "text": "<p>This work by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/negativespaceca\" data-screen-name=\"negativespaceca\" rel=\"nofollow\">@negativespaceca</a> is so great, and another example of how the future of design is open source. I can’t wait to start contributing!</p>\n<p><a target=\"_blank\" href=\"https://www.figma.com/c/file/767098093491678227\" title=\"https://www.figma.com/c/file/767098093491678227\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>figma.com/c/file/7670980</span><span class=\"u-visually-hidden\">93491678227</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> </p>\n<p><a target=\"_blank\" href=\"https://www.figma.com/c/file/810712776482607349\" title=\"https://www.figma.com/c/file/810712776482607349\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>figma.com/c/file/8107127</span><span class=\"u-visually-hidden\">76482607349</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-16T16:58:41.000Z",
     "human_time": "Feb 16",
     "user": {
@@ -1189,7 +1189,7 @@
   },
   {
     "text": "<p>Can't remember the last time I did this. Working on an illustration this evening. <a target=\"_blank\" href=\"https://t.co/4O6hTfyYEV\" rel=\"nofollow\">https://t.co/4O6hTfyYEV</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-16T03:40:15.000Z",
     "human_time": "Feb 16",
     "user": {
@@ -1200,7 +1200,7 @@
   },
   {
     "text": "<p>Chills.</p>\n<p>In Germany, a fan hurled racist slurs towards Leroy Kwadwo, a Ghanian football player.</p>\n<p>When other fans saw it, they alerted security, who escorted the man out.</p>\n<p>Then, as opposing players came to hug Kwadwo, the entire stadium stood up and chanted \"Nazis Out!\" <a target=\"_blank\" href=\"https://t.co/FHQP9Pe18J\" rel=\"nofollow\">https://t.co/FHQP9Pe18J</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-15T19:33:47.000Z",
     "human_time": "Feb 15",
     "user": {
@@ -1211,7 +1211,7 @@
   },
   {
     "text": "<p>Here's a Figma plugin I call Genie that lets you sketch layers and convert them into matching components from your library. <a target=\"_blank\" href=\"https://t.co/zLu5hqwTog\" rel=\"nofollow\">https://t.co/zLu5hqwTog</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-15T18:10:45.000Z",
     "human_time": "Feb 15",
     "user": {
@@ -1222,7 +1222,7 @@
   },
   {
     "text": "<p>When you go to a gallery and discover you've not aged in 430 years... <a target=\"_blank\" href=\"https://t.co/q1VOHsZdD1\" rel=\"nofollow\">https://t.co/q1VOHsZdD1</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-15T17:45:24.000Z",
     "human_time": "Feb 15",
     "user": {
@@ -1233,7 +1233,7 @@
   },
   {
     "text": "<p>I also realized that the core of my discomfort at the time wasn’t that I don’t get paid enough — but that I was *envious* of my colleagues and people in the industry who earn more. That was an uncomfortable realisation and I had to work through that mentally and let it go.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-15T14:31:09.000Z",
     "human_time": "Feb 15",
     "user": {
@@ -1244,7 +1244,7 @@
   },
   {
     "text": "<p>But in a week or so, I realized I prefer to know what my peers at the company make, and understand how that is affected by their level, location, performance, etc. It was nice getting a mental model for how that works, and seeing it’s somewhat consistent if you know the rules.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-15T14:23:53.000Z",
     "human_time": "Feb 15",
     "user": {
@@ -1255,7 +1255,7 @@
   },
   {
     "text": "<p>Vierschach Fire Station by Pedevilla Architects</p>\n<p><a target=\"_blank\" href=\"https://minimalissimo.com/articles/vierschach-fire-station\" title=\"https://minimalissimo.com/articles/vierschach-fire-station\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>minimalissimo.com/articles/viers</span><span class=\"u-visually-hidden\">chach-fire-station</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>\n<p><a target=\"_blank\" href=\"https://twitter.com/search?q=%23minimal\" title=\"#minimal\" class=\"tweet-url hashtag\" rel=\"nofollow\">#minimal</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23architecture\" title=\"#architecture\" class=\"tweet-url hashtag\" rel=\"nofollow\">#architecture</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23design\" title=\"#design\" class=\"tweet-url hashtag\" rel=\"nofollow\">#design</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-15T09:56:44.000Z",
     "human_time": "Feb 15",
     "user": {
@@ -1266,7 +1266,7 @@
   },
   {
     "text": "<p>No retirement benefits, no social security net to speak of, no parental leave, no job security, the list goes on. Comparing raw salary between US and EU needs a lot more detail.</p>\n<p>Talking openly about salary in either region: great. But don’t compare apples to a shit sandwiches. <a target=\"_blank\" href=\"https://twitter.com/jessalyn/status/1228607405233262593\" title=\"https://twitter.com/jessalyn/status/1228607405233262593\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/jessalyn/statu</span><span class=\"u-visually-hidden\">s/1228607405233262593</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-15T09:37:12.000Z",
     "human_time": "Feb 15",
     "user": {
@@ -1277,7 +1277,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/rakyll\" data-screen-name=\"rakyll\" rel=\"nofollow\">@rakyll</a> Reminds me of this: <a target=\"_blank\" href=\"http://www.aaronsw.com/weblog/hiring\" title=\"http://www.aaronsw.com/weblog/hiring\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://www.</span><span class='js-display-url'>aaronsw.com/weblog/hiring</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-15T06:56:25.000Z",
     "human_time": "Feb 15",
     "user": {
@@ -1288,7 +1288,7 @@
   },
   {
     "text": "<p>After installing Catalina, EVERY app on my Mac had to re-ask for notification permission, even those I’d granted before.</p>\n<p>Except fucking Apple News, which I never granted notification permission to, and enables itself for banners and sounds by default.</p>\n<p>Zero respect for users. <a target=\"_blank\" href=\"https://t.co/9hWETJBvLJ\" rel=\"nofollow\">https://t.co/9hWETJBvLJ</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-14T21:32:15.000Z",
     "human_time": "Feb 14",
     "user": {
@@ -1299,7 +1299,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/berkun\" data-screen-name=\"berkun\" rel=\"nofollow\">@berkun</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/ellenLupton\" data-screen-name=\"ellenLupton\" rel=\"nofollow\">@ellenLupton</a> <a target=\"_blank\" href=\"https://amzn.to/2vu3Z1e\" title=\"https://amzn.to/2vu3Z1e\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>amzn.to/2vu3Z1e</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> is great for graphic design, from beginner to expert. She manages to be so clear, so welcoming to beginners, yet the depth and beauty of her examples speak to experts.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-14T04:14:37.000Z",
     "human_time": "Feb 14",
     "user": {
@@ -1310,7 +1310,7 @@
   },
   {
     "text": "<p>Tomorrow! One of my <a target=\"_blank\" href=\"https://twitter.com/search?q=%23Blender3d\" title=\"#Blender3d\" class=\"tweet-url hashtag\" rel=\"nofollow\">#Blender3d</a>  source files will be available publicly ! Stay tuned !! I hope it will help you study 2d+3d animation with blender ! <a target=\"_blank\" href=\"https://twitter.com/search?q=%23b3d\" title=\"#b3d\" class=\"tweet-url hashtag\" rel=\"nofollow\">#b3d</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23greasepencil\" title=\"#greasepencil\" class=\"tweet-url hashtag\" rel=\"nofollow\">#greasepencil</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23b2d\" title=\"#b2d\" class=\"tweet-url hashtag\" rel=\"nofollow\">#b2d</a> <a target=\"_blank\" href=\"https://t.co/OqeQ76gnhF\" rel=\"nofollow\">https://t.co/OqeQ76gnhF</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-12T14:05:04.000Z",
     "human_time": "Feb 12",
     "user": {
@@ -1321,7 +1321,7 @@
   },
   {
     "text": "<p>Spectacular and innovative in the true sense of the words. That’s CopenHill – the artificial ski slope and recreational hiking area opened in the fall 2019 in Copenhagen, built on top of the new waste management centre <a target=\"_blank\" href=\"https://buff.ly/39n485c\" title=\"https://buff.ly/39n485c\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>buff.ly/39n485c</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/K6hWlqT01V\" rel=\"nofollow\">https://t.co/K6hWlqT01V</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-12T11:22:09.000Z",
     "human_time": "Feb 12",
     "user": {
@@ -1332,7 +1332,7 @@
   },
   {
     "text": "<p>Fewer blocks. Fewer options. Do the basics really really REALLY well before block-proliferation comes along and stomps all over the core functionality, confusing users and devs as it goes. <a target=\"_blank\" href=\"https://twitter.com/richard_tabor/status/1226903908414623745\" title=\"https://twitter.com/richard_tabor/status/1226903908414623745\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/richard_tabor/</span><span class=\"u-visually-hidden\">status/1226903908414623745</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-12T07:47:57.000Z",
     "human_time": "Feb 12",
     "user": {
@@ -1343,7 +1343,7 @@
   },
   {
     "text": "<p>Mum was fed up of the squirrels stealing all the bird food so she greased the feeder! <a target=\"_blank\" href=\"https://t.co/k2eAyqSWvK\" rel=\"nofollow\">https://t.co/k2eAyqSWvK</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-11T23:50:02.000Z",
     "human_time": "Feb 11",
     "user": {
@@ -1354,7 +1354,7 @@
   },
   {
     "text": "<p>Just published my new Work page. 👨‍🎨🎨 <a target=\"_blank\" href=\"https://paulstamatiou.com/work/\" title=\"https://paulstamatiou.com/work/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>paulstamatiou.com/work/</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a>  </p>\n<p>It's a start for a place to maintain and share work to come. The hardest part was having to remake old mocks and rebuild old Framer prototypes. 🤣 <a target=\"_blank\" href=\"https://t.co/SyMeydBFMy\" rel=\"nofollow\">https://t.co/SyMeydBFMy</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-11T13:58:53.000Z",
     "human_time": "Feb 11",
     "user": {
@@ -1365,7 +1365,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/JoshWComeau\" data-screen-name=\"JoshWComeau\" rel=\"nofollow\">@JoshWComeau</a> I rebuilt my Jekyll blog as a Gatsby theme last year. The goal is to integrate a wide array of social platforms and surface my online activity on my own website. It's called \"Gatsby Theme Private Sphere\".</p>\n<p><a target=\"_blank\" href=\"https://www.chrisvogt.me\" title=\"https://www.chrisvogt.me\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>chrisvogt.me</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-11T03:19:43.000Z",
     "human_time": "Feb 11",
     "user": {
@@ -1376,7 +1376,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/JoshWComeau\" data-screen-name=\"JoshWComeau\" rel=\"nofollow\">@JoshWComeau</a> definitely \n<a target=\"_blank\" href=\"https://bruno-simon.com/\" title=\"https://bruno-simon.com/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>bruno-simon.com</span><span class=\"u-visually-hidden\">/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-10T20:19:17.000Z",
     "human_time": "Feb 10",
     "user": {
@@ -1387,7 +1387,7 @@
   },
   {
     "text": "<p>It’s sad to see how many Just JavaScript readers got confused by someone in the past who taught them about “passing by value” and “passing by reference”. These concepts don’t map well to JavaScript and lead to all sorts of misconceptions. I wish people could forget them.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-10T00:16:50.000Z",
     "human_time": "Feb 10",
     "user": {
@@ -1398,7 +1398,7 @@
   },
   {
     "text": "<p>The four types of Google icon:</p>\n<p>1. BRAND COLORS on a white plate</p>\n<p>2. Random otherwise decent logo on a white plate</p>\n<p>3. Blue</p>\n<p>4. Actually good adaptive icon <a target=\"_blank\" href=\"https://t.co/UJFzvgSGgY\" rel=\"nofollow\">https://t.co/UJFzvgSGgY</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-08T06:00:25.000Z",
     "human_time": "Feb 8",
     "user": {
@@ -1409,7 +1409,7 @@
   },
   {
     "text": "<p>perfectly normal and fine</p>\n<p><a target=\"_blank\" href=\"https://mobile.twitter.com/eytanlenko/status/1225879328279289856?s=21\" title=\"https://mobile.twitter.com/eytanlenko/status/1225879328279289856?s=21\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>mobile.twitter.com/eytanlenko/sta</span><span class=\"u-visually-hidden\">tus/1225879328279289856?s=21</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-07T20:32:56.000Z",
     "human_time": "Feb 7",
     "user": {
@@ -1420,7 +1420,7 @@
   },
   {
     "text": "<p>Just a fair warning to the likes of <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/intercom\" data-screen-name=\"intercom\" rel=\"nofollow\">@intercom</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/hubspot\" data-screen-name=\"hubspot\" rel=\"nofollow\">@hubspot</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/mailchimp\" data-screen-name=\"mailchimp\" rel=\"nofollow\">@mailchimp</a>, superhuman, and anyone else who either spies on email recipients for aggregate or individual gain: YOU'RE ON NOTICE! We will absolutely name'n'shame every service that includes tracking pixels in HEY. <a target=\"_blank\" href=\"https://twitter.com/dhh/status/1225511250316144651\" title=\"https://twitter.com/dhh/status/1225511250316144651\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/dhh/status/122</span><span class=\"u-visually-hidden\">5511250316144651</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-07T17:36:24.000Z",
     "human_time": "Feb 7",
     "user": {
@@ -1431,7 +1431,7 @@
   },
   {
     "text": "<p>Props to Phillip Schofield admitting his truth but that doesn’t stop him being a tedious Tory gobshite 🤷🏼‍♀️</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-07T12:21:22.000Z",
     "human_time": "Feb 7",
     "user": {
@@ -1442,7 +1442,7 @@
   },
   {
     "text": "<p>Queue Design Twitter outrage in 3... 2... 1... <a target=\"_blank\" href=\"https://t.co/p45dja44F9\" rel=\"nofollow\">https://t.co/p45dja44F9</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-06T20:41:22.000Z",
     "human_time": "Feb 6",
     "user": {
@@ -1453,7 +1453,7 @@
   },
   {
     "text": "<p>Yesterday I asked about sizing images with different aspect ratios (e.g. a group of logos) to normalize their visual area in px².</p>\n<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/PiperHaywood\" data-screen-name=\"PiperHaywood\" rel=\"nofollow\">@PiperHaywood</a> offered a cool CSS trick:\n<a target=\"_blank\" href=\"https://piperhaywood.com/images-consistent-surface-area/\" title=\"https://piperhaywood.com/images-consistent-surface-area/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>piperhaywood.com/images-consist</span><span class=\"u-visually-hidden\">ent-surface-area/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>\n<p>I made a demo based on her code, with before/after samples:\n<a target=\"_blank\" href=\"https://nicksherman.com/size-by-area/\" title=\"https://nicksherman.com/size-by-area/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>nicksherman.com/size-by-area/</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/aK5vt5x6Fs\" rel=\"nofollow\">https://t.co/aK5vt5x6Fs</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-06T14:28:15.000Z",
     "human_time": "Feb 6",
     "user": {
@@ -1464,7 +1464,7 @@
   },
   {
     "text": "<p>finally! my avatar not only portrays the warm tones of my site but also my favourite activity of drinking coffee ☕️</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-06T00:33:21.000Z",
     "human_time": "Feb 6",
     "user": {
@@ -1475,7 +1475,7 @@
   },
   {
     "text": "<p>Last year I showed a proof of concept PaintWorklet renderer for lottie-web. As of Chrome 81 this now runs on the compositor, watch what happens when we inject artificial jank! Try yourself at <a target=\"_blank\" href=\"https://flackr.github.io/lottie-web/demo/bodymovin/\" title=\"https://flackr.github.io/lottie-web/demo/bodymovin/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>flackr.github.io/lottie-web/dem</span><span class=\"u-visually-hidden\">o/bodymovin/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/lWhQ21vWYA\" rel=\"nofollow\">https://t.co/lWhQ21vWYA</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-05T16:47:54.000Z",
     "human_time": "Feb 5",
     "user": {
@@ -1486,7 +1486,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/johnwwalton\" data-screen-name=\"johnwwalton\" rel=\"nofollow\">@johnwwalton</a> It’s ok, it was the push I needed. Not the best way to have gone about it but there we have it.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-05T16:27:57.000Z",
     "human_time": "Feb 5",
     "user": {
@@ -1497,7 +1497,7 @@
   },
   {
     "text": "<p>We launched the new <a target=\"_blank\" href=\"http://GatsbyWPThemes.com\" title=\"http://GatsbyWPThemes.com\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>GatsbyWPThemes.com</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> site at Gatsby Days yesterday!</p>\n<p>\"Gatsby themes designed to work with WordPress\" <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/gatsbyjs\" data-screen-name=\"gatsbyjs\" rel=\"nofollow\">@gatsbyjs</a> </p>\n<p>You can preview a few of our themes (sooo many more coming too!) and the plugins that come with our package. <a target=\"_blank\" href=\"https://t.co/umGPHDZqWK\" rel=\"nofollow\">https://t.co/umGPHDZqWK</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-05T15:03:02.000Z",
     "human_time": "Feb 5",
     "user": {
@@ -1508,7 +1508,7 @@
   },
   {
     "text": "<p>Today I learned you can move a screenshot area by holding the spacebar. 🤯 <a target=\"_blank\" href=\"https://t.co/xq3dGC12iQ\" rel=\"nofollow\">https://t.co/xq3dGC12iQ</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-05T04:32:52.000Z",
     "human_time": "Feb 5",
     "user": {
@@ -1519,7 +1519,7 @@
   },
   {
     "text": "<p>🎉Want to learn how to use headless WordPress with modern JS frameworks, and JAMstack? </p>\n<p>Me and <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/geoffgraham745\" data-screen-name=\"geoffgraham745\" rel=\"nofollow\">@geoffgraham745</a> teamed up on a post that shows you how to do it!</p>\n<p><a target=\"_blank\" href=\"https://www.smashingmagazine.com/2020/02/headless-wordpress-site-jamstack/\" title=\"https://www.smashingmagazine.com/2020/02/headless-wordpress-site-jamstack/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>smashingmagazine.com/2020/02/headle</span><span class=\"u-visually-hidden\">ss-wordpress-site-jamstack/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-04T14:48:40.000Z",
     "human_time": "Feb 4",
     "user": {
@@ -1530,7 +1530,7 @@
   },
   {
     "text": "<p>soon-ish <a target=\"_blank\" href=\"https://t.co/mXZkRTUhS1\" rel=\"nofollow\">https://t.co/mXZkRTUhS1</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-04T07:31:23.000Z",
     "human_time": "Feb 4",
     "user": {
@@ -1541,7 +1541,7 @@
   },
   {
     "text": "<p>Dayum, this is big. <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/TwitterDesign\" data-screen-name=\"TwitterDesign\" rel=\"nofollow\">@TwitterDesign</a> is posting to our <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/figmadesign\" data-screen-name=\"figmadesign\" rel=\"nofollow\">@figmadesign</a> community. Their first post!</p>\n<p><a target=\"_blank\" href=\"https://www.figma.com/c/file/806291777034672116/%F0%9F%98%8E---Twemoji-by-Twitter\" title=\"https://www.figma.com/c/file/806291777034672116/%F0%9F%98%8E---Twemoji-by-Twitter\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>figma.com/c/file/8062917</span><span class=\"u-visually-hidden\">77034672116/%F0%9F%98%8E---Twemoji-by-Twitter</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-03T23:25:38.000Z",
     "human_time": "Feb 3",
     "user": {
@@ -1552,7 +1552,7 @@
   },
   {
     "text": "<p>Working on a <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/LottieFiles\" data-screen-name=\"LottieFiles\" rel=\"nofollow\">@LottieFiles</a> plugin for Figma! 😁 For your designs you can:</p>\n<p>📍Access the public Lottie animations\n📍Import them as GIFs\n📍Import frames of the Lottie files as SVGs\n📍(working on more features)</p>\n<p>Here's a sneak preview <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/figmadesign\" data-screen-name=\"figmadesign\" rel=\"nofollow\">@figmadesign</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/FigmaPlugins\" data-screen-name=\"FigmaPlugins\" rel=\"nofollow\">@FigmaPlugins</a> <a target=\"_blank\" href=\"https://t.co/OVBKh1Buej\" rel=\"nofollow\">https://t.co/OVBKh1Buej</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-03T14:31:11.000Z",
     "human_time": "Feb 3",
     "user": {
@@ -1563,7 +1563,7 @@
   },
   {
     "text": "<p>15. The media portrayal of happy relationships really screws with our minds. For example, you don’t have to take every vacation together! It’s okay to take a break from each other, explore the world independently, and then share the fun things you found.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-03T13:50:29.000Z",
     "human_time": "Feb 3",
     "user": {
@@ -1574,7 +1574,7 @@
   },
   {
     "text": "<p>I watched the Google Super Bowl ad so you don't have to: another step in the normalisation of oversharing intimate information with an inquisitive corporation, set to a touching piano tune and exploiting someone's granddad to associate said corporation with human emotion.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-03T07:33:54.000Z",
     "human_time": "Feb 3",
     "user": {
@@ -1585,7 +1585,7 @@
   },
   {
     "text": "<p>Awesome 🤩</p>\n<p><a target=\"_blank\" href=\"https://www.apple.com/\" title=\"https://www.apple.com/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>apple.com</span><span class=\"u-visually-hidden\">/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/iEF9DyqDKT\" rel=\"nofollow\">https://t.co/iEF9DyqDKT</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-02T22:42:04.000Z",
     "human_time": "Feb 2",
     "user": {
@@ -1596,7 +1596,7 @@
   },
   {
     "text": "<p>A <a target=\"_blank\" href=\"https://twitter.com/search?q=%23Brexit\" title=\"#Brexit\" class=\"tweet-url hashtag\" rel=\"nofollow\">#Brexit</a> story in three acts <a target=\"_blank\" href=\"https://t.co/S9t9ntg6FN\" rel=\"nofollow\">https://t.co/S9t9ntg6FN</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-02T18:07:47.000Z",
     "human_time": "Feb 2",
     "user": {
@@ -1607,7 +1607,7 @@
   },
   {
     "text": "<p>I used to wonder why the interfaces on Star Trek are so clunky given that it's centuries in the future, but I guess that's just Enterprise software for you</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-02T05:11:28.000Z",
     "human_time": "Feb 2",
     "user": {
@@ -1618,7 +1618,7 @@
   },
   {
     "text": "<p>Self-hosted virtual browser as a docker container <a target=\"_blank\" href=\"https://github.com/nurdism/neko\" title=\"https://github.com/nurdism/neko\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>github.com/nurdism/neko</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-01T21:11:00.000Z",
     "human_time": "Feb 1",
     "user": {
@@ -1629,7 +1629,7 @@
   },
   {
     "text": "<p>Okay, let’s do this. <a target=\"_blank\" href=\"https://t.co/bmiNoJ273w\" rel=\"nofollow\">https://t.co/bmiNoJ273w</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-01T16:46:11.000Z",
     "human_time": "Feb 1",
     "user": {
@@ -1640,7 +1640,7 @@
   },
   {
     "text": "<p>Before and after wrapping it in matte black. Much better. <a target=\"_blank\" href=\"https://t.co/2UNkJeXEk4\" rel=\"nofollow\">https://t.co/2UNkJeXEk4</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-02-01T11:24:00.000Z",
     "human_time": "Feb 1",
     "user": {
@@ -1651,7 +1651,7 @@
   },
   {
     "text": "<p>Jobs of the week from The Headless Horse, Stereo and YES! &gt; <a target=\"_blank\" href=\"http://bit.ly/2tgnPwj\" title=\"http://bit.ly/2tgnPwj\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>bit.ly/2tgnPwj</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/6ePGlOKnNQ\" rel=\"nofollow\">https://t.co/6ePGlOKnNQ</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-31T11:30:02.000Z",
     "human_time": "Jan 31",
     "user": {
@@ -1662,7 +1662,7 @@
   },
   {
     "text": "<p>Toggle Ideas 💡\n<a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/CodePen\" data-screen-name=\"CodePen\" rel=\"nofollow\">@CodePen</a>: <a target=\"_blank\" href=\"https://codepen.io/oliviale/full/xxboXzo\" title=\"https://codepen.io/oliviale/full/xxboXzo\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>codepen.io/oliviale/full/</span><span class=\"u-visually-hidden\">xxboXzo</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/Tfh9tCgCht\" rel=\"nofollow\">https://t.co/Tfh9tCgCht</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-31T06:59:45.000Z",
     "human_time": "Jan 31",
     "user": {
@@ -1673,7 +1673,7 @@
   },
   {
     "text": "<p>This out-of-office banner in Gmail is so amazingly helpful. Did they recently add this? <a target=\"_blank\" href=\"https://t.co/tl6LGomjcA\" rel=\"nofollow\">https://t.co/tl6LGomjcA</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-30T17:49:54.000Z",
     "human_time": "Jan 30",
     "user": {
@@ -1684,7 +1684,7 @@
   },
   {
     "text": "<p>Bob Paisley. Legend.</p>\n<p>A bronze statue was unveiled at Anfield today to celebrate the life and legacy of our former manager Bob Paisley.</p>\n<p>The sculpture was commissioned and donated by our main sponsor, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/StanChart\" data-screen-name=\"StanChart\" rel=\"nofollow\">@StanChart</a>.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-30T14:44:07.000Z",
     "human_time": "Jan 30",
     "user": {
@@ -1695,7 +1695,7 @@
   },
   {
     "text": "<p>Smart Constraints uses best-effort logic to automatically add constraints to your layers so that they resize nicely <a target=\"_blank\" href=\"https://t.co/9PsfdwvdcK\" rel=\"nofollow\">https://t.co/9PsfdwvdcK</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-30T14:24:57.000Z",
     "human_time": "Jan 30",
     "user": {
@@ -1706,7 +1706,7 @@
   },
   {
     "text": "<p>Really cool idea from <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/figmadesign\" data-screen-name=\"figmadesign\" rel=\"nofollow\">@figmadesign</a> to have each <a target=\"_blank\" href=\"https://twitter.com/search?q=%23config2020\" title=\"#config2020\" class=\"tweet-url hashtag\" rel=\"nofollow\">#config2020</a> attendee submit a digital quilt patch with the theme of what community means to you. For me, it's libraries and sharing knowledge, so I made this: <a target=\"_blank\" href=\"https://t.co/EPEe3j3fXf\" rel=\"nofollow\">https://t.co/EPEe3j3fXf</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-29T20:04:44.000Z",
     "human_time": "Jan 29",
     "user": {
@@ -1717,7 +1717,7 @@
   },
   {
     "text": "<p>So it turns out you definitely don't want to do this as it could cause memory leaks 😅</p>\n<p>There is another API you can use `events.once` which does exactly what I was trying to do and has been around for almost a year</p>\n<p><a target=\"_blank\" href=\"https://nodejs.org/api/events.html#events_events_once_emitter_name\" title=\"https://nodejs.org/api/events.html#events_events_once_emitter_name\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>nodejs.org/api/events.htm</span><span class=\"u-visually-hidden\">l#events_events_once_emitter_name</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/JYGmRzsP9e\" rel=\"nofollow\">https://t.co/JYGmRzsP9e</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-29T06:37:56.000Z",
     "human_time": "Jan 29",
     "user": {
@@ -1728,7 +1728,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/sidag95\" data-screen-name=\"sidag95\" rel=\"nofollow\">@sidag95</a> Correct <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/sidag95\" data-screen-name=\"sidag95\" rel=\"nofollow\">@sidag95</a> (and others) who guessed it!</p>\n<p>The offending object was an inline RegEx!</p>\n<p>After moving its declaration to get compiled once... Bam! A 1,000x performance change!</p>\n<p>I'd have guessed it would be 5-10x slower - not *that* much slower. <a target=\"_blank\" href=\"https://t.co/55OUS8bcF4\" rel=\"nofollow\">https://t.co/55OUS8bcF4</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-27T17:36:02.000Z",
     "human_time": "Jan 27",
     "user": {
@@ -1739,7 +1739,7 @@
   },
   {
     "text": "<p>Good morning </p>\n<p>Liverpool are 30 (thirty) points clear of Manchester United with two games in hand </p>\n<p>It’s January</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-23T08:40:28.000Z",
     "human_time": "Jan 23",
     "user": {
@@ -1750,7 +1750,7 @@
   },
   {
     "text": "<p>📢🍿 Announcing Popper v2 – the popular tooltip and popover positioning engine for your web apps. Now faster, simpler, lighter &amp; tree-shakable.</p>\n<p>It was a lot of hard work over the past couple months to finally release this – we hope you like it!</p>\n<p><a target=\"_blank\" href=\"http://popper.js.org\" title=\"http://popper.js.org\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>popper.js.org</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-22T14:54:45.000Z",
     "human_time": "Jan 22",
     "user": {
@@ -1761,7 +1761,7 @@
   },
   {
     "text": "<p>Paris Mayor <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Anne_Hidalgo\" data-screen-name=\"Anne_Hidalgo\" rel=\"nofollow\">@Anne_Hidalgo</a> is championing “the quarter hour city,” where Parisians can get everything they need within 15 minutes. It means rethinking a LOT, even in a city like <a target=\"_blank\" href=\"https://twitter.com/search?q=%23Paris\" title=\"#Paris\" class=\"tweet-url hashtag\" rel=\"nofollow\">#Paris</a>, including street design. Watch this via <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/ParisEnCommun\" data-screen-name=\"ParisEnCommun\" rel=\"nofollow\">@ParisEnCommun</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/CarlosMorenoFr\" data-screen-name=\"CarlosMorenoFr\" rel=\"nofollow\">@CarlosMorenoFr</a> <a target=\"_blank\" href=\"https://t.co/fCkxYBqjZr\" rel=\"nofollow\">https://t.co/fCkxYBqjZr</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-21T22:47:41.000Z",
     "human_time": "Jan 21",
     "user": {
@@ -1772,7 +1772,7 @@
   },
   {
     "text": "<p>Supporting Typographica through April: Luciole, the result of a two-year collaboration between specialists in visual impairment. Get the fonts here: <a target=\"_blank\" href=\"http://www.luciole-vision.com/luciole-en.html\" title=\"http://www.luciole-vision.com/luciole-en.html\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://www.</span><span class='js-display-url'>luciole-vision.com/luciole-en.html</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> </p>\n<p>​Thank you, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/typographies_fr\" data-screen-name=\"typographies_fr\" rel=\"nofollow\">@typographies_fr</a>! <a target=\"_blank\" href=\"https://t.co/nZwX1Zu2qM\" rel=\"nofollow\">https://t.co/nZwX1Zu2qM</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-21T07:49:41.000Z",
     "human_time": "Jan 21",
     "user": {
@@ -1783,7 +1783,7 @@
   },
   {
     "text": "<p>👉🏻 “Instagram for Windows 95”\n🔗 <a target=\"_blank\" href=\"https://www.behance.net/gallery/41023081/Instagram-for-Win95\" title=\"https://www.behance.net/gallery/41023081/Instagram-for-Win95\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>behance.net/gallery/410230</span><span class=\"u-visually-hidden\">81/Instagram-for-Win95</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-21T04:05:15.000Z",
     "human_time": "Jan 21",
     "user": {
@@ -1794,7 +1794,7 @@
   },
   {
     "text": "<p>Sneak peek at IBM Plex Japanese. Projected for sometime in 2021. <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/ibmdesign\" data-screen-name=\"ibmdesign\" rel=\"nofollow\">@ibmdesign</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/boldmonday\" data-screen-name=\"boldmonday\" rel=\"nofollow\">@boldmonday</a> <a target=\"_blank\" href=\"https://t.co/d1yKHB0k3m\" rel=\"nofollow\">https://t.co/d1yKHB0k3m</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-20T21:15:02.000Z",
     "human_time": "Jan 20",
     "user": {
@@ -1805,7 +1805,7 @@
   },
   {
     "text": "<p>If Horsetail Fall in Yosemite National Park is flowing in February &amp; the weather conditions are just right, the setting sun illuminates the waterfall, making it glow orange &amp; red. This footage by Beth Pratt is possibly one of the best proofs [full video: <a target=\"_blank\" href=\"https://buff.ly/37gY0Le\" title=\"https://buff.ly/37gY0Le\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>buff.ly/37gY0Le</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a>] <a target=\"_blank\" href=\"https://t.co/rQbt2tjt9S\" rel=\"nofollow\">https://t.co/rQbt2tjt9S</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-20T20:48:00.000Z",
     "human_time": "Jan 20",
     "user": {
@@ -1816,7 +1816,7 @@
   },
   {
     "text": "<p>Netflix Acquires Global Streaming Rights To Studio Ghibli Library <a target=\"_blank\" href=\"https://www.cartoonbrew.com/streaming/netflix-acquires-global-streaming-rights-to-studio-ghibli-library-184914.html\" title=\"https://www.cartoonbrew.com/streaming/netflix-acquires-global-streaming-rights-to-studio-ghibli-library-184914.html\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>cartoonbrew.com/streaming/netf</span><span class=\"u-visually-hidden\">lix-acquires-global-streaming-rights-to-studio-ghibli-library-184914.html</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> </p>\n<p>\"Beginning February 1, Netflix will offer 21 films from Studio Ghibli on its streaming service. The catch: the films won’t be available in the United States, Canada, or Japan. \"</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-20T08:15:22.000Z",
     "human_time": "Jan 20",
     "user": {
@@ -1827,7 +1827,7 @@
   },
   {
     "text": "<p>Oh, and the Wikipedia app is absolutely fantastic.</p>\n<p>It’s fast and fun to use, but more importantly, it does an excellent job of pushing you towards new ideas. </p>\n<p>The “Places” tab is a game-changer — especially if you live in a city. </p>\n<p><a target=\"_blank\" href=\"https://apps.apple.com/us/app/wikipedia/id324715238\" title=\"https://apps.apple.com/us/app/wikipedia/id324715238\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>apps.apple.com/us/app/wikiped</span><span class=\"u-visually-hidden\">ia/id324715238</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/eNJ66lGvwa\" rel=\"nofollow\">https://t.co/eNJ66lGvwa</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-20T06:42:27.000Z",
     "human_time": "Jan 20",
     "user": {
@@ -1838,7 +1838,7 @@
   },
   {
     "text": "<p>Early access <a target=\"_blank\" href=\"https://romejs.dev/\" title=\"https://romejs.dev/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>romejs.dev</span><span class=\"u-visually-hidden\">/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-20T04:48:43.000Z",
     "human_time": "Jan 20",
     "user": {
@@ -1849,7 +1849,7 @@
   },
   {
     "text": "<p>INCREDIBLE 😱</p>\n<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Alissonbecker\" data-screen-name=\"Alissonbecker\" rel=\"nofollow\">@Alissonbecker</a>'s brilliant assist, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/MoSalah\" data-screen-name=\"MoSalah\" rel=\"nofollow\">@MoSalah</a>'s superb goal... and THAT celebration 🤩 <a target=\"_blank\" href=\"https://t.co/RHyu0ZwXsH\" rel=\"nofollow\">https://t.co/RHyu0ZwXsH</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-19T22:00:00.000Z",
     "human_time": "Jan 19",
     "user": {
@@ -1860,7 +1860,7 @@
   },
   {
     "text": "<p>You don’t need a library to create a UI that uses a state machine. </p>\n<p>Recipe:</p>\n<p>1. Create a list of potential statuses (loading, saving, submitted, errored, etc.)</p>\n<p>2. Declare a variable called “status” that holds the current status.</p>\n<p>3. Code your UI using the “status” variable.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-18T15:06:42.000Z",
     "human_time": "Jan 18",
     "user": {
@@ -1871,7 +1871,7 @@
   },
   {
     "text": "<p>if you use an adblocker (you should) you can create a rule to kill them by targeting the class: </p>\n<p>##.xA33Gc</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-17T21:54:32.000Z",
     "human_time": "Jan 17",
     "user": {
@@ -1882,7 +1882,7 @@
   },
   {
     "text": "<p>This open-source mono “typeface for developers” by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/jetbrains\" data-screen-name=\"jetbrains\" rel=\"nofollow\">@jetbrains</a> is beautiful. Can't wait to use it on non-developer stuff. Lol.</p>\n<p>Admire it here: <a target=\"_blank\" href=\"https://www.jetbrains.com/lp/mono/\" title=\"https://www.jetbrains.com/lp/mono/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>jetbrains.com/lp/mono/</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/WJbqixkFZ5\" rel=\"nofollow\">https://t.co/WJbqixkFZ5</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-17T14:46:20.000Z",
     "human_time": "Jan 17",
     "user": {
@@ -1893,7 +1893,7 @@
   },
   {
     "text": "<p>One of these usages of grey is not like the other. 👀 <a target=\"_blank\" href=\"https://t.co/WWRisJWjpS\" rel=\"nofollow\">https://t.co/WWRisJWjpS</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-16T21:51:21.000Z",
     "human_time": "Jan 16",
     "user": {
@@ -1904,7 +1904,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/PierB\" data-screen-name=\"PierB\" rel=\"nofollow\">@PierB</a> Line height is a mess. It's part of the oldest behavior of the web, and therefore was the least-thought-out / not designed-well. The CSS Working Group is currently creating a whole set of fixes to line boxes and sizing and all this stuff. Fixes that will work for all languages…</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-15T22:43:48.000Z",
     "human_time": "Jan 15",
     "user": {
@@ -1915,7 +1915,7 @@
   },
   {
     "text": "<p>It's a year since we signed <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/DistanceCovered\" data-screen-name=\"DistanceCovered\" rel=\"nofollow\">@DistanceCovered</a>. He writes about mad, brilliant stuff like this. We're very lucky to have him. Honestly, read this if you're interested in how football works at the top level. Crackers. <a target=\"_blank\" href=\"https://www.liverpool.com/liverpool-fc-news/features/liverpool-transfer-news-jurgen-klopp-17569689\" title=\"https://www.liverpool.com/liverpool-fc-news/features/liverpool-transfer-news-jurgen-klopp-17569689\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>liverpool.com/liverpool-fc-n</span><span class=\"u-visually-hidden\">ews/features/liverpool-transfer-news-jurgen-klopp-17569689</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-15T20:20:02.000Z",
     "human_time": "Jan 15",
     "user": {
@@ -1926,7 +1926,7 @@
   },
   {
     "text": "<p>4 layouts for the price of 1, thanks flex 👍</p>\n<p>css`\n  form {\n    display: flex;\n    flex-wrap: wrap;</p>\n<p>    &amp; &gt; input {\n      flex: 1 1 10ch;\n      margin: .5rem;</p>\n<p>      &amp;[type=\"email\"] {\n        flex: 3 1 30ch;\n      }\n    }\n  }\n`</p>\n<p>view source on Codepen 👇\n<a target=\"_blank\" href=\"https://codepen.io/argyleink/pen/LYEegOO\" title=\"https://codepen.io/argyleink/pen/LYEegOO\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>codepen.io/argyleink/pen/</span><span class=\"u-visually-hidden\">LYEegOO</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/y6HqxClILZ\" rel=\"nofollow\">https://t.co/y6HqxClILZ</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-14T22:34:31.000Z",
     "human_time": "Jan 14",
     "user": {
@@ -1937,7 +1937,7 @@
   },
   {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/rsms\" data-screen-name=\"rsms\" rel=\"nofollow\">@rsms</a> Thanks! The trick is to still have at least one element that’s grounded with the natural scroll—and never actually hijack the scroll, especially now that mobile Safari emits scroll events on release.</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-14T18:28:27.000Z",
     "human_time": "Jan 14",
     "user": {
@@ -1948,7 +1948,7 @@
   },
   {
     "text": "<p>I've criticized Google in the past for handwaving a hypothetical alternative to cookie blocking without teeth.</p>\n<p>Now they're delivering teeth: a plan to kill tracking cookies in 2 years.</p>\n<p>So I retract my criticism. Kudos to Google. This is a big deal.\n <a target=\"_blank\" href=\"https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html?m=1\" title=\"https://blog.chromium.org/2020/01/building-more-private-web-path-towards.html?m=1\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>blog.chromium.org/2020/01/buildi</span><span class=\"u-visually-hidden\">ng-more-private-web-path-towards.html?m=1</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-14T17:18:15.000Z",
     "human_time": "Jan 14",
     "user": {
@@ -1959,7 +1959,7 @@
   },
   {
     "text": "<p>🎉 Today’s the day!</p>\n<p>After years of thinking about this idea, I’m finally ready to launch my new portfolio—a mashup of the landing pages I’ve built.</p>\n<p>👉 <a target=\"_blank\" href=\"https://destroytoday.com\" title=\"https://destroytoday.com\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>destroytoday.com</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-14T14:46:42.000Z",
     "human_time": "Jan 14",
     "user": {
@@ -1970,7 +1970,7 @@
   },
   {
     "text": "<p>THIS IS NOT A CROSSWALK!!!</p>\n<p>I still had to select all squares with the ONLY white text… <a target=\"_blank\" href=\"https://t.co/wa3OUskea3\" rel=\"nofollow\">https://t.co/wa3OUskea3</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-13T10:18:58.000Z",
     "human_time": "Jan 13",
     "user": {
@@ -1981,7 +1981,7 @@
   },
   {
     "text": "<p>Awesome 👏 <a target=\"_blank\" href=\"https://twitter.com/trashcan_b/status/1215925083212079105/video/1\" title=\"https://twitter.com/trashcan_b/status/1215925083212079105/video/1\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/trashcan_b/sta</span><span class=\"u-visually-hidden\">tus/1215925083212079105/video/1</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-12T04:29:01.000Z",
     "human_time": "Jan 12",
     "user": {
@@ -1992,7 +1992,7 @@
   },
   {
     "text": "<p>When designing an app, I find it really helpful to have a few reference examples to help validate UI/UX pattern ideas. </p>\n<p>Here are a few of my favourites that I have bookmarked. </p>\n<p>Any other apps I should check out? <a target=\"_blank\" href=\"https://t.co/bCWipfFm3J\" rel=\"nofollow\">https://t.co/bCWipfFm3J</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-10T16:37:21.000Z",
     "human_time": "Jan 10",
     "user": {
@@ -2003,7 +2003,7 @@
   },
   {
     "text": "<p>Does Vice have the world’s only honest cookie pop-up cancel button? Is this a “light pattern”? <a target=\"_blank\" href=\"https://t.co/SvWbHz8i2v\" rel=\"nofollow\">https://t.co/SvWbHz8i2v</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-09T08:11:52.000Z",
     "human_time": "Jan 9",
     "user": {
@@ -2014,7 +2014,7 @@
   },
   {
     "text": "<p>This looks oddly familiar. <a target=\"_blank\" href=\"https://twitter.com/sweetplummama/status/1213939383700611072\" title=\"https://twitter.com/sweetplummama/status/1213939383700611072\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/sweetplummama/</span><span class=\"u-visually-hidden\">status/1213939383700611072</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-08T00:07:18.000Z",
     "human_time": "Jan 8",
     "user": {
@@ -2025,7 +2025,7 @@
   },
   {
     "text": "<p>Australia fires: Misleading maps and pictures go viral <a target=\"_blank\" href=\"https://www.bbc.com/news/blogs-trending-51020564\" title=\"https://www.bbc.com/news/blogs-trending-51020564\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>bbc.com/news/blogs-tre</span><span class=\"u-visually-hidden\">nding-51020564</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-07T23:02:33.000Z",
     "human_time": "Jan 7",
     "user": {
@@ -2036,7 +2036,7 @@
   },
   {
     "text": "<p>RELEASE 📢 Eleventy v0.10.0 🕚⚡️</p>\n<p>⚡️ Async Shortcode Support!\n⚡️ Add your own data cascade file formats!\n⚡️ Better --watch/serve performance!\n⚡️ Easier pagination links!\n⚡️ Manually watch files!</p>\n<p>Docs: <a target=\"_blank\" href=\"https://v0-10-0.11ty.dev/docs/\" title=\"https://v0-10-0.11ty.dev/docs/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>v0-10-0.11ty.dev/docs/</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a>\nRelease notes: <a target=\"_blank\" href=\"https://github.com/11ty/eleventy/releases/tag/v0.10.0\" title=\"https://github.com/11ty/eleventy/releases/tag/v0.10.0\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>github.com/11ty/eleventy/</span><span class=\"u-visually-hidden\">releases/tag/v0.10.0</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-07T22:53:47.000Z",
     "human_time": "Jan 7",
     "user": {
@@ -2047,7 +2047,7 @@
   },
   {
     "text": "<p>Jumpstart your next project with <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/materialdesign\" data-screen-name=\"materialdesign\" rel=\"nofollow\">@materialdesign</a>––now on Figma Community.</p>\n<p>Find your inspiration here ➡️ <a target=\"_blank\" href=\"https://figma.com/@materialdesign\" title=\"https://figma.com/@materialdesign\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>figma.com/@materialdesign</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/IlLkvbbfJt\" rel=\"nofollow\">https://t.co/IlLkvbbfJt</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-07T20:35:48.000Z",
     "human_time": "Jan 7",
     "user": {
@@ -2058,7 +2058,7 @@
   },
   {
     "text": "<p>Yes, Labour must analyse what went wrong in the election but we mustn’t forget that Johnson also won by stealing a journalist’s phone, hiding in a fridge and from Andrew Neil, lying about nurses and hospitals and getting Brexit done and that 88% of Tory ads were lies. <a target=\"_blank\" href=\"https://t.co/C7fULGdO0B\" rel=\"nofollow\">https://t.co/C7fULGdO0B</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-07T18:58:47.000Z",
     "human_time": "Jan 7",
     "user": {
@@ -2069,7 +2069,7 @@
   },
   {
     "text": "<p>🎉 Launch day 🎉\nHere’s a new portfolio from your baby boy. Available for hire beginning at the end of the month. <a target=\"_blank\" href=\"https://studiofrank.co\" title=\"https://studiofrank.co\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>studiofrank.co</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-07T18:17:28.000Z",
     "human_time": "Jan 7",
     "user": {
@@ -2080,7 +2080,7 @@
   },
   {
     "text": "<p>I just released ScrollScene to help modernize ScrollMagic + Gsap3 for 2020. You have the option to use ScrollScene (uses ScrollMagic) or ScrollObserver (uses IntersectionObserver to achieve similar effects). 🤠🐴🎉<a target=\"_blank\" href=\"https://github.com/jonkwheeler/ScrollScene\" title=\"https://github.com/jonkwheeler/ScrollScene\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>github.com/jonkwheeler/Sc</span><span class=\"u-visually-hidden\">rollScene</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> cc: <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/greensock\" data-screen-name=\"greensock\" rel=\"nofollow\">@greensock</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-06T15:17:52.000Z",
     "human_time": "Jan 6",
     "user": {
@@ -2091,7 +2091,7 @@
   },
   {
     "text": "<p>Work in progress. <a target=\"_blank\" href=\"https://t.co/mu0TWtvdQO\" rel=\"nofollow\">https://t.co/mu0TWtvdQO</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-06T13:14:28.000Z",
     "human_time": "Jan 6",
     "user": {
@@ -2102,7 +2102,7 @@
   },
   {
     "text": "<p>Welcome to 2020, freelancers!</p>\n<p>When clients pay late, the law says that you have the right to charge late fees PLUS interest. </p>\n<p>Fees:\n- £40 for invoices up to £1000\n- £70 up to £10,000\n- £100 above £10,000</p>\n<p>Put this on your invoice template today, and let's start implementing it. <a target=\"_blank\" href=\"https://t.co/t02dlILyxE\" rel=\"nofollow\">https://t.co/t02dlILyxE</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-06T10:20:20.000Z",
     "human_time": "Jan 6",
     "user": {
@@ -2113,7 +2113,7 @@
   },
   {
     "text": "<p>The Basics of Handwriting SVG Paths (Part 1):</p>\n<p>&lt;path d=\"M 40,20 L 180,280\" /&gt;</p>\n<p>M: Move the cursor to the following x,y coordinate without drawing anything</p>\n<p>L: draw a straight Line from the previous coordinate to the following x,y coordinate</p>\n<p><a target=\"_blank\" href=\"https://twitter.com/search?q=%23CssMotionPath\" title=\"#CssMotionPath\" class=\"tweet-url hashtag\" rel=\"nofollow\">#CssMotionPath</a> <a target=\"_blank\" href=\"https://t.co/72KB5GAIL2\" rel=\"nofollow\">https://t.co/72KB5GAIL2</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-06T03:00:40.000Z",
     "human_time": "Jan 6",
     "user": {
@@ -2124,7 +2124,7 @@
   },
   {
     "text": "<p>Ricky Gervais to celebrities at the Golden Globes: \"You're in no position to lecture the public about anything. You know nothing about the real world.\"</p>\n<p>Ends by telling award winners to \"f**k off.\"</p>\n<p>Incredible video: <a target=\"_blank\" href=\"https://t.co/awdL4E2Zyf\" rel=\"nofollow\">https://t.co/awdL4E2Zyf</a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-06T01:21:53.000Z",
     "human_time": "Jan 6",
     "user": {
@@ -2135,7 +2135,7 @@
   },
   {
     "text": "<p>There's an interesting spectrum of app rendering out there that I don't think has been coherently integrated into a single pipeline yet:</p>\n<p>static gen / server render / SSR+hydration / client-side rendering</p>\n<p>Sites should be able to pick and choose a technique per page and component</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-03T00:11:51.000Z",
     "human_time": "Jan 3",
     "user": {
@@ -2146,7 +2146,7 @@
   },
   {
     "text": "<p>fwiw, here's what I posed in our internal bug tracker <a target=\"_blank\" href=\"https://gist.github.com/jakearchibald/6501e8334f6502094d0179978c27f5c0\" title=\"https://gist.github.com/jakearchibald/6501e8334f6502094d0179978c27f5c0\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>gist.github.com/jakearchibald/</span><span class=\"u-visually-hidden\">6501e8334f6502094d0179978c27f5c0</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a>. Not a great start to the year. <a target=\"_blank\" href=\"https://twitter.com/tomwarren/status/1212496687949864961\" title=\"https://twitter.com/tomwarren/status/1212496687949864961\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/tomwarren/stat</span><span class=\"u-visually-hidden\">us/1212496687949864961</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2020-01-02T10:56:06.000Z",
     "human_time": "Jan 2",
     "user": {
@@ -2157,7 +2157,7 @@
   },
   {
     "text": "<p>Pa poner mi aguacate  🥑 <a target=\"_blank\" href=\"https://twitter.com/MEENAVOGUEE/status/1211688853855227905\" title=\"https://twitter.com/MEENAVOGUEE/status/1211688853855227905\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/MEENAVOGUEE/st</span><span class=\"u-visually-hidden\">atus/1211688853855227905</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2019-12-30T20:56:38.000Z",
     "human_time": "Dec 30, 2019",
     "user": {
@@ -2168,7 +2168,7 @@
   },
   {
     "text": "<p>Not that impressed with Liverpool tbh. Seems like any club could make an almost unbroken series of good decisions, stretching for a period of several years, each one compounding over time and resulting in one of the most effective club sides ever assembled. Why all the fuss?</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2019-12-26T22:11:46.000Z",
     "human_time": "Dec 26, 2019",
     "user": {
@@ -2179,7 +2179,7 @@
   },
   {
     "text": "<p>The VERY DAY i publish an article linking to Material Design's recommended size for click targets (24x24 for mouse-driven UI), they remove it from the page (<a target=\"_blank\" href=\"https://material.io/design/layout/spacing-methods.html#touch-targets\" title=\"https://material.io/design/layout/spacing-methods.html#touch-targets\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>material.io/design/layout/</span><span class=\"u-visually-hidden\">spacing-methods.html#touch-targets</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a>).</p>",
-    "retweeted": false,
+    "type": "like",
     "iso_time": "2019-12-24T10:32:21.000Z",
     "human_time": "Dec 24, 2019",
     "user": {

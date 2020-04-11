@@ -38,12 +38,6 @@
   @include theme-transition(color);
 }
 
-.ts-menu-item {
-  @include ms-respond(font-size, .75);
-  font-weight: fw(semibold);
-  line-height: 1.25;
-}
-
 .ts-label {
   @include ms-respond(font-size, .5);
   font-weight: fw(regular);

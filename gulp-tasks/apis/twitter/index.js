@@ -28,10 +28,14 @@ async function save_timeline() {
     return !tweet.in_reply_to_user_id;
   });
   const tweets = filtered.map(function(tweet) {
+    let type;
     if (tweet.retweeted) {
       tweet = tweet.retweeted_status;
+      type = "retweet";
+    } else {
+      type = "tweet";
     }
-    return process_tweet(tweet);
+    return process_tweet(tweet, type);
   });
   await write_file('./src/_data/twitter_timeline.json', JSON.stringify(tweets, null, 2));
   console.log('saved twitter timeline');
@@ -39,7 +43,10 @@ async function save_timeline() {
 
 async function save_likes() {
   const data = await get_likes();
-  const tweets = data.map(process_tweet);
+  const tweets = data.map(function (tweet) {
+    let type = "like";
+    return process_tweet(tweet, type);
+  });
   write_file('./src/_data/twitter_likes.json', JSON.stringify(tweets, null, 2));
   console.log('saved twitter likes');
 }

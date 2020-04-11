@@ -17,15 +17,12 @@ $profile_image_size: calc(#{sp(xxlarge)} * 1.5);
 
   @include theme-transition(background-color);
   padding-bottom: (100% * 2 / (3 * 2));
-
-  // @include mq($from: sm) {
-    border-top-right-radius: var(--rounded-radius);
-    border-top-left-radius: var(--rounded-radius);
-  // }
+  border-top-right-radius: var(--rounded-radius);
+  border-top-left-radius: var(--rounded-radius);
 }
 
 .c-twitter-profile__main {
-  padding: sp() sp() sp(large);
+  padding: sp();
   transition: box-shadow .2s $standard-easing;
   @include theme-transition(border-color);
 
@@ -57,9 +54,9 @@ $profile_image_size: calc(#{sp(xxlarge)} * 1.5);
     }
   }
 
-  .c-twitter-profile__info {
-    //
-  }
+  /**
+   *.c-twitter-profile__info {}
+   */
 
     .c-twitter-profile__link {
       line-height: 1.25;

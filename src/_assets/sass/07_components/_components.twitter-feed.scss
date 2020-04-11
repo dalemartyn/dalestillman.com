@@ -1,0 +1,12 @@
+/* ==========================================================================
+   #TWITTER-FEED
+   ========================================================================== */
+
+.c-twitter-feed {
+
+  @include mq($from: sm) {
+    border-left: 1px solid sem-color(border);
+    border-right: 1px solid sem-color(border);
+    @include theme-transition(border-color);
+  }
+}

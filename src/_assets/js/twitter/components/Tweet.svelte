@@ -7,7 +7,7 @@
 <div class="c-tweet">
   <div class="c-tweet__profile-image-container">
     <div class="c-tweet__profile-image">
-      <Icon name={tweet.retweeted ? "retweet" : "dale"}></Icon>
+      <Icon name={tweet.type}></Icon>
     </div>
   </div>
   <div class="c-tweet__main">

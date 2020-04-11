@@ -1,35 +1,35 @@
 <nav class="c-site-menu">
-  <ul class="c-site-menu__list">
+  <ul class="c-tab-menu c-tab-menu--at-bottom-until-lg">
     {% for item in site_menu %}
-      <li class="c-site-menu__item
+      <li class="c-tab-menu__item
           {% if item.slug == page.fileSlug %}is-active{% endif %}
           {% if item.link == parent.link %} is-parent{% endif %}">
-        <a href="{{item.link}}" class="c-site-menu__link ts-menu-item">
+        <a href="{{item.link}}" class="c-tab-menu__link">
           {{item.title}}
         </a>
       </li>
     {% endfor %}
 
     {% if page.fileSlug == "drafts" or parent.link == "/drafts/" %}
-      <li class="c-site-menu__item
+      <li class="c-tab-menu__item
           {% if 'drafts' == page.fileSlug %}is-active{% endif %}
           {% if '/drafts/' == parent.link %} is-parent{% endif %}">
         <a
           href="{{parent.link}}"
-          class="c-site-menu__link ts-menu-item">
+          class="c-tab-menu__link">
           Drafts
         </a>
       </li>
     {% endif %}
     {% if page.fileSlug == "draft-posts" or parent.link == "/draft-posts/" %}
-      <li class="c-site-menu__item
+      <li class="c-tab-menu__item
           {% if 'draft-posts' == page.fileSlug %}is-active{% endif %}
           {% if '/draft-posts/' == parent.link %} is-parent{% endif %}">
         <a
           href="{{parent.link}}"
           class="
-            c-site-menu__link
-            ts-menu-item
+            c-tab-menu__link
+
           "
         >
           Draft Posts
@@ -37,14 +37,14 @@
       </li>
     {% endif %}
     {% if page.fileSlug == "cached" or parent.link == "/cached/" %}
-      <li class="c-site-menu__item
+      <li class="c-tab-menu__item
           {% if 'cached' == page.fileSlug %}is-active{% endif %}
           {% if '/cached/' == parent.link %} is-parent{% endif %}">
         <a
           href="{{parent.link}}"
           class="
-            c-site-menu__link
-            ts-menu-item
+            c-tab-menu__link
+
           "
         >
           Cached
