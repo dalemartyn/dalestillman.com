@@ -3,7 +3,7 @@ const resolve = require('@rollup/plugin-node-resolve');
 const commonjs = require('@rollup/plugin-commonjs');
 const json = require('@rollup/plugin-json');
 const svelte = require('rollup-plugin-svelte');
-
+const terser = require('rollup-plugin-terser').terser;
 
 module.exports = function prod_bundler(entry, output_file, output_name) {
 
@@ -16,6 +16,7 @@ module.exports = function prod_bundler(entry, output_file, output_name) {
       }),
       resolve({ browser: true }),
       commonjs(),
+      terser(),
     ]
   }).then(bundle => {
     return bundle.write({
