@@ -3,7 +3,7 @@
   <div class="c-image-background u-rounded">
     <div class="o-ratio o-ratio--16:9">
       {% if image.main %}
-        <img src="{{ image.main }}" alt="{{ title }}" class="o-ratio__content" />
+        <img src="{{ image.main | src }}" alt="{{ title }}" class="o-ratio__content" />
       {% elif image.json %}
         {% main_image image.json %}
       {% endif %}
