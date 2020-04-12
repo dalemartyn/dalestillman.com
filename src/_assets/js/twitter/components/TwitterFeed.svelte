@@ -11,7 +11,7 @@
 
 <Icons/>
 
-<ul class="c-tab-menu">
+<ul class="c-tab-menu c-tab-menu--stretch">
   <li class="c-tab-menu__item" class:is-active="{view === 'tweets'}">
     <button
       on:click={() => view = "tweets"}

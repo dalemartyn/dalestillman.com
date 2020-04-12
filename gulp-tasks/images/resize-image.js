@@ -73,7 +73,9 @@ async function resizeImage(imageStream, image, sizes) {
    */
   const imageData = {
     src: `${mainSrc.replace('dist', '')}.png`,
-    alt: image.alt
+    alt: image.alt,
+    pngSizes: [],
+    webpSizes: []
   };
 
   if (image.title) {
@@ -82,8 +84,6 @@ async function resizeImage(imageStream, image, sizes) {
 
   const pipeline = sharp();
   const pipelines = [pipeline];
-  const pngSizes = [];
-  const webpSizes = [];
   pipeline.clone()
     .metadata()
     .then(function(metadata) {
@@ -103,7 +103,10 @@ async function resizeImage(imageStream, image, sizes) {
       .toBuffer({ resolveWithObject: true })
       .then(({ data, info }) => {
         console.log(`saving ${image.title ? image.title : 'image'} at ${info.width}x${info.height} as ${info.format}`);
-        pngSizes.push(`${imagePath.replace('dist', '')}.png ${info.width}w`);
+        imageData.pngSizes.push({
+          src: `${imagePath.replace('dist', '')}.png`,
+          size: [info.width, info.height]
+        });
         return imagemin.buffer(data, {
           plugins: [
             imageminPngquant({quality: [0.6, 1]})
@@ -124,7 +127,10 @@ async function resizeImage(imageStream, image, sizes) {
       })
       .toFile(`${imagePath}.webp`)
       .then(info => {
-        webpSizes.push(`${imagePath.replace('dist', '')}.webp ${info.width}w`);
+        imageData.webpSizes.push({
+          src: `${imagePath.replace('dist', '')}.webp`,
+          size: [info.width, info.height]
+        });
       })
       .catch(err => {
         console.log(err);
@@ -137,8 +143,6 @@ async function resizeImage(imageStream, image, sizes) {
 
   await Promise.all(pipelines);
 
-  imageData.pngSrcset = pngSizes.join(", ");
-  imageData.webpSrcset = webpSizes.join(", ");
   const dataFilePath = path.join(image.dest, image.filename + '.json');
   await writeFile(dataFilePath, JSON.stringify(imageData, null, 2));
 }
@@ -214,7 +218,7 @@ async function saveInstagramImage(image) {
 }
 
 async function resizeLocalInstagramImage(image) {
-  const imageDir = `./dist/img/instagram/${image.id}`;
+  const imageDir = `./dist/img/instagram/`;
 
   if (!fs.existsSync(imageDir)) {
     fs.mkdirSync(imageDir, {

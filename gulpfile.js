@@ -50,19 +50,23 @@ exports.build = gulp.series(
   sass.build,
   scripts.build,
   dark_theme.build,
+);
+
+exports.download_img = gulp.series(
+  images.save_figma_images,
+  images.save_instagram_images
+);
+
+exports.download_social_data = gulp.parallel(
+  instagram.save_instagram_data,
+  twitter.save_twitter_data
+);
+
+exports.img = gulp.series(
   svgs.optimize,
   images.resize_local_images,
   images.resize_local_figma_images,
   images.resize_local_instagram_images
 );
 
-exports.js = scripts.build;
-exports.img = images.resize_local_images;
-exports.fig = images.resize_figma_images;
-exports.savefig = images.save_figma_images;
-exports.optfig = images.resize_local_figma_images;
-exports.insta = instagram.save_instagram_data;
-exports.twitter = twitter.save_twitter_data;
-exports.saveinsta = images.save_instagram_images;
-exports.resizeinsta = images.resize_local_instagram_images;
-exports.sb = scripts.build;
+exports.insta = images.resize_local_instagram_images;

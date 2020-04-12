@@ -25,3 +25,9 @@
     display: none;
   }
 }
+
+  .c-site-menu__nav {
+    padding-left: var(--site-margin);
+    padding-right: var(--site-margin);
+    flex: 1;
+  }

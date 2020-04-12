@@ -2,22 +2,7 @@
   {% for image in instagram %}
   <li class="c-instagram-grid__item o-ratio o-ratio--1:1">
     <a class="c-instagram-grid__link o-ratio__content" target="_blank" href="{{image.permalink}}">
-      <picture class="c-instagram-grid__image">
-        <source srcset="/img/instagram/{{image.id}}/362/{{image.id}}.webp 362w,
-            /img/instagram/{{image.id}}/181/{{image.id}}.webp 181w" type="image/webp"
-          sizes="(min-width: 63.75em) 181px,
-          (min-width: 41.25em) 20vw,
-          25vw">
-        <img
-          src="/img/instagram/{{image.id}}/360/{{image.id}}.png"
-          srcset="/img/instagram/{{image.id}}/362/{{image.id}}.png 362w,
-            /img/instagram/{{image.id}}/181/{{image.id}}.png 181w"
-          sizes="(min-width: 63.75em) 181px,
-            (min-width: 41.25em) 20vw,
-            25vw"
-          alt="{{image.caption}}"
-          class="c-instagram-grid__image">
-      </picture>
+      {% instagram_image "/instagram/" + image.id + ".json" %}
     </a>
   </li>
   {% endfor %}
