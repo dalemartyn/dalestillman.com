@@ -62,7 +62,10 @@
 
         <div class="c-project__image">
           {% set image = next.data.image %}
-          {% include "components/components.work-main-image.html" %}
+          {# hack to get this working async #}
+          {% asyncEach image in [image] %}
+            {% include "components/components.work-main-image.html" %}
+          {% endeach %}
         </div>
       </a>
     </article>
