@@ -1,13 +1,25 @@
 const fs = require('fs');
 const nunjucks = require('nunjucks');
+const util = require('util');
+const readFile = util.promisify(fs.readFile);
+const fetch = require('node-fetch');
 
 nunjucks.configure('src/_includes/images/');
 
 const env = process.env.ELEVENTY_ENV;
+const baseUrl = "https://img.dalestillman.com/v0";
 
-function getImageData(file) {
-  const imageFile = fs.readFileSync('./dist/img' + file);
-  const data = JSON.parse(imageFile);
+async function getImageData(file) {
+  let imageFile;
+  let data;
+
+  if (env === "production") {
+    const res = await fetch(baseUrl + file);
+    data = await res.json();
+  } else {
+    imageFile = await readFile('./dist/img' + file)
+    data = JSON.parse(imageFile)
+  }
 
   return {
     webpSrcset: getSrcset(data.webpSizes),
@@ -29,7 +41,7 @@ function getSrcset(sizes) {
 
 function getSrc(src) {
   if (env === 'production') {
-    return "https://img.dalestillman.com/v0" + src;
+    return baseUrl + src;
   }
   return src;
 }
