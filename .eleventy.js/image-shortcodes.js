@@ -18,7 +18,7 @@ async function getImageData(file) {
     data = await res.json();
   } else {
     imageFile = await readFile('./dist/img' + file)
-    data = JSON.parse(imageFile)
+    data = JSON.parse(imageFile);
   }
 
   return {
@@ -46,15 +46,15 @@ function getSrc(src) {
   return src;
 }
 
-function renderImage(imageDataFile, template) {
-  const image = getImageData(imageDataFile);
+async function renderImage(imageDataFile, template) {
+  const image = await getImageData(imageDataFile);
   return nunjucks.render(template, { image });
 }
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addShortcode('image', f => renderImage(f, "image.regular.html"));
-  eleventyConfig.addShortcode('work_main_image', f => renderImage(f, "image.work-image.html"));
-  eleventyConfig.addShortcode('main_image', f => renderImage(f, "image.main-image.html"));
-  eleventyConfig.addShortcode('card_image', f => renderImage(f, "image.card-image.html"));
-  eleventyConfig.addShortcode('instagram_image', f => renderImage(f, "image.instagram-image.html"));
+  eleventyConfig.addNunjucksAsyncShortcode('image', f => renderImage(f, "image.regular.html"));
+  eleventyConfig.addNunjucksAsyncShortcode('work_main_image', f => renderImage(f, "image.work-image.html"));
+  eleventyConfig.addNunjucksAsyncShortcode('main_image', f => renderImage(f, "image.main-image.html"));
+  eleventyConfig.addNunjucksAsyncShortcode('card_image', f => renderImage(f, "image.card-image.html"));
+  eleventyConfig.addNunjucksAsyncShortcode('instagram_image', f => renderImage(f, "image.instagram-image.html"));
 }
