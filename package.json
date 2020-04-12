@@ -58,6 +58,6 @@
     "eleventy:serve": "ELEVENTY_ENV=development npx @11ty/eleventy --serve",
     "eleventy:watch": "ELEVENTY_ENV=development npx @11ty/eleventy --watch",
     "serve": "superstatic dist --port 8080 --host 0.0.0.0",
-    "sync:img": "aws s3 sync dist/img/instagram s3://dalestillmancom/v0/instagram/ --cache-control max-age=31536000"
+    "sync:img": "aws s3 sync dist/img/ s3://dalestillmancom/v0/ --cache-control max-age=31536000"
   }
 }
