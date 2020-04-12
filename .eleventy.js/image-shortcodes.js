@@ -7,7 +7,7 @@ const fetch = require('node-fetch');
 nunjucks.configure('src/_includes/images/');
 
 const env = process.env.ELEVENTY_ENV;
-const baseUrl = "https://img.dalestillman.com/v0";
+const baseUrl = "https://img.dalestillman.com/v1";
 
 async function getImageData(file) {
   let imageFile;
@@ -43,7 +43,7 @@ function getSrc(src) {
   if (env === 'production') {
     return baseUrl + src;
   }
-  return src;
+  return '/img' + src;
 }
 
 async function renderImage(imageDataFile, template) {

@@ -72,7 +72,7 @@ async function resizeImage(imageStream, image, sizes) {
    * Data for the image json file that we will use for our 11ty <img>s.
    */
   const imageData = {
-    src: `${mainSrc.replace('dist', '')}.png`,
+    src: `${mainSrc.replace('dist/img', '')}.png`,
     alt: image.alt,
     pngSizes: [],
     webpSizes: []
@@ -104,7 +104,7 @@ async function resizeImage(imageStream, image, sizes) {
       .then(({ data, info }) => {
         console.log(`saving ${image.title ? image.title : 'image'} at ${info.width}x${info.height} as ${info.format}`);
         imageData.pngSizes.push({
-          src: `${imagePath.replace('dist', '')}.png`,
+          src: `${imagePath.replace('dist/img', '')}.png`,
           size: [info.width, info.height]
         });
         return imagemin.buffer(data, {
@@ -128,7 +128,7 @@ async function resizeImage(imageStream, image, sizes) {
       .toFile(`${imagePath}.webp`)
       .then(info => {
         imageData.webpSizes.push({
-          src: `${imagePath.replace('dist', '')}.webp`,
+          src: `${imagePath.replace('dist/img', '')}.webp`,
           size: [info.width, info.height]
         });
       })
