@@ -7,7 +7,7 @@
       <div class="c-image-background u-rounded c-tease-large__image">
         {% if post.data.image.main %}
           <picture class="o-ratio o-ratio--16:9">
-            <img src="{{ post.data.image.main }}" alt="{{ post.data.title }}" class="o-ratio__content" />
+            <img src="{{ post.data.image.main | src }}" alt="{{ post.data.title }}" class="o-ratio__content" />
           </picture>
         {% elif post.data.image.json %}
           {% image post.data.image.json %}

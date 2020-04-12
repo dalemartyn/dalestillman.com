@@ -10,14 +10,13 @@ const env = process.env.ELEVENTY_ENV;
 const baseUrl = "https://img.dalestillman.com/v1";
 
 async function getImageData(file) {
-  let imageFile;
   let data;
 
   if (env === "production") {
     const res = await fetch(baseUrl + file);
     data = await res.json();
   } else {
-    imageFile = await readFile('./dist/img' + file)
+    const imageFile = await readFile('./dist/img' + file)
     data = JSON.parse(imageFile);
   }
 
@@ -57,4 +56,5 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode('main_image', f => renderImage(f, "image.main-image.html"));
   eleventyConfig.addNunjucksAsyncShortcode('card_image', f => renderImage(f, "image.card-image.html"));
   eleventyConfig.addNunjucksAsyncShortcode('instagram_image', f => renderImage(f, "image.instagram-image.html"));
+  eleventyConfig.addNunjucksFilter('src', src => getSrc(src));
 }

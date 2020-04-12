@@ -7,7 +7,7 @@ title: Blog
   {% set posts = collections.blog | reverse %}
   {% set post = posts|first %}
   {% include "components/components.tease-large.html" %}
-  {% for post in posts|slice(1) %}
+  {% asyncEach post in posts|slice(1) %}
     {% include "components/components.tease.html" %}
-  {% endfor %}
+  {% endeach %}
 </div>
