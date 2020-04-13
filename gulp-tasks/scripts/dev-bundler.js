@@ -32,10 +32,7 @@ module.exports = function dev_bundler(entry, output_file, output_name) {
 
   const watchOptions = {
     ...inputOptions,
-    output: outputOptions,
-    watch: {
-      chokidar: true,
-    }
+    output: outputOptions
   }
 
   const watcher = rollup.watch(watchOptions);

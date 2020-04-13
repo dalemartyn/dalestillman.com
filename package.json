@@ -2,18 +2,17 @@
   "name": "dalestillman.com",
   "version": "1.0.0",
   "dependencies": {
-    "@rollup/plugin-commonjs": "^11.0.2",
-    "@rollup/plugin-node-resolve": "^7.1.1",
     "focus-visible": "^5.1.0",
     "lodash": "^4.17.15"
   },
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
+    "@rollup/plugin-commonjs": "^11.0.2",
     "@rollup/plugin-json": "^4.0.2",
+    "@rollup/plugin-node-resolve": "^7.1.1",
     "@sindresorhus/slugify": "^0.11.0",
     "camelcase": "^6.0.0",
-    "chokidar": "^3.3.1",
     "dotenv": "^8.2.0",
     "glob": "^7.1.6",
     "gulp": "^4.0.2",
