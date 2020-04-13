@@ -3,11 +3,11 @@
 {% block main %}
 <main class="js-main">
   <article
-    class="c-project s-article js-project"
+    class="c-post s-article js-post"
     style="{% if color_light %}--img-bg-light: {{ color_light | to_rgb }};{% endif %}
       {% if color_dark %}--img-bg-dark: {{ color_dark | to_rgb }};{% endif%}
   ">
-    <div class="js-project-inner">
+    <div class="js-post-inner">
       <header class="o-wrapper u-padding-top-xlarge u-margin-bottom-xlarge">
         {% include "components/components.breadcrumb.html" %}
         <h1 class="u-margin-bottom-micro">{{ title | safe }}</h1>
@@ -16,12 +16,12 @@
         {% endif %}
       </header>
 
-      <div class="c-project__image">
+      <div class="c-post__image">
         {% include "components/components.work-main-image.html" %}
       </div>
 
       <div class="o-wrapper">
-        <div class="c-project__content">
+        <div class="c-post__content">
           {{ content | safe }}
           <p class="ts-meta u-margin-top-xlarge u-margin-bottom-xlarge">
             <time class="ts-meta">{{ page.date | format_post_date }}</time>
@@ -45,11 +45,11 @@
   {% if currentItemIndex < posts.length - 1 %}
     {% set next = posts[nextItemIndex] %}
     <article
-      class="c-project js-project is-next-project"
+      class="c-post js-post is-next-post"
       style="{% if next.data.color_light %}--img-bg-light: {{ next.data.color_light | to_rgb }};{% endif %}
         {% if next.data.color_dark %}--img-bg-dark: {{ next.data.color_dark | to_rgb }};{% endif%}
     ">
-      <a href="{{ next.url }}" class="c-project__link js-project-link">
+      <a href="{{ next.url }}" class="c-post__link js-post-link">
         <header class="o-wrapper u-padding-top-xlarge u-margin-bottom-xlarge">
           <div class="c-breadcrumb">
             <span class="c-breadcrumb__item">Next</span>
@@ -60,7 +60,7 @@
           {% endif %}
         </header>
 
-        <div class="c-project__image">
+        <div class="c-post__image">
           {% set image = next.data.image %}
           {# hack to get this working async #}
           {% asyncEach image in [image] %}
@@ -75,5 +75,5 @@
 {% endblock %}
 
 {% block scripts %}
-  <script src="/js/project.js"></script>
+  <script src="/js/next-post.js"></script>
 {% endblock %}

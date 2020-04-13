@@ -1,29 +1,79 @@
----
-layout: default
----
+{% extends "layouts/layouts.default.html" %}
 
-<article
-  class="s-article"
-  style="{% if color_light %}--img-bg-light: {{ color_light | to_rgb }};{% endif %}
-    {% if color_dark %}--img-bg-dark: {{ color_dark | to_rgb }};{% endif %}
-">
+{% block main %}
+<main class="js-main">
+  <article
+    class="c-post s-article js-post"
+    style="{% if color_light %}--img-bg-light: {{ color_light | to_rgb }};{% endif %}
+      {% if color_dark %}--img-bg-dark: {{ color_dark | to_rgb }};{% endif%}
+  ">
+    <div class="js-post-inner">
+      <header class="o-wrapper u-padding-top-xlarge u-margin-bottom-xlarge">
+        {% include "components/components.breadcrumb.html" %}
+        <h1 class="u-margin-bottom-micro">{{ title | safe }}</h1>
+        {% if tagline %}
+          <p class="ts-post-tagline">{{ tagline | safe }}</p>
+        {% endif %}
+      </header>
 
-  <header class="o-wrapper u-margin-top-xlarge u-margin-bottom-xlarge">
-    {% include "components/components.breadcrumb.html" %}
-    <h1 class="u-margin-bottom-micro">{{ title }}</h1>
-    {% if tagline %}
-      <p class="ts-post-tagline">{{ tagline }}</p>
+      <div class="c-post__image">
+        {% include "components/components.main-image.html" %}
+      </div>
+
+      <div class="o-wrapper">
+        <div class="c-post__content">
+          {{ content | safe }}
+          <p class="ts-meta u-margin-top-xlarge u-margin-bottom-xlarge">
+            <time class="ts-meta">{{ page.date | format_post_date }}</time>
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+
+  {% set currentItemIndex = 0 %}
+
+  {% set posts = collections.blog | reverse %}
+  {% for item in posts %}
+    {% if item.url == page.url %}
+      {% set currentItemIndex = loop.index0 %}
     {% endif %}
-  </header>
+  {% endfor %}
 
-  {% include "components/components.main-image.html" %}
+  {% set nextItemIndex = currentItemIndex + 1 %}
 
-  <div class="o-wrapper">
+  {% if currentItemIndex < posts.length - 1 %}
+    {% set next = posts[nextItemIndex] %}
+    <article
+      class="c-post js-post is-next-post"
+      style="{% if next.data.color_light %}--img-bg-light: {{ next.data.color_light | to_rgb }};{% endif %}
+        {% if next.data.color_dark %}--img-bg-dark: {{ next.data.color_dark | to_rgb }};{% endif%}
+    ">
+      <a href="{{ next.url }}" class="c-post__link js-post-link">
+        <header class="o-wrapper u-padding-top-xlarge u-margin-bottom-xlarge">
+          <div class="c-breadcrumb">
+            <span class="c-breadcrumb__item">Next</span>
+          </div>
+          <h1 class="u-margin-bottom-micro">{{ next.data.title | safe }}</h1>
+          {% if next.data.tagline %}
+            <p class="ts-post-tagline">{{ next.data.tagline | safe }}</p>
+          {% endif %}
+        </header>
 
-      {{ content | safe }}
+        <div class="c-post__image">
+          {% set image = next.data.image %}
+          {# hack to get this working async #}
+          {% asyncEach image in [image] %}
+            {% include "components/components.main-image.html" %}
+          {% endeach %}
+        </div>
+      </a>
+    </article>
+  {% endif %}
 
-      <p class="ts-meta u-margin-top-xlarge u-margin-bottom-xlarge">
-        <time class="ts-meta">{{ page.date | format_post_date }}</time>
-      </p>
-  </div>
-</article>
+</main>
+{% endblock %}
+
+{% block scripts %}
+  <script src="/js/next-post.js"></script>
+{% endblock %}

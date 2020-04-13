@@ -2,16 +2,16 @@ import scrollTo from "./scroll-to.js";
 import draf from "./double-raf.js";
 import debounce from "lodash/debounce";
 
-let current_project;
+let current_post;
 let preview_ele;
 let preview_link_ele;
-let next_project_url;
+let next_post_url;
 
 let head_ele;
 let body_ele;
 
-function preload_next_project() {
-  return fetch(next_project_url)
+function preload_next_post() {
+  return fetch(next_post_url)
     .then(res => res.text())
     .then(html => {
       const html_ele = document.createElement("html");
@@ -21,28 +21,28 @@ function preload_next_project() {
     });
 }
 
-function load_next_project() {
+function load_next_post() {
   update_history();
   update_head();
 
-  const project = body_ele.querySelector('.js-project');
-  const project_inner = project.querySelector('.js-project-inner');
-  const next_preview = project.nextElementSibling;
+  const post = body_ele.querySelector('.js-post');
+  const post_inner = post.querySelector('.js-post-inner');
+  const next_preview = post.nextElementSibling;
 
-  preview_link_ele.replaceWith(project_inner);
-  if (next_preview && next_preview.classList.contains('js-project')) {
-    project_inner.parentElement.parentElement.appendChild(next_preview);
+  preview_link_ele.replaceWith(post_inner);
+  if (next_preview && next_preview.classList.contains('js-post')) {
+    post_inner.parentElement.parentElement.appendChild(next_preview);
   }
 
   const headerHeight = document.getElementById('site-header').offsetHeight;
   const top = preview_ele.offsetTop - headerHeight;
-  preview_ele.classList.replace('is-next-project', 's-article');
+  preview_ele.classList.replace('is-next-post', 's-article');
 
   draf(function() {
     setTimeout(function() {
       scrollTo(top, function() {
         draf(() => {
-          remove_last_project();
+          remove_last_post();
           setup_loader();
         });
       });
@@ -69,33 +69,33 @@ function update_history() {
   history.pushState({
     scrollX: window.scrollX,
     scrollY: 0
-  }, '', next_project_url);
+  }, '', next_post_url);
 };
 
 
-function remove_last_project() {
-  current_project.remove();
+function remove_last_post() {
+  current_post.remove();
 }
 
-function on_next_project_click(e) {
+function on_next_post_click(e) {
   e.preventDefault();
-  load_next_project();
+  load_next_post();
 }
 
-function add_next_project_event_listener() {
-  preview_link_ele.addEventListener('click', on_next_project_click);
+function add_next_post_event_listener() {
+  preview_link_ele.addEventListener('click', on_next_post_click);
 }
 
 function setup_loader() {
   history.scrollRestoration = 'manual';
-  current_project = document.querySelector('.js-project:not(.is-next-project)');
-  preview_ele = document.querySelector('.js-project.is-next-project');
+  current_post = document.querySelector('.js-post:not(.is-next-post)');
+  preview_ele = document.querySelector('.js-post.is-next-post');
 
   if (preview_ele) {
-    preview_link_ele = preview_ele.querySelector('.js-project-link');
-    next_project_url = preview_link_ele.getAttribute('href');
-    preload_next_project()
-      .then(add_next_project_event_listener);
+    preview_link_ele = preview_ele.querySelector('.js-post-link');
+    next_post_url = preview_link_ele.getAttribute('href');
+    preload_next_post()
+      .then(add_next_post_event_listener);
   }
 }
 
@@ -124,7 +124,7 @@ function restore_scroll_state(state = history.state) {
     // double raf helps firefox go back to right position.
     draf(function () {
       // force a slight scroll on chrome so that smooth scroll works if you
-      // immediately hit the next project link after going back.
+      // immediately hit the next post link after going back.
       window.scrollTo({
         top: scrollY - 1,
         left: scrollX

@@ -1,12 +1,12 @@
 /* ==========================================================================
-   #PROJECT
+   #POST
    ========================================================================== */
 
-.c-project {
+.c-post {
   transition: background-color $hover-transition;
   @include theme-transition(background-color);
 
-  &.is-next-project:hover {
+  &.is-next-post:hover {
     background-color: var(--state-color-hover);
   }
 
@@ -14,20 +14,20 @@
 
 
   /**
-   * Divider in between projects.
+   * Divider in between posts.
    */
 
-  .c-project:not(:last-child) .c-project__content {
+  .c-post:not(:last-child) .c-post__content {
     border-bottom: 1px solid sem-color(border);
     @include theme-transition(border-color);
   }
 
 
   /**
-   * Next project preview links.
+   * Next post preview links.
    */
 
-  .c-project__link {
+  .c-post__link {
     text-decoration: none;
     display: block;
 
@@ -54,19 +54,19 @@
 
 
     /**
-     * Main project images:
-     *  - Crop main project image to 1/4 its height when it is a prevew.
+     * Main post images:
+     *  - Crop main post image to 1/4 its height when it is a prevew.
      *  - Zoom slightly on preview image when hovering the preview (not link).
-     *  - Transition back smoothly when it becomes the main project.
+     *  - Transition back smoothly when it becomes the main post.
      */
 
-    .c-project__image img {
+    .c-post__image img {
       transition: transform .2s ease-out;
     }
 
-    .c-project.is-next-project {
+    .c-post.is-next-post {
 
-      .c-project__image {
+      .c-post__image {
         overflow: hidden;
         height: calc(((100vw - var(--site-margin) * 2) * 2 / 3) / 4 + var(--site-menu-height));
         margin-bottom: calc(var(--site-menu-height) * -1);
@@ -78,9 +78,9 @@
       }
 
       // &:hover,
-      // .c-project__link:focus {
+      // .c-post__link:focus {
 
-      //   .c-project__image img {
+      //   .c-post__image img {
       //     transform: scale(1.0125);
       //   }
       // }
@@ -89,13 +89,13 @@
 
     @media print {
 
-      .c-project {
+      .c-post {
 
-        &.is-next-project {
+        &.is-next-post {
           display: none;
         }
 
-        &:not(:last-child) .c-project__content {
+        &:not(:last-child) .c-post__content {
           border: none;
         }
       }
