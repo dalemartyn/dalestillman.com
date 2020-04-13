@@ -1,4 +1,4 @@
-const moment = require('moment');
+const { DateTime } = require('luxon');
 const twitterText = require('twitter-text');
 
 function processTweet(tweet, type) {
@@ -16,15 +16,16 @@ function processTweet(tweet, type) {
 }
 
 function humanTime(time) {
-  const m = moment(time, 'ddd MMM D HH:mm:ss ZZ YYYY');
-  if (m.year() === moment().year()) {
-    return m.format('MMM D');
+  const dt = DateTime.fromFormat(time, 'EEE MMM dd HH:mm:ss ZZZ yyyy');
+  if (dt.year === DateTime.local().year) {
+    return dt.toFormat('MMM d');
   }
-  return m.format('MMM D, YYYY');
+  return dt.toFormat('MMM d, yyyy');
 }
 
 function isoTime(time) {
-  return moment(time, 'ddd MMM D HH:mm:ss ZZ YYYY').toDate().toISOString();
+  const dt = DateTime.fromFormat(time, 'EEE MMM dd HH:mm:ss ZZZ yyyy');
+  return dt.toUTC().toISO();
 }
 
 function autoParagraph(text) {

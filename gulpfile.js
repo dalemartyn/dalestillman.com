@@ -67,5 +67,3 @@ exports.img = gulp.series(
   images.resize_figma_images,
   images.resize_instagram_images
 );
-
-exports.i = images.resize_instagram_images;

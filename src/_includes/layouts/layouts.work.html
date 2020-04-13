@@ -24,7 +24,7 @@
         <div class="c-post__content">
           {{ content | safe }}
           <p class="ts-meta u-margin-top-xlarge u-margin-bottom-xlarge">
-            <time class="ts-meta">{{ page.date | format_post_date }}</time>
+            <time class="ts-meta">{{ page.date | date_to_format("MMMM yyyy") }}</time>
           </p>
         </div>
       </div>
