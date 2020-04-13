@@ -1,9 +1,9 @@
-<ul class="c-instagram-grid">
+<ul class="c-instagram-grid" id="instagram-grid">
   {% for image in instagram %}
-  <li class="c-instagram-grid__item o-ratio o-ratio--1:1">
-    <a class="c-instagram-grid__link o-ratio__content" target="_blank" href="{{image.permalink}}">
-      {% instagram_image "/instagram/" + image.id + ".json" %}
-    </a>
-  </li>
+    <li class="c-instagram-grid__item o-ratio o-ratio--1:1">
+      <a class="c-instagram-grid__link o-ratio__content" target="_blank" href="{{image.permalink}}">
+        {% instagram_image "/instagram/" + image.id + ".json" %}
+      </a>
+    </li>
   {% endfor %}
 </ul>
