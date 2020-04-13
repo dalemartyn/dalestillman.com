@@ -6,8 +6,8 @@ title: Drafts
 <div class="o-wrapper-xl">
   <ol class="o-card-layout">
     {% set posts = collections.drafts | reverse %}
-    {% for post in posts %}
+    {% asyncEach post in posts %}
       <li class="o-card-layout__item">{% include "components/components.work-card.html" %}</li>
-    {% endfor %}
+    {% endeach %}
   </ol>
 </div>

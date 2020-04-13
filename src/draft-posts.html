@@ -4,7 +4,7 @@ title: Draft Posts
 ---
 
 <div class="o-wrapper">
-  {% for post in collections["draft-posts"] %}
+  {% asyncEach post in collections["draft-posts"] %}
   <article>
     <h2 class="">
       <a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}">
@@ -12,5 +12,5 @@ title: Draft Posts
       </a>
     </h2>
   </article>
-  {% endfor %}
+  {% endeach %}
 </div>
