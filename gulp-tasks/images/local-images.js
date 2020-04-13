@@ -24,7 +24,8 @@ async function resizeLocalImage(image, src = './src/_assets/img/') {
       alt: image.alt,
       title: image.title,
     },
-    imageSizes.site_image_sizes);
+    imageSizes.site_image_sizes
+  );
 }
 
 
