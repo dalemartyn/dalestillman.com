@@ -1,29 +1,20 @@
 const fs = require('fs');
 const path = require('path');
-const slugify = require('@sindresorhus/slugify');
 const sharp = require('sharp');
-const imageSizes = require('./image-sizes');
 const imagemin = require('imagemin');
 const imageminPngquant = require('imagemin-pngquant');
 const util = require('util');
 const writeFile = util.promisify(fs.writeFile);
-const fetch = require('node-fetch');
-const figmaApi = require('../apis/figma');
 
-function getImageDir(projectName) {
-  const dist = './dist/img/';
-  const imageDir = path.join(dist, slugify(projectName, { decamelize: false }));
 
-  if (!fs.existsSync(imageDir)) {
-    fs.mkdirSync(imageDir, {
-      recursive: true
-    });
-  }
-
-  return imageDir;
-}
-
-function getImagePath(imageDir, imageSizeName, imageFilename) {
+/**
+ * Get the path to save an image at at a given size.
+ *
+ * @param {string} imageDir
+ * @param {string} imageSizeName
+ * @param {string} imageFilename
+ */
+function getImagePathForSize(imageDir, imageSizeName, imageFilename) {
   const imageSizeDir = path.join(imageDir, imageSizeName);
 
   if (!fs.existsSync(imageSizeDir)) {
@@ -33,40 +24,18 @@ function getImagePath(imageDir, imageSizeName, imageFilename) {
   return path.join(imageSizeDir, imageFilename);
 }
 
-function getImageFilename(imageTitle) {
-  return slugify(imageTitle, { decamelize: false });
-}
 
-function getLocalImageDir(image, src = './src/_assets/img/') {
-  const filename =  slugify(image.title, { decamelize: false });
-
-  const imageDir = path.join(
-    src,
-    slugify(image.project,  { decamelize: false })
-  );
-
-  if (!fs.existsSync(imageDir)) {
-    fs.mkdirSync(imageDir, {
-      recursive: true
-    });
-  }
-
-  return imageDir;
-}
-
-function getLocalImagePath(image, src = './src/_assets/img/') {
-  const filename =  slugify(image.title, { decamelize: false });
-  const format = image.format ? image.format : 'png';
-
-  return path.join(
-    src,
-    slugify(image.project,  { decamelize: false }),
-    `${filename}.${format}`,
-  );
-}
-
+/**
+ * Use sharp to resize the images to our specified sizes
+ * as png and webp and saves a json file with the image data.
+ *
+ * @param {ReadableStream} imageStream
+ * @param {object} image Image data { dest, filename, alt }
+ * @param {array} sizes Array of sharp image size options.
+ * @returns {Promise}
+ */
 async function resizeImage(imageStream, image, sizes) {
-  const mainSrc = getImagePath(image.dest, sizes[0].name, image.filename);
+  const mainSrc = getImagePathForSize(image.dest, sizes[0].name, image.filename);
 
   /**
    * Data for the image json file that we will use for our 11ty <img>s.
@@ -94,7 +63,7 @@ async function resizeImage(imageStream, image, sizes) {
     });
 
   for (let size of sizes) {
-    const imagePath = getImagePath(image.dest, size.name, image.filename);
+    const imagePath = getImagePathForSize(image.dest, size.name, image.filename);
     const sizePipeline = pipeline.clone()
       .resize(size.options);
 
@@ -147,108 +116,5 @@ async function resizeImage(imageStream, image, sizes) {
   await writeFile(dataFilePath, JSON.stringify(imageData, null, 2));
 }
 
-async function resizeLocalImage(image, src = './src/_assets/img/') {
-  const filename = getLocalImagePath(image, src);
-  const imageStream = fs.createReadStream(filename);
 
-  await resizeImage(
-    imageStream,
-    {
-      dest: getImageDir(image.project, image.title),
-      filename: getImageFilename(image.title),
-      alt: image.alt,
-      title: image.title,
-    },
-    imageSizes.site_image_sizes);
-}
-
-async function resizeLocalFigmaImage(image) {
-  await resizeLocalImage(image, './src/_assets/figma/');
-}
-
-async function resizeFigmaImage(image) {
-  const imageUrl = await figmaApi.getImageUrl(image.node);
-  const response = await fetch(imageUrl);
-  if (!response.ok) {
-    throw new Error(`unexpected response ${response.statusText}`);
-  }
-
-  const imageStream = response.body;
-
-  await resizeImage(
-    imageStream,
-    {
-      dest: getImageDir(image.project, image.title),
-      filename: getImageFilename(image.title),
-      alt: image.alt,
-      title: image.title,
-    },
-    imageSizes.site_image_sizes
-  );
-}
-
-async function saveFigmaImage(image) {
-  const imageUrl = await figmaApi.getImageUrl(image.node);
-  const response = await fetch(imageUrl);
-  if (!response.ok) {
-    throw new Error(`unexpected response ${response.statusText}`);
-  }
-
-  getLocalImageDir(image, './src/_assets/figma/');
-  image.format = 'png';
-
-  const filePath = getLocalImagePath(image, './src/_assets/figma/');
-  const buffer = await response.buffer();
-  await writeFile(filePath, buffer);
-}
-
-async function saveInstagramImage(image) {
-  const imageUrl = image.media_url;
-  const response = await fetch(imageUrl);
-  if (!response.ok) {
-    throw new Error(`unexpected response ${response.statusText}`);
-  }
-
-  const filePath = path.join(
-    './src/_assets/instagram/',
-    `${image.id}.jpg`,
-  );
-  const buffer = await response.buffer();
-  await writeFile(filePath, buffer);
-}
-
-async function resizeLocalInstagramImage(image) {
-  const imageDir = `./dist/img/instagram/`;
-
-  if (!fs.existsSync(imageDir)) {
-    fs.mkdirSync(imageDir, {
-      recursive: true
-    });
-  }
-
-  const filePath = path.join(
-    './src/_assets/instagram/',
-    `${image.id}.jpg`,
-  );
-
-  const imageStream = fs.createReadStream(filePath);
-
-  await resizeImage(
-    imageStream,
-    {
-      dest: imageDir,
-      filename: image.id,
-      alt: image.caption ? image.caption : '',
-    },
-    imageSizes.instagram_image_sizes
-  );
-}
-
-module.exports = {
-  resizeLocalImage,
-  resizeFigmaImage,
-  saveFigmaImage,
-  resizeLocalFigmaImage,
-  saveInstagramImage,
-  resizeLocalInstagramImage
-};
+module.exports = resizeImage;

@@ -53,8 +53,7 @@ exports.build = gulp.series(
 );
 
 exports.download_img = gulp.series(
-  images.save_figma_images,
-  images.save_instagram_images
+  images.save_figma_images
 );
 
 exports.download_social_data = gulp.parallel(
@@ -65,8 +64,8 @@ exports.download_social_data = gulp.parallel(
 exports.img = gulp.series(
   svgs.optimize,
   images.resize_local_images,
-  images.resize_local_figma_images,
-  images.resize_local_instagram_images
+  images.resize_figma_images,
+  images.resize_instagram_images
 );
 
-exports.insta = images.resize_local_instagram_images;
+exports.i = images.resize_instagram_images;
