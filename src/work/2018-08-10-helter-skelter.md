@@ -8,7 +8,7 @@ color_dark: "#455a64"
 date: 2018-08-10T12:00:00+01:00
 ---
 
-[Helter Skelter][1] is one of the most fun projects we’ve worked on in my time at _[a dozen eggs][2]_. The client, Loughborough duo Helen and Tor, run a circus entertainment company that offer loads of different acts, cater for a variety of events, with a choice of themes. They came to us for branding and a website, and the design team was delighted with their moodboard feedback. They wanted a brand that communicated how quirky and fun they are. It was really fun to see some of the things the team ([Michelle][3], [Jo][4], and [Beth][5]) came up with. A personal favourite was Michelle’s illustration of a fish coming out of a trumpet.
+[Helter Skelter][1] is one of the most fun projects we’ve worked on in my time at _[a dozen eggs][2]_. The client, Loughborough duo Helena and Tor, run a circus entertainment company that offer loads of different acts, cater for a variety of events, with a choice of themes. They came to us for branding and a website, and the design team was delighted with their moodboard feedback. They wanted a brand that communicated how quirky and fun they are. It was really fun to see some of the things the team ([Michelle][3], [Jo][4], and [Beth][5]) came up with. A personal favourite was Michelle’s illustration of a fish coming out of a trumpet.
 
 I really like [the end result][6]. I love the juxtaposition of the vibrant colours with the black and white illustrations and serif logo. Jo’s website designs carry across that brand work, and Michelle and I also got to play with some animations.
 
