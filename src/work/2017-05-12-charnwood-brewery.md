@@ -12,7 +12,7 @@ I was a big fan of Charnwood Brewery, having sampled their beers in local pubs. 
 
 We were rebuilding the site to add an online shop, and were using the opportunity to move over from a bespoke Ruby on Rails CMS to WordPress and Woocommerce. Woocommerce give you loads functionality out of the box, including tax calculations, shipping options, and payment gateways. Woocommerce itself is free and open-source, but there are premium plugins that can be purchased to extend its functionality. We used the table-rate shipping and royal mail shipping plugins, as the cases of beer were to be delivered at £8 per case, with the merchandise and posters being delivered by royal mail based on their package size and weight.
 
-The design of the site was largely based on the previous version of the site. Our deisnger Beth and I worked on the design of the new shop, as well as freshening up the rest of the site by improving the navigaiton and structure, as well as implementing a consistent grid system throughout the site.
+The design of the site was largely based on the previous version of the site. Our designer [Beth][1] and I worked on the design of the new shop, as well as freshening up the rest of the site by improving the navigation and structure, as well as implementing a consistent grid system throughout the site.
 
 <figure>
   <div class="c-image-background u-rounded">
@@ -49,6 +49,9 @@ The design of the site was largely based on the previous version of the site. Ou
     {% image "/charnwood-brewery/charnwood-brewery-home.json" %}
   </div>
   <figcaption>
-    Illustration by Michelle. Beth designed the layout of the scene, which is similar to the box design used for cases of beer. I added some subtle animations to the people drinking outdoors. We also created a winter scene.
+    Illustration by [Michelle][2]. [Beth][1] designed the layout of the scene, which is similar to the box design used for cases of beer. I added some subtle animations to the people drinking outdoors. We also created a winter scene.
   </figcaption>
 </figure>
+
+[1]: https://www.adozeneggs.co.uk/insights/author/beth/ "Beth Evans"
+[2]: https://www.adozeneggs.co.uk/insights/author/michelle/ "Michelle Barnett"
