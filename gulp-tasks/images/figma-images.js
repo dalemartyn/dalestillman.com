@@ -17,11 +17,14 @@ const asyncMap = require('./utils/async-map');
 const figmaImages = require('../../src/_data/figma_images.json');
 
 
-async function resizeLocalFigmaImage(image) {
+async function resizeFigmaImage(image) {
   await resizeLocalImage(image, './src/_assets/figma/');
 }
 
-
+/**
+ * Uses the figma API image stream directly, instead
+ * of saving it to disk first
+ */
 async function downloadAndResizeFigmaImage(image) {
   const imageUrl = await figmaApi.getImageUrl(image.node);
   const response = await fetch(imageUrl);
@@ -70,11 +73,13 @@ function saveFigmaImages() {
 
 
 function resizeFigmaImages() {
-  return asyncMap(figmaImages, resizeLocalFigmaImage, 'optimizing ');
+  return asyncMap(figmaImages, resizeFigmaImage, 'optimizing ');
 }
 
 
 module.exports = {
+  saveFigmaImage,
+  resizeFigmaImage,
   saveFigmaImages,
   resizeFigmaImages,
   downloadAndResizeFigmaImages

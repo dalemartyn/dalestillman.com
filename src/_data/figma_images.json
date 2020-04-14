@@ -144,6 +144,24 @@
     "alt":  "Phones showing the top and bottom of the Charnwood Brewery website home page"
   },
   {
+    "project": "Charnwood Brewery",
+    "title": "Charnwood Brewery Shop",
+    "node": "I1437:0;81:12",
+    "alt":  "Tablet showing the Charnwood Brewery webshop"
+  },
+  {
+    "project": "Charnwood Brewery",
+    "title": "Charnwood Brewery Product Page",
+    "node": "I1441:0;81:12",
+    "alt":  "A Charnwood Brewery product page showing a case of pale to copper beers"
+  },
+  {
+    "project": "Charnwood Brewery",
+    "title": "Charnwood Brewery Beers Page",
+    "node": "I1440:0;81:12",
+    "alt":  "The Charnwood Brewery Our Beers page"
+  },
+  {
     "project": "Helter Skelter",
     "title": "Helter Skelter",
     "node": "I81:29;81:12",

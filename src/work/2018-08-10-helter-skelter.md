@@ -3,8 +3,10 @@ title: "Helter Skelter"
 tagline: "Circus entertainment to remember"
 image:
   json: /helter-skelter/helter-skelter.json
-color_light: "#fad769"
-color_dark: "#8a294d"
+# color_light: "#b24467"
+# color_dark: "#8a294d"
+color_light: "#f6f7f8"
+color_dark: "#37474f"
 date: 2018-08-10T12:00:00+01:00
 tags: "drafts"
 ---
