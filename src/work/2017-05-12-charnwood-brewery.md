@@ -8,7 +8,7 @@ color_light: "#99c5cc"
 color_dark: "#628e96"
 ---
 
-I was a big fan of Charnwood Brewery, having sampled their beers in local pubs. I liked the artwork and branding, which did a great job of conveying local -- with its use of their mascot Clarence the fox (foxes being used as a symbol of the region). It's fun and playful, a well-designed brand that isn't taking itself too seriously. In fact, Charnwood Brewery was the main reason I joined _[a dozen eggs][1]_. So I was happy when I got the opportunity to build their new website not long after I joined.
+I was a big fan of Charnwood Brewery, having sampled their beers in local pubs. I liked the artwork and branding, which did a great job of conveying 'local' with its use of their mascot Clarence the fox (foxes being used as a symbol of the region). It's fun and playful, a well-designed brand that isn't taking itself too seriously. In fact, Charnwood Brewery was the main reason I joined _[a dozen eggs][1]_. So I was happy when I got the opportunity to build their new website not long after I joined.
 
 <figure>
   <div class="c-image-background u-rounded">
