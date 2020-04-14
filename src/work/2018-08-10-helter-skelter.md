@@ -14,6 +14,19 @@ I really like [the end result][6]. I love the juxtaposition of the vibrant colou
 
 <figure>
   <div class="c-image-background u-rounded">
+    {% image "/helter-skelter/helter-skelter-animations.json" %}
+  </div>
+  <figcaption>
+    Weeeeeeeeee! The the child rides the Helter Skelter.
+  </figcaption>
+</figure>
+
+We used a variety of animation techniques to bring some life to the homepage. Michelle initially created the animations in After Effects, animating the position of the mask and hat, and the rotation of the mermaid tail. When we were happy with how they worked, I then converted them into CSS keyframe animations. We also used this method to animate a child riding down the Helter Skelter on the contact page.
+
+For the Ferris wheel, I used an image sprite which contained an illustration for each frame of the animation at 24fps. This gave it a slightly-jerky and cinematic feel, while also keeping the filesize down.
+
+<figure>
+  <div class="c-image-background u-rounded">
     {% image "/helter-skelter/helter-skelter-parallax-bubbles.json" %}
   </div>
   <figcaption>
@@ -39,24 +52,7 @@ I really like [the end result][6]. I love the juxtaposition of the vibrant colou
   </figcaption>
 </figure>
 
-
-<figure>
-  <div class="c-image-background u-rounded">
-    {% image "/helter-skelter/helter-skelter-contact-page.json" %}
-  </div>
-  <figcaption>
-    Weeeeeeeeee! The the child rides the Helter Skelter.
-  </figcaption>
-</figure>
-
-<figure>
-  <div class="c-image-background u-rounded">
-    {% image "/helter-skelter/helter-skelter.json" %}
-  </div>
-  <figcaption>
-    A combination of animation techniques were used to add life to the home page. CSS keyframe animations animate the position of the mask and hat, and the rotation of the murmaid tail. An image sprite was used to animate the rotation of the ferris wheel.
-  </figcaption>
-</figure>
+You can read more about the [branding and illustrations for Helter Skelter][6] _a dozen eggs_ website.
 
 [1]: https://www.helterskelterarts.co.uk/
 [2]: https://www.adozeneggs.co.uk/
