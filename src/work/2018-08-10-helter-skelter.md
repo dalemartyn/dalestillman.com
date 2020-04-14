@@ -17,11 +17,11 @@ I really like [the end result][6]. I love the juxtaposition of the vibrant colou
     {% image "/helter-skelter/helter-skelter-animations.json" %}
   </div>
   <figcaption>
-    Weeeeeeeeee! The the child rides the Helter Skelter.
+    Weeeeeeeeee! The the child rides the helter skelter.
   </figcaption>
 </figure>
 
-We used a variety of animation techniques to bring some life to the homepage. Michelle initially created the animations in After Effects, animating the position of the mask and hat, and the rotation of the mermaid tail. When we were happy with how they looked, I then converted them into CSS keyframe animations. We also used this method to animate a child riding down the Helter Skelter on the contact page.
+We used a variety of animation techniques to bring some life to the homepage. Michelle initially created the animations in After Effects, animating the position of the mask and hat, and the rotation of the mermaid tail. When we were happy with how they looked, I then converted them into CSS keyframe animations. We also used this method to animate a child riding down the helter skelter on the contact page.
 
 For the Ferris wheel, I used an image sprite which contained an illustration for each frame of the animation at 24fps. This gave it a slightly-jerky and cinematic feel, while also keeping the filesize down.
 
@@ -39,7 +39,7 @@ For the Ferris wheel, I used an image sprite which contained an illustration for
     {% image "/helter-skelter/helter-skelter-acts-page.json" %}
   </div>
   <figcaption>
-    The top-level pages – Acts, Themes, and Events – each contain dozens of image galleries for all the services Helter Skelter offer.
+    The top-level pages – acts, themes, and events – each contain dozens of image galleries for all the services Helter Skelter offer.
   </figcaption>
 </figure>
 
