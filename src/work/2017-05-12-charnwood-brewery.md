@@ -49,7 +49,7 @@ The design of the site was largely based on the previous version of the site. Ou
     {% image "/charnwood-brewery/charnwood-brewery-home.json" %}
   </div>
   <figcaption>
-    The illustrations were by <a href="https://www.adozeneggs.co.uk/insights/author/michelle/" title="Michelle Barnett">Michelle</a>. Beth designed the layout of the scene, similar to the box shed designed for cases of beer. I added some subtle animations to the people drinking outdoors.
+    The illustrations were by <a href="https://www.adozeneggs.co.uk/insights/author/michelle/" title="Michelle Barnett">Michelle</a>. Beth designed the layout of the scene, similar to the box she’d designed for the cases of beer. I added some subtle animations to the people drinking outside.
   </figcaption>
 </figure>
 
