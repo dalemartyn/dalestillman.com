@@ -14,7 +14,7 @@ I really like [the end result][6]. I love the juxtaposition of the vibrant colou
 
 <figure>
   <div class="c-image-background u-rounded">
-    {% image "/helter-skelter/helter-skelter-animations.json" %}
+    {% image "/helter-skelter/helter-skelter-phone-animations.json" %}
   </div>
   <figcaption>
     Weeeeeeeeee! The the child rides the helter skelter.
