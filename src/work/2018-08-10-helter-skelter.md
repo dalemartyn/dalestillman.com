@@ -52,7 +52,7 @@ For the Ferris wheel, I used an image sprite which contained an illustration for
   </figcaption>
 </figure>
 
-You can read more about the [branding and illustrations for Helter Skelter][6] _a dozen eggs_ website.
+You can read more about the [branding and illustrations we created for Helter Skelter][6] on the _a dozen eggs_ website.
 
 [1]: https://www.helterskelterarts.co.uk/
 [2]: https://www.adozeneggs.co.uk/
