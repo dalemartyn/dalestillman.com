@@ -8,7 +8,7 @@ color_light: "#99c5cc"
 color_dark: "#628e96"
 ---
 
-I was a big fan of Charnwood Brewery, having sampled their beers in local pubs. I liked the artwork and branding, which did a great job of conveying 'local' with its use of their mascot Clarence the fox (foxes being used as a symbol of the region). It's fun and playful, a well-designed brand that isn't taking itself too seriously. In fact, Charnwood Brewery was the main reason I joined _[a dozen eggs][1]_. So I was happy when I got the opportunity to build their new website not long after I joined.
+I am a big fan of [Charnwood Brewery][1], having consumed a number of their beers in the local pubs. I like the artwork and the branding, which does a great job of conveying 'local' with its use of the mascot Clarence the fox (foxes being used as a symbol of the region). It's fun and playful, a well-designed brand that isn't taking itself too seriously. In fact, Charnwood Brewery was the main reason I joined _[a dozen eggs][2]_. So I was happy when I got the opportunity to build their new website not long after I joined.
 
 <figure>
   <div class="c-image-background u-rounded">
@@ -24,7 +24,7 @@ As we were adding a shop to the website, we used it as a chance to move over fro
   </div>
 </figure>
 
-The design of the site was largely based on the previous version of the site. Our designer [Beth][2] and I worked on the design of the shop, and we freshened up the rest of the site and improved the navigation and structure.
+The design of the site was largely based on the previous version of the site. Our designer [Beth][3] and I worked on the design of the shop, and we freshened up the rest of the site and improved the navigation and structure.
 
 <figure>
   <div class="c-image-background u-rounded">
@@ -53,5 +53,9 @@ The design of the site was largely based on the previous version of the site. Ou
   </figcaption>
 </figure>
 
-[1]: https://www.adozeneggs.co.uk/
-[2]: https://www.adozeneggs.co.uk/insights/author/beth/ "Beth Evans"
+You can read more about the [branding of Charnwood Brewery][4] on the _a dozen eggs_ website.
+
+[1]: https://www.charnwoodbrewery.co.uk/ "Charnwood Brewery"
+[2]: https://www.adozeneggs.co.uk/ "a dozen eggs"
+[3]: https://www.adozeneggs.co.uk/insights/author/beth/ "Beth Evans"
+[4]: https://www.adozeneggs.co.uk/portfolio/project/charnwood-brewery-branding/ "Charnwood Brewery portfolio item on a dozen eggs"
