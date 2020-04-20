@@ -46,29 +46,5 @@
     "title": "Surface Studio True Scale",
     "format": "jpg",
     "alt": "True Scale demoed on the Surface Studio"
-  },
-  {
-    "project": "Memo",
-    "title": "Memo iPhone Full",
-    "format": "png",
-    "alt": "Interactive graphic demoing the Memo app on an iPhone"
-  },
-  {
-    "project": "Memo",
-    "title": "Memo Graph Full",
-    "format": "png",
-    "alt": "Graph showing how Memo tracks activity throughout the house"
-  },
-  {
-    "project": "Memo",
-    "title": "Memo Door Hinges Full",
-    "format": "png",
-    "alt": "Illustrated animation showing glowing door hinge sensors"
-  },
-  {
-    "project": "Memo",
-    "title": "Memo Hub Full",
-    "format": "png",
-    "alt": "3D render of the Memo hub"
   }
 ]
