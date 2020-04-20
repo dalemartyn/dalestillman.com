@@ -169,6 +169,12 @@
   },
   {
     "project": "Helter Skelter",
+    "title": "Helter Skelter Phone Animations",
+    "node": "1445:1224",
+    "alt": "Two phones showing the Ferris wheel and Helter Skelter animations"
+  },
+  {
+    "project": "Helter Skelter",
     "title": "Helter Skelter Parallax Bubbles",
     "node": "I1120:205;81:12",
     "alt": "Acts section on the Helter Skelter homepage with floating photo bubbles"

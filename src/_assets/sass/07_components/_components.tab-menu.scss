@@ -92,9 +92,12 @@
         margin-right: 0;
       }
 
-      &:hover {
-        color: sem-color(text);
-        background-color: var(--state-color-hover);
+      @media (hover: hover) {
+
+        &:hover {
+          color: sem-color(text);
+          background-color: var(--state-color-hover);
+        }
       }
 
       &:active {
