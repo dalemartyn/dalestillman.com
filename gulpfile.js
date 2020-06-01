@@ -57,7 +57,7 @@ exports.download_img = gulp.series(
 );
 
 exports.download_social_data = gulp.parallel(
-  instagram.save_instagram_data,
+  // instagram.save_instagram_data,
   twitter.save_twitter_data
 );
 

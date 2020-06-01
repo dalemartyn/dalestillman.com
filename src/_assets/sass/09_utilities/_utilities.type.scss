@@ -46,7 +46,7 @@
 
 .ts-display-1 {
   @include ms-respond(font-size, 3.5);
-  letter-spacing: -.005em;
+  letter-spacing: -.0075em;
   line-height: 1.1;
 }
 

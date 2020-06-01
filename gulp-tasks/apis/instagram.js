@@ -89,10 +89,12 @@ async function downloadInstagramMedia(id) {
 
   console.log("Downloading Instagram Media", JSON.stringify(data, null, 2));
 
-  if (media.media_type === "IMAGE") {
+  if (media.media_type === "IMAGE" || media.media_type === "CAROUSEL_ALBUM") {
     await saveInstagramImage(id, media.media_url);
   } else if (media.media_type === "VIDEO") {
     await saveInstagramImage(id, media.thumbnail_url);
+  } else {
+     console.log('test', id, media);
   }
 
   return data;

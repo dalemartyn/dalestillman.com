@@ -2,6 +2,8 @@ const gulp = require('gulp');
 const sass = require('gulp-sass');
 const touch = require('gulp-touch-cmd');
 
+sass.compiler = require('dart-sass');
+
 const rev = require('gulp-rev');
 
 const src_files = 'src/_assets/sass/**/*.scss';
