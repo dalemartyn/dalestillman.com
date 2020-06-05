@@ -6,7 +6,7 @@ tagline: "A WordPress theme for internal communications"
 excerpt_separator: "<figure>"
 image:
   json: /asa-intranet/asa-intranet.json
-color_light: "#26C5DA"
+color_light: "#26C6DA"
 color_dark: "#0097A7"
 ---
 

@@ -5,13 +5,13 @@ const livereload = require('gulp-livereload');
 
 
 // tasks
-const images     = require('./gulp-tasks/images');
-const sass       = require('./gulp-tasks/styles');
-const dark_theme = require('./gulp-tasks/dark-theme');
-const scripts    = require('./gulp-tasks/scripts');
-const svgs       = require('./gulp-tasks/svgs');
-const instagram  = require('./gulp-tasks/apis/instagram');
-const twitter    = require('./gulp-tasks/apis/twitter');
+const images     = require('./tasks/images');
+const sass       = require('./tasks/styles');
+const dark_theme = require('./tasks/dark-theme');
+const scripts    = require('./tasks/scripts');
+const svgs       = require('./tasks/svgs');
+const instagram  = require('./tasks/apis/instagram');
+const twitter    = require('./tasks/apis/twitter');
 
 
 function watch_built_files() {
@@ -57,7 +57,7 @@ exports.download_img = gulp.series(
 );
 
 exports.download_social_data = gulp.parallel(
-  // instagram.save_instagram_data,
+  instagram.save_instagram_data,
   twitter.save_twitter_data
 );
 
@@ -67,3 +67,5 @@ exports.img = gulp.series(
   images.resize_figma_images,
   images.resize_instagram_images
 );
+
+exports.insta = images.resize_instagram_images;

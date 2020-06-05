@@ -204,6 +204,36 @@
     "alt": "Tablet showing the design of the Fitter 365 website"
   },
   {
+    "project": "Fitter 365",
+    "title": "Fitter 365 - Recipes",
+    "node": "I1481:6;81:12",
+    "alt": "Tablet showing the recipes page of the Fitter 365 website"
+  },
+  {
+    "project": "Fitter 365",
+    "title": "Fitter 365 - Recipe Filter",
+    "node": "I1481:0;81:12",
+    "alt": "Tablet showing the Recipe filters on the Fitter 365 website"
+  },
+  {
+    "project": "Fitter 365",
+    "title": "Fitter 365 - Exercise Section",
+    "node": "I1481:24;81:12",
+    "alt": "Tablet showing the exercise section of the Fitter 365 website"
+  },
+  {
+    "project": "Fitter 365",
+    "title": "Fitter 365 - Ecourses",
+    "node": "I1481:30;81:12",
+    "alt": "Tablet showing the Ecourses on the Fitter 365 website"
+  },
+  {
+    "project": "Fitter 365",
+    "title": "Fitter 365 - Profile",
+    "node": "I1481:12;81:12",
+    "alt": "Tablet showing the user profile section of the Fitter 365 website"
+  },
+  {
     "project": "Memo",
     "title": "Memo",
     "node": "I1092:711;81:12",
@@ -264,27 +294,39 @@
     "alt": "3D render of the Memo hub"
   },
   {
-    "project": "The Manor House",
-    "title": "The Manor House",
-    "node": "I5:18;24:146",
-    "alt": "Laptop showing the design of The Manor House website"
-  },
-  {
-    "project": "a dozen eggs",
-    "title": "a dozen eggs",
-    "node": "I1120:175;1098:781",
-    "alt": "Two phones showing the design of the a dozen eggs website"
-  },
-  {
-    "project": "CMP Solutions",
-    "title": "CMP Solutions",
-    "node": "I1120:184;1098:781",
-    "alt": "Tablet showing the design of the CMP Solutions website"
-  },
-  {
     "project": "Oceanic Minima",
     "title": "Oceanic Minima",
     "node": "I6:63;24:414",
     "alt": "Window showing the VS Code code editor using the Oceanic Minima editor theme"
+  },
+  {
+    "project": "Podcasts",
+    "title": "Podcasts",
+    "node": "I1465:15;1165:164",
+    "alt": "Window showing the Ladybug podcast on the Podcasts app."
+  },
+  {
+    "project": "Podcasts",
+    "title": "Podcasts - Dark theme",
+    "node": "I1465:0;1165:164",
+    "alt": "Window showing the Ladybug podcast on the Podcasts app in dark theme."
+  },
+  {
+    "project": "Podcasts",
+    "title": "Podcasts - Tablet",
+    "node": "I1479:1431;81:12",
+    "alt": "Tablet showing the Maintainers Anonymous podcast on the Podcasts app."
+  },
+  {
+    "project": "Podcasts",
+    "title": "Podcasts - Home page",
+    "node": "I1480:1453;81:12",
+    "alt": "Tablet showing the home page of the Podcasts app."
+  },
+  {
+    "project": "Podcasts",
+    "title": "Podcasts - Category page",
+    "node": "I1480:1459;81:12",
+    "alt": "Tablet showing the business category page of the Podcasts app."
   }
 ]
