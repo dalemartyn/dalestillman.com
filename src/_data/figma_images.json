@@ -234,6 +234,30 @@
     "alt": "Tablet showing the user profile section of the Fitter 365 website"
   },
   {
+    "project": "Fitter 365",
+    "title": "Fitter 365 - Members Home",
+    "node": "I1486:1509;81:12",
+    "alt": "Tablet showing the members home page of the Fitter 365 website"
+  },
+  {
+    "project": "Fitter 365",
+    "title": "Fitter 365 - Recipe Page",
+    "node": "I1486:1491;81:12",
+    "alt": "Tablet showing a recipe page of the Fitter 365 website"
+  },
+  {
+    "project": "Fitter 365",
+    "title": "Fitter 365 - Related Recipes",
+    "node": "I1486:1503;81:12",
+    "alt": "Tablet showing the related recipes on the Fitter 365 website"
+  },
+  {
+    "project": "Fitter 365",
+    "title": "Fitter 365 - Search Results",
+    "node": "I1488:0;81:12",
+    "alt": "Tablet showing search results on the Fitter 365 website"
+  },
+  {
     "project": "Memo",
     "title": "Memo",
     "node": "I1092:711;81:12",

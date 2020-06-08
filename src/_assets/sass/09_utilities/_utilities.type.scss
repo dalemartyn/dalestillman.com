@@ -45,9 +45,16 @@
 }
 
 .ts-display-1 {
-  @include ms-respond(font-size, 3.5);
+  @include ms-respond(font-size, 4);
   letter-spacing: -.0075em;
   line-height: 1.1;
+}
+
+.ts-display-1a {
+  @include ms-respond(font-size, 3);
+  letter-spacing: -.0075em;
+  line-height: 1.1;
+  font-weight: fw(regular);
 }
 
 .ts-display-2 {
