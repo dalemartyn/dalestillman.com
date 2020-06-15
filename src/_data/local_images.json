@@ -30,6 +30,12 @@
     "alt": "How to build a self concious machine"
   },
   {
+    "project": "Blog",
+    "title": "Docker",
+    "format": "png",
+    "alt": "Docker logo"
+  },
+  {
     "project": "Surface",
     "title": "Surface Studio",
     "format": "png",
