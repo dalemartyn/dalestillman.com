@@ -25,7 +25,9 @@ Containers can refer to each other based on their names, which resolve to their 
 ## Running Containers
 You can run a container using the `docker run` command.
 
-```docker run -dp 80:80 docker/getting-started```
+```
+docker run -dp 80:80 docker/getting-started
+```
 
 The above command will run the container based on the `docker/getting-started` image, which is hosted on the official Docker container image library, [Docker Hub][1].
 
