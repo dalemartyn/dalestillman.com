@@ -9,7 +9,7 @@ color_dark: "#1265bb"
 tags: blog
 ---
 
-I've spent a bit of time learning Docker using the official "Learn" resources that come bundled with Docker Desktop. Here's my notes.
+I've spent a bit of time learning Docker using the official "Learn" tutorial that comes bundled with Docker Desktop. It's a great tutorial, and one I'd recommend them to anyone new to Docker. Here's my notes.
 
 ## About Docker
 
@@ -22,7 +22,7 @@ Containers are isolated processes. You should generally run one process per cont
 ### Networking
 Containers can refer to each other based on their names, which resolve to their IP addresses on the docker network.
 
-## Running Containers
+## Running containers
 You can run a container using the `docker run` command.
 
 ```
@@ -56,7 +56,7 @@ The `FROM` directive names the image which our new image is based upon, such as 
 
 Images are cached in 'layers', so you can use multiple `CMD` directives to speed up image builds. See [Docker best practices][3].
 
-## Replacing Containers
+## Replacing containers
 If we make changes and rebuild our image, we have to remove the old container. The quickest way is `docker rm -f <the-container-id>`. Then we can run our new container using the updated image:
 
 ```
