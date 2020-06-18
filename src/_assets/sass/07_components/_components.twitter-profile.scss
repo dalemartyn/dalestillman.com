@@ -2,33 +2,26 @@
    #TWITTER-PROFILE
    ========================================================================== */
 
-$profile_image_size: calc(#{sp(xlarge)} * 2.5);
+$profile_image_size: calc(#{sp(xlarge)} * 3);
 
 .c-twitter-profile {
   margin-bottom: sp(large);
 }
 
 .c-twitter-profile__header {
-  background-color: color("blue-grey-500");
-  background-image: url("/twitter.svg");
-  background-size: 100% auto;
-  background-position: center bottom;
-  background-repeat: no-repeat;
+  background-color: color("blue-grey-200");
   margin-top: calc(var(--site-menu-height) * -1);
   padding-top: var(--site-menu-height);
+  padding-bottom: calc(#{$profile_image_size} * 1.125);
+  @include theme-transition(background-color);
 
   .t-dark & {
-    background-color: color("blue-grey-800");
+    background-color: color("blue-grey-850");
   }
-
-  @include theme-transition(background-color);
-  padding-bottom: (100% / 3);
 
   @include mq($from: sm) {
     border-bottom-right-radius: var(--rounded-radius);
     border-bottom-left-radius: var(--rounded-radius);
-    background-image: url("/twitter-wide.svg");
-    padding-bottom: (100% / 4);
   }
 }
 
