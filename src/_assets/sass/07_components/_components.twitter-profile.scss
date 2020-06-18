@@ -4,32 +4,37 @@
 
 $profile_image_size: calc(#{sp(xlarge)} * 2.5);
 
+.c-twitter-profile {
+  margin-bottom: sp(large);
+}
+
 .c-twitter-profile__header {
-  background-color: color("blue-grey-600");
+  background-color: color("blue-grey-500");
   background-image: url("/twitter.svg");
   background-size: 100% auto;
   background-position: center bottom;
   background-repeat: no-repeat;
+  margin-top: calc(var(--site-menu-height) * -1);
+  padding-top: var(--site-menu-height);
 
   .t-dark & {
-    background-color: color("blue-grey-700");
+    background-color: color("blue-grey-800");
   }
 
   @include theme-transition(background-color);
-  padding-bottom: (100% * 2 / (3 * 2));
-  border-top-right-radius: var(--rounded-radius);
-  border-top-left-radius: var(--rounded-radius);
+  padding-bottom: (100% / 3);
+
+  @include mq($from: sm) {
+    border-bottom-right-radius: var(--rounded-radius);
+    border-bottom-left-radius: var(--rounded-radius);
+    background-image: url("/twitter-wide.svg");
+    padding-bottom: (100% / 4);
+  }
 }
 
 .c-twitter-profile__main {
-  padding: sp();
-  transition: box-shadow .2s $standard-easing;
-  @include theme-transition(border-color);
-
-  @include mq($from: sm) {
-    border-left: 1px solid sem-color("border");
-    border-right: 1px solid sem-color("border");
-  }
+  padding-left: sp();
+  padding-right: sp();
 }
 
   .c-twitter-profile__profile-picture {
@@ -40,7 +45,9 @@ $profile_image_size: calc(#{sp(xlarge)} * 2.5);
     background-color: sem-color("background");
     @include theme-transition(box-shadow background-color);
     margin-bottom: sp(tiny);
-    margin-top: calc(#{$profile_image_size} * -1 / 2 - #{sp()});
+    margin-top: calc(#{$profile_image_size} * -1 + #{sp(large)});
+    margin-left: auto;
+    margin-right: auto;
 
     > svg {
       width: 100%;
@@ -54,9 +61,9 @@ $profile_image_size: calc(#{sp(xlarge)} * 2.5);
     }
   }
 
-  /**
-   *.c-twitter-profile__info {}
-   */
+  .c-twitter-profile__info {
+    text-align: center;
+  }
 
     .c-twitter-profile__link {
       line-height: 1.25;

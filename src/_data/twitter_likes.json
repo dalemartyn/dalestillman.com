@@ -1,5 +1,379 @@
 [
   {
+    "text": "<p>in any other circumstances it'd be fun to see <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/sveltejs\" data-screen-name=\"sveltejs\" rel=\"nofollow\">@sveltejs</a> charts on TV (these ones are made by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/alizauf\" data-screen-name=\"alizauf\" rel=\"nofollow\">@alizauf</a> and others with <a target=\"_blank\" href=\"https://pancake-charts.surge.sh\" title=\"https://pancake-charts.surge.sh\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>pancake-charts.surge.sh</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a>) <a target=\"_blank\" href=\"https://twitter.com/HillaryClinton/status/1273300986162040833\" title=\"https://twitter.com/HillaryClinton/status/1273300986162040833\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/HillaryClinton</span><span class=\"u-visually-hidden\">/status/1273300986162040833</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
+    "type": "like",
+    "iso_time": "2020-06-17T17:31:53.000Z",
+    "human_time": "Jun 17",
+    "user": {
+      "name": "Rich Harris",
+      "screen_name": "Rich_Harris"
+    },
+    "id_str": "1273307392260833281"
+  },
+  {
+    "text": "<p>I qualified as a senior football journalist today after graduating from university with a business degree five years ago.</p>\n<p>If you haven’t found what you want to do yet, keep looking.</p>",
+    "type": "like",
+    "iso_time": "2020-06-16T21:30:57.000Z",
+    "human_time": "Jun 16",
+    "user": {
+      "name": "Josh Williams",
+      "screen_name": "DistanceCovered"
+    },
+    "id_str": "1273005164362903554"
+  },
+  {
+    "text": "<p>Number of foodbanks in the UK:</p>\n<p>2004 - 1\n2008 - 22\n2011 - 100\n2012 - 252\n2020- 2,030 (1.6m food parcels)</p>\n<p>In just 10 years of Tory rule, the number of foodbanks has increased 9450%. This is political.</p>",
+    "type": "like",
+    "iso_time": "2020-06-16T11:35:30.000Z",
+    "human_time": "Jun 16",
+    "user": {
+      "name": "Hasan Patel 🌹",
+      "screen_name": "CorbynistaTeen"
+    },
+    "id_str": "1272855317311885312"
+  },
+  {
+    "text": "<p><a target=\"_blank\" href=\"https://twitter.com/search?q=%23maketheUturn\" title=\"#maketheUturn\" class=\"tweet-url hashtag\" rel=\"nofollow\">#maketheUturn</a> \nThank you for offering your platform for me to speak <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/thetimes\" data-screen-name=\"thetimes\" rel=\"nofollow\">@thetimes</a> <a target=\"_blank\" href=\"https://t.co/xvy4TRrxE6\" rel=\"nofollow\">https://t.co/xvy4TRrxE6</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-16T05:46:32.000Z",
+    "human_time": "Jun 16",
+    "user": {
+      "name": "Marcus Rashford",
+      "screen_name": "MarcusRashford"
+    },
+    "id_str": "1272767497238974464"
+  },
+  {
+    "text": "<p>I was looking for a stand-up desk on <a target=\"_blank\" href=\"https://twitter.com/search?q=%23autonomousdotai\" title=\"#autonomousdotai\" class=\"tweet-url hashtag\" rel=\"nofollow\">#autonomousdotai</a> and came across an upcoming new product they’re offering called a Zen Work Pod (a personal workspace).</p>\n<p>Would you purchase it? Are products like this needed in the future of work? 🤔 <a target=\"_blank\" href=\"https://t.co/44EtRCXKJc\" rel=\"nofollow\">https://t.co/44EtRCXKJc</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-16T05:00:54.000Z",
+    "human_time": "Jun 16",
+    "user": {
+      "name": "Grace ☀️ #BLACKLIVESMATTER",
+      "screen_name": "GraceMacjones"
+    },
+    "id_str": "1272756010407489537"
+  },
+  {
+    "text": "<p>Let's do a giveaway for my new ebook Start Freelancing Today! Like+RT this tweet and I'll pick a winner randomly this evening (let's say 8 PM ET). 🎉</p>\n<p><a target=\"_blank\" href=\"http://startfreelancing.today\" title=\"http://startfreelancing.today\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>startfreelancing.today</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
+    "type": "like",
+    "iso_time": "2020-06-15T17:02:58.000Z",
+    "human_time": "Jun 15",
+    "user": {
+      "name": "Kelly Vaughn 🐞",
+      "screen_name": "kvlly"
+    },
+    "id_str": "1272575336413384710"
+  },
+  {
+    "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/ObedParla\" data-screen-name=\"ObedParla\" rel=\"nofollow\">@ObedParla</a> I’m actually in the process of sorting out the Kindle version today!</p>",
+    "type": "like",
+    "iso_time": "2020-06-14T20:35:05.000Z",
+    "human_time": "Jun 14",
+    "user": {
+      "name": "Kelly Vaughn 🐞",
+      "screen_name": "kvlly"
+    },
+    "id_str": "1272266330771685382"
+  },
+  {
+    "text": "<p><a target=\"_blank\" href=\"https://t.co/ShqdixXxqR\" rel=\"nofollow\">https://t.co/ShqdixXxqR</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-14T19:54:56.000Z",
+    "human_time": "Jun 14",
+    "user": {
+      "name": "Wynton Redmond",
+      "screen_name": "wyntonred"
+    },
+    "id_str": "1272256225896353797"
+  },
+  {
+    "text": "<p>An early look at next week’s cover, \"Say Their Names,\" by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/KadirNelson\" data-screen-name=\"KadirNelson\" rel=\"nofollow\">@KadirNelson</a>: <a target=\"_blank\" href=\"http://nyer.cm/aDxGTud\" title=\"http://nyer.cm/aDxGTud\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>nyer.cm/aDxGTud</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/a3w3l1XESb\" rel=\"nofollow\">https://t.co/a3w3l1XESb</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-14T14:04:25.000Z",
+    "human_time": "Jun 14",
+    "user": {
+      "name": "The New Yorker",
+      "screen_name": "NewYorker"
+    },
+    "id_str": "1272168016697065473"
+  },
+  {
+    "text": "<p>Now sod off with your perfectly healthy eyes; you want a day out and an eye test, fuck off up Barnard Castle.</p>",
+    "type": "like",
+    "iso_time": "2020-06-13T19:38:15.000Z",
+    "human_time": "Jun 13",
+    "user": {
+      "name": "Sleath",
+      "screen_name": "sleathington"
+    },
+    "id_str": "1271889639926829062"
+  },
+  {
+    "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/dalestillmane\" data-screen-name=\"dalestillmane\" rel=\"nofollow\">@dalestillmane</a> yeah i guess you're right 😆 that would have been a bit simpler</p>",
+    "type": "like",
+    "iso_time": "2020-06-12T23:19:55.000Z",
+    "human_time": "Jun 13",
+    "user": {
+      "name": "Rich Harris",
+      "screen_name": "Rich_Harris"
+    },
+    "id_str": "1271583036333752320"
+  },
+  {
+    "text": "<p>Hard to tell if I recorded this 30 years or 10 minutes ago... <a target=\"_blank\" href=\"https://t.co/GPDURhYIJL\" rel=\"nofollow\">https://t.co/GPDURhYIJL</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-12T20:10:58.000Z",
+    "human_time": "Jun 12",
+    "user": {
+      "name": "John Cleese",
+      "screen_name": "JohnCleese"
+    },
+    "id_str": "1271535485467283457"
+  },
+  {
+    "text": "<p>i'm going to be doing a full day <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/FrontendMasters\" data-screen-name=\"FrontendMasters\" rel=\"nofollow\">@FrontendMasters</a> workshop on <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/sveltejs\" data-screen-name=\"sveltejs\" rel=\"nofollow\">@sveltejs</a> tomorrow. you should come! it's free to join the livestream. The plan is to go from complete novice to building a dynamic, personalisable, server-rendered, interactive (but JS optional!) PWA. should be fun</p>",
+    "type": "like",
+    "iso_time": "2020-06-11T14:32:45.000Z",
+    "human_time": "Jun 11",
+    "user": {
+      "name": "Rich Harris",
+      "screen_name": "Rich_Harris"
+    },
+    "id_str": "1271087983417069574"
+  },
+  {
+    "text": "<p>I used to love Chrome. I installed it on all my family's computers. These days it's just memory waste, bad UX, total lack of attention to detail, Google privacy invasion, and user-hostility for extension dev.</p>",
+    "type": "like",
+    "iso_time": "2020-06-11T08:59:01.000Z",
+    "human_time": "Jun 11",
+    "user": {
+      "name": "Sindre Sorhus",
+      "screen_name": "sindresorhus"
+    },
+    "id_str": "1271003996736520193"
+  },
+  {
+    "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/backlon\" data-screen-name=\"backlon\" rel=\"nofollow\">@backlon</a> Speaking of Fuchsia...\"Fuchsia is not a science experiment\nFuchsia's goal is to power production devices and products used for business-critical applications. As such, Fuchsia is not a playground for experimental operating system concepts.\"</p>\n<p><a target=\"_blank\" href=\"https://fuchsia.dev/fuchsia-src/concepts#fuchsia_is_not_a_science_experiment\" title=\"https://fuchsia.dev/fuchsia-src/concepts#fuchsia_is_not_a_science_experiment\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>fuchsia.dev/fuchsia-src/co</span><span class=\"u-visually-hidden\">ncepts#fuchsia_is_not_a_science_experiment</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
+    "type": "like",
+    "iso_time": "2020-06-10T17:44:47.000Z",
+    "human_time": "Jun 10",
+    "user": {
+      "name": "Mishaal Rahman",
+      "screen_name": "MishaalRahman"
+    },
+    "id_str": "1270773923957932033"
+  },
+  {
+    "text": "<p>After a year of tinkering, we’re close with our new site. It is packed with somewhat new and yet now obvious Web typographic ideas, and there are some pretty cool tricks I can’t wait to show. DM me if you‘d like a preview to test it next week.</p>",
+    "type": "like",
+    "iso_time": "2020-06-09T14:59:33.000Z",
+    "human_time": "Jun 9",
+    "user": {
+      "name": "Oliver Reichenstein",
+      "screen_name": "reichenstein"
+    },
+    "id_str": "1270369952894255106"
+  },
+  {
+    "text": "<p>In addition to their direct, effective calls for action, one other key social benefit from so many people protesting is that media are being forced to talk about substantive issues, rather than just having Trump dictate the headlines and narrative to TV &amp; newspapers every day.</p>",
+    "type": "like",
+    "iso_time": "2020-06-09T13:46:34.000Z",
+    "human_time": "Jun 9",
+    "user": {
+      "name": "Anil Dash",
+      "screen_name": "anildash"
+    },
+    "id_str": "1270351584329977856"
+  },
+  {
+    "text": "<p>.<a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/zoink\" data-screen-name=\"zoink\" rel=\"nofollow\">@zoink</a> pitching <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/figmadesign\" data-screen-name=\"figmadesign\" rel=\"nofollow\">@figmadesign</a> in 2013 wasn't anything like what you'd expect today. No slides titled \"Problem\" and \"Solution.\" No total addressable market breakdown. Just 10 minutes of mind-bending WebGL and JS demos.</p>\n<p>Watch him reenact the pitch here: <a target=\"_blank\" href=\"https://youtube.com/watch?v=C1UUVdN3kdQ&feature=youtu.be\" title=\"https://youtube.com/watch?v=C1UUVdN3kdQ&amp;feature=youtu.be\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>youtube.com/watch?v=C1UUVd</span><span class=\"u-visually-hidden\">N3kdQ&amp;feature=youtu.be</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/IYog5PdaEp\" rel=\"nofollow\">https://t.co/IYog5PdaEp</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-09T00:11:02.000Z",
+    "human_time": "Jun 9",
+    "user": {
+      "name": "Pioneer",
+      "screen_name": "pioneerdotapp"
+    },
+    "id_str": "1270146351188209666"
+  },
+  {
+    "text": "<p>“So if you defund police who you gone call when you’re in danger?”</p>\n<p>There are a lot of resources that explains what defunding the police means but I know some of you will “hear it better” if it came out of the mouth of someone who looks like you. So listen to John Oliver <a target=\"_blank\" href=\"https://t.co/73PR7fB0q1\" rel=\"nofollow\">https://t.co/73PR7fB0q1</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-08T18:01:42.000Z",
+    "human_time": "Jun 8",
+    "user": {
+      "name": "Dewayne Perkins",
+      "screen_name": "DewaynePerkins"
+    },
+    "id_str": "1270053404883120129"
+  },
+  {
+    "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Swizec\" data-screen-name=\"Swizec\" rel=\"nofollow\">@Swizec</a> It's true for 'well-known' knowledge. If you need really specialized knowledge really quickly, books and courses will not be enough.</p>\n<p>It's true if you need to 'learn C++', but not if you need to 'Deploy an application with 1 million requests per minute with disaster recovery'</p>",
+    "type": "like",
+    "iso_time": "2020-06-08T12:05:49.000Z",
+    "human_time": "Jun 8",
+    "user": {
+      "name": "Adam Pietrasiak",
+      "screen_name": "pie6k"
+    },
+    "id_str": "1269963842307657734"
+  },
+  {
+    "text": "<p>YOU: TikTok is just dumb kids dancing, right? </p>\n<p>ME: You are WOEFULLY underprepared for Gen Z. <a target=\"_blank\" href=\"https://vm.tiktok.com/oYTjQ7/\" title=\"https://vm.tiktok.com/oYTjQ7/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>vm.tiktok.com/oYTjQ7/</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> </p>\n<p>SOUND ON! <a target=\"_blank\" href=\"https://t.co/8sKmWT6RQ9\" rel=\"nofollow\">https://t.co/8sKmWT6RQ9</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-07T23:57:17.000Z",
+    "human_time": "Jun 8",
+    "user": {
+      "name": "Joanna Robinson",
+      "screen_name": "jowrotethis"
+    },
+    "id_str": "1269780499360133120"
+  },
+  {
+    "text": "<p>Most Bristol take so far:</p>\n<p>“They’re saying we should’ve gone through the proper channels to get im down. Well we tried that for years and were ignored, so now e’s in the proper channel.” <a target=\"_blank\" href=\"https://t.co/cq1LDTMiIO\" rel=\"nofollow\">https://t.co/cq1LDTMiIO</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-07T19:26:20.000Z",
+    "human_time": "Jun 7",
+    "user": {
+      "name": "20th Century Flicks",
+      "screen_name": "20thCFlicks"
+    },
+    "id_str": "1269712313935953929"
+  },
+  {
+    "text": "<p>For small SVG icons intended to be used at a specific size (e.g. 16px or 20px), a trend I’ve seen recently: 1.5px strokes aligned on an edge.</p>\n<p>- Rasterizes as fully opaque pixels at 2x\n- At 1x, you get one fully opaque pixel and one half-opacity pixel <a target=\"_blank\" href=\"https://t.co/M6ZclO0EPa\" rel=\"nofollow\">https://t.co/M6ZclO0EPa</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-06T16:57:48.000Z",
+    "human_time": "Jun 6",
+    "user": {
+      "name": "Florens Verschelde",
+      "screen_name": "fvsch"
+    },
+    "id_str": "1269312546898665472"
+  },
+  {
+    "text": "<p>2 hours from paying for order to delivery at my door by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/HeatonHops\" data-screen-name=\"HeatonHops\" rel=\"nofollow\">@HeatonHops</a>, great choice, highly recommended! <a target=\"_blank\" href=\"https://t.co/CLK2wfuPkH\" rel=\"nofollow\">https://t.co/CLK2wfuPkH</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-06T14:55:46.000Z",
+    "human_time": "Jun 6",
+    "user": {
+      "name": "Chris",
+      "screen_name": "GreatBashHeel"
+    },
+    "id_str": "1269281836980723713"
+  },
+  {
+    "text": "<p>This is absolute perfection. <a target=\"_blank\" href=\"https://t.co/MdNcr6hTQz\" rel=\"nofollow\">https://t.co/MdNcr6hTQz</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-06T01:45:25.000Z",
+    "human_time": "Jun 6",
+    "user": {
+      "name": "Johnnie Manzari",
+      "screen_name": "johnnie"
+    },
+    "id_str": "1269082939553275905"
+  },
+  {
+    "text": "<p>people: riots don't work</p>\n<p>also people: wow, Minneapolis is talking about dismantling the entire police department now</p>",
+    "type": "like",
+    "iso_time": "2020-06-05T22:01:28.000Z",
+    "human_time": "Jun 5",
+    "user": {
+      "name": "Ian Coldwater 🔻",
+      "screen_name": "IanColdwater"
+    },
+    "id_str": "1269026579222605826"
+  },
+  {
+    "text": "<p>Kinetic display — for the past couple of months, I have been working on a small tool to control a flip dot board and create patterns. <a target=\"_blank\" href=\"https://t.co/eAkVyQvCiZ\" rel=\"nofollow\">https://t.co/eAkVyQvCiZ</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-05T21:46:26.000Z",
+    "human_time": "Jun 5",
+    "user": {
+      "name": "Andy Duboc",
+      "screen_name": "andyduboc"
+    },
+    "id_str": "1269022794714660864"
+  },
+  {
+    "text": "<p>Wow, it’s done! New “Black Lives Matter” Mural painted in <a target=\"_blank\" href=\"https://twitter.com/search?q=%23WashingtonDC\" title=\"#WashingtonDC\" class=\"tweet-url hashtag\" rel=\"nofollow\">#WashingtonDC</a> on road to White House (16th St.)</p>\n<p>They started at 3:00 am &amp; just finished. Mayor Bowser approved it:   <a target=\"_blank\" href=\"https://t.co/kqmknUOaDR\" rel=\"nofollow\">https://t.co/kqmknUOaDR</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-05T14:47:20.000Z",
+    "human_time": "Jun 5",
+    "user": {
+      "name": "Joyce Karam",
+      "screen_name": "Joyce_Karam"
+    },
+    "id_str": "1268917324498833412"
+  },
+  {
+    "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/ehn\" data-screen-name=\"ehn\" rel=\"nofollow\">@ehn</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/craigmod\" data-screen-name=\"craigmod\" rel=\"nofollow\">@craigmod</a> Oh and Safari rounds stuff like CSS animations to pixels while Chrome for some reason rounds it to dp (density independent pixels) which on a high-density display obviously will be suboptimal.</p>",
+    "type": "like",
+    "iso_time": "2020-06-05T14:08:43.000Z",
+    "human_time": "Jun 5",
+    "user": {
+      "name": "Rasmus Andersson",
+      "screen_name": "rsms"
+    },
+    "id_str": "1268907606468251649"
+  },
+  {
+    "text": "<p>Downside of VS Code's vertical split mode: i often have overflowing tabs on one side. Settings that can help:</p>\n<p>editor.minimap.enabled: false\nworkbench.editor.tabCloseButton: off\nworkbench.editor.tabSizing: shrink\nzenMode.hideTabs: false</p>",
+    "type": "like",
+    "iso_time": "2020-06-05T08:24:10.000Z",
+    "human_time": "Jun 5",
+    "user": {
+      "name": "Florens Verschelde",
+      "screen_name": "fvsch"
+    },
+    "id_str": "1268820899186253827"
+  },
+  {
+    "text": "<p>Defund, demilitarize, and reform. The system is dysfunctional and needs to change. </p>\n<p>Read this thread. 👇 <a target=\"_blank\" href=\"https://twitter.com/nomoniker_/status/1267608918135640064\" title=\"https://twitter.com/nomoniker_/status/1267608918135640064\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/nomoniker_/sta</span><span class=\"u-visually-hidden\">tus/1267608918135640064</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
+    "type": "like",
+    "iso_time": "2020-06-04T08:06:09.000Z",
+    "human_time": "Jun 4",
+    "user": {
+      "name": "Matt DesLauriers",
+      "screen_name": "mattdesl"
+    },
+    "id_str": "1268453975415836672"
+  },
+  {
+    "text": "<p>Attention white supremacists:\nHere comes the future... and she ain’t takin’ shit from nobody.\n<a target=\"_blank\" href=\"https://twitter.com/search?q=%23GeorgeFloyd\" title=\"#GeorgeFloyd\" class=\"tweet-url hashtag\" rel=\"nofollow\">#GeorgeFloyd</a> \n<a target=\"_blank\" href=\"https://twitter.com/search?q=%23BlackLivesMatter\" title=\"#BlackLivesMatter\" class=\"tweet-url hashtag\" rel=\"nofollow\">#BlackLivesMatter</a>\n<a target=\"_blank\" href=\"https://twitter.com/search?q=%23Merrick\" title=\"#Merrick\" class=\"tweet-url hashtag\" rel=\"nofollow\">#Merrick</a>\n<a target=\"_blank\" href=\"https://t.co/W54gHpgqDQ\" rel=\"nofollow\">https://t.co/W54gHpgqDQ</a></p>",
+    "type": "like",
+    "iso_time": "2020-06-04T02:06:50.000Z",
+    "human_time": "Jun 4",
+    "user": {
+      "name": "Billy Baldwin",
+      "screen_name": "BillyBaldwin"
+    },
+    "id_str": "1268363553087483905"
+  },
+  {
+    "text": "<p>You literally just announced that you are going to collaborate with law enforcement and let them spy on free Zoom calls while offering your wealthy corporate clients end-to-end encryption. <a target=\"_blank\" href=\"https://twitter.com/zoom_us/status/1267859762802122753\" title=\"https://twitter.com/zoom_us/status/1267859762802122753\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/zoom_us/status</span><span class=\"u-visually-hidden\">/1267859762802122753</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
+    "type": "like",
+    "iso_time": "2020-06-03T16:30:35.000Z",
+    "human_time": "Jun 3",
+    "user": {
+      "name": "Evan Greer",
+      "screen_name": "evan_greer"
+    },
+    "id_str": "1268218534368366599"
+  },
+  {
+    "text": "<p>To all the sad people who raged about having to wear a mask, here's what real tyranny looks like. Police literally arresting someone for exercising their first amendment right. Is there anyone who will put an end to this? Is there any voice in power that can speak up now? <a target=\"_blank\" href=\"https://twitter.com/sweeeetdee_/status/1267319103167107072\" title=\"https://twitter.com/sweeeetdee_/status/1267319103167107072\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/sweeeetdee_/st</span><span class=\"u-visually-hidden\">atus/1267319103167107072</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
+    "type": "like",
+    "iso_time": "2020-06-02T18:57:00.000Z",
+    "human_time": "Jun 2",
+    "user": {
+      "name": "Joshua Topolsky",
+      "screen_name": "joshuatopolsky"
+    },
+    "id_str": "1267892991865303040"
+  },
+  {
     "text": "<p>Big fan of this <a target=\"_blank\" href=\"https://t.co/mIOG19FADS\" rel=\"nofollow\">https://t.co/mIOG19FADS</a></p>",
     "type": "like",
     "iso_time": "2020-05-30T14:30:37.000Z",
@@ -170,7 +544,7 @@
     "iso_time": "2020-05-19T19:34:03.000Z",
     "human_time": "May 19",
     "user": {
-      "name": "Elliott",
+      "name": "Elliott 🧠",
       "screen_name": "nu_elliott"
     },
     "id_str": "1262828887001583617"
@@ -273,17 +647,6 @@
       "screen_name": "lexfridman"
     },
     "id_str": "1261765782507118592"
-  },
-  {
-    "text": "<p>🎉 Win a copy of Start Freelancing Today! 🎉</p>\n<p>I'm giving away THREE copies of my new freelancing ebook to be released on June 1, 2020!</p>\n<p>Like + RT this tweet to enter.</p>\n<p>I'll choose three random winners Sunday, May 17 at 8 PM ET.</p>\n<p><a target=\"_blank\" href=\"http://startfreelancing.today\" title=\"http://startfreelancing.today\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>startfreelancing.today</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "type": "like",
-    "iso_time": "2020-05-16T15:49:46.000Z",
-    "human_time": "May 16",
-    "user": {
-      "name": "Kelly Vaughn 🐞",
-      "screen_name": "kvlly"
-    },
-    "id_str": "1261685280584728578"
   },
   {
     "text": "<p>looks like someone posted <a target=\"_blank\" href=\"https://dev.to/richharris/in-defense-of-the-modern-web-2nia\" title=\"https://dev.to/richharris/in-defense-of-the-modern-web-2nia\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>dev.to/richharris/in-</span><span class=\"u-visually-hidden\">defense-of-the-modern-web-2nia</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> to ye olde hackyr newes. upvote it, if you like. or don't. exercise free will <a target=\"_blank\" href=\"https://news.ycombinator.com/newest\" title=\"https://news.ycombinator.com/newest\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>news.ycombinator.com/newest</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
@@ -715,6 +1078,17 @@
     "id_str": "1257788950032396291"
   },
   {
+    "text": "<p>i'm a bundler guy. i'm the sort of chap who tells you to bundle stuff you publish to npm so that your library's users save a few seconds. so it takes a lot to convince me that we should be developing web apps without bundlers.</p>\n<p>i think snowpack v2 might have won me over.</p>\n<p>👏👏👏 <a target=\"_blank\" href=\"https://twitter.com/FredKSchott/status/1257750199457296385\" title=\"https://twitter.com/FredKSchott/status/1257750199457296385\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/FredKSchott/st</span><span class=\"u-visually-hidden\">atus/1257750199457296385</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
+    "type": "like",
+    "iso_time": "2020-05-05T21:04:26.000Z",
+    "human_time": "May 5",
+    "user": {
+      "name": "Rich Harris",
+      "screen_name": "Rich_Harris"
+    },
+    "id_str": "1257778203290226689"
+  },
+  {
     "text": "<p>I've been working on ways to make it simple for others to add <a target=\"_blank\" href=\"https://twitter.com/search?q=%23TeachableMachine\" title=\"#TeachableMachine\" class=\"tweet-url hashtag\" rel=\"nofollow\">#TeachableMachine</a> training directly into their own websites, heres the first demo with just a few lines of code. Can't wait to see what others make! <a target=\"_blank\" href=\"https://glitch.com/edit/#!/tm-wizard?path=README.md%3A1%3A0\" title=\"https://glitch.com/edit/#!/tm-wizard?path=README.md%3A1%3A0\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>glitch.com/edit/#!/tm-wiz</span><span class=\"u-visually-hidden\">ard?path=README.md%3A1%3A0</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/OUbCMoOmak\" rel=\"nofollow\">https://t.co/OUbCMoOmak</a></p>",
     "type": "like",
     "iso_time": "2020-05-05T17:01:20.000Z",
@@ -863,7 +1237,7 @@
     "iso_time": "2020-04-27T08:35:01.000Z",
     "human_time": "Apr 27",
     "user": {
-      "name": "flavio @ bootcamp",
+      "name": "flavio",
       "screen_name": "flaviocopes"
     },
     "id_str": "1254690503863525376"
@@ -984,7 +1358,7 @@
     "iso_time": "2020-04-22T11:08:07.000Z",
     "human_time": "Apr 22",
     "user": {
-      "name": "GorDAN’s ALIVE!",
+      "name": "Dan Lives",
       "screen_name": "dancharvey"
     },
     "id_str": "1252917092640264192"
@@ -1105,7 +1479,7 @@
     "iso_time": "2020-04-18T04:19:05.000Z",
     "human_time": "Apr 18",
     "user": {
-      "name": "Zach Leatherman 🌄",
+      "name": "Zach Leatherman",
       "screen_name": "zachleat"
     },
     "id_str": "1251364603361198082"
@@ -1138,7 +1512,7 @@
     "iso_time": "2020-04-16T20:23:05.000Z",
     "human_time": "Apr 16",
     "user": {
-      "name": "Zach Leatherman 🌄",
+      "name": "Zach Leatherman",
       "screen_name": "zachleat"
     },
     "id_str": "1250882426114584577"
@@ -1589,7 +1963,7 @@
     "iso_time": "2020-03-25T00:26:27.000Z",
     "human_time": "Mar 25",
     "user": {
-      "name": "!False",
+      "name": "!False Mike",
       "screen_name": "mahemoff"
     },
     "id_str": "1242608751053385730"
@@ -1791,368 +2165,5 @@
       "screen_name": "pamelafox"
     },
     "id_str": "1239632216008699904"
-  },
-  {
-    "text": "<p>The new <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/dribbble\" data-screen-name=\"dribbble\" rel=\"nofollow\">@dribbble</a> looks live to me! — <a target=\"_blank\" href=\"https://dribbble.com/\" title=\"https://dribbble.com/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>dribbble.com</span><span class=\"u-visually-hidden\">/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/BYLQ5lmITc\" rel=\"nofollow\">https://t.co/BYLQ5lmITc</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-16T14:28:33.000Z",
-    "human_time": "Mar 16",
-    "user": {
-      "name": "Bastien Allard 🔻",
-      "screen_name": "bastienald"
-    },
-    "id_str": "1239559181763579904"
-  },
-  {
-    "text": "<p>It's a terrible day to release a big but complicated tech story, but here goes... \n<a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Brave\" data-screen-name=\"Brave\" rel=\"nofollow\">@Brave</a> files GDPR \"purpose limitation\" complaint against Google's internal data free-for-all. Enforcement could radically change Google. \n<a target=\"_blank\" href=\"https://brave.com/google-internal-data-free-for-all/\" title=\"https://brave.com/google-internal-data-free-for-all/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>brave.com/google-interna</span><span class=\"u-visually-hidden\">l-data-free-for-all/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "type": "like",
-    "iso_time": "2020-03-16T05:44:51.000Z",
-    "human_time": "Mar 16",
-    "user": {
-      "name": "Johnny Ryan",
-      "screen_name": "johnnyryan"
-    },
-    "id_str": "1239427387839754242"
-  },
-  {
-    "text": "<p><a target=\"_blank\" href=\"https://t.co/WxpuBqavgN\" rel=\"nofollow\">https://t.co/WxpuBqavgN</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-16T03:43:57.000Z",
-    "human_time": "Mar 16",
-    "user": {
-      "name": "Hari Kunzru",
-      "screen_name": "harikunzru"
-    },
-    "id_str": "1239396964392935425"
-  },
-  {
-    "text": "<p>To make good use of my home-alone time, I tried to rewrite that virus spread simulator that Washington Post published earlier so I can play with the parameters:</p>\n<p>It’s ugly, the collision detection is buggy, but it works good enough, lol.</p>\n<p><a target=\"_blank\" href=\"https://covid-19.surma.technology/\" title=\"https://covid-19.surma.technology/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>covid-19.surma.technology</span><span class=\"u-visually-hidden\">/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/nNcygj4omZ\" rel=\"nofollow\">https://t.co/nNcygj4omZ</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-15T23:27:26.000Z",
-    "human_time": "Mar 15",
-    "user": {
-      "name": "Surma",
-      "screen_name": "DasSurma"
-    },
-    "id_str": "1239332409528770560"
-  },
-  {
-    "text": "<p>I modded <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/washingtonpost\" data-screen-name=\"washingtonpost\" rel=\"nofollow\">@washingtonpost</a>’s “Coronavirus Simulator” to see what it’s like if 2000 people instead of 200 people were trapped in the confined space</p>\n<p>original version: <a target=\"_blank\" href=\"https://www.washingtonpost.com/graphics/2020/world/corona-simulator/\" title=\"https://www.washingtonpost.com/graphics/2020/world/corona-simulator/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>washingtonpost.com/graphics/2020/</span><span class=\"u-visually-hidden\">world/corona-simulator/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/uLjwUn84L8\" rel=\"nofollow\">https://t.co/uLjwUn84L8</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-15T11:32:23.000Z",
-    "human_time": "Mar 15",
-    "user": {
-      "name": "Jane Manchun Wong",
-      "screen_name": "wongmjane"
-    },
-    "id_str": "1239152460737863680"
-  },
-  {
-    "text": "<p>You create the bricks of your piece in two hours. After the session you can fill in any gaps with \"mortar\" (research, quotes extra context). </p>\n<p>It's easy to get lost in too much detail when writing. Don't make the mistake of adding mortar first. Start with bricks.</p>",
-    "type": "like",
-    "iso_time": "2020-03-14T18:34:50.000Z",
-    "human_time": "Mar 14",
-    "user": {
-      "name": "Will Mannon",
-      "screen_name": "will_mannon"
-    },
-    "id_str": "1238896385904107522"
-  },
-  {
-    "text": "<p>\"It would be absolutely ridiculous (if the <a target=\"_blank\" href=\"https://twitter.com/search?q=%23EPL\" title=\"#EPL\" class=\"tweet-url hashtag\" rel=\"nofollow\">#EPL</a> was declared null &amp; void, robbing Liverpool of the title) but Karren Brady says a lot of things that are absolutely ridiculous &amp; she shouldn't be taken seriously at any stage of the proceedings\".\n<a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Knox_Harrington\" data-screen-name=\"Knox_Harrington\" rel=\"nofollow\">@Knox_Harrington</a>/ <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/TheAnfieldWrap\" data-screen-name=\"TheAnfieldWrap\" rel=\"nofollow\">@TheAnfieldWrap</a> 🤣</p>",
-    "type": "like",
-    "iso_time": "2020-03-14T10:37:12.000Z",
-    "human_time": "Mar 14",
-    "user": {
-      "name": "The Collapsing Pocket",
-      "screen_name": "PocketCrumble"
-    },
-    "id_str": "1238776185926156288"
-  },
-  {
-    "text": "<p>This is my nephew absolutely made up because his Uncle Neil is on the telly from our spare room, also known as well Flamingo Room. </p>\n<p>All I can see is <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Knox_Harrington\" data-screen-name=\"Knox_Harrington\" rel=\"nofollow\">@Knox_Harrington</a> not having moved my baskets of shite  used to transport stuff upstairs. Ffs. <a target=\"_blank\" href=\"https://t.co/9nWMIpDdy9\" rel=\"nofollow\">https://t.co/9nWMIpDdy9</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-14T09:20:44.000Z",
-    "human_time": "Mar 14",
-    "user": {
-      "name": "Sam",
-      "screen_name": "larvaemaria"
-    },
-    "id_str": "1238756939963813888"
-  },
-  {
-    "text": "<p>I love podcasts, but I can't stand audiobooks.</p>\n<p>Audiobook narrators should speak with more enthusiasm, production managers should add background noises, and writers should create books that are designed to be listened to.</p>",
-    "type": "like",
-    "iso_time": "2020-03-13T21:04:42.000Z",
-    "human_time": "Mar 13",
-    "user": {
-      "name": "ᴅᴀᴠɪᴅ ᴘᴇʀᴇʟʟ ✌",
-      "screen_name": "david_perell"
-    },
-    "id_str": "1238571712687403008"
-  },
-  {
-    "text": "<p>🌈🌟 New tutorial: Creating stacked rainbow cards using box-shadows 👉 <a target=\"_blank\" href=\"https://fossheim.io/writing/posts/css-box-shadow-animation/\" title=\"https://fossheim.io/writing/posts/css-box-shadow-animation/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>fossheim.io/writing/posts/</span><span class=\"u-visually-hidden\">css-box-shadow-animation/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/zLGQmnKRfb\" rel=\"nofollow\">https://t.co/zLGQmnKRfb</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-13T16:51:27.000Z",
-    "human_time": "Mar 13",
-    "user": {
-      "name": "Sarah L. Fossheim",
-      "screen_name": "liatrisbian"
-    },
-    "id_str": "1238507979013529602"
-  },
-  {
-    "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/WhatNathSaid\" data-screen-name=\"WhatNathSaid\" rel=\"nofollow\">@WhatNathSaid</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/GNev2\" data-screen-name=\"GNev2\" rel=\"nofollow\">@GNev2</a> 25 pts clear so to make it fair a play off final Liverpool v city but city have 4 men on the pitch 🤷🏻‍♂️</p>",
-    "type": "like",
-    "iso_time": "2020-03-12T22:39:44.000Z",
-    "human_time": "Mar 12",
-    "user": {
-      "name": "Nath",
-      "screen_name": "Nathanielhodgk1"
-    },
-    "id_str": "1238233240944738307"
-  },
-  {
-    "text": "<p>Our latest work, made in collaboration with <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/WrayAndNephewUK\" data-screen-name=\"WrayAndNephewUK\" rel=\"nofollow\">@WrayAndNephewUK</a> 💛💚</p>\n<p>See it live → <a target=\"_blank\" href=\"http://straightfromyard.co.uk\" title=\"http://straightfromyard.co.uk\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>straightfromyard.co.uk</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/Y0h5fFdagm\" rel=\"nofollow\">https://t.co/Y0h5fFdagm</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-12T11:32:34.000Z",
-    "human_time": "Mar 12",
-    "user": {
-      "name": "GC",
-      "screen_name": "CraftedbyGC"
-    },
-    "id_str": "1238065341944795137"
-  },
-  {
-    "text": "<p>I'm not too happy with most of the Table of Contents WordPress plugins. So I created my own!</p>\n<p>This Table of Contents can be inserted into any post or page as an <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/wp_acf\" data-screen-name=\"wp_acf\" rel=\"nofollow\">@wp_acf</a>  <a target=\"_blank\" href=\"https://twitter.com/search?q=%23Gutenberg\" title=\"#Gutenberg\" class=\"tweet-url hashtag\" rel=\"nofollow\">#Gutenberg</a> block and updates live as you edit your content using <a target=\"_blank\" href=\"http://wp.data\" title=\"http://wp.data\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>wp.data</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a>.subscribe() function <a target=\"_blank\" href=\"https://t.co/Kk9XyazOBt\" rel=\"nofollow\">https://t.co/Kk9XyazOBt</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-12T02:18:52.000Z",
-    "human_time": "Mar 12",
-    "user": {
-      "name": "Joseph Farruggio",
-      "screen_name": "Joey_Farruggio"
-    },
-    "id_str": "1237925997867139072"
-  },
-  {
-    "text": "<p>Piccalilli #33 should be on its way to your inboxes 💌</p>\n<p>This week, it features work by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/themarkup\" data-screen-name=\"themarkup\" rel=\"nofollow\">@themarkup</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/lynnandtonic\" data-screen-name=\"lynnandtonic\" rel=\"nofollow\">@lynnandtonic</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/trysmudford\" data-screen-name=\"trysmudford\" rel=\"nofollow\">@trysmudford</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/j98\" data-screen-name=\"j98\" rel=\"nofollow\">@j98</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/sarah_edo\" data-screen-name=\"sarah_edo\" rel=\"nofollow\">@sarah_edo</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/liatrisbian\" data-screen-name=\"liatrisbian\" rel=\"nofollow\">@liatrisbian</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/cassiecodes\" data-screen-name=\"cassiecodes\" rel=\"nofollow\">@cassiecodes</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/cobra_winfrey\" data-screen-name=\"cobra_winfrey\" rel=\"nofollow\">@cobra_winfrey</a>, <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Mandy_Kerr\" data-screen-name=\"Mandy_Kerr\" rel=\"nofollow\">@Mandy_Kerr</a> and <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/aaroniker_me\" data-screen-name=\"aaroniker_me\" rel=\"nofollow\">@aaroniker_me</a> </p>\n<p><a target=\"_blank\" href=\"https://piccalil.li/newsletter/33/\" title=\"https://piccalil.li/newsletter/33/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>piccalil.li/newsletter/33/</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "type": "like",
-    "iso_time": "2020-03-10T11:27:58.000Z",
-    "human_time": "Mar 10",
-    "user": {
-      "name": "Piccalilli",
-      "screen_name": "piccalilli_"
-    },
-    "id_str": "1237339408929619969"
-  },
-  {
-    "text": "<p>It took 26 hours but I made it to Minneapolis! </p>\n<p>And my hotel room is insane. Never seen a hotel room with STAIRS before what the heck?? <a target=\"_blank\" href=\"https://t.co/f7fhdj9hAs\" rel=\"nofollow\">https://t.co/f7fhdj9hAs</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-10T08:01:31.000Z",
-    "human_time": "Mar 10",
-    "user": {
-      "name": "Emma Bostian 🐞",
-      "screen_name": "EmmaBostian"
-    },
-    "id_str": "1237287453360357376"
-  },
-  {
-    "text": "<p>Me trying not to touch my face while working <a target=\"_blank\" href=\"https://t.co/A4PuG3YWiD\" rel=\"nofollow\">https://t.co/A4PuG3YWiD</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-09T23:04:57.000Z",
-    "human_time": "Mar 9",
-    "user": {
-      "name": "Cassidy Williams",
-      "screen_name": "cassidoo"
-    },
-    "id_str": "1237152422448869376"
-  },
-  {
-    "text": "<p>“You will be much more successful if you discover the main journeys that customers are on and design for them.” This weekend I finished reading “Top Tasks” by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/gerrymcgovern\" data-screen-name=\"gerrymcgovern\" rel=\"nofollow\">@gerrymcgovern</a>. An excellent how-to guide on the top tasks methodology. <a target=\"_blank\" href=\"https://twitter.com/search?q=%23UX\" title=\"#UX\" class=\"tweet-url hashtag\" rel=\"nofollow\">#UX</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23UserExperience\" title=\"#UserExperience\" class=\"tweet-url hashtag\" rel=\"nofollow\">#UserExperience</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23design\" title=\"#design\" class=\"tweet-url hashtag\" rel=\"nofollow\">#design</a> <a target=\"_blank\" href=\"https://t.co/qB1Qc1CtmT\" rel=\"nofollow\">https://t.co/qB1Qc1CtmT</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-09T22:48:06.000Z",
-    "human_time": "Mar 9",
-    "user": {
-      "name": "Jamie Umak",
-      "screen_name": "JamieUmak"
-    },
-    "id_str": "1237148181873471489"
-  },
-  {
-    "text": "<p>Y’all.. I have like 30 houseplants... tell me why I’m going plant shopping... my spirit is telling me I need more. <a target=\"_blank\" href=\"https://t.co/TioDjxx0ud\" rel=\"nofollow\">https://t.co/TioDjxx0ud</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-08T20:54:08.000Z",
-    "human_time": "Mar 8",
-    "user": {
-      "name": "Timothy Bardlavens",
-      "screen_name": "iThink_iDesign"
-    },
-    "id_str": "1236757115458523137"
-  },
-  {
-    "text": "<p>I keep on experimenting with motion effects in Procreate app. This time I came up with an asteroid which got carried away from more classic style into something new for me. And this one was tough to create, I hope you will like the motion! ☄️💜 <a target=\"_blank\" href=\"https://t.co/sCZaAUGc1V\" rel=\"nofollow\">https://t.co/sCZaAUGc1V</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-08T13:12:28.000Z",
-    "human_time": "Mar 8",
-    "user": {
-      "name": "Alex Kunchevsky",
-      "screen_name": "kunchevsky"
-    },
-    "id_str": "1236640930402189312"
-  },
-  {
-    "text": "<p>Ok Auto Layout is changing the way I design 🤯 <a target=\"_blank\" href=\"https://t.co/WyTqinb2vq\" rel=\"nofollow\">https://t.co/WyTqinb2vq</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-06T21:33:27.000Z",
-    "human_time": "Mar 6",
-    "user": {
-      "name": "Meng To",
-      "screen_name": "MengTo"
-    },
-    "id_str": "1236042232131657730"
-  },
-  {
-    "text": "<p>In my writing, I’ve almost completely switched from “you” to “we”—I find it more engaging.</p>\n<p>Example:\n– Before: “If a property can be omitted, you put a question mark after its name.”\n– After: “If a property can be omitted, we put a question mark after its name.”</p>",
-    "type": "like",
-    "iso_time": "2020-03-06T17:26:48.000Z",
-    "human_time": "Mar 6",
-    "user": {
-      "name": "Axel Rauschmayer",
-      "screen_name": "rauschma"
-    },
-    "id_str": "1235980161939619840"
-  },
-  {
-    "text": "<p>The way charts are designed has a big impact on perception. Mapping COVID-19, responsibly \n<a target=\"_blank\" href=\"https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/\" title=\"https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>esri.com/arcgis-blog/pr</span><span class=\"u-visually-hidden\">oducts/product/mapping/mapping-coronavirus-responsibly/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/4WMdrLuFKA\" rel=\"nofollow\">https://t.co/4WMdrLuFKA</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-06T02:40:09.000Z",
-    "human_time": "Mar 6",
-    "user": {
-      "name": "Owen Williams ⚡",
-      "screen_name": "ow"
-    },
-    "id_str": "1235757028926201857"
-  },
-  {
-    "text": "<p>They definitely could get a ring in here &gt;_&gt; <a target=\"_blank\" href=\"https://t.co/v4joXWRoV0\" rel=\"nofollow\">https://t.co/v4joXWRoV0</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-05T16:54:22.000Z",
-    "human_time": "Mar 5",
-    "user": {
-      "name": "Chris",
-      "screen_name": "GreatBashHeel"
-    },
-    "id_str": "1235609611933188097"
-  },
-  {
-    "text": "<p>Loving this thread! Go in-depth on how <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/asallen\" data-screen-name=\"asallen\" rel=\"nofollow\">@asallen</a> used Figma to design a 24-hour analog clock for his kids. <a target=\"_blank\" href=\"https://twitter.com/asallen/status/1235268950482513920\" title=\"https://twitter.com/asallen/status/1235268950482513920\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/asallen/status</span><span class=\"u-visually-hidden\">/1235268950482513920</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "type": "like",
-    "iso_time": "2020-03-05T01:27:08.000Z",
-    "human_time": "Mar 5",
-    "user": {
-      "name": "Figma",
-      "screen_name": "figmadesign"
-    },
-    "id_str": "1235376265000939520"
-  },
-  {
-    "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/gruber\" data-screen-name=\"gruber\" rel=\"nofollow\">@gruber</a> Except Messenger wasn’t a React Native app. 🤷‍♂️</p>",
-    "type": "like",
-    "iso_time": "2020-03-03T19:11:47.000Z",
-    "human_time": "Mar 3",
-    "user": {
-      "name": "Dan Abramov",
-      "screen_name": "dan_abramov"
-    },
-    "id_str": "1234919417693130754"
-  },
-  {
-    "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/ebbo\" data-screen-name=\"ebbo\" rel=\"nofollow\">@ebbo</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/schteppe\" data-screen-name=\"schteppe\" rel=\"nofollow\">@schteppe</a> can't show it right now, it's a work project im working on. super early stage. but i'll share full sources when im done.</p>",
-    "type": "like",
-    "iso_time": "2020-03-03T15:22:07.000Z",
-    "human_time": "Mar 3",
-    "user": {
-      "name": "Paul Henschel",
-      "screen_name": "0xca0a"
-    },
-    "id_str": "1234861622113513472"
-  },
-  {
-    "text": "<p>Damn. It has been only two days since I shared the cannon.js + gpu instancing experiment and we already have a react component that makes it reusable and moves the physics out of the main thread 🤯\n<a target=\"_blank\" href=\"https://twitter.com/search?q=%23opensource\" title=\"#opensource\" class=\"tweet-url hashtag\" rel=\"nofollow\">#opensource</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23webcommunity\" title=\"#webcommunity\" class=\"tweet-url hashtag\" rel=\"nofollow\">#webcommunity</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23ftw\" title=\"#ftw\" class=\"tweet-url hashtag\" rel=\"nofollow\">#ftw</a> <a target=\"_blank\" href=\"https://twitter.com/0xca0a/status/1234840102049865736\" title=\"https://twitter.com/0xca0a/status/1234840102049865736\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/0xca0a/status/</span><span class=\"u-visually-hidden\">1234840102049865736</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "type": "like",
-    "iso_time": "2020-03-03T14:18:02.000Z",
-    "human_time": "Mar 3",
-    "user": {
-      "name": "Mr.doob",
-      "screen_name": "mrdoob"
-    },
-    "id_str": "1234845491696816128"
-  },
-  {
-    "text": "<p>Singapore is getting praised for its handling of COVID-19, but Taiwan deserves credit too, particularly as an example of a society that is open and free and handling the outbreak well because of it.</p>",
-    "type": "like",
-    "iso_time": "2020-03-03T07:30:24.000Z",
-    "human_time": "Mar 3",
-    "user": {
-      "name": "Ben Thompson",
-      "screen_name": "benthompson"
-    },
-    "id_str": "1234742908080648193"
-  },
-  {
-    "text": "<p>Design: who knew being unsatisfied with everything could be a career?</p>",
-    "type": "like",
-    "iso_time": "2020-03-03T07:03:39.000Z",
-    "human_time": "Mar 3",
-    "user": {
-      "name": "Halli",
-      "screen_name": "iamharaldur"
-    },
-    "id_str": "1234736175941709824"
-  },
-  {
-    "text": "<p>📱👨‍🔧👩‍🏭👷‍♂️👳‍♂️🧕👨‍💼\nWe're pretty happy to have helped our friends from <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/bigspringio\" data-screen-name=\"bigspringio\" rel=\"nofollow\">@bigspringio</a> relaunch <a target=\"_blank\" href=\"http://bigspring.io\" title=\"http://bigspring.io\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>bigspring.io</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> with a little dose of <a target=\"_blank\" href=\"https://twitter.com/search?q=%23scrollytelling\" title=\"#scrollytelling\" class=\"tweet-url hashtag\" rel=\"nofollow\">#scrollytelling</a> <a target=\"_blank\" href=\"https://t.co/7pJbhHGnaS\" rel=\"nofollow\">https://t.co/7pJbhHGnaS</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-02T09:23:13.000Z",
-    "human_time": "Mar 2",
-    "user": {
-      "name": "Dogstudio",
-      "screen_name": "Dogstudio"
-    },
-    "id_str": "1234408914063708161"
-  },
-  {
-    "text": "<p>Just a little fun with Google's Quick Draw dataset, <a target=\"_blank\" href=\"https://twitter.com/search?q=%23penplotter\" title=\"#penplotter\" class=\"tweet-url hashtag\" rel=\"nofollow\">#penplotter</a> drawing 1,026 spiders. <a target=\"_blank\" href=\"https://twitter.com/search?q=%23axidraw\" title=\"#axidraw\" class=\"tweet-url hashtag\" rel=\"nofollow\">#axidraw</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23plottertwitter\" title=\"#plottertwitter\" class=\"tweet-url hashtag\" rel=\"nofollow\">#plottertwitter</a> <a target=\"_blank\" href=\"https://t.co/mDrD3Dc1mP\" rel=\"nofollow\">https://t.co/mDrD3Dc1mP</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-01T21:58:35.000Z",
-    "human_time": "Mar 1",
-    "user": {
-      "name": "Rev Dan Catt",
-      "screen_name": "revdancatt"
-    },
-    "id_str": "1234236619705724928"
-  },
-  {
-    "text": "<p>Last year, I designed a desk and some shelving for an alcove, sent the SketchUp files to a carpenter, and they've just finished building and installing them. 🤩 <a target=\"_blank\" href=\"https://t.co/cauhsyunl9\" rel=\"nofollow\">https://t.co/cauhsyunl9</a></p>",
-    "type": "like",
-    "iso_time": "2020-03-01T18:32:20.000Z",
-    "human_time": "Mar 1",
-    "user": {
-      "name": "Anna Debenham",
-      "screen_name": "anna_debenham"
-    },
-    "id_str": "1234184712605880320"
-  },
-  {
-    "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/netmag\" data-screen-name=\"netmag\" rel=\"nofollow\">@netmag</a> Thinking, Fast and Slow by Daniel Kahneman — an absolute classic and invaluable for designers.</p>\n<p>The Design of Everyday Things by Don Norman — another design/psychology staple, and one that changed how I think about design.</p>\n<p>Designing for Emotion by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/aarron\" data-screen-name=\"aarron\" rel=\"nofollow\">@aarron</a> — another personal fav.</p>",
-    "type": "like",
-    "iso_time": "2020-02-29T12:58:21.000Z",
-    "human_time": "Feb 29",
-    "user": {
-      "name": "Jon Yablonski",
-      "screen_name": "JonYablonski"
-    },
-    "id_str": "1233738274612617217"
   }
 ]

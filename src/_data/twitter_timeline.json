@@ -1,5 +1,82 @@
 [
   {
+    "text": "<p>You don't need to pick anyone's brain anymore about startups. This is 10x more information than I had when I started out: <a target=\"_blank\" href=\"https://www.startupschool.org/library\" title=\"https://www.startupschool.org/library\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>startupschool.org/library</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>\n<p>The onus is on you! You got this. 💪</p>",
+    "type": "retweet",
+    "iso_time": "2020-06-17T19:44:28.000Z",
+    "human_time": "Jun 17",
+    "user": {
+      "name": "Suhail",
+      "screen_name": "Suhail"
+    },
+    "id_str": "1273340757668016128"
+  },
+  {
+    "text": "<p>Pancake charts – a server-rendered charting library in svelte js <a target=\"_blank\" href=\"https://twitter.com/Rich_Harris/status/1273307392260833281\" title=\"https://twitter.com/Rich_Harris/status/1273307392260833281\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/Rich_Harris/st</span><span class=\"u-visually-hidden\">atus/1273307392260833281</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
+    "type": "tweet",
+    "iso_time": "2020-06-17T18:23:13.000Z",
+    "human_time": "Jun 17",
+    "user": {
+      "name": "Dale Stillman",
+      "screen_name": "dalestillmane"
+    },
+    "id_str": "1273320308230029327"
+  },
+  {
+    "text": "<p>Today we open HEY up to the world. It’s <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Basecamp\" data-screen-name=\"Basecamp\" rel=\"nofollow\">@Basecamp</a>’s take on email: <a target=\"_blank\" href=\"https://hey.com/how-it-works\" title=\"https://hey.com/how-it-works\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>hey.com/how-it-works</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
+    "type": "retweet",
+    "iso_time": "2020-06-15T19:13:03.000Z",
+    "human_time": "Jun 15",
+    "user": {
+      "name": "Sam Stephenson",
+      "screen_name": "sstephenson"
+    },
+    "id_str": "1272608076433166336"
+  },
+  {
+    "text": "<p>Let's do a giveaway for my new ebook Start Freelancing Today! Like+RT this tweet and I'll pick a winner randomly this evening (let's say 8 PM ET). 🎉</p>\n<p><a target=\"_blank\" href=\"http://startfreelancing.today\" title=\"http://startfreelancing.today\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>startfreelancing.today</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
+    "type": "retweet",
+    "iso_time": "2020-06-15T17:02:58.000Z",
+    "human_time": "Jun 15",
+    "user": {
+      "name": "Kelly Vaughn 🐞",
+      "screen_name": "kvlly"
+    },
+    "id_str": "1272575336413384710"
+  },
+  {
+    "text": "<p>People who say - authorities should take statues down after discussion. Yes. But it isn't happening. Bristol'sbeen debating <a target=\"_blank\" href=\"https://twitter.com/search?q=%23EdwardColston\" title=\"#EdwardColston\" class=\"tweet-url hashtag\" rel=\"nofollow\">#EdwardColston</a> for years and wasn't getting anywhere. In 2018, it was agreed that statue would bear a plaque noting his involvement in the slave trade. BUT</p>",
+    "type": "retweet",
+    "iso_time": "2020-06-07T19:30:35.000Z",
+    "human_time": "Jun 7",
+    "user": {
+      "name": "Prof Kate Williams",
+      "screen_name": "KateWilliamsme"
+    },
+    "id_str": "1269713381973516290"
+  },
+  {
+    "text": "<p>Web development just got a lot less complicated.\nIntroducing Snowpack V2\n<a target=\"_blank\" href=\"http://www.snowpack.dev\" title=\"http://www.snowpack.dev\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://www.</span><span class='js-display-url'>snowpack.dev</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>\n<p>👇 Quick thread on what this means for the web: <a target=\"_blank\" href=\"https://t.co/84gtVCINhJ\" rel=\"nofollow\">https://t.co/84gtVCINhJ</a></p>",
+    "type": "retweet",
+    "iso_time": "2020-05-05T19:13:10.000Z",
+    "human_time": "May 5",
+    "user": {
+      "name": "fks",
+      "screen_name": "FredKSchott"
+    },
+    "id_str": "1257750199457296385"
+  },
+  {
+    "text": "<p>Facts about American Policing that will Blow Your Mind:</p>\n<p>1) US Police kill roughly 1,000 Americans per year - 3 lives extinguished every DAY \n2) The UK average is 3 per YEAR &amp; in 2018 Denmark’s police killed no one. Zero. They literally let everyone live</p>",
+    "type": "retweet",
+    "iso_time": "2020-06-02T14:11:11.000Z",
+    "human_time": "Jun 2",
+    "user": {
+      "name": "Lee Camp [Redacted]",
+      "screen_name": "LeeCamp"
+    },
+    "id_str": "1267821066576990213"
+  },
+  {
     "text": "<p><a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/skanwar\" data-screen-name=\"skanwar\" rel=\"nofollow\">@skanwar</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Shopify\" data-screen-name=\"Shopify\" rel=\"nofollow\">@Shopify</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/Facebook\" data-screen-name=\"Facebook\" rel=\"nofollow\">@Facebook</a> 😬😬😬 in the main footer is a big shift. I spent a lot of time in social commerce and this is significant - a tipping point. Media is commerce, commerce is media. <a target=\"_blank\" href=\"https://t.co/s7Varp7eWu\" rel=\"nofollow\">https://t.co/s7Varp7eWu</a></p>",
     "type": "retweet",
     "iso_time": "2020-05-19T17:45:18.000Z",
@@ -20,17 +97,6 @@
       "screen_name": "kvlly"
     },
     "id_str": "1262792962817298434"
-  },
-  {
-    "text": "<p>🎉 Win a copy of Start Freelancing Today! 🎉</p>\n<p>I'm giving away THREE copies of my new freelancing ebook to be released on June 1, 2020!</p>\n<p>Like + RT this tweet to enter.</p>\n<p>I'll choose three random winners Sunday, May 17 at 8 PM ET.</p>\n<p><a target=\"_blank\" href=\"http://startfreelancing.today\" title=\"http://startfreelancing.today\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>startfreelancing.today</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "type": "retweet",
-    "iso_time": "2020-05-16T15:49:46.000Z",
-    "human_time": "May 16",
-    "user": {
-      "name": "Kelly Vaughn 🐞",
-      "screen_name": "kvlly"
-    },
-    "id_str": "1261685280584728578"
   },
   {
     "text": "<p>Holy wow. <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/taylorcdixon\" data-screen-name=\"taylorcdixon\" rel=\"nofollow\">@taylorcdixon</a> took apart an iPad Magic Keyboard trackpad and the way the click-anyway button works is fascinating! The button electronics are on the top and there’s clever metal lever system underneath that clicks UP no matter where you press <a target=\"_blank\" href=\"https://www.ifixit.com/News/41291/dang-the-ipad-pro-magic-keyboard-looks-cool-in-x-rays\" title=\"https://www.ifixit.com/News/41291/dang-the-ipad-pro-magic-keyboard-looks-cool-in-x-rays\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>ifixit.com/News/41291/dan</span><span class=\"u-visually-hidden\">g-the-ipad-pro-magic-keyboard-looks-cool-in-x-rays</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/dyp9OBDmBq\" rel=\"nofollow\">https://t.co/dyp9OBDmBq</a></p>",
@@ -170,7 +236,7 @@
     "iso_time": "2019-12-18T11:55:49.000Z",
     "human_time": "Dec 18, 2019",
     "user": {
-      "name": "Luis Henrique Bizarro 💫",
+      "name": "𝔏𝔲𝔦𝔰 ℌ𝔢𝔫𝔯𝔦𝔮𝔲𝔢 𝔅𝔦𝔷𝔞𝔯𝔯𝔬 💫",
       "screen_name": "lhbzr"
     },
     "id_str": "1207268223453978630"
@@ -203,7 +269,7 @@
     "iso_time": "2019-12-06T14:40:03.000Z",
     "human_time": "Dec 6, 2019",
     "user": {
-      "name": "Pavel",
+      "name": "pavel.uxd",
       "screen_name": "paveluxd"
     },
     "id_str": "1202960900031942656"
@@ -830,7 +896,7 @@
     "iso_time": "2019-02-26T02:33:56.000Z",
     "human_time": "Feb 26, 2019",
     "user": {
-      "name": "inside man 🪑🖥",
+      "name": "🚕",
       "screen_name": "bobby"
     },
     "id_str": "1100222401885937664"
@@ -896,7 +962,7 @@
     "iso_time": "2019-01-28T18:26:33.000Z",
     "human_time": "Jan 28, 2019",
     "user": {
-      "name": "Monica Dinculescu",
+      "name": "Monica",
       "screen_name": "notwaldorf"
     },
     "id_str": "1089952887659057154"
@@ -1633,7 +1699,7 @@
     "iso_time": "2018-03-21T19:08:18.000Z",
     "human_time": "Mar 21, 2018",
     "user": {
-      "name": "Zach Leatherman 🌄",
+      "name": "Zach Leatherman",
       "screen_name": "zachleat"
     },
     "id_str": "976535994781650944"
@@ -1648,126 +1714,5 @@
       "screen_name": "thogge"
     },
     "id_str": "974487390617088000"
-  },
-  {
-    "text": "<p>Finally! Google is taking learnings from AMP and are working on web standards to allow instant loading &amp; Google Search features for *all* web content.</p>\n<p><a target=\"_blank\" href=\"https://goo.gl/pB1ejN\" title=\"https://goo.gl/pB1ejN\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>goo.gl/pB1ejN</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "type": "retweet",
-    "iso_time": "2018-03-08T17:19:26.000Z",
-    "human_time": "Mar 8, 2018",
-    "user": {
-      "name": "Addy Osmani",
-      "screen_name": "addyosmani"
-    },
-    "id_str": "971797554231877632"
-  },
-  {
-    "text": "<p>1/ I’ve collected tons of career advice. </p>\n<p>Here’s the best of the best. </p>\n<p>👇 Thread 👇</p>",
-    "type": "retweet",
-    "iso_time": "2018-02-24T14:06:52.000Z",
-    "human_time": "Feb 24, 2018",
-    "user": {
-      "name": "ᴅᴀᴠɪᴅ ᴘᴇʀᴇʟʟ ✌",
-      "screen_name": "david_perell"
-    },
-    "id_str": "967400436914446336"
-  },
-  {
-    "text": "<p>Netflix moves to a bottom nav bar on Android (&amp; iOS).</p>\n<p>Why? Obvious always wins: <a target=\"_blank\" href=\"https://www.lukew.com/ff/entry.asp?1962\" title=\"https://www.lukew.com/ff/entry.asp?1962\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>lukew.com/ff/entry.asp?1</span><span class=\"u-visually-hidden\">962</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/iEtnPEeETE\" rel=\"nofollow\">https://t.co/iEtnPEeETE</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-02-26T21:43:34.000Z",
-    "human_time": "Feb 26, 2018",
-    "user": {
-      "name": "Luke Wroblewski",
-      "screen_name": "LukeW"
-    },
-    "id_str": "968240144296787969"
-  },
-  {
-    "text": "<p>The 3rd edition of Eloquent JavaScript is now the definitive edition! <a target=\"_blank\" href=\"https://eloquentjavascript.net/\" title=\"https://eloquentjavascript.net/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>eloquentjavascript.net</span><span class=\"u-visually-hidden\">/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "type": "retweet",
-    "iso_time": "2018-02-26T11:19:52.000Z",
-    "human_time": "Feb 26, 2018",
-    "user": {
-      "name": "Marijn Haverbeke",
-      "screen_name": "MarijnJH"
-    },
-    "id_str": "968083185916628992"
-  },
-  {
-    "text": "<p>My first GDS blog! How we've approached Typography and Spacing in <a target=\"_blank\" href=\"http://GOV.UK\" title=\"http://GOV.UK\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>GOV.UK</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> Frontend <a target=\"_blank\" href=\"https://designnotes.blog.gov.uk/2018/02/19/developing-new-typography-and-spacing-for-gov-uk-frontend/\" title=\"https://designnotes.blog.gov.uk/2018/02/19/developing-new-typography-and-spacing-for-gov-uk-frontend/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>designnotes.blog.gov.uk/2018/02/19/dev</span><span class=\"u-visually-hidden\">eloping-new-typography-and-spacing-for-gov-uk-frontend/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "type": "retweet",
-    "iso_time": "2018-02-19T13:58:11.000Z",
-    "human_time": "Feb 19, 2018",
-    "user": {
-      "name": "Dave House",
-      "screen_name": "iknowdavehouse"
-    },
-    "id_str": "965586312928612352"
-  },
-  {
-    "text": "<p>Just completed this...can’t wait for next!....Naval Ravikant's Second Periscope - 02/12/2018 <a target=\"_blank\" href=\"http://youtu.be/PEGTfXngUWg\" title=\"http://youtu.be/PEGTfXngUWg\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>youtu.be/PEGTfXngUWg</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> via <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/YouTube\" data-screen-name=\"YouTube\" rel=\"nofollow\">@YouTube</a> <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/naval\" data-screen-name=\"naval\" rel=\"nofollow\">@naval</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-02-17T16:15:28.000Z",
-    "human_time": "Feb 17, 2018",
-    "user": {
-      "name": "Baskar Ganapathy",
-      "screen_name": "BaskarG"
-    },
-    "id_str": "964896088099520515"
-  },
-  {
-    "text": "<p>A few notes on daily blogging <a target=\"_blank\" href=\"https://austinkleon.com/2017/11/20/a-few-notes-on-daily-blogging/\" title=\"https://austinkleon.com/2017/11/20/a-few-notes-on-daily-blogging/\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>austinkleon.com/2017/11/20/a-f</span><span class=\"u-visually-hidden\">ew-notes-on-daily-blogging/</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "type": "retweet",
-    "iso_time": "2018-02-17T06:07:12.000Z",
-    "human_time": "Feb 17, 2018",
-    "user": {
-      "name": "Adactio Links",
-      "screen_name": "adactioLinks"
-    },
-    "id_str": "964743009563799552"
-  },
-  {
-    "text": "<p>how to find usability issues: look for the “band-aids” <a target=\"_blank\" href=\"https://t.co/KMAZfQTQkY\" rel=\"nofollow\">https://t.co/KMAZfQTQkY</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-02-16T17:48:17.000Z",
-    "human_time": "Feb 16, 2018",
-    "user": {
-      "name": "Luke Wroblewski",
-      "screen_name": "LukeW"
-    },
-    "id_str": "964557057364975616"
-  },
-  {
-    "text": "<p>honestly can’t stop thinking about these guys being the three kinds of people in the world <a target=\"_blank\" href=\"https://t.co/UrUcj7YgA5\" rel=\"nofollow\">https://t.co/UrUcj7YgA5</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-02-14T03:29:40.000Z",
-    "human_time": "Feb 14, 2018",
-    "user": {
-      "name": "chelsea adelaine hassler",
-      "screen_name": "chelseaadelaine"
-    },
-    "id_str": "963616200675725313"
-  },
-  {
-    "text": "<p>Design system work posted by Yesenia Perez-Cruz is comprehensive and refreshing. <a target=\"_blank\" href=\"https://twitter.com/yeseniaa/status/925840684715782145\" title=\"https://twitter.com/yeseniaa/status/925840684715782145\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/yeseniaa/statu</span><span class=\"u-visually-hidden\">s/925840684715782145</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/ZawxZ2euoV\" rel=\"nofollow\">https://t.co/ZawxZ2euoV</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-02-11T06:01:00.000Z",
-    "human_time": "Feb 11, 2018",
-    "user": {
-      "name": "John Maeda",
-      "screen_name": "johnmaeda"
-    },
-    "id_str": "962567125251616768"
-  },
-  {
-    "text": "<p>It's the week of me remembering to upload slide decks!</p>\n<p>Here's my talk on Building Flexible Design Systems: <a target=\"_blank\" href=\"https://speakerdeck.com/yeseniaperezcruz/building-flexible-design-systems\" title=\"https://speakerdeck.com/yeseniaperezcruz/building-flexible-design-systems\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>speakerdeck.com/yeseniaperezcr</span><span class=\"u-visually-hidden\">uz/building-flexible-design-systems</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "type": "retweet",
-    "iso_time": "2017-11-01T21:43:15.000Z",
-    "human_time": "Nov 1, 2017",
-    "user": {
-      "name": "Yesenia Perez-Cruz",
-      "screen_name": "yeseniaa"
-    },
-    "id_str": "925840684715782145"
   }
 ]
