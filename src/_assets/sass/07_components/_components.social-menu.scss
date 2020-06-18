@@ -6,18 +6,12 @@
   margin: 0;
   height: 100%;
   list-style: none;
-  display: grid;
-  grid-template-columns: repeat(2, minmax(auto, 10rem));
-
-  @include mq($from: sm) {
-    grid-template-columns: repeat(4, min-content);
-  }
 }
 
 .c-social-menu__item {
   display: flex;
   align-items: center;
-  margin: 0 sp(xlarge) sp(large) 0;
+  margin: sp() 0 0;
   font-size: inherit;
 
   &:first-child {
@@ -36,34 +30,14 @@
     @include ms-respond(font-size, .75);
     font-weight: fw(semibold);
     line-height: 1.25;
-    transition: background-color $hover-transition;
 
     > svg {
-      @include ms-respond(width, 1);
-      @include ms-respond(height, 1);
-      transition: fill $hover-transition;
+      @include ms-respond(width, .75);
+      @include ms-respond(height, .75);
       @include theme-transition(fill);
       fill: sem-color(text);
+      margin-left: sp(xmicro);
       margin-right: sp(small);
-    }
-
-    &:hover,
-    &:focus {
-      background-color: var(--state-color-hover);
-
-      > svg {
-        fill: sem-color(text);
-      }
-    }
-
-    &:active {
-      background-color: var(--state-color-active);
-    }
-
-    @include focus-style {
-      outline: none;
-      box-shadow: 0 0 0 3px sem-color(link) inset;
-      background-color: sem-color(link, .375);
     }
 
   }

@@ -9,7 +9,7 @@ color_dark: "#1265bb"
 tags: blog
 ---
 
-I've spent a bit of time learning Docker using the official "Learn" tutorial that comes bundled with Docker Desktop. It's a great tutorial, and one I'd recommend them to anyone new to Docker. Here's my notes.
+I've spent a bit of time learning Docker using the official _Learn_ tutorial that comes bundled with Docker Desktop. It's a great tutorial, and one I'd recommend to anyone new to Docker. Here's my notes.
 
 ## About Docker
 
@@ -36,7 +36,7 @@ It will download the image and run it in a container, binding the local port 80 
 We can see which containers are running using `docker ps` (`docker ps -a` to include containers not currently running), stop containers using `docker stop`, start them again using  `docker start <container-name>`.
 
 ## Building container images
-We can build container images using a `Dockerfile`. A Dockerfile is simply a text-based script of instructions that is used to create a container image.
+We can build container images using a `Dockerfile`. A Dockerfile is a text-based script of instructions that is used to create a container image.
 
 ```
 FROM node:12-alpine
@@ -67,7 +67,7 @@ docker run -dp 3000:3000 getting-started
 There is two ways to persist data in Docker: Volumes and Bind Mounts.
 
 ### Volumes
-We can create volumes, which are managed by Docker and will stick around beyond the lifecycle of a container. We can create a named volume like this:
+Volumes are managed by Docker and will stick around beyond the lifecycle of a container. We can create a named volume like this:
 
 ```
 docker volume create todo-db
@@ -90,7 +90,7 @@ docker run -dp 3000:3000 \
 ```
 
 ## Docker Compose
-Creating a `docker-compose.yml` file lets us spin up multiple containers with specified configuration. It's a great for development and sharing container configurations. You can reference images on Docker Hub or a Dockerfile.
+Creating a `docker-compose.yml` file lets us spin up multiple containers with specified configuration. It's great for development and sharing container configurations. We can create containers from images on Docker Hub or a based on a Dockerfile.
 
 ```
 version: "3.7"
@@ -122,7 +122,7 @@ volumes:
   todo-mysql-data:
 ```
 
-Docker compose automatically creates a network, so we don't have to specify one. We can start up the application stack using the command
+Docker Compose automatically creates us a network, so we don't have to specify one. We can start up the application stack using the command:
 
 ```
 docker-compose up -d
@@ -131,7 +131,7 @@ docker-compose up -d
 and tear it down with `docker-compose down`, or `docker-compose down --volumes` to also remove the volumes.
 
 ## Next steps
-I still have a more to learn about containers, such as how best to use them in production. A simple way is to use `docker-compose` on a server, or use a project like [exoframe][4]. More comprehensive tools exist to manage, scale and orchestrate containers, such as Kubernetes, Swarm, Nomad, and ECS, but they can come with a steep learning curve.
+There's a lot more to learn about containers, including how best to use them in production. A straightforward way is to use `docker-compose` on a server, or use a project like [exoframe][4]. More comprehensive tools exist to manage, scale and orchestrate containers, such as Kubernetes, Swarm, Nomad, and ECS, but they can come with a steep learning curve.
 
 
 [1]: https://hub.docker.com/

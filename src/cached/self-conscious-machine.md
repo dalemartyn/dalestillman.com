@@ -4,7 +4,7 @@ tagline: "To replicate ourselves, we first have to embrace human error. Sci-fi w
 date: 2019-11-01T22:02:19+00:00
 noindex: true
 image:
-  json: /blog/how-to-build-a-self-concious-machine.json
+  json: /blog/how-to-build-a-self-conscious-machine.json
 color_light: "#26C6DA"
 color_dark: "#0097A7"
 ---
