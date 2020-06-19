@@ -65,6 +65,8 @@ exports.instagram = gulp.series(
   images.resize_instagram_images
 );
 
+exports.svgs = svgs.optimize;
+
 exports.img = gulp.series(
   svgs.optimize,
   images.resize_local_images,

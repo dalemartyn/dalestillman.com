@@ -352,5 +352,17 @@
     "title": "Podcasts - Category page",
     "node": "I1480:1459;81:12",
     "alt": "Tablet showing the business category page of the Podcasts app."
+  },
+  {
+    "project": "Baca",
+    "title": "Baca - How it works 1",
+    "node": "I1510:1569;1510:1556",
+    "alt": "iPad Pro showing the interactive \"how it works\" graphic."
+  },
+  {
+    "project": "Baca",
+    "title": "Baca - How it works 2",
+    "node": "I1510:1575;1510:1556",
+    "alt": "iPad Pro showing the interactive \"how it works\" graphic."
   }
 ]
