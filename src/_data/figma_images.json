@@ -355,14 +355,26 @@
   },
   {
     "project": "Baca",
-    "title": "Baca - How it works 1",
-    "node": "I1510:1569;1510:1556",
-    "alt": "iPad Pro showing the interactive \"how it works\" graphic."
+    "title": "Baca - The Journey 1",
+    "node": "I1519:1623;1510:1556",
+    "alt": "iPad Pro showing the interactive \"The Journey\" graphic."
   },
   {
     "project": "Baca",
-    "title": "Baca - How it works 2",
+    "title": "Baca - The Journey 2",
+    "node": "I1510:1569;1510:1556",
+    "alt": "iPad Pro showing the interactive \"The Journey\" graphic."
+  },
+  {
+    "project": "Baca",
+    "title": "Baca - The Journey 3",
     "node": "I1510:1575;1510:1556",
-    "alt": "iPad Pro showing the interactive \"how it works\" graphic."
+    "alt": "iPad Pro showing the interactive \"The Journey\" graphic."
+  },
+  {
+    "project": "Baca",
+    "title": "Baca - The Journey 4",
+    "node": "I1523:1640;1523:1637",
+    "alt": "iPad Pro showing the interactive \"The Journey\" graphic."
   }
 ]
