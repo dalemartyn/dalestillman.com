@@ -23,6 +23,11 @@
       <div class="o-wrapper">
         <div class="c-post__content">
           {{ content | safe }}
+          {% if not work_for %}
+          <p class="ts-meta u-margin-top-xlarge u-margin-bottom-xlarge">
+            <time class="ts-meta">{{ page.date | date_to_format("MMMM yyyy") }}</time>
+          </p>
+          {% endif %}
         </div>
       </div>
     </div>
