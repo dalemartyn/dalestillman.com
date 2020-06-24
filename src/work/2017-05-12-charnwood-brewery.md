@@ -6,6 +6,7 @@ image:
   json: /charnwood-brewery/charnwood-brewery.json
 color_light: "#99c5cc"
 color_dark: "#628e96"
+work_for: a dozen eggs
 ---
 
 I am a big fan of [Charnwood Brewery][1], having consumed a number of their beers in the local pubs. I like the artwork and the branding, which does a great job of conveying 'local' with its use of the mascot Clarence the fox (foxes being used as a symbol of the region). It's fun and playful, a well-designed brand that isn't taking itself too seriously. In fact, Charnwood Brewery was the main reason I joined _[a dozen eggs][2]_. So I was happy when I got the opportunity to build their new website not long after I joined.

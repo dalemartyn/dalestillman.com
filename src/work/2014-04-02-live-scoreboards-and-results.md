@@ -6,6 +6,7 @@ image:
   json: /live-scoreboards-and-results/live-scoreboards-and-results.json
 color_light: "#56bff4"
 color_dark: "#2483cb"
+work_for: The ASA
 ---
 
 At The ASA and British Swimming, we had many swimming events that we wanted to show results for directly on the swimming.org site. The results service was provided by the volunteers at SportSystems, and displayed on [www.swimmingresults.org.uk][1]. They did all the work at the venue to capture the swimming results, using many legacy systems based on Visual Basic. Unfortunately as volunteers they didn't have a lot of time to spend to help us get the results onto our site.

@@ -1,5 +1,5 @@
 {% if image %}
-<div class="o-wrapper-l u-margin-bottom-xlarge">
+<div class="o-wrapper-l {% if work_for %}u-margin-bottom-large{% else %}u-margin-bottom-xlarge{% endif %}">
   <div class="c-image-background u-rounded">
     <div class="c-work-main-image">
       <div class="o-ratio o-ratio--3:2">
@@ -11,5 +11,12 @@
       </div>
     </div>
   </div>
+  {% if work_for %}
+  <p class="u-margin-top-small c-work-project-info ts-meta">
+    I worked on this project
+    {% if freelance %}for{% else %}at{% endif %}
+    <em>{{work_for}}</em> in <time class="ts-meta">{{ page.date | date_to_format("MMMM yyyy") }}</time>.
+  </p>
+  {% endif %}
 </div>
 {% endif %}

@@ -8,6 +8,8 @@ image:
   json: /off-the-blocks/off-the-blocks.json
 color_light: "#3282C1"
 color_dark: "#19609C"
+work_for: British Swimming
+freelance: true
 ---
 
 British Swimming exists to win medals in the pool. To do so they need the best coaching.  As part of their National Development Syllabus they were producing a range of video resources to make available to all coaches in Great Britain. This post will look how I created a low maintenance, easy to use site that was in line with the British Swimming brand.

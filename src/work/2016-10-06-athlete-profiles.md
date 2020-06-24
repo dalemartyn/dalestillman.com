@@ -8,7 +8,7 @@ image:
   json: /athlete-profiles/athlete-profiles.json
 color_light: "#ce4e65"
 color_dark: "#8c2e44"
-
+work_for: The ASA
 ---
 
 By creating a new automated system, the laborious process of updating profiles was transformed into one that would enable quick and easy changes. The new system, backed by Google Sheets, enabled us create a larger amount of profiles, each one including more comprehensive stats. We also used the same backend to generate editorial 'ones to watch' widgets for a range of aquatic competitions.

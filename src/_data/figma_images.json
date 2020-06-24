@@ -376,5 +376,71 @@
     "title": "Baca - The Journey 4",
     "node": "I1523:1640;1523:1637",
     "alt": "iPad Pro showing the interactive \"The Journey\" graphic."
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - Industrial",
+    "node": "I1532:5;81:12",
+    "alt": "Tablet showing on the Brand Word Industrial"
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - How it works",
+    "node": "I1532:17;81:12",
+    "alt": "Tablet showing How it works on the Brand Words site"
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - Dashboard",
+    "node": "I1532:23;81:12",
+    "alt": "Tablet showing on the dashboard on the Brand Words site"
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - Complete",
+    "node": "I1532:29;81:12",
+    "alt": "Tablet showing on the complete screen on the Brand Words site"
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - Review",
+    "node": "I1532:47;81:12",
+    "alt": "Tablet showing the Brand Word Review screen"
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - Home",
+    "node": "I1532:53;81:12",
+    "alt": "Tablet showing on Brand Words home page"
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - First Word",
+    "node": "I1532:59;81:12",
+    "alt": "Tablet showing the first word with instructions how to use"
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - Refined",
+    "node": "I1532:65;81:12",
+    "alt": "Tablet showing the Brand Word \"Refined\""
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - Simple",
+    "node": "I1532:71;81:12",
+    "alt": "Tablet showing the Brand Word \"Simple\""
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - Progressive",
+    "node": "I1532:77;81:12",
+    "alt": "Tablet showing the Brand Word \"Progressive\""
+  },
+  {
+    "project": "Brand Words",
+    "title": "Brand Words - Mobile",
+    "node": "I1532:89;1523:1637",
+    "alt": "Mobile phones showing the Brand Words site"
   }
 ]

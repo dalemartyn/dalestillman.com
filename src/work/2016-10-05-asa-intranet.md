@@ -8,6 +8,7 @@ image:
   json: /asa-intranet/asa-intranet.json
 color_light: "#26C6DA"
 color_dark: "#0097A7"
+work_for: The ASA
 ---
 
 Company intranets can become neglected with poorly designed, overly complex interfaces that make it hard for employees to engage or find relevant content. By building from the ground up, we were able to create an intranet focused on internal communications. Allowing our colleagues to find out the latest staff news, website posts, and social media, along with important documents and how tos.

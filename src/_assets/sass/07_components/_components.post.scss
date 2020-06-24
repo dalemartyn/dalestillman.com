@@ -12,6 +12,10 @@
 
 }
 
+  .c-post__content > *:last-child {
+    margin-bottom: sp(xlarge);
+  }
+
 
   /**
    * Divider in between posts.

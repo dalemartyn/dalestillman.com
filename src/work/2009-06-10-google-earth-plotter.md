@@ -6,6 +6,7 @@ image:
   json: /google-earth-plotter/google-earth-plotter.json
 color_light: "#4C81BF"
 color_dark: "#37538C"
+work_for: Loughborough University
 ---
 
 This was my final year project for my Civil Engineering degree at Loughborough University. I created a computer program to plot surveying data measured with a [total station][1] (a digital measuring tool on a tripod) on Google Earth.
