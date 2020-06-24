@@ -67,13 +67,7 @@ The application works in two stages. First, you go through each word one-by-one 
   </div>
 </figure>
 
-<figure>
-  <div class="c-image-background u-rounded">
-    {% image "/brand-words/brand-words-home.json" %}
-  </div>
-</figure>
-
-You can use Brand Words at [_brand-words.co.uk_][1]. Or visit the [_a dozen eggs_ website for branding insights][2].
+You can use Brand Words at [brand-words.co.uk][1]. Or visit the [_a dozen eggs_ website for branding insights][2].
 
 [1]: https://brand-words.co.uk/ "Brand Words"
 [2]: https://www.adozeneggs.co.uk/insights/ "a dozen eggs Insights page"
