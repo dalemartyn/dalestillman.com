@@ -3,17 +3,48 @@ layout: default
 ---
 
 <div class="u-margin-top-xxlarge u-margin-bottom-xxlarge">
-  <div class="o-wrapper">
+  <div class="o-wrapper-l">
 
-    <div class="c-home-message ts-display-1">
-      <h1 class="ts-display-1 u-semibold u-margin-bottom-small">
-        Designer and developer
-      </h1>
-      <p class="ts-display-2 u-margin-top">
-        Say hello →
-        <a href="mailto:dale@dalestillman.com" class="c-link">dale@dalestillman.com</a>
-      </p>
+    <div class="c-home-hero">
+
+      <div class="c-home-hero__message">
+        <h1 class="c-home-hero__title u-margin-bottom-small">
+          Designer & developer.
+        </h1>
+      </div>
+
+      <div class="c-home-hero__images">
+        <div class="c-polaroid-layout">
+          {% for image in
+            [
+              "home/design",
+              "home/code",
+              "home/dale-profile"
+            ]
+          %}
+            {% set i = loop.index %}
+            <div class="c-polaroid-layout__item">
+              {% include "components/components.polaroid.html" %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
     </div>
 
   </div>
+  <div class="o-wrapper-l u-padding-top s-article">
+    <p class="ts-display-2 u-margin-top-xxlarge u-margin-bottom-tiny">
+      Email →
+      <a href="mailto:dale@dalestillman.com">dale@dalestillman.com</a>,
+    </p>
+    <p class="ts-display-2">
+      or take a look at <a href="https://drive.google.com/file/d/1CQMpHztxowXrWaZtynr8HXNhoD-JapKa/view"
+        target="_blank">my CV</a>.
+    </p>
+  </div>
 </div>
+
+{% block scripts %}
+  <script src="/js/parallax-images.js"></script>
+{% endblock %}

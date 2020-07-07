@@ -1,0 +1,9 @@
+{% if image %}
+<div class="c-polaroid js-polaroid-{{i}}">
+  <div class="c-polaroid__background o-ratio o-ratio--1:1">
+      <img src="{{ "/img/" + image + ".jpg" }}"
+        srcset="{{"/img/" + image + "@2x.jpg" }} 2x, {{"/img/" + image + ".jpg"}} 1x"
+        alt="{{ title }}" class="c-polaroid__img o-ratio__content" />
+  </div>
+</div>
+{% endif %}

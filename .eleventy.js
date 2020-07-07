@@ -15,6 +15,7 @@ module.exports = function (config) {
   config.addPassthroughCopy('src/favicon.png');
   config.addPassthroughCopy('src/twitter.svg');
   config.addPassthroughCopy('src/twitter-wide.svg');
+  config.addPassthroughCopy({ 'src/_assets/img/home': 'img/home' });
 
   config.addPlugin(syntaxHighlight, {
     templateFormats: ["njk", "md"],

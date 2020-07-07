@@ -1,0 +1,53 @@
+/* ==========================================================================
+   #POLAROID
+   ========================================================================== */
+
+:root {
+  --polaroid-width: 240px;
+  --polaroid-border: 8px;
+  --polaroid-border-bottom: 36px;
+  --polaroid-radius: var(--rounded-radius);
+
+  @include mq($until: 480px) {
+    --polaroid-width: #{240px * .5};
+    --polaroid-border: #{8px * .5};
+    --polaroid-border-bottom: #{36px * .5};
+    --polaroid-radius: calc(var(--rounded-radius) / 2);
+  }
+
+  @include mq($from: 480px, $until: lg) {
+    --polaroid-width: #{240px * .75};
+    --polaroid-border: #{8px * .75};
+    --polaroid-border-bottom: #{36px * .75};
+    --polaroid-radius: calc(var(--rounded-radius) / 2);
+  }
+}
+
+.c-polaroid {
+  width: var(--polaroid-width);
+  padding: var(--polaroid-border) var(--polaroid-border) var(--polaroid-border-bottom);
+  background-color: color("white");
+  box-shadow: var(--shadow-3);
+  @include theme-transition(box-shadow);
+  border-radius: var(--polaroid-radius);
+}
+
+  .c-polaroid__background {
+    background-color: color("blue-grey-900");
+    border-radius: calc(var(--polaroid-radius) / 1.5);
+  }
+
+  .c-polaroid__img {
+    border-radius: calc(var(--polaroid-radius) / 1.5);
+    opacity: 1;
+    filter: saturate(1);
+    transition:
+      opacity 1s $sharp-easing,
+      filter 1.5s $sharp-easing;
+
+    &.invisible {
+      opacity: 0;
+      filter: saturate(.2);
+      transition: none;
+    }
+  }

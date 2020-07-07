@@ -2,3 +2,6 @@
   for = "/fonts/*"
   [headers.values]
     Cache-Control = "max-age=31536000"
+  for = "/img/home/*"
+  [headers.values]
+    Cache-Control = "max-age=31536000"
