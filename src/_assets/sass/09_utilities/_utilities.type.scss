@@ -51,15 +51,8 @@
 }
 
 .ts-display-2 {
-  @include ms-respond(--font-size-display-2-a, 2.75);
-  @include ms-respond(--font-size-display-2-b, 2);
-  font-size: var(--font-size-display-2-a);
-  line-height: 1.2;
-  letter-spacing: -.005em;
-
-  @include mq($until: 480px) {
-    font-size: var(--font-size-display-2-b);
-  }
+  @include ms-respond(font-size, 2);
+  line-height: 1.4;
 }
 
 .ts-display-3 {

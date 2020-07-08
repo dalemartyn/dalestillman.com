@@ -3,7 +3,6 @@ device: laptop
 title: "ASA Intranet"
 date: 2016-10-05T18:44:17+01:00
 tagline: "A WordPress theme for internal communications"
-excerpt_separator: "<figure>"
 image:
   json: /asa-intranet/asa-intranet.json
 color_light: "#26C6DA"

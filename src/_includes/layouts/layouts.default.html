@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     {% if noindex %}<meta name="robots" content="noindex">{% endif %}
-    <title>{% if title %}{{ title }} / {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if excerpt %}{{ excerpt | strip_tags(true) | truncate(160) }}{% else %}{{ site.description }}{% endif %}">
+    <title>{% if title %}{{ title }} / {{ site.title }}{% else %}{{ site.title }} – designer & developer{% endif %}</title>
+    <meta name="description" content="{% if description %}{{description}}{% else %}{{ site.description }}{% endif %}">
     <meta name="theme-color" content="#263238" id="theme">
     <link rel="stylesheet" href="/css/{{ "main.css" | cssrev }}">
     <link rel="canonical" href="{{ site.url }}{{ page.url }}">

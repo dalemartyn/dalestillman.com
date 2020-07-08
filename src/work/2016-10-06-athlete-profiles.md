@@ -3,7 +3,6 @@ device: tablet
 title: "Athlete Profiles"
 date: 2016-10-06T22:05:19+01:00
 tagline: "Using Google Sheets as backend to rapidly generate athlete stats"
-excerpt_separator: "<figure>"
 image:
   json: /athlete-profiles/athlete-profiles.json
 color_light: "#ce4e65"

@@ -2,7 +2,6 @@
 device: laptop
 title: "Off the Blocks"
 date: 2016-10-07T09:49:35+01:00
-excerpt_separator: "##"
 tagline: A video site for swimming coaches
 image:
   json: /off-the-blocks/off-the-blocks.json
