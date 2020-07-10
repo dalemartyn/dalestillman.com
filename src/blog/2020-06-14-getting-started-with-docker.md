@@ -14,10 +14,10 @@ I've spent a bit of time learning Docker using the official _Learn_ tutorial tha
 ## About Docker
 
 ### Images
-An image is everything need to run (an application in) a container. It's a linux filesystem and any dependencies.
+An image is everything needed to run (an application in) a container. It's a linux filesystem and any dependencies.
 
 ### Containers
-Containers are isolated processes. You should generally run one process per container. So you can have a container for your mysql database, and a container for a nodejs application. Containers can communicate with each other using networking.
+Containers are isolated processes. You should generally run one process per container. For example, you can have one container for your mysql database and one for a nodejs application. Containers can communicate with each other using networking.
 
 ### Networking
 Containers can refer to each other based on their names, which resolve to their IP addresses on the docker network.
@@ -54,7 +54,7 @@ docker build -t getting-started .
 
 The `FROM` directive names the image which our new image is based upon, such as [node][2] version `12-alpine`. We can add new dependencies using the `RUN` directive, and specify which process runs using the `CMD` directive.
 
-Images are cached in 'layers', so you can use multiple `CMD` directives to speed up image builds. See [Docker best practices][3].
+Images are cached in 'layers', so you can use multiple `RUN` directives to speed up image builds. See [Docker best practices][3].
 
 ## Replacing containers
 If we make changes and rebuild our image, we have to remove the old container. The quickest way is `docker rm -f <the-container-id>`. Then we can run our new container using the updated image:
@@ -90,7 +90,7 @@ docker run -dp 3000:3000 \
 ```
 
 ## Docker Compose
-Creating a `docker-compose.yml` file lets us spin up multiple containers with specified configuration. It's great for development and sharing container configurations. We can create containers from images on Docker Hub or a based on a Dockerfile.
+Creating a `docker-compose.yml` file lets us spin up multiple containers with the specified configuration. It's great for development and to share container configurations. We can create containers from images on Docker Hub or a based on a Dockerfile.
 
 ```
 version: "3.7"
@@ -122,7 +122,7 @@ volumes:
   todo-mysql-data:
 ```
 
-Docker Compose automatically creates us a network, so we don't have to specify one. We can start up the application stack using the command:
+Docker Compose automatically creates a network, so we don't have to specify one. We can start up the application stack using the command:
 
 ```
 docker-compose up -d
