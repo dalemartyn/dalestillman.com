@@ -1,5 +1,71 @@
 [
   {
+    "text": "<p>Pricing freelancing projects. </p>\n<p>Everything I've learned.</p>\n<p>A thread.</p>",
+    "type": "retweet",
+    "iso_time": "2020-06-30T11:55:18.000Z",
+    "human_time": "Jun 30",
+    "user": {
+      "name": "Tom Hirst",
+      "screen_name": "tom_hirst"
+    },
+    "id_str": "1277933730078785537"
+  },
+  {
+    "text": "<p>New site <a target=\"_blank\" href=\"http://iA.net\" title=\"http://iA.net\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>iA.net</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> \nSome design backround info under <a target=\"_blank\" href=\"https://ia.net/topics/newsite\" title=\"https://ia.net/topics/newsite\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>ia.net/topics/newsite</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> \nFreshly squeezed, please @ us if you find issues</p>",
+    "type": "retweet",
+    "iso_time": "2020-06-29T14:02:27.000Z",
+    "human_time": "Jun 29",
+    "user": {
+      "name": "iA Inc.",
+      "screen_name": "iA"
+    },
+    "id_str": "1277603338654232576"
+  },
+  {
+    "text": "<p>Hi designers! Our team at <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/doist\" data-screen-name=\"doist\" rel=\"nofollow\">@doist</a> recreated the new Apple iOS 14 Widgets for you in <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/figmadesign\" data-screen-name=\"figmadesign\" rel=\"nofollow\">@figmadesign</a>. Here’s the community file to help you kickstart your designs. We hope it’s helpful 🖤 <a target=\"_blank\" href=\"https://www.figma.com/community/file/857332868558500566/Apple-Widgets-UI-Kit\" title=\"https://www.figma.com/community/file/857332868558500566/Apple-Widgets-UI-Kit\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>figma.com/community/file</span><span class=\"u-visually-hidden\">/857332868558500566/Apple-Widgets-UI-Kit</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/f2hDk7cwwz\" rel=\"nofollow\">https://t.co/f2hDk7cwwz</a></p>",
+    "type": "retweet",
+    "iso_time": "2020-06-23T19:05:53.000Z",
+    "human_time": "Jun 23",
+    "user": {
+      "name": "Alex 🌚 on vacation",
+      "screen_name": "alexmuench"
+    },
+    "id_str": "1275505373890428929"
+  },
+  {
+    "text": "<p>Source for the COVID-19 tracking app the UK government spent £12m and has totally failed to deliver anything that works. </p>\n<p>There have been a total of 18 commits. </p>\n<p>£666,6666 per commit.</p>\n<p><a target=\"_blank\" href=\"https://github.com/nhsx/COVID-19-app-iOS-BETA\" title=\"https://github.com/nhsx/COVID-19-app-iOS-BETA\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>github.com/nhsx/COVID-19-</span><span class=\"u-visually-hidden\">app-iOS-BETA</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
+    "type": "retweet",
+    "iso_time": "2020-06-24T06:33:59.000Z",
+    "human_time": "Jun 24",
+    "user": {
+      "name": "Duncan Lewis 🎮🏆",
+      "screen_name": "Duncan_Lewis"
+    },
+    "id_str": "1275678540382572551"
+  },
+  {
+    "text": "<p>🎉 Introducing 🎉 Reactions, a <a target=\"_blank\" href=\"https://twitter.com/search?q=%23macOS\" title=\"#macOS\" class=\"tweet-url hashtag\" rel=\"nofollow\">#macOS</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23screensaver\" title=\"#screensaver\" class=\"tweet-url hashtag\" rel=\"nofollow\">#screensaver</a> inspired by reaction diffusion. When activated, beautiful patterns grow and evolve to gradually fill the screen &amp; show the time. After every minute, it resets &amp; fun begins again. Buy: <a target=\"_blank\" href=\"https://www.syedrezaali.com/store/reactions-screen-saver\" title=\"https://www.syedrezaali.com/store/reactions-screen-saver\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>syedrezaali.com/store/reaction</span><span class=\"u-visually-hidden\">s-screen-saver</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23generative\" title=\"#generative\" class=\"tweet-url hashtag\" rel=\"nofollow\">#generative</a> <a target=\"_blank\" href=\"https://twitter.com/search?q=%23metalapi\" title=\"#metalapi\" class=\"tweet-url hashtag\" rel=\"nofollow\">#metalapi</a> <a target=\"_blank\" href=\"https://t.co/KTe8o9OMwF\" rel=\"nofollow\">https://t.co/KTe8o9OMwF</a></p>",
+    "type": "retweet",
+    "iso_time": "2020-06-19T22:10:40.000Z",
+    "human_time": "Jun 19",
+    "user": {
+      "name": "Reza Ali",
+      "screen_name": "RezaAli"
+    },
+    "id_str": "1274102325188034560"
+  },
+  {
+    "text": "<p>Good article on using Ansible for provisioning. <a target=\"_blank\" href=\"https://twitter.com/dliciousbrains/status/1273679873337430017\" title=\"https://twitter.com/dliciousbrains/status/1273679873337430017\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/dliciousbrains</span><span class=\"u-visually-hidden\">/status/1273679873337430017</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
+    "type": "tweet",
+    "iso_time": "2020-06-18T18:18:55.000Z",
+    "human_time": "Jun 18",
+    "user": {
+      "name": "Dale Stillman",
+      "screen_name": "dalestillmane"
+    },
+    "id_str": "1273681616263659521"
+  },
+  {
     "text": "<p>You don't need to pick anyone's brain anymore about startups. This is 10x more information than I had when I started out: <a target=\"_blank\" href=\"https://www.startupschool.org/library\" title=\"https://www.startupschool.org/library\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>startupschool.org/library</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>\n<p>The onus is on you! You got this. 💪</p>",
     "type": "retweet",
     "iso_time": "2020-06-17T19:44:28.000Z",
@@ -31,17 +97,6 @@
       "screen_name": "sstephenson"
     },
     "id_str": "1272608076433166336"
-  },
-  {
-    "text": "<p>Let's do a giveaway for my new ebook Start Freelancing Today! Like+RT this tweet and I'll pick a winner randomly this evening (let's say 8 PM ET). 🎉</p>\n<p><a target=\"_blank\" href=\"http://startfreelancing.today\" title=\"http://startfreelancing.today\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">http://</span><span class='js-display-url'>startfreelancing.today</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a></p>",
-    "type": "retweet",
-    "iso_time": "2020-06-15T17:02:58.000Z",
-    "human_time": "Jun 15",
-    "user": {
-      "name": "Kelly Vaughn 🐞",
-      "screen_name": "kvlly"
-    },
-    "id_str": "1272575336413384710"
   },
   {
     "text": "<p>People who say - authorities should take statues down after discussion. Yes. But it isn't happening. Bristol'sbeen debating <a target=\"_blank\" href=\"https://twitter.com/search?q=%23EdwardColston\" title=\"#EdwardColston\" class=\"tweet-url hashtag\" rel=\"nofollow\">#EdwardColston</a> for years and wasn't getting anywhere. In 2018, it was agreed that statue would bear a plaque noting his involvement in the slave trade. BUT</p>",
@@ -577,7 +632,7 @@
     "iso_time": "2019-07-21T18:01:16.000Z",
     "human_time": "Jul 21, 2019",
     "user": {
-      "name": "LFC USA (at 🏠)",
+      "name": "LFC USA (🏆)",
       "screen_name": "LFCUSA"
     },
     "id_str": "1153002014441443328"
@@ -632,7 +687,7 @@
     "iso_time": "2019-06-07T18:38:12.000Z",
     "human_time": "Jun 7, 2019",
     "user": {
-      "name": "Louie Mantia, Jr.",
+      "name": "Maybe: Louie Mantia",
       "screen_name": "Mantia"
     },
     "id_str": "1137066241992974336"
@@ -720,7 +775,7 @@
     "iso_time": "2019-04-25T13:05:47.000Z",
     "human_time": "Apr 25, 2019",
     "user": {
-      "name": "Alex 🌚",
+      "name": "Alex 🌚 on vacation",
       "screen_name": "alexmuench"
     },
     "id_str": "1121399908244819968"
@@ -896,7 +951,7 @@
     "iso_time": "2019-02-26T02:33:56.000Z",
     "human_time": "Feb 26, 2019",
     "user": {
-      "name": "🚕",
+      "name": "i ate the bones",
       "screen_name": "bobby"
     },
     "id_str": "1100222401885937664"
@@ -1061,7 +1116,7 @@
     "iso_time": "2018-12-18T22:35:47.000Z",
     "human_time": "Dec 18, 2018",
     "user": {
-      "name": "ᴅᴀᴠɪᴅ ᴘᴇʀᴇʟʟ ✌",
+      "name": "David Perell",
       "screen_name": "david_perell"
     },
     "id_str": "1075157707957723137"
@@ -1358,7 +1413,7 @@
     "iso_time": "2018-08-01T20:10:56.000Z",
     "human_time": "Aug 1, 2018",
     "user": {
-      "name": "zeldman",
+      "name": "zeldman ✺ Heroes wear masks.",
       "screen_name": "zeldman"
     },
     "id_str": "1024749340282290177"
@@ -1501,7 +1556,7 @@
     "iso_time": "2018-06-27T19:25:37.000Z",
     "human_time": "Jun 27, 2018",
     "user": {
-      "name": "zeldman",
+      "name": "zeldman ✺ Heroes wear masks.",
       "screen_name": "zeldman"
     },
     "id_str": "1012054361168474112"
@@ -1604,115 +1659,5 @@
       "screen_name": "joeyabanks"
     },
     "id_str": "990002130445635584"
-  },
-  {
-    "text": "<p>I ❤️ templates <a target=\"_blank\" href=\"https://twitter.com/jenny_wen/status/989635763649183744\" title=\"https://twitter.com/jenny_wen/status/989635763649183744\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>twitter.com/jenny_wen/stat</span><span class=\"u-visually-hidden\">us/989635763649183744</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "type": "retweet",
-    "iso_time": "2018-04-27T04:03:51.000Z",
-    "human_time": "Apr 27, 2018",
-    "user": {
-      "name": "Nicholas Jitkoff",
-      "screen_name": "alcor"
-    },
-    "id_str": "989716730594250753"
-  },
-  {
-    "text": "<p>Cinderblock (<a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/raind00gg\" data-screen-name=\"raind00gg\" rel=\"nofollow\">@raind00gg</a>), Noe Display (<a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/schicktoikka\" data-screen-name=\"schicktoikka\" rel=\"nofollow\">@schicktoikka</a>), and Atlas Grotesk (<a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/commercialtype\" data-screen-name=\"commercialtype\" rel=\"nofollow\">@commercialtype</a>) for the very handsome <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/GodfreyDadich\" data-screen-name=\"GodfreyDadich\" rel=\"nofollow\">@GodfreyDadich</a> website: <a target=\"_blank\" href=\"https://fontsinuse.com/uses/21198/godfrey-dadich-partners-website\" title=\"https://fontsinuse.com/uses/21198/godfrey-dadich-partners-website\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>fontsinuse.com/uses/21198/god</span><span class=\"u-visually-hidden\">frey-dadich-partners-website</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/Np6ONVE6vq\" rel=\"nofollow\">https://t.co/Np6ONVE6vq</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-04-23T22:00:13.000Z",
-    "human_time": "Apr 23, 2018",
-    "user": {
-      "name": "Fonts In Use",
-      "screen_name": "FontsInUse"
-    },
-    "id_str": "988538055756664833"
-  },
-  {
-    "text": "<p>Staff Pick: When they needed a brandless typeface for the <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/brandless\" data-screen-name=\"brandless\" rel=\"nofollow\">@brandless</a> brand, the choice was obvious: <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/kaibernau\" data-screen-name=\"kaibernau\" rel=\"nofollow\">@kaibernau</a>/<a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/typotheque\" data-screen-name=\"typotheque\" rel=\"nofollow\">@typotheque</a>’s Neutral. <a target=\"_blank\" href=\"https://fontsinuse.com/uses/21003/brandless\" title=\"https://fontsinuse.com/uses/21003/brandless\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>fontsinuse.com/uses/21003/bra</span><span class=\"u-visually-hidden\">ndless</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a> <a target=\"_blank\" href=\"https://t.co/J1CtM1Jpui\" rel=\"nofollow\">https://t.co/J1CtM1Jpui</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-04-08T20:49:34.000Z",
-    "human_time": "Apr 8, 2018",
-    "user": {
-      "name": "Fonts In Use",
-      "screen_name": "FontsInUse"
-    },
-    "id_str": "983084457522487296"
-  },
-  {
-    "text": "<p>No words needed 📢👏🏻 <a target=\"_blank\" href=\"https://twitter.com/search?q=%23AllezAllezAllez\" title=\"#AllezAllezAllez\" class=\"tweet-url hashtag\" rel=\"nofollow\">#AllezAllezAllez</a> <a target=\"_blank\" href=\"https://t.co/EOL4v652Kc\" rel=\"nofollow\">https://t.co/EOL4v652Kc</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-04-04T21:39:48.000Z",
-    "human_time": "Apr 4, 2018",
-    "user": {
-      "name": "James Milner",
-      "screen_name": "JamesMilner"
-    },
-    "id_str": "981647548849979392"
-  },
-  {
-    "text": "<p>the structure of the Web can/should impact how we build Web sites: <a target=\"_blank\" href=\"https://www.lukew.com/ff/entry.asp?1990\" title=\"https://www.lukew.com/ff/entry.asp?1990\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://www.</span><span class='js-display-url'>lukew.com/ff/entry.asp?1</span><span class=\"u-visually-hidden\">990</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>\n<p>my notes from <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/adactio\" data-screen-name=\"adactio\" rel=\"nofollow\">@adactio</a> talk at <a target=\"_blank\" href=\"https://twitter.com/search?q=%23aeasea\" title=\"#aeasea\" class=\"tweet-url hashtag\" rel=\"nofollow\">#aeasea</a> <a target=\"_blank\" href=\"https://t.co/ORprHcO56x\" rel=\"nofollow\">https://t.co/ORprHcO56x</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-04-03T17:16:23.000Z",
-    "human_time": "Apr 3, 2018",
-    "user": {
-      "name": "Luke Wroblewski",
-      "screen_name": "LukeW"
-    },
-    "id_str": "981218871691497472"
-  },
-  {
-    "text": "<p>Design is never done... but this is a pretty nice!\n“Hopefully, the Ultimate Guide to a Flat Icon Set” by <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/shestopalov_v\" data-screen-name=\"shestopalov_v\" rel=\"nofollow\">@shestopalov_v</a> <a target=\"_blank\" href=\"https://medium.muz.li/icon-set-3b4fc87dc6b5\" title=\"https://medium.muz.li/icon-set-3b4fc87dc6b5\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>medium.muz.li/icon-set-3b4fc</span><span class=\"u-visually-hidden\">87dc6b5</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>",
-    "type": "retweet",
-    "iso_time": "2018-03-23T21:47:58.000Z",
-    "human_time": "Mar 23, 2018",
-    "user": {
-      "name": "Matías Duarte",
-      "screen_name": "MatiasDuarte"
-    },
-    "id_str": "977300950829314048"
-  },
-  {
-    "text": "<p>I deactivated my Facebook account in Nov 2016. I logged in to export my data last summer. What got exported seemed paltry. </p>\n<p>Suspicious, I briefly reactivated and exported again just now. </p>\n<p>I've been deactivated for 16 months, now have *one half GB more* in my archive</p>\n<p>so <a target=\"_blank\" href=\"https://t.co/lwfu2PmNhU\" rel=\"nofollow\">https://t.co/lwfu2PmNhU</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-03-28T12:48:43.000Z",
-    "human_time": "Mar 28, 2018",
-    "user": {
-      "name": "Johanna Bates",
-      "screen_name": "hanabel"
-    },
-    "id_str": "978977182449065984"
-  },
-  {
-    "text": "<p>This looks like a nice little tool for examining fonts to see which features they support: <a target=\"_blank\" href=\"https://fontdrop.info\" title=\"https://fontdrop.info\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>fontdrop.info</span><span class=\"u-visually-hidden\"></span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span></a> <a target=\"_blank\" href=\"https://t.co/vfj1wXfnGE\" rel=\"nofollow\">https://t.co/vfj1wXfnGE</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-03-21T15:37:36.000Z",
-    "human_time": "Mar 21, 2018",
-    "user": {
-      "name": "Viljami Salminen",
-      "screen_name": "viljamis"
-    },
-    "id_str": "976482966925926400"
-  },
-  {
-    "text": "<p>New <a target=\"_blank\" class=\"tweet-url username\" href=\"https://twitter.com/filamentgroup\" data-screen-name=\"filamentgroup\" rel=\"nofollow\">@filamentgroup</a> utility: imaging-heap</p>\n<p><a target=\"_blank\" href=\"https://github.com/filamentgroup/imaging-heap\" title=\"https://github.com/filamentgroup/imaging-heap\" rel=\"nofollow\"><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span></span><span class=\"u-visually-hidden\">https://</span><span class='js-display-url'>github.com/filamentgroup/</span><span class=\"u-visually-hidden\">imaging-heap</span><span class='tco-ellipsis'><span class=\"u-visually-hidden\">&nbsp;</span>…</span></a></p>\n<p>A command line tool to measure the efficiency of your responsive image markup across viewport sizes and device pixel ratios.</p>\n<p>Will likely iterate on the legend %’s moving forward! Feedback (GitHub issues) welcome! <a target=\"_blank\" href=\"https://t.co/zUhOFqkGpC\" rel=\"nofollow\">https://t.co/zUhOFqkGpC</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-03-21T19:08:18.000Z",
-    "human_time": "Mar 21, 2018",
-    "user": {
-      "name": "Zach Leatherman",
-      "screen_name": "zachleat"
-    },
-    "id_str": "976535994781650944"
-  },
-  {
-    "text": "<p>the new de-facto SaaS landing page. (i do like it) <a target=\"_blank\" href=\"https://t.co/JXrCNCNn3K\" rel=\"nofollow\">https://t.co/JXrCNCNn3K</a></p>",
-    "type": "retweet",
-    "iso_time": "2018-03-16T03:27:53.000Z",
-    "human_time": "Mar 16, 2018",
-    "user": {
-      "name": "tyler hogge 🎯",
-      "screen_name": "thogge"
-    },
-    "id_str": "974487390617088000"
   }
 ]
