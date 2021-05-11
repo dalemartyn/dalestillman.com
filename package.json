@@ -4,7 +4,7 @@
   "dependencies": {
     "dart-sass": "^1.25.0",
     "focus-visible": "^5.1.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "rellax": "^1.12.1"
   },
   "devDependencies": {
