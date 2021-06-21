@@ -442,5 +442,23 @@
     "title": "Brand Words - Mobile",
     "node": "I1532:89;1523:1637",
     "alt": "Mobile phones showing the Brand Words site"
+  },
+  {
+    "project": "Magpie QA",
+    "title": "Magpie QA - Test Screen - Screenshot",
+    "node": "I1780:1673;24:146",
+    "alt": "Magpie QA showing a test screen for a screenshot"
+  },
+  {
+    "project": "Magpie QA",
+    "title": "Magpie QA - Test Screen - Carousels",
+    "node": "I1780:1681;24:146",
+    "alt": "Magpie QA showing a test screen for carousels"
+  },
+  {
+    "project": "Magpie QA",
+    "title": "Clubhouse",
+    "node": "I1780:1689;24:146",
+    "alt": "Clubhouse board where fixes are managed"
   }
 ]

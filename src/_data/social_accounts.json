@@ -1,18 +1,22 @@
 [
   {
-    "site": "twitter",
+    "site": "Twitter",
     "username": "dalestillmane"
   },
   {
-    "site": "instagram",
+    "site": "Instagram",
     "username": "dalemartyn"
   },
   {
-    "site": "github",
+    "site": "Github",
     "username": "dalemartyn"
   },
   {
-    "site": "figma",
+    "site": "Figma",
     "username": "@dale"
+  },
+  {
+    "site": "LinkedIn",
+    "username": "in/dale-stillman-94bb241ab/"
   }
 ]

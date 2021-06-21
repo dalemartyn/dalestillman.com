@@ -2,8 +2,8 @@
   {% for item in social_accounts %}
   <li class="c-social-menu__item">
     <a class="c-social-menu__link" target="_blank" href="https://{{item.site}}.com/{{item.username}}">
-      {% include "svg/social/" + item.site  + ".svg" %}
-      {{item.site|capitalize}}
+      {% include "svg/social/" + item.site.toLowerCase()  + ".svg" %}
+      {{item.site}}
     </a>
   </li>
   {% endfor %}

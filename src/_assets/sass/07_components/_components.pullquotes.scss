@@ -6,7 +6,7 @@
 
   blockquote {
     border-left: sp(tiny) solid sem-color(code-cyan);
-    padding: 0 sp(large);
+    padding: 0 sp(large) sp(xlarge);
     margin-right: sp(tiny);
   }
 
@@ -22,9 +22,7 @@
     @include theme-transition(color);
     text-align: center;
     padding-top: sp(xlarge);
-    padding-bottom: sp(xlarge);
     margin-top: sp(xxlarge);
-    margin-bottom: sp(xxlarge);
   }
 
   p::before {
@@ -46,5 +44,9 @@
     background-color: sem-color(code-cyan);
     margin-left: auto;
     margin-right: auto;
+  }
+
+  cite {
+    text-align: center;
   }
 }
