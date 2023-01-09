@@ -29,7 +29,7 @@
     "imagemin": "^7.0.1",
     "imagemin-pngquant": "^9.0.0",
     "imagemin-svgo": "^8.0.0",
-    "luxon": "^1.24.1",
+    "luxon": "^1.28.1",
     "mathsass": "^0.11.0",
     "modularscale-sass": "^3.0.10",
     "node-fetch": "^2.6.0",
