@@ -4,16 +4,25 @@ import slugify from '@sindresorhus/slugify';
 import fs from 'fs';
 import path from 'path';
 
-let manifest = {};
 const env = process.env.ELEVENTY_ENV;
 
-if (env === 'production') {
+function load_manifest() {
+  if (env !== 'production') {
+    return {};
+  }
+
   const manifestPath = path.resolve('dist/css/css-manifest.json');
 
   if (fs.existsSync(manifestPath)) {
-    manifest = await import(manifestPath, { assert: { type: 'json' } });
+    const data = fs.readFileSync(manifestPath, 'utf8');
+
+    return JSON.parse(data);
   }
+
+  return {};
 }
+
+const manifest = load_manifest();
 
 export const src = getSrc;
 
