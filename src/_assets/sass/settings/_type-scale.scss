@@ -1,0 +1,12 @@
+@use "tools/px-to-rem" as tools;
+
+$modularscale: (
+  20rem: (
+    base: tools.pxToRem(13px),
+    ratio: 1.4
+  ),
+  60rem: (
+    base: tools.pxToRem(13px),
+    ratio: 1.5
+  ),
+);

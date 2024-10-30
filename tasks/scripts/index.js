@@ -1,8 +1,7 @@
-const path = require('path');
-const camelCase = require('camelcase');
-
-const dev_bundler = require('./dev-bundler');
-const prod_bundler = require('./prod-bundler');
+import path from 'path';
+import camelCase from 'camelcase';
+import { dev_bundler } from './dev-bundler.js';
+import { prod_bundler } from './prod-bundler.js';
 
 const entries = [
   'src/_assets/js/main.js',
@@ -27,21 +26,16 @@ function bundle_all(bundler) {
   function bundle(entry) {
     const output_file = get_output_file(entry);
     const output_name = get_output_name(entry);
-    return bundler(entry, output_file, output_name)
+    return bundler(entry, output_file, output_name);
   }
 
   return Promise.all(entries.map(bundle));
 }
 
-function scripts_dev() {
+export function scriptsDev() {
   return bundle_all(dev_bundler);
 }
 
-function scripts_build() {
+export function scriptsBuild() {
   return bundle_all(prod_bundler);
 }
-
-module.exports = {
-  dev: scripts_dev,
-  build: scripts_build
-};

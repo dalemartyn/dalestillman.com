@@ -1,0 +1,58 @@
+/* ==========================================================================
+   #POLAROID-LAYOUT
+   ========================================================================== */
+
+@use "settings";
+@use "tools";
+
+.c-polaroid-layout {
+  width: 456px;
+  height: 388px;
+  position: relative;
+
+  @include tools.mq($until: 480px) {
+    width: (456px * .5);
+    height: (388px * .5);
+  }
+
+  @include tools.mq($from: 480px, $until: lg) {
+    width: (456px * .75);
+    height: (388px * .75);
+  }
+}
+
+.c-polaroid-layout__item {
+  position: absolute;
+  transition: transform .5s settings.$standard-easing;
+
+  &:nth-child(1) {
+    top: 6.44%;
+    left: 0;
+  }
+
+  &:nth-child(2) {
+    top: 0;
+    right: 0;
+  }
+
+  &:nth-child(3) {
+    bottom: 0;
+    left: 25%;
+  }
+}
+
+
+  .c-polaroid-layout:hover .c-polaroid-layout__item {
+
+    &:nth-child(1) {
+      transform: rotate(-4deg) translateX(-7.5%) translateY(-15%);
+    }
+
+    &:nth-child(2) {
+      transform: rotate(4deg) translateX(7.5%) translateY(-15%);
+    }
+
+    &:nth-child(3) {
+      transform: translateY(-10%);
+    }
+  }

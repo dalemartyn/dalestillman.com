@@ -1,0 +1,62 @@
+@use "sass:meta";
+@use "core";
+@use "function";
+
+// Generate calc() function
+// based on Mike Riethmuller's Precise control over responsive typography
+// http://madebymike.com.au/writing/precise-control-responsive-typography/
+@function fluid($val1: 1em, $val2: 1em, $break1: 0, $break2: 0) {
+  $diff: core.strip-units($val2) - core.strip-units($val1);
+
+  // v1 + (v2 - v1) * ( (100vw - b1) / b2 - b1 )
+  @return calc( #{$val1} + #{core.strip-units($val2) - core.strip-units($val1)} * ( ( 100vw - #{$break1}) / #{core.strip-units($break2) - core.strip-units($break1)} ) );
+}
+
+// Main responsive mixin
+@mixin respond($prop, $val, $map: core.$modularscale, $ms-important: false) {
+  $base: core.$ms-base;
+  $ratio: core.$ms-ratio;
+
+  $first-write: true;
+  $last-break: null;
+
+  $important: '';
+
+  @if $ms-important == true {
+    $important: ' !important';
+  }
+
+  // loop through all settings with a breakpoint type value
+  @each $v, $s in $map {
+    @if meta.type-of($v) == number {
+      @if unit($v) != '' {
+
+        // Write out the first value without a media query.
+        @if $first-write {
+          #{$prop}: unquote("#{function.function($val, $thread: $v, $settings: $map)}#{$important}");
+
+          // Not the first write anymore, reset to false to move on.
+          $first-write: false;
+          $last-break: $v;
+        }
+
+        // Write intermediate breakpoints.
+        @else {
+          @media (min-width: $last-break) and (max-width: $v) {
+            $val1: function.function($val, $thread: $last-break, $settings: $map);
+            $val2: function.function($val, $thread: $v, $settings: $map);
+            #{$prop}: unquote("#{fluid($val1,$val2,$last-break,$v)}#{$important}");
+          }
+          $last-break: $v;
+        }
+      }
+    }
+  }
+
+  // Write the last breakpoint.
+  @if $last-break {
+    @media (min-width: $last-break) {
+      #{$prop}: unquote("#{function.function($val, $thread: $last-break, $settings: $map)}#{$important}");
+    }
+  }
+}

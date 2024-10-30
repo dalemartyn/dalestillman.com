@@ -1,0 +1,5 @@
+@use "settings";
+
+@forward "node_modules/sass-mq/mq" with (
+  $breakpoints: settings.$mq-breakpoints
+);

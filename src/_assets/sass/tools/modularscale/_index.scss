@@ -1,0 +1,14 @@
+@use "../../settings";
+
+// Defaults and variables and core functions
+@forward "core" with (
+  $modularscale: settings.$modularscale
+);
+
+@forward "function" as ms-*;
+
+// Mixins
+@forward "respond" as ms-*;
+
+// Syntax sugar
+@forward "sugar" as ms-*;

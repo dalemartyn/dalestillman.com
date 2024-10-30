@@ -1,0 +1,80 @@
+/* ==========================================================================
+   #WORK-CARD
+   ========================================================================== */
+
+@use "settings";
+@use "tools";
+
+.c-work-card {
+  background-color: tools.sem-color(surface);
+  box-shadow: var(--shadow-1);
+  position: relative;
+  border-radius: var(--rounded-radius);
+  transition: box-shadow .2s settings.$standard-easing;
+  @include tools.theme-transition(background-color);
+
+  &:hover,
+  &:focus-within {
+    box-shadow: var(--shadow-3);
+  }
+}
+
+  .c-work-card__link {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: tools.sem-color(text);
+    border-radius: var(--rounded-radius);
+    @include tools.theme-transition(background-color color);
+
+    &::after {
+      transition: background-color settings.$hover-transition;
+      content: "";
+      pointer-events: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border-radius: var(--rounded-radius);
+    }
+
+    &:hover,
+    &:focus {
+
+      &::after {
+        background-color: var(--state-color-hover);
+      }
+    }
+
+    &:active::after {
+      background-color: var(--state-color-active);
+    }
+
+    @include tools.focus-style {
+      outline: none;
+      box-shadow: 0 0 0 tools.sp(xmicro) tools.sem-color(link);
+      background-color: tools.sem-color(link, .2);
+    }
+  }
+
+
+    .c-work-card__content {
+      padding: tools.sp();
+      order: 1;
+    }
+
+      .c-work-card__title {
+        margin: tools.sp(xmicro) 0;
+      }
+
+    .c-work-card__thumbnail {
+      border-top-left-radius: var(--rounded-radius);
+      border-top-right-radius: var(--rounded-radius);
+
+      img {
+        border-top-left-radius: var(--rounded-radius);
+        border-top-right-radius: var(--rounded-radius);
+        width: 100%;
+      }
+    }

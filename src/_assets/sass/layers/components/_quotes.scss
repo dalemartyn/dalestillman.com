@@ -1,0 +1,13 @@
+/* ==========================================================================
+   #QUOTES
+   ========================================================================== */
+
+@use "tools";
+
+.c-quote--right {
+  @include tools.mq($from: md) {
+    float: right;
+    margin: tools.sp(xlarge) 0 tools.sp(xlarge) tools.sp(xlarge);
+    width: 40%;
+  }
+}

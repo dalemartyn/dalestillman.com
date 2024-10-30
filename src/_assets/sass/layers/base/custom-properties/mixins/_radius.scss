@@ -1,0 +1,5 @@
+@use "tools";
+
+@mixin radius-vars {
+  --rounded-radius: #{tools.sp(xmicro)};
+}

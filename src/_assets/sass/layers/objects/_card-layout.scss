@@ -1,0 +1,26 @@
+/* ==========================================================================
+   #CARD-LAYOUT
+   ========================================================================== */
+
+@use "tools";
+
+@layer objects {
+
+  .o-card-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: tools.sp(xlarge) tools.sp(large);
+    margin: tools.sp(xlarge) 0;
+    list-style: none;
+
+    @include tools.mq($from: md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .o-card-layout__item {
+    display: block;
+    margin: 0;
+  }
+
+}

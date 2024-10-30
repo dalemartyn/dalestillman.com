@@ -1,9 +1,9 @@
-const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
-const markdownIt = require('markdown-it');
-const imageShortcodes = require('./utils/image-shortcodes');
-const filters = require('./utils/filters');
+import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
+import markdownIt from 'markdown-it';
+import * as imageShortcodes from './utils/image-shortcodes.js';
+import * as filters from './utils/filters.js';
 
-module.exports = function (config) {
+export default function (config) {
   config.addLayoutAlias('page', 'layouts/layouts.page.html');
   config.addLayoutAlias('post', 'layouts/layouts.post.html');
   config.addLayoutAlias('work', 'layouts/layouts.work.html');

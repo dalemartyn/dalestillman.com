@@ -1,57 +1,64 @@
-const { getSrc } = require('./images');
-const { DateTime } = require('luxon');
-const slugify = require('@sindresorhus/slugify');
+import { getSrc } from './images.js';
+import { DateTime } from 'luxon';
+import slugify from '@sindresorhus/slugify';
+import fs from 'fs';
+import path from 'path';
 
-module.exports = {
-  src: getSrc,
+let manifest = {};
+const env = process.env.ELEVENTY_ENV;
 
-  date_to_format: function(date, format) {
-    return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat(
-      String(format)
-    );
-  },
+if (env === 'production') {
+  const manifestPath = path.resolve('dist/css/css-manifest.json');
 
-  date_to_iso: function(date) {
-    return DateTime.fromJSDate(date, { zone: 'utc' }).toISO({
-      includeOffset: false,
-      suppressMilliseconds: true
-    });
-  },
-
-  slice: function(array, i = 0, j = array.length) {
-    return array.slice(i, j);
-  },
-
-  slugify: function(input) {
-    if (!input) return null;
-
-    return slugify(input, {
-      customReplacements: [
-        ["'", ''],
-        ['’', ''],
-        ['‘', '']
-      ]
-    });
-  },
-
-  to_rgb: function(hex) {
-    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-
-    if (!result) return null;
-
-    const r = parseInt(result[1], 16);
-    const g = parseInt(result[2], 16);
-    const b = parseInt(result[3], 16);
-
-    return `${r}, ${g}, ${b}`;
-  },
-
-  cssrev: function(asset) {
-    if (process.env.ELEVENTY_ENV === 'production') {
-      const manifest = require('../dist/css/css-manifest.json');
-      return manifest[asset];
-    }
-    return asset;
+  if (fs.existsSync(manifestPath)) {
+    manifest = await import(manifestPath, { assert: { type: 'json' } });
   }
+}
 
-};
+export const src = getSrc;
+
+export function date_to_format(date, format) {
+  return DateTime.fromJSDate(date, { zone: 'utc' }).toFormat(String(format));
+}
+
+export function date_to_iso(date) {
+  return DateTime.fromJSDate(date, { zone: 'utc' }).toISO({
+    includeOffset: false,
+    suppressMilliseconds: true,
+  });
+}
+
+export function slice(array, i = 0, j = array.length) {
+  return array.slice(i, j);
+}
+
+export function slugifyFunction(input) {
+  if (!input) return null;
+
+  return slugify(input, {
+    customReplacements: [
+      ["'", ''],
+      ['’', ''],
+      ['‘', ''],
+    ],
+  });
+}
+
+export function to_rgb(hex) {
+  const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+
+  if (!result) return null;
+
+  const r = parseInt(result[1], 16);
+  const g = parseInt(result[2], 16);
+  const b = parseInt(result[3], 16);
+
+  return `${r}, ${g}, ${b}`;
+}
+
+export function cssrev(asset) {
+  if (env === 'production') {
+    return manifest[asset] || asset; // Return the asset from the manifest or fallback to the original asset
+  }
+  return asset; // In non-production, return the asset directly
+}

@@ -1,0 +1,11 @@
+@use "tools";
+
+@mixin layout-vars {
+  --container-width:      #{tools.pxToRem(960px)};
+  --container-width-xl:   #{tools.pxToRem(1200px)};
+  --site-margin:          #{tools.sp()};
+
+  @include tools.mq($from: sm) {
+    --site-margin:          #{tools.sp(large)};
+  }
+}

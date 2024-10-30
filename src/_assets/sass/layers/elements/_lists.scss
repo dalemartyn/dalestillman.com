@@ -1,0 +1,24 @@
+/* ==========================================================================
+   #LISTS
+   ========================================================================== */
+
+@use "tools";
+
+@layer lists {
+
+  ul,
+  ol {
+    margin-left: tools.sp(large);
+  }
+
+  li {
+    @include tools.ms-respond(font-size, 1);
+    margin-bottom: tools.sp(micro);
+
+    > ul,
+    > ol {
+      margin-bottom: 0;
+    }
+  }
+
+}

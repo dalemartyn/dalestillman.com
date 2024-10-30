@@ -1,0 +1,28 @@
+@use "mixins/spacings";
+@use "mixins/layout";
+@use "mixins/colors";
+@use "mixins/font-weights";
+@use "mixins/radius";
+@use "mixins/shadows";
+@use "mixins/state-colors";
+
+:root {
+  @include spacings.spacing-vars;
+  @include layout.layout-vars;
+  @include radius.radius-vars;
+  @include font-weights.font-weight-vars;
+
+  color-scheme: light;
+  @include colors.light-color-vars;
+  @include state-colors.light-state-color-vars;
+  @include shadows.light-shadow-vars;
+
+  &.t-dark {
+    @media not print {
+      color-scheme: dark;
+      @include colors.dark-color-vars;
+      @include state-colors.dark-state-color-vars;
+      @include shadows.dark-shadow-vars;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+/* ==========================================================================
+   #BLOCKQUOTES
+   ========================================================================== */
+
+@use "tools";
+
+@layer elements {
+
+  blockquote {
+    border-left: tools.sp(xxmicro) solid tools.sem-color(quote-border);
+    @include tools.theme-transition(border-color);
+    padding: 0 0 0 tools.sp();
+
+    @include tools.mq($from: sm) {
+      padding: 0 tools.sp(large);
+      margin: tools.sp(xlarge) 0;
+    }
+
+    > p {
+      @include tools.ms-respond(font-size, .875);
+      line-height: 1.55em;
+      margin-bottom: 0;
+
+      @include tools.mq($from: 20em, $until: 60em) {
+        line-height: tools.ms-fluid(1.55em, 1.6em, 20em, 60em);
+      }
+
+      @include tools.mq($from: 60em) {
+        line-height: 1.6em;
+      }
+    }
+
+    > p + * {
+      margin-top: tools.sp();
+    }
+
+    > cite {
+      display: block;
+    }
+  }
+
+  cite {
+    @include tools.ms-respond(font-size, .25);
+    color: tools.sem-color(text-2);
+    @include tools.theme-transition(color);
+    font-style: normal;
+  }
+
+}

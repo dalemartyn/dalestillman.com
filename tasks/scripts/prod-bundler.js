@@ -1,29 +1,35 @@
-const rollup = require('rollup');
-const resolve = require('@rollup/plugin-node-resolve').default;
-const commonjs = require('@rollup/plugin-commonjs');
-const json = require('@rollup/plugin-json');
-const svelte = require('rollup-plugin-svelte');
-const terser = require('rollup-plugin-terser').terser;
+import { rollup } from 'rollup';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
+import json from '@rollup/plugin-json';
+import svelte from 'rollup-plugin-svelte';
+import css from 'rollup-plugin-css-only';
+import terser from '@rollup/plugin-terser';
+import path from 'path';
 
-module.exports = function prod_bundler(entry, output_file, output_name) {
+export function prod_bundler(entry, output_file, output_name) {
+  const cssOutputFile = path.basename(entry).replace(/\.js$/, '.css');
 
-  return rollup.rollup({
+  return rollup({
     input: entry,
     plugins: [
       json(),
       svelte({
-        dev: true
+        dev: true,
+      }),
+      css({
+        output: cssOutputFile,
       }),
       resolve({ browser: true }),
       commonjs(),
       terser(),
-    ]
-  }).then(bundle => {
+    ],
+  }).then((bundle) => {
     return bundle.write({
       file: output_file,
       format: 'iife',
       name: output_name,
-      sourcemap: true
+      sourcemap: true,
     });
   });
 }

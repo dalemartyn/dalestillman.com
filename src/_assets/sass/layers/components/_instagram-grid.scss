@@ -1,0 +1,72 @@
+/* ==========================================================================
+   #INSAGRAM-GRID
+   ========================================================================== */
+
+@use "settings";
+@use "tools";
+
+.c-instagram-grid {
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: tools.sp(xmicro);
+
+  @include tools.mq($from: sm) {
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: tools.sp(small);
+  }
+}
+
+  .c-instagram-grid__item {
+    margin: 0;
+
+    @include tools.mq($until: sm) {
+
+      &:nth-child(n+9) {
+        display: none;
+      }
+    }
+  }
+
+    .c-instagram-grid__link {
+      display: block;
+      background-color: tools.sem-color(background-code);
+      overflow: hidden;
+      border-radius: tools.sp(xxmicro);
+
+      &::after {
+        transition: background-color settings.$hover-transition;
+        content: "";
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+      &:hover,
+      &:focus {
+
+        &::after {
+          background-color: var(--state-color-hover-img);
+        }
+      }
+
+      &:active::after {
+        background-color: var(--state-color-active-img);
+      }
+
+      @include tools.focus-style {
+        outline: none;
+        box-shadow: 0 0 0 tools.sp(xmicro) tools.sem-color(link);
+        background-color: tools.sem-color(link, .2);
+      }
+    }
+
+      .c-instagram-grid__image {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }

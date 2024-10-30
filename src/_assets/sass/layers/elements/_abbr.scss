@@ -1,0 +1,14 @@
+/* ==========================================================================
+   #ABBREVIATIONS
+   ========================================================================== */
+
+@use "tools";
+
+@layer elements {
+
+  abbr {
+    text-decoration-style: solid;
+    text-decoration-color: tools.sem-color(text-3);
+  }
+
+}

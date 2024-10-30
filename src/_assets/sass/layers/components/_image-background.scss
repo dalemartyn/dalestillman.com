@@ -1,0 +1,14 @@
+/* ==========================================================================
+   #IMAGE-BACKGROUND
+   ========================================================================== */
+
+@use "tools";
+
+.c-image-background {
+  background-color: rgba(var(--img-bg-light), 1);
+  @include tools.theme-transition(background-color);
+
+  .t-dark & {
+    background-color: rgba(var(--img-bg-dark), 1);
+  }
+}

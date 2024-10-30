@@ -1,0 +1,124 @@
+/* ==========================================================================
+   #TAB-MENU
+   ========================================================================== */
+
+@use "settings";
+@use "tools";
+
+.c-tab-menu {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.c-tab-menu--stretch {
+  padding-left: tools.sp();
+  padding-right: tools.sp();
+}
+
+  .c-tab-menu__item {
+    margin: 0;
+    margin-right: tools.sp(large);
+    font-size: inherit;
+
+    @include tools.mq($from: sm) {
+      margin-right: calc(#{tools.sp(large)} + #{tools.sp(micro)});
+    }
+
+    .c-tab-menu--stretch & {
+      flex: 1;
+      margin-right: tools.sp();
+    }
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &.is-parent,
+    &.is-active {
+      color: tools.sem-color(text);
+      position: relative;
+      z-index: 0;
+
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        height: 4px;
+        box-shadow: 0 4px #{tools.sem-color(text)} inset;
+        left: 0;
+        right: 0;
+        z-index: -2;
+        @include tools.theme-transition(box-shadow);
+        bottom: 0;
+
+        .c-tab-menu--at-bottom-until-lg & {
+          @include tools.mq($until: lg) {
+            top: 0;
+            bottom: none;
+          }
+
+          @include tools.mq($from: lg) {
+            bottom: 0;
+          }
+        }
+      }
+    }
+
+  }
+
+    .c-tab-menu__link {
+      @include tools.button-reset;
+      @include tools.ms-respond(font-size, .75);
+      font-weight: tools.fw(semibold);
+      line-height: 1.25;
+      display: block;
+      text-decoration: none;
+      padding-left: tools.sp(small);
+      padding-right: tools.sp(small);
+      padding-top: tools.sp();
+      padding-bottom: tools.sp();
+      margin: tools.sp(xmicro) calc(#{tools.sp(small)} * -1);
+      color: tools.sem-color(text-3);
+      transition:
+        background-color settings.$hover-transition,
+        box-shadow settings.$hover-transition,
+        color settings.$hover-transition;
+      @include tools.theme-transition(color background-color box-shadow);
+      border-radius: var(--rounded-radius);
+
+      .c-tab-menu--stretch & {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+      }
+
+      @media (hover: hover) {
+
+        &:hover {
+          color: tools.sem-color(text);
+          background-color: var(--state-color-hover);
+        }
+      }
+
+      &:active {
+        background-color: var(--state-color-active);
+      }
+
+      .is-parent > &,
+      .is-active > & {
+        color: tools.sem-color(text);
+        position: relative;
+        z-index: 0;
+      }
+
+      @include tools.focus-style {
+        color: tools.sem-color(text);
+        background-color: var(--state-color-hover);
+        outline: none;
+        box-shadow: 0 0 0 3px tools.sem-color(link) inset;
+        background-color: tools.sem-color(link, .375);
+      }
+    }

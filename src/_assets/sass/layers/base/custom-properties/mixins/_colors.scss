@@ -1,0 +1,72 @@
+@use "tools";
+
+@mixin light-color-vars {
+  --color-background:          #{tools.rgb-triplet("white")};
+  // --color-background:          #{tools.rgb-triplet("white", $darken: 2%)};
+  --color-background-code:     #{tools.rgb-triplet("white", $darken: 6%)};
+  --color-surface:             #{tools.rgb-triplet("white")};
+  --color-text:                #{tools.rgb-triplet("blue-grey-900")};
+  --color-text-2:              #{tools.rgb-triplet("blue-grey-500")};
+  --color-text-3:              #{tools.rgb-triplet("blue-grey-400")};
+  --color-quote-border:        #{tools.rgb-triplet("blue-grey-400")};
+  --color-border:              #{tools.rgb-triplet("blue-grey-50")};
+  --color-selection:           #{tools.rgb-triplet("green-500")};
+  --color-selection-inactive:  #{tools.rgb-triplet("blue-grey-300")};
+  --color-link:                #{tools.rgb-triplet("green-500")};
+  --color-twitter-profile:     #{tools.rgb-triplet("blue-grey-600")};
+
+  --color-code-red:            #{tools.rgb-material("red", "500")};
+  --color-code-pink:           #{tools.rgb-material("pink", "800")};
+  --color-code-purple:         #{tools.rgb-material("purple", "400")};
+  --color-code-deep-purple:    #{tools.rgb-material("deep-purple", "600")};
+  --color-code-indigo:         #{tools.rgb-material("indigo", "800")};
+  --color-code-blue:           #{tools.rgb-material("blue", "800")};
+  --color-code-light-blue:     #{tools.rgb-material("light-blue", "800")};
+  --color-code-cyan:           #{tools.rgb-material("cyan", "600")};
+  --color-code-teal:           #{tools.rgb-material("teal", "800")};
+  --color-code-green:          #{tools.rgb-material("green", "800")};
+  --color-code-light-green:    #{tools.rgb-material("light-green", "800")};
+  --color-code-lime:           #{tools.rgb-material("lime", "800")};
+  --color-code-yellow:         #{tools.rgb-material("yellow", "800")};
+  --color-code-amber:          #{tools.rgb-material("amber", "800")};
+  --color-code-orange:         #{tools.rgb-material("orange", "700")};
+  --color-code-deep-orange:    #{tools.rgb-material("deep-orange", "500")};
+  --color-code-brown:          #{tools.rgb-material("brown", "800")};
+  --color-code-blue-grey:      #{tools.rgb-material("blue-grey", "500")};
+  --color-code-dark-blue-grey: #{tools.rgb-material("blue-grey", "700")};
+}
+
+@mixin dark-color-vars {
+  --color-background:          #{tools.rgb-triplet("blue-grey-950")};
+  --color-background-code:     #{tools.rgb-triplet("blue-grey-900")};
+  --color-surface:             #{tools.rgb-triplet("blue-grey-900")};
+  --color-text:                #{tools.rgb-triplet("white")};
+  --color-text-2:              #{tools.rgb-triplet("blue-grey-200")};
+  --color-text-3:              #{tools.rgb-triplet("blue-grey-300")};
+  --color-quote-border:        #{tools.rgb-triplet("blue-grey-300")};
+  --color-border:              #{tools.rgb-triplet("blue-grey-850")};
+  --color-selection:           #{tools.rgb-triplet("green-300")};
+  --color-selection-inactive:  #{tools.rgb-triplet("blue-grey-300")};
+  --color-link:                #{tools.rgb-triplet("green-300")};
+  --color-twitter-profile:     #{tools.rgb-triplet("blue-grey-700")};
+
+  --color-code-red:            #{tools.rgb-material("red", "200")};
+  --color-code-pink:           #{tools.rgb-material("pink", "200")};
+  --color-code-purple:         #{tools.rgb-material("purple", "200")};
+  --color-code-deep-purple:    #{tools.rgb-material("deep-purple", "200")};
+  --color-code-indigo:         #{tools.rgb-material("indigo", "200")};
+  --color-code-blue:           #{tools.rgb-material("blue", "200")};
+  --color-code-light-blue:     #{tools.rgb-material("light-blue", "200")};
+  --color-code-cyan:           #{tools.rgb-material("cyan", "200")};
+  --color-code-teal:           #{tools.rgb-material("teal", "200")};
+  --color-code-green:          #{tools.rgb-material("green", "200")};
+  --color-code-light-green:    #{tools.rgb-material("light-green", "200")};
+  --color-code-lime:           #{tools.rgb-material("lime", "200")};
+  --color-code-yellow:         #{tools.rgb-material("yellow", "200")};
+  --color-code-amber:          #{tools.rgb-material("amber", "200")};
+  --color-code-orange:         #{tools.rgb-material("orange", "200")};
+  --color-code-deep-orange:    #{tools.rgb-material("deep-orange", "200")};
+  --color-code-brown:          #{tools.rgb-material("brown", "200")};
+  --color-code-blue-grey:      #{tools.rgb-material("blue-grey", "200")};
+  --color-code-dark-blue-grey: #{tools.rgb-material("blue-grey", "50")};
+}

@@ -1,0 +1,38 @@
+/* ==========================================================================
+   #FIGURES
+   ========================================================================== */
+
+@use "tools";
+
+@layer elements {
+
+  figure {
+    margin-top: tools.sp(xlarge);
+    margin-bottom: tools.sp(xlarge);
+
+    img {
+      width: 100%;
+      border-radius: var(--rounded-radius);
+    }
+
+    img,
+    video,
+    svg {
+      display: block;
+    }
+
+    svg {
+      height: auto;
+      width: 100%;
+    }
+  }
+
+  figcaption {
+    @include tools.ms-respond(font-size, .25);
+    padding-top: tools.sp(small);
+    line-height: 1.55;
+    color: tools.sem-color(text-2);
+    @include tools.theme-transition(color);
+  }
+
+}

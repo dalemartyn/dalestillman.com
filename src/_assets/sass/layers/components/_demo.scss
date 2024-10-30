@@ -1,0 +1,21 @@
+/* ==========================================================================
+   #DEMO
+   ========================================================================== */
+
+/**
+ * Styles for a box to contain a demo in in a blog post.
+ */
+
+@use "tools";
+
+.c-demo {
+  background-color: tools.sem-color(background-code);
+  color: tools.sem-color(text);
+  @include tools.theme-transition(color background-color);
+  border-radius: var(--rounded-radius);
+  padding: tools.sp();
+
+  @include tools.mq($from: sm) {
+    padding: tools.sp(large);
+  }
+}

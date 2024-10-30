@@ -49,6 +49,7 @@ Try adjusting the type on this page to see how it affects the legibility.
 
 Variable fonts already have excellent [browser support][1], however, they are a relatively new technology and there aren't all that many high-quality variable fonts around. [v-fonts.com][6] contains a directory of variable fonts, although most are low quality or experimental. [Google fonts][10] was recently updated to support variable fonts and contains 32 variable fonts to choose from at the time of writing. I like [Work Sans][13], [Public Sans][14] and [Literata][15].
 
+<link rel="stylesheet" href="/js/variable-fonts.css" />
 <script src="/js/variable-fonts.js"></script>
 
 ## More on variable fonts

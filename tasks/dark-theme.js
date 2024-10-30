@@ -1,21 +1,15 @@
-const gulp = require('gulp');
-const uglify = require('gulp-uglify');
+import gulp from 'gulp';
+import uglify from 'gulp-uglify';
 
 const src = 'src/_assets/js/darkmode.js';
 const dist = './src/_includes/js/';
 
-function dark_theme_build() {
+export function darkThemeBuild() {
   return gulp.src(src)
     .pipe(uglify())
     .pipe(gulp.dest(dist));
 }
 
-function dark_theme_watch() {
-  gulp.watch(src, dark_theme_build);
+export function darkThemeWatch() {
+  gulp.watch(src, darkThemeBuild);
 }
-
-
-module.exports = {
-  build: dark_theme_build,
-  watch: dark_theme_watch
-};

@@ -1,5 +1,5 @@
+import { mount } from 'svelte';
+
 import TwitterFeed from './components/TwitterFeed.svelte';
 
-new TwitterFeed({
-  target: document.getElementById('twitter-feed')
-});
+mount(TwitterFeed, { target: document.getElementById('twitter-feed') });

@@ -1,0 +1,54 @@
+/* ==========================================================================
+   #TEASE
+   ========================================================================== */
+
+@use "settings";
+@use "tools";
+
+.c-tease {
+  border-top: 1px solid tools.sem-color("border");
+  @include tools.theme-transition(border-color);
+}
+
+.c-tease__link {
+  text-decoration: none;
+  position: relative;
+  display: block;
+  padding: tools.sp(large) tools.sp() tools.sp(large);
+  margin: 0 calc(#{tools.sp()} * -1);
+  display: flow-root;
+
+  @include tools.focus-style {
+    outline: none;
+
+    &::after {
+      box-shadow: 0 0 0 tools.sp(xmicro) tools.sem-color(link);
+      background-color: tools.sem-color(link, .2);
+      border-radius: var(--rounded-radius);
+    }
+  }
+
+  &::after {
+    transition: background-color settings.$hover-transition;
+    content: "";
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: var(--rounded-radius);
+  }
+
+  &:hover,
+  &:focus {
+
+    &::after {
+      background-color: var(--state-color-hover);
+    }
+  }
+
+  &:active::after {
+    background-color: var(--state-color-active);
+  }
+}

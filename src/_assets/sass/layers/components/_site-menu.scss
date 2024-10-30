@@ -1,0 +1,35 @@
+/* ==========================================================================
+   #SITE-MENU
+   ========================================================================== */
+
+@use "tools";
+
+.c-site-menu {
+  @include tools.mq($until: lg) {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: tools.sem-color(surface, .98);
+    @include tools.theme-transition(background-color box-shadow);
+    box-shadow: var(--shadow-2);
+    margin-left: calc(var(--site-margin) * -1);
+    margin-right: calc(var(--site-margin) * -1);
+    display: flex;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      display: none !important;
+    }
+
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+  .c-site-menu__nav {
+    padding-left: var(--site-margin);
+    padding-right: var(--site-margin);
+    flex: 1;
+  }

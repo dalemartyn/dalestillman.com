@@ -1,0 +1,15 @@
+/* ==========================================================================
+   #HR
+   ========================================================================== */
+
+@use "tools";
+
+@layer elements {
+
+  hr {
+    border: none;
+    border-bottom: 1px solid tools.sem-color(border);
+    @include tools.theme-transition(border-color);
+  }
+
+}

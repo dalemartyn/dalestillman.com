@@ -1,0 +1,15 @@
+@use "settings";
+@use "tools";
+
+@mixin spacing-vars {
+  --spacing-unit-xxmicro: 3px;
+
+  @each $size-name, $size in settings.$spacing-unit-sizes {
+    @if ($size-name != null) {
+      @include tools.ms-respond(--spacing-unit-#{$size-name}, $size, settings.$spacing_scale);
+    }
+    @else {
+      @include tools.ms-respond(--spacing-unit, $size, settings.$spacing_scale);
+    }
+  }
+}

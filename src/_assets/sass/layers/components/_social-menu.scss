@@ -1,0 +1,45 @@
+/* ==========================================================================
+   #SOCIAL-MENU
+   ========================================================================== */
+
+@use "tools";
+
+.c-social-menu {
+  margin: 0;
+  height: 100%;
+  list-style: none;
+}
+
+.c-social-menu__item {
+  display: flex;
+  align-items: center;
+  margin: tools.sp() 0 0;
+  font-size: inherit;
+
+  &:first-child {
+    margin-left: 0;
+  }
+}
+
+  .c-social-menu__link {
+    text-decoration: none;
+    box-sizing: content-box;
+    padding: tools.sp(tiny);
+    margin: calc(#{tools.sp(tiny)} * -1);
+    display: flex;
+    align-items: center;
+    border-radius: var(--rounded-radius);
+    @include tools.ms-respond(font-size, .75);
+    font-weight: tools.fw(semibold);
+    line-height: 1.25;
+
+    > svg {
+      @include tools.ms-respond(width, .75);
+      @include tools.ms-respond(height, .75);
+      @include tools.theme-transition(fill);
+      fill: tools.sem-color(text);
+      margin-left: tools.sp(xmicro);
+      margin-right: tools.sp(small);
+    }
+
+  }

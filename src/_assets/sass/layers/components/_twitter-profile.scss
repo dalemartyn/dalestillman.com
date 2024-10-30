@@ -1,0 +1,95 @@
+/* ==========================================================================
+   #TWITTER-PROFILE
+   ========================================================================== */
+
+@use "tools";
+
+$profile_image_size: calc(#{tools.sp(xlarge)} * 3);
+
+.c-twitter-profile {
+  margin-bottom: tools.sp(large);
+}
+
+.c-twitter-profile__header {
+  background-color: tools.color("blue-grey-200");
+  margin-top: calc(var(--site-menu-height) * -1);
+  padding-top: var(--site-menu-height);
+  padding-bottom: calc(#{$profile_image_size} * 1.125);
+  @include tools.theme-transition(background-color);
+
+  .t-dark & {
+    background-color: tools.color("blue-grey-850");
+  }
+
+  @include tools.mq($from: sm) {
+    border-bottom-right-radius: var(--rounded-radius);
+    border-bottom-left-radius: var(--rounded-radius);
+  }
+}
+
+.c-twitter-profile__main {
+  padding-left: tools.sp();
+  padding-right: tools.sp();
+}
+
+  .c-twitter-profile__profile-picture {
+    border-radius: 100px;
+    width: $profile_image_size;
+    height: $profile_image_size;
+    box-shadow: 0 0 0 tools.sp(xmicro) tools.sem-color("background");
+    background-color: tools.sem-color("background");
+    @include tools.theme-transition(box-shadow background-color);
+    margin-bottom: tools.sp(tiny);
+    margin-top: calc(#{$profile_image_size} * -1 + #{tools.sp(large)});
+    margin-left: auto;
+    margin-right: auto;
+
+    > svg {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    > svg > rect {
+      fill: tools.sem-color(twitter-profile);
+      @include tools.theme-transition(fill);
+    }
+  }
+
+  .c-twitter-profile__info {
+    text-align: center;
+  }
+
+    .c-twitter-profile__link {
+      line-height: 1.25;
+      font-weight: tools.fw(bold);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: tools.sp(xmicro);
+      color: tools.sem-color("text");
+      @include tools.theme-transition(color);
+      @include tools.focused-link;
+
+      &:hover {
+
+        .c-twitter-profile__name {
+          text-decoration: underline;
+        }
+      }
+
+    }
+
+    .c-twitter-profile__name {
+      @include tools.ms-respond(font-size, 1.75);
+    }
+
+    .c-twitter-profile__screen-name {
+      @include tools.ms-respond(font-size, 1);
+      font-weight: tools.fw(regular);
+      color: tools.sem-color("text-3");
+      @include tools.theme-transition(color);
+    }
+
+    .c-twitter-profile__bio {
+      margin: 0;
+    }

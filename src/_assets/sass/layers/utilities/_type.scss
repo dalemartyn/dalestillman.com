@@ -1,0 +1,109 @@
+/* ==========================================================================
+   #TYPE-STYLES
+   ========================================================================== */
+
+@use "tools";
+
+.ts-page-title {
+  @include tools.ms-respond(font-size, 4);
+  line-height: 1.05;
+  text-align: center;
+  letter-spacing: -.005em;
+  font-weight: tools.fw(bold);
+  @include tools.lh-crop(1.05, .785);
+}
+
+.ts-page-intro {
+  @include tools.ms-respond(font-size, 1.5);
+  line-height: 1.35;
+  font-weight: tools.fw(text);
+}
+
+.ts-post-tagline {
+  @include tools.ms-respond(font-size, 1.5);
+  line-height: 1.35;
+  font-weight: tools.fw(text);
+}
+
+/* Style for site title and card titles */
+.ts-title {
+  @include tools.ms-respond(font-size, 1.75);
+  line-height: 1.2;
+  font-weight: tools.fw(bold);
+  @include tools.lh-crop(1.2, .785);
+}
+
+.ts-meta {
+  @include tools.ms-respond(font-size, .25);
+  color: tools.sem-color(text-2);
+  @include tools.theme-transition(color);
+}
+
+.ts-label {
+  @include tools.ms-respond(font-size, .5);
+  font-weight: tools.fw(regular);
+  line-height: 1.25;
+}
+
+.ts-display-1 {
+  @include tools.ms-respond(font-size, 4.5);
+  letter-spacing: -.0075em;
+  line-height: 1.1;
+}
+
+.ts-display-2l {
+  @include tools.ms-respond(font-size, 2.5);
+  line-height: 1.4;
+  letter-spacing: -.005em;
+}
+
+.ts-display-2 {
+  @include tools.ms-respond(font-size, 2);
+  line-height: 1.4;
+}
+
+.ts-display-3 {
+  @include tools.ms-respond(font-size, 2.25);
+}
+
+.ts-display-4 {
+  @include tools.ms-respond(font-size, 1.75);
+}
+
+.ts-body-2 {
+  @include tools.ms-respond(font-size, .75);
+  line-height: var(--body-2-line-height);
+  --body-2-line-height: 1.4em;
+
+  @include tools.mq($from: 20em, $until: 60em) {
+    --body-2-line-height: #{tools.ms-fluid(1.4em, 1.45em, 20em, 60em)};
+  }
+
+  @include tools.mq($from: 60em) {
+    --body-2-line-height: 1.45em;
+  }
+}
+
+.u-nobr {
+  white-space: nowrap;
+}
+
+.u-bold {
+  font-weight: tools.fw(bold);
+}
+
+.u-semibold {
+  font-weight: tools.fw(semibold);
+}
+
+.u-text {
+  font-weight: tools.fw(text);
+}
+
+.u-regular {
+  font-weight: tools.fw(regular);
+}
+
+.u-text-center {
+  text-align: center;
+}

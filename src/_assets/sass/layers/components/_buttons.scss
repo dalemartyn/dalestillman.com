@@ -1,0 +1,72 @@
+/* ==========================================================================
+   #BUTTONS
+   ========================================================================== */
+
+@use "settings";
+@use "tools";
+
+.c-button {
+  @include tools.button-reset;
+  padding: tools.sp(tiny);
+  margin: calc(#{tools.sp(tiny)} * -1);
+  transition:
+    background-color settings.$hover-transition,
+    box-shadow settings.$hover-transition;
+  @include tools.theme-transition(background-color box-shadow);
+  border-radius: 50%;
+  touch-action: manipulation;
+
+  @media (hover: hover) {
+
+    &:hover {
+      background-color: var(--state-color-hover);
+    }
+  }
+
+  &:active {
+    background-color: var(--state-color-active);
+  }
+
+  @include tools.focus-style {
+    outline: none;
+    box-shadow: 0 0 0 3px tools.sem-color(link) inset;
+    background-color: tools.sem-color(link, .375);
+  }
+
+  > svg {
+    fill: tools.sem-color(text);
+    @include tools.theme-transition(fill);
+    display: block;
+    @include tools.ms-respond(height, 1.55);
+    @include tools.ms-respond(width, 1.55);
+    width: auto;
+  }
+}
+
+  :root .c-button--dark-theme #dark-theme-transition-path {
+    transform: translateX(50%);
+  }
+
+  :root.t-dark .c-button--dark-theme #dark-theme-transition-path {
+    transform: translateX(-50%);
+  }
+
+  :root.is-transitioning .c-button--dark-theme #dark-theme-transition-path {
+    transition: transform settings.$theme-transition;
+  }
+
+  :root.is-transitioning.is-heavy .c-button--dark-theme #dark-theme-transition-path {
+    transition: transform settings.$theme-transition .2s;
+  }
+
+
+
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
+.js-focus-visible .focus-visible {
+  outline-style: solid;
+  outline-width: 3px;
+  outline-color: tools.sem-color(link);
+}

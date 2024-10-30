@@ -1,0 +1,61 @@
+/* ==========================================================================
+   #HOME-HERO
+   ========================================================================== */
+
+
+@use "tools";
+
+.c-home-hero {
+  display: flex;
+
+  @include tools.mq($until: md) {
+    flex-direction: column;
+  }
+
+}
+
+.c-home-hero__message {
+  margin-top: tools.sp(xxxlarge);
+  margin-bottom: tools.sp(xlarge);
+
+  @include tools.mq($until: md) {
+    margin-top: 0;
+  }
+
+  @include tools.mq($from: md, $until: lg) {
+    margin-top: tools.sp(xxlarge);
+  }
+}
+
+:root {
+  @include tools.ms-respond(--home-hero-font-size-a, 4.5);
+  @include tools.ms-respond(--home-hero-font-size-b, 4.25);
+}
+
+.c-home-hero__title {
+  font-size: var(--home-hero-font-size-a);
+  letter-spacing: -.0075em;
+  line-height: 1.1;
+  font-weight: tools.fw(semibold);
+
+  @include tools.mq($from: md, $until: lg) {
+    font-size: var(--home-hero-font-size-b);
+  }
+
+  @include tools.mq($until: 480px) {
+    font-size: var(--home-hero-font-size-b);
+  }
+
+  @include tools.mq($until: md) {
+    text-align: center;
+  }
+}
+
+.c-home-hero__images {
+  margin-top: tools.sp(large);
+  margin-bottom: tools.sp(xlarge);
+
+  @include tools.mq($until: md) {
+    align-self: center;
+  }
+}

@@ -1,0 +1,33 @@
+/* ==========================================================================
+   #HEADINGS
+   ========================================================================== */
+
+@use "tools";
+
+@layer elements {
+
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: tools.fw(bold);
+    margin-bottom: tools.sp();
+  }
+
+  h1 {
+    @include tools.ms-respond(font-size, 3);
+    line-height: 1.1;
+    letter-spacing: -.005em;
+  }
+
+  h2 {
+    @include tools.ms-respond(font-size, 2);
+    line-height: 1.2;
+    margin-top: tools.sp(xxlarge);
+    margin-bottom: tools.sp(small);
+  }
+
+  h3 {
+    @include tools.ms-respond(font-size, 1.5);
+    margin-top: tools.sp(xlarge);
+    margin-bottom: tools.sp(small);
+  }
+
+}

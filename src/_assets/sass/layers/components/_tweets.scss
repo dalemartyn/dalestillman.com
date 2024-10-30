@@ -1,0 +1,160 @@
+/* ==========================================================================
+   #TWEETS
+   ========================================================================== */
+
+@use "tools";
+
+.c-tweet {
+  padding: tools.sp() tools.sp() tools.sp(large);
+  display: flex;
+  border-top: 1px solid tools.sem-color(border);
+  @include tools.theme-transition(border-color);
+  @include tools.ms-respond(font-size, .75);
+  line-height: var(--tweet-line-height);
+  --tweet-line-height: 1.4em;
+
+  @include tools.mq($from: 20em, $until: 60em) {
+    --tweet-line-height: #{tools.ms-fluid(1.4em, 1.45em, 20em, 60em)};
+  }
+
+  @include tools.mq($from: 60em) {
+    --tweet-line-height: 1.45em;
+  }
+
+  @include tools.mq($from: sm) {
+    padding: tools.sp() tools.sp(large) tools.sp(large) tools.sp();
+  }
+}
+
+  .c-tweet__profile-image-container {
+    padding-right: tools.sp(tiny);
+
+    @include tools.mq($from: sm) {
+      padding-right: tools.sp(small);
+    }
+  }
+
+    .c-tweet__profile-image {
+      border-radius: 100px;
+      width: calc(var(--spacing-unit-large) * 1.75);
+      height: calc(var(--spacing-unit-large) * 1.75);
+      background-color: tools.sem-color(twitter-profile);
+      @include tools.theme-transition(background-color);
+
+      > svg {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+
+
+      /**
+       * Tweet user meta.
+       */
+
+      .c-tweet__main {
+        flex-shrink: 1;
+        min-width: 0;
+      }
+
+      .c-tweet__user-meta {
+        display: flex;
+        min-width: 0;
+      }
+
+      .c-tweet__user-profile-link {
+        text-decoration: none;
+        display: flex;
+        min-width: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        &:hover {
+          color: inherit;
+
+          .c-tweet__user-name {
+            text-decoration: underline;
+          }
+        }
+
+        @include tools.focused-link-with-nested-content;
+      }
+
+        .c-tweet__user-name {
+          font-weight: tools.fw(bold);
+          margin-right: tools.sp(xxmicro);
+          flex-shrink: 0;
+          min-width: 0;
+          max-width: 100%;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        .c-tweet__user-screen-name {
+          flex-shrink: 1;
+          min-width: 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+      .c-tweet__user-screen-name,
+      .c-tweet__bullet-separator,
+      .c-tweet__permalink,
+      .c-tweet__permalink:hover {
+        color: tools.sem-color(text-3);
+        @include tools.theme-transition(color);
+      }
+
+      .c-tweet__bullet-separator {
+        margin-left: tools.sp(xmicro);
+        margin-right: tools.sp(xmicro);
+        white-space: nowrap;
+      }
+
+      .c-tweet__permalink {
+        text-decoration: none;
+        white-space: nowrap;
+
+        &:hover {
+          text-decoration: underline;
+        }
+
+        @include tools.focused-link-with-nested-content;
+      }
+
+
+      .c-tweet__status {
+
+        > p {
+          margin-bottom: tools.sp(small);
+          white-space: pre-wrap;
+          @include tools.ms-respond(font-size, .75);
+          line-height: var(--tweet-line-height);
+
+          &:last-child {
+            margin-bottom: 0;
+          }
+
+          > a {
+            color: tools.sem-color(link);
+            @include tools.theme-transition(color);
+            text-decoration: none;
+            word-break: break-word;
+            white-space: pre-wrap;
+
+            &:hover {
+              text-decoration: underline;
+            }
+
+            @include tools.focused-link-with-nested-content;
+          }
+        }
+      }
+
+      .js-focus-visible .c-tweet__status > p > a.focus-visible {
+        @include tools.focused-link-styles;
+      }

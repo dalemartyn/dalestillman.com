@@ -1,0 +1,9 @@
+/* ==========================================================================
+   UTILS
+   ========================================================================== */
+
+@use "01_settings/settings_breakpoints";
+
+@forward "node_modules/sass-mq/mq" with (
+  $breakpoints: settings_breakpoints.$mq-breakpoints
+);

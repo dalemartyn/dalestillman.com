@@ -1,0 +1,17 @@
+/* ==========================================================================
+   #TWITTER-FEED
+   ========================================================================== */
+
+@use "tools";
+
+.c-twitter-feed {
+
+  @include tools.mq($from: sm) {
+    border-top-left-radius: var(--rounded-radius);
+    border-top-right-radius: var(--rounded-radius);
+    border-top: 1px solid tools.sem-color(border);
+    border-left: 1px solid tools.sem-color(border);
+    border-right: 1px solid tools.sem-color(border);
+    @include tools.theme-transition(border-color);
+  }
+}

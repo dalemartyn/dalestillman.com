@@ -1,75 +1,44 @@
-"use strict";
-
-const gulp = require('gulp');
-const livereload = require('gulp-livereload');
-
+import gulp from 'gulp';
+import livereload from 'gulp-livereload';
 
 // tasks
-const images     = require('./tasks/images');
-const sass       = require('./tasks/styles');
-const dark_theme = require('./tasks/dark-theme');
-const scripts    = require('./tasks/scripts');
-const svgs       = require('./tasks/svgs');
-const instagram  = require('./tasks/apis/instagram');
-const twitter    = require('./tasks/apis/twitter');
+import { stylesDev, stylesBuild, stylesWatch } from './tasks/styles.js';
+import { darkThemeBuild, darkThemeWatch } from './tasks/dark-theme.js';
+import { scriptsDev, scriptsBuild } from './tasks/scripts/index.js';
 
-
-function watch_built_files() {
-  return gulp.watch(['_site/css/*.css', '_site/js/*.js']).on('change', function(file) {
+function watchBuiltFiles() {
+  return gulp.watch(['_site/css/*.css', '_site/js/*.js']).on('change', (file) => {
     livereload.changed(file);
   });
 }
 
-function livereload_listen(done) {
+function livereloadListen(done) {
   livereload.listen({
-    port: '35729'
-  },
-  done);
+    port: '35729',
+  });
+  done();
 }
 
-// export tasks to CLI
-exports.default = gulp.parallel(
-  livereload_listen,
+export default gulp.parallel(
+  livereloadListen,
   gulp.series(
     gulp.parallel(
-      sass.dev,
-      scripts.dev,
-      dark_theme.build,
-      svgs.optimize,
+      stylesDev,
+      scriptsDev,
+      darkThemeBuild,
     ),
     gulp.parallel(
-      sass.watch,
-      dark_theme.watch,
-      svgs.watch,
-      watch_built_files
+      stylesWatch,
+      darkThemeWatch,
+      watchBuiltFiles,
     )
   )
 );
 
-exports.build = gulp.series(
-  sass.build,
-  scripts.build,
-  dark_theme.build,
-);
+export const test = scriptsDev;
 
-exports.download_img = gulp.series(
-  images.save_figma_images
-);
-
-exports.twitter = gulp.parallel(
-  twitter.save_twitter_data
-);
-
-exports.instagram = gulp.series(
-  instagram.save_instagram_data,
-  images.resize_instagram_images
-);
-
-exports.svgs = svgs.optimize;
-
-exports.img = gulp.series(
-  svgs.optimize,
-  images.resize_local_images,
-  images.resize_figma_images,
-  images.resize_instagram_images
+export const build = gulp.series(
+  stylesBuild,
+  scriptsBuild,
+  darkThemeBuild,
 );

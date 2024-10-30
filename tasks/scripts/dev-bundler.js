@@ -1,50 +1,56 @@
-const livereload = require('gulp-livereload');
+import livereload from 'gulp-livereload';
+import { rollup, watch } from 'rollup';
+import resolve from '@rollup/plugin-node-resolve';
+import commonjs from '@rollup/plugin-commonjs';
+import json from '@rollup/plugin-json';
+import svelte from 'rollup-plugin-svelte';
+import css from 'rollup-plugin-css-only';
+import path from 'path';
 
-const rollup = require('rollup');
-const resolve = require('@rollup/plugin-node-resolve').default;
-const commonjs = require('@rollup/plugin-commonjs');
-const json = require('@rollup/plugin-json');
-const svelte = require('rollup-plugin-svelte');
-
-
-module.exports = function dev_bundler(entry, output_file, output_name) {
+export function dev_bundler(entry, output_file, output_name) {
+  const cssOutputFile = path.basename(entry).replace(/\.js$/, '.css');
 
   const inputOptions = {
     input: entry,
     plugins: [
       json(),
       svelte({
-        dev: true
+        compilerOptions: {
+          dev: true,
+        },
+      }),
+      css({
+        output: cssOutputFile,
       }),
       resolve({
-        browser: true
+        browser: true,
       }),
       commonjs(),
-    ]
+    ],
   };
 
   const outputOptions = {
     file: output_file,
     format: 'iife',
     sourcemap: true,
-    name: output_name
+    name: output_name,
   };
 
   const watchOptions = {
     ...inputOptions,
-    output: outputOptions
-  }
+    output: outputOptions,
+  };
 
-  const watcher = rollup.watch(watchOptions);
+  const watcher = watch(watchOptions);
 
-  watcher.on('event', function (event) {
+  watcher.on('event', (event) => {
     if (event.code === 'BUNDLE_END') {
-      event.output.forEach(function (file) {
+      event.output.forEach((file) => {
         livereload.reload(file);
       });
     }
     if (event.code === 'ERROR') {
-      console.log(event.error);
+      console.error(event.error);
     }
   });
 }

@@ -1,0 +1,22 @@
+/* ==========================================================================
+   #QUOTES
+   ========================================================================== */
+
+@use "tools";
+
+@layer elements {
+
+  q {
+    @include tools.ms-respond(font-size, 2.5);
+    font-variation-settings: "wdth" 90;
+    line-height: 1.2;
+    font-style: italic;
+    color: tools.sem-color(text-3);
+    @include tools.theme-transition(color);
+    display: block;
+    font-weight: 500;
+    letter-spacing: -.01em;
+    margin: tools.sp(xlarge) 0;
+  }
+
+}
