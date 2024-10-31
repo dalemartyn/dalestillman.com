@@ -6,7 +6,6 @@ image:
   json: /blog/docker.json
 color_light: "#1f88df"
 color_dark: "#1265bb"
-tags: blog
 ---
 
 I've spent a bit of time learning Docker using the official _Learn_ tutorial that comes bundled with Docker Desktop. It's a great tutorial, and one I'd recommend to anyone new to Docker. Here's my notes.

@@ -33,7 +33,7 @@
 
   {% set currentItemIndex = 0 %}
 
-  {% set posts = collections[tags] | reverse %}
+  {% set posts = collections[tags[0]] | reverse %}
   {% for item in posts %}
     {% if item.url == page.url %}
       {% set currentItemIndex = loop.index0 %}

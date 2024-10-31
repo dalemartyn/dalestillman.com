@@ -6,7 +6,6 @@ image:
   json: /surface/surface-studio.json
 color_light: "#de515f"
 color_dark: "#9e2f42"
-tags: blog
 ---
 
 Last year at Microsoft's Surface event, CEO Satya Nadella reiterated the company's new mission statement. "Our mission at Microsoft is to empower every person and every organization on the planet to achieve more. We make things that help you make things and make things happen". When [probed further by Verge Senior Editor Nilay Patel][2], Nadella elaborated "we are the only company that I think thinks about digital technology in the hands of others to create things".

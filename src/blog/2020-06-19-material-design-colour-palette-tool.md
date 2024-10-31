@@ -2,7 +2,6 @@
 title: "Color Palettes"
 tagline: "The Material Design colour palette tool"
 date: 2020-06-14T22:10:00+00:00
-tags: blog
 image:
   main: /blog/color-palette.svg
 color_light: "#e4e8eb"
