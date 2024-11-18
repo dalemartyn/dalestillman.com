@@ -1,0 +1,12 @@
+---
+title: Loughborough University
+description: "and international exchange at UTS, Sydney"
+icon: shield
+tags: [education]
+---
+<ol class="o-card-layout o-card-layout--sm">
+  {% set posts = collections.top_university_work %}
+  {% asyncEach post in posts %}
+    <li class="o-card-layout__item">{% include "components/components.work-card-sm.html" %}</li>
+  {% endeach %}
+</ol>

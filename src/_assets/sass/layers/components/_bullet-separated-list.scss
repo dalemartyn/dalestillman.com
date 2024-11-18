@@ -1,0 +1,28 @@
+/* ==========================================================================
+   #BULLET-SEPARATED_LIST
+   ========================================================================== */
+
+@use "settings";
+@use "tools";
+
+.c-bullet-separated-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: block;
+
+  @include tools.mq($until: md) {
+    text-align: center;
+  }
+}
+
+.c-bullet-separated-list__item {
+  display: inline;
+
+  @include tools.ms-respond(font-size, .875);
+}
+
+.c-bullet-separated-list__item:not(:last-child)::after {
+  content: " • ";
+  padding: 0 tools.sp(xxmicro);
+}

@@ -24,7 +24,7 @@
     margin-bottom: tools.sp(small);
   }
 
-  h3 {
+  h3, h4 {
     @include tools.ms-respond(font-size, 1.5);
     margin-top: tools.sp(xlarge);
     margin-bottom: tools.sp(small);

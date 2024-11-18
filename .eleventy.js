@@ -2,12 +2,14 @@ import syntaxHighlight from '@11ty/eleventy-plugin-syntaxhighlight';
 import markdownIt from 'markdown-it';
 import * as imageShortcodes from './utils/image-shortcodes.js';
 import * as filters from './utils/filters.js';
+import * as collections from './utils/collections.js';
 
 export default function (config) {
   config.addLayoutAlias('page', 'layouts/layouts.page.html');
   config.addLayoutAlias('post', 'layouts/layouts.post.html');
   config.addLayoutAlias('work', 'layouts/layouts.work.html');
   config.addLayoutAlias('default', 'layouts/layouts.default.html');
+  config.addLayoutAlias('home', 'layouts/layouts.home.html');
 
   config.addPassthroughCopy('src/css');
   config.addPassthroughCopy('src/js');
@@ -29,6 +31,11 @@ export default function (config) {
   // Filters
   Object.keys(filters).forEach(function(filterName) {
     config.addFilter(filterName, filters[filterName]);
+  });
+
+  // Collections
+  Object.keys(collections).forEach(function(collectionName) {
+    config.addCollection(collectionName, collections[collectionName]);
   });
 
   config.setLibrary('md', markdownIt({

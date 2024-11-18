@@ -71,3 +71,7 @@ export function cssrev(asset) {
   }
   return asset; // In non-production, return the asset directly
 }
+
+export function bySlug(posts, slug) {
+  return posts.find((post) => post.fileSlug === slug);
+}

@@ -1,0 +1,13 @@
+---
+title: a dozen eggs
+location: "Branding, design, and web agency"
+description: "Branding, design and web agency"
+icon: egg
+tags: [employers]
+---
+<ol class="o-card-layout o-card-layout--sm">
+  {% set posts = collections.top_a_dozen_eggs_work %}
+  {% asyncEach post in posts %}
+    <li class="o-card-layout__item">{% include "components/components.work-card-sm.html" %}</li>
+  {% endeach %}
+</ol>

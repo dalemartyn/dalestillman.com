@@ -42,4 +42,12 @@
       margin-right: tools.sp(small);
     }
 
+    &:hover > svg {
+      fill: tools.sem-color(link);
+    }
+
+    &:hover {
+      color: tools.sem-color(link);
+    }
+
   }

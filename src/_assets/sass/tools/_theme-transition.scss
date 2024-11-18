@@ -22,13 +22,13 @@
 
     @if is-superselector($current_selector, ":root") {
 
-      #{$current_selector}:not(.is-heavy).is-transitioning {
+      #{$current_selector}.is-transitioning {
         transition: $val;
       }
     }
     @else {
 
-      :root:not(.is-heavy).is-transitioning {
+      :root.is-transitioning {
 
         #{$current_selector} {
           transition: $val;

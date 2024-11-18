@@ -3,8 +3,8 @@ title: "Helter Skelter"
 tagline: "A quirky website for enchanting circus performers"
 image:
   json: /helter-skelter/helter-skelter.json
-color_light: "#e4e8eb"
-color_dark: "#455a64"
+color_light: "#dd497f"
+color_dark: "#9c275a"
 date: 2018-08-10T12:00:00+01:00
 work_for: a dozen eggs
 ---

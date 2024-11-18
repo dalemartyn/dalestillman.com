@@ -7,23 +7,24 @@
 
 .c-home-hero {
   display: flex;
+  flex-direction: column;
 
-  @include tools.mq($until: md) {
-    flex-direction: column;
+  @include tools.mq($from: md) {
+    flex-direction: row;
+    align-items: center;
   }
-
 }
 
 .c-home-hero__message {
-  margin-top: tools.sp(xxxlarge);
   margin-bottom: tools.sp(xlarge);
 
-  @include tools.mq($until: md) {
-    margin-top: 0;
+  @include tools.mq($from: md) {
+    margin-top: tools.sp(xxlarge);
+    margin-right: tools.sp(xxlarge);
   }
 
-  @include tools.mq($from: md, $until: lg) {
-    margin-top: tools.sp(xxlarge);
+  @include tools.mq($from: md) {
+    width: 50%;
   }
 }
 
@@ -57,5 +58,6 @@
 
   @include tools.mq($until: md) {
     align-self: center;
+    order: -1;
   }
 }

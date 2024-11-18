@@ -5,11 +5,9 @@
 @use "tools";
 
 .c-link {
-  text-decoration: none;
+  @include tools.focused-link;
 
   &:hover {
-    text-decoration: underline;
+    color: tools.sem-color(link);
   }
-
-  @include tools.focused-link;
 }
