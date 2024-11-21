@@ -1,12 +1,9 @@
 function getInstutionCollection(institutions, experiences) {
   const institutionWithExperiences = institutions.map((institution) => {
-    const experiencesAtInstitution = experiences.filter(role => institution.data.title === role.data.institution);
+    const experiencesAtInstitution = experiences.filter(role => institution.data.title === role.data.institution)
+      .sort((a, b) => parseInt(b.data.end_date, 10) - parseInt(a.data.end_date, 10));
 
-    const mostRecentExperience = experiencesAtInstitution.reduce((latest, current) => {
-      return new Date(current.data.end_date) > new Date(latest.data.end_date) ? current : latest;
-    }, experiencesAtInstitution[0]);
-
-    institution.data.end_date = mostRecentExperience.data.end_date;
+    institution.data.end_date = experiencesAtInstitution[0].data.end_date;
     institution.data.experiences = experiencesAtInstitution;
 
     return institution;
