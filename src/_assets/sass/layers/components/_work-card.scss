@@ -70,19 +70,24 @@
 
 
     .c-work-card__content {
-      padding: tools.sp();
+      margin: tools.sp() 0;
+      padding: 0 tools.sp();
       order: 1;
     }
 
     .c-work-card--sm .c-work-card__content {
-      padding: tools.sp(small);
-      overflow: hidden;
+      margin: 0;
+      padding: 0 tools.sp(small);
     }
 
       .c-work-card__title {
-        margin: tools.sp(xmicro) 0;
+        margin: tools.sp(small) 0;
+      }
+
+      .c-work-card--sm .c-work-card__title {
         text-overflow: ellipsis;
         white-space: nowrap;
+        overflow: hidden;
       }
 
     .c-work-card__thumbnail {

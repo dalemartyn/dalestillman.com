@@ -37,7 +37,6 @@
   @include tools.ms-respond(font-size, 1);
   line-height: 1.2;
   font-weight: tools.fw(bold);
-  @include tools.lh-crop(1.2, .785);
 }
 
 .ts-meta {
