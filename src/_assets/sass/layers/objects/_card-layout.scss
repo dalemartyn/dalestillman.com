@@ -21,6 +21,7 @@
   .o-card-layout--sm {
     grid-gap: tools.sp(small) tools.sp(small);
     grid-template-columns: repeat(2, 1fr);
+    margin: tools.sp(large) 0 0;
   }
 
   .o-card-layout__item {

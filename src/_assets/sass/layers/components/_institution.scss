@@ -58,9 +58,12 @@ $path-gap-size: var(--spacing-unit-micro);
         color: tools.sem-color(text-2);
       }
 
-      .c-institution + .c-institution,
+      .c-institution + .c-institution {
+        margin-top: tools.sp(xxlarge);
+      }
+
       .c-institution__experience + .c-institution__experience {
-        margin-top: tools.sp(xlarge);
+        margin-top: tools.sp(large);
       }
 
       .c-institution__experience {
@@ -87,7 +90,6 @@ $path-gap-size: var(--spacing-unit-micro);
       }
 
       .c-institution__dot {
-
         position: absolute;
         display: block;
         border-radius: 50%;
