@@ -76,7 +76,7 @@ $path-gap-size: var(--spacing-unit-micro);
         content: "";
         position: absolute;
         top: var(--path-top);
-        height: calc(100% + var(--spacing-unit-xlarge) - .75rem - #{$path-gap-size} * 2);
+        height: calc(100% + var(--spacing-unit-large) - .75rem - #{$path-gap-size} * 2);
         width: 3px;
         background-color: tools.sem-color(border);
         border-radius: 3px;
