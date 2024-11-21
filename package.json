@@ -4,8 +4,7 @@
   "type": "module",
   "dependencies": {
     "focus-visible": "^5.2.1",
-    "lodash": "^4.17.21",
-    "rellax": "^1.12.1"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",

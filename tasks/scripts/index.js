@@ -6,7 +6,6 @@ import { prod_bundler } from './prod-bundler.js';
 const entries = [
   'src/_assets/js/main.js',
   'src/_assets/js/next-post.js',
-  'src/_assets/js/parallax-images.js',
   'src/_assets/js/twitter/twitter-feed.js',
   'src/_assets/js/instagram/instagram-grid.js',
   'src/_assets/js/blog/variable-fonts.js'

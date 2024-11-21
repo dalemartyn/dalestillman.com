@@ -12,9 +12,9 @@
   --polaroid-radius: var(--rounded-radius);
 
   @include tools.mq($until: 480px) {
-    --polaroid-width: #{240px * .5};
-    --polaroid-border: #{8px * .5};
-    --polaroid-border-bottom: #{8px * .5};
+    --polaroid-width: #{240px * .67};
+    --polaroid-border: #{8px * .67};
+    --polaroid-border-bottom: #{8px * .67};
     --polaroid-radius: calc(var(--rounded-radius) / 2);
   }
 

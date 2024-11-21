@@ -11,8 +11,8 @@
   position: relative;
 
   @include tools.mq($until: 480px) {
-    width: (456px * .5);
-    height: (360px * .5);
+    width: (456px * .67);
+    height: (360px * .67);
   }
 
   @include tools.mq($from: 480px, $until: lg) {
