@@ -76,11 +76,11 @@
 
     .c-work-card--sm .c-work-card__content {
       padding: tools.sp(small);
+      overflow: hidden;
     }
 
       .c-work-card__title {
         margin: tools.sp(xmicro) 0;
-        overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
       }
