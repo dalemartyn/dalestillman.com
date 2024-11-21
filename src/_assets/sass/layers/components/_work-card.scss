@@ -39,11 +39,21 @@
       border-radius: var(--rounded-radius);
     }
 
+    .c-work-card__thumbnail {
+      transition: background-color settings.$hover-transition;
+      background-color: tools.sem-color(card-image-bg);
+    }
+
     &:hover,
     &:focus {
 
-      &::after {
-        background-color: var(--state-color-hover);
+      .c-work-card__thumbnail {
+        background-color: rgba(var(--img-bg-light), 1);
+        @include tools.theme-transition(background-color);
+
+        .t-dark & {
+          background-color: rgba(var(--img-bg-dark), 1);
+        }
       }
     }
 
@@ -62,6 +72,10 @@
     .c-work-card__content {
       padding: tools.sp();
       order: 1;
+    }
+
+    .c-work-card--sm .c-work-card__content {
+      padding: tools.sp(small);
     }
 
       .c-work-card__title {

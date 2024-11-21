@@ -55,10 +55,6 @@
     transition: transform settings.$theme-transition;
   }
 
-  :root.is-transitioning.is-heavy .c-button--dark-theme #dark-theme-transition-path {
-    transition: transform settings.$theme-transition .2s;
-  }
-
 
 
 .js-focus-visible :focus:not(.focus-visible) {

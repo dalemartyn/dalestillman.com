@@ -8,15 +8,5 @@
     "title": "Work",
     "slug": "work",
     "link": "/work/"
-  },
-  {
-    "title": "Blog",
-    "slug": "blog",
-    "link": "/blog/"
-  },
-  {
-    "title": "Now",
-    "slug": "now",
-    "link": "/now/"
   }
 ]

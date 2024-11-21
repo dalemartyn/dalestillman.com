@@ -18,6 +18,14 @@
     }
   }
 
+  .o-card-layout--sm {
+    grid-gap: tools.sp(small) tools.sp(small);
+
+    @include tools.mq($from: sm) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
   .o-card-layout__item {
     display: block;
     margin: 0;

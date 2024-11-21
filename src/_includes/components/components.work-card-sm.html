@@ -1,17 +1,17 @@
-<article class="c-work-card">
+<article class="c-work-card c-work-card--sm">
   <a
     class="c-work-card__link"
     href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}"
   >
     <div class="c-work-card__content">
-      <h2 class="c-work-card__title ts-title">{{ post.data.title }}</h2>
+      <h5 class="c-work-card__title ts-title-sm">{{ post.data.title }}</h5>
     </div>
 
     {% if post.data.image %}
     <div class="c-work-card__thumbnail"
       style="--img-bg-light: {{ post.data.color_light | to_rgb }}; --img-bg-dark: {{ post.data.color_dark | to_rgb }};">
       <div class="o-ratio o-ratio--3:2">
-        {% card_image post.data.image.json %}
+        {% card_image_small post.data.image.json %}
       </div>
     </div>
     {% endif %}

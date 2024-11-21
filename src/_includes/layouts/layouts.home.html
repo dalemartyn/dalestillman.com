@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<div class="u-margin-top-xxlarge u-margin-bottom-xxlarge">
+  <div class="o-wrapper-l">
+
+    <div class="c-home-hero">
+
+      <div class="c-home-hero__message">
+        <h1 class="c-home-hero__title u-margin-bottom">
+          Dale Stillman
+        </h1>
+
+        {% set items = [
+            "Technical Strategy & Innovation",
+            "Cross-Functional Leadership",
+            "Technology Vision & Transformation",
+            "Performance & Scalability",
+            "Technical Problem Solving"
+        ] %}
+
+        {% include "components/components.bullet-separated-list.html" %}
+      </div>
+
+      <div class="c-home-hero__images">
+        <div class="c-polaroid-layout">
+          {% for image in
+            [
+              "home/design",
+              "home/code",
+              "home/dale-profile-2024"
+            ]
+          %}
+            {% set i = loop.index %}
+            <div class="c-polaroid-layout__item">
+              {% include "components/components.polaroid.html" %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="o-wrapper u-padding-top-xlarge">
+    {{ content | safe }}
+  </div>
+</div>
+
+{% block scripts %}
+  <script src="/js/parallax-images.js"></script>
+{% endblock %}

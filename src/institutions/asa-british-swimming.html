@@ -1,0 +1,12 @@
+---
+title: The ASA & British Swimming
+description: "Governing bodies for swimming in the UK"
+icon: swimming
+tags: [employers]
+---
+<ol class="o-card-layout o-card-layout--sm">
+  {% set posts = collections.top_asa_british_swimming_work %}
+  {% asyncEach post in posts %}
+    <li class="o-card-layout__item">{% include "components/components.work-card-sm.html" %}</li>
+  {% endeach %}
+</ol>

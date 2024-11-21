@@ -1,51 +1,30 @@
 ---
-layout: default
+layout: home
 description: "Dale Stillman is a web developer blogging about design, technology, and modern front-end technologies like html, javascript, sass, and nodejs."
 ---
 
-<div class="u-margin-top-xxlarge u-margin-bottom-xxlarge">
-  <div class="o-wrapper-l">
+<h2>About Dale</h2>
 
-    <div class="c-home-hero">
+<p>I'm a versatile technology leader who loves tackling complex technical challenges and turning them into elegant solutions. My passion lies in bringing teams together, driving innovation, and creating transformative technical strategies that make a real impact. Whether I'm optimizing systems, mentoring teams, or crafting new solutions, I bring enthusiasm and strategic thinking to every project I touch.</p>
 
-      <div class="c-home-hero__message">
-        <h1 class="c-home-hero__title u-margin-bottom-small">
-          Designer & developer.
-        </h1>
-      </div>
+<h2>Experience</h2>
 
-      <div class="c-home-hero__images">
-        <div class="c-polaroid-layout">
-          {% for image in
-            [
-              "home/design",
-              "home/code",
-              "home/dale-profile-2024"
-            ]
-          %}
-            {% set i = loop.index %}
-            <div class="c-polaroid-layout__item">
-              {% include "components/components.polaroid.html" %}
-            </div>
-          {% endfor %}
-        </div>
-      </div>
+{% for institution in collections.employers %}
+  {% include "components/components.institution.html" %}
+{% endfor %}
 
-    </div>
+<h2>Education</h2>
 
-  </div>
-  <div class="o-wrapper u-padding-top-xlarge s-article">
-    <p class="ts-display-2">
-      My CV → <a href="https://drive.google.com/file/d/1vzrzuqvs58LrnvWFmHOWo5UHRhbklL4d/view"
-        target="_blank">view PDF</a>.
-    </p>
+{% for institution in collections.educators %}
+  {% include "components/components.institution.html" %}
+{% endfor %}
 
-    <p class="ts-display-2 u-margin-top-xlarge">
-      Email → <a href="mailto:dale@dalestillman.com">dale@dalestillman.com</a>
-    </p>
-  </div>
-</div>
+<h2>Get in touch</h2>
 
-{% block scripts %}
-  <script src="/js/parallax-images.js"></script>
-{% endblock %}
+<p>
+  Drop me an email at: <a href="mailto:dale@dalestillman.com" class="c-link">dale@dalestillman.com</a>
+</p>
+
+<h2>Me around the web</h2>
+
+{% include "components/components.social-menu.html" %}

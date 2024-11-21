@@ -1,0 +1,7 @@
+{% if items %}
+<ul class="c-bullet-separated-list">
+  {% for item in items %}
+    <li class="c-bullet-separated-list__item">{{ item }}</li>
+  {% endfor %}
+</ul>
+{% endif %}

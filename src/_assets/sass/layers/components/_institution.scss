@@ -1,0 +1,60 @@
+/* ==========================================================================
+   #INSTITUTION
+   ========================================================================== */
+
+@use "tools";
+
+.c-institution {
+  margin-top: tools.sp(xlarge);
+  display: flex;
+}
+
+  .c-institution__logo-container {
+    padding-right: tools.sp(small);
+
+    @include tools.mq($from: sm) {
+      padding-right: tools.sp();
+    }
+  }
+
+    .c-institution__logo {
+      margin-top: tools.sp(xxmicro);
+      border-radius: 100px;
+      width: calc(var(--spacing-unit-large) * 2);
+      height: calc(var(--spacing-unit-large) * 2);
+      background-color: tools.sem-color(twitter-profile);
+      @include tools.theme-transition(background-color);
+
+      > svg {
+        width: 100%;
+        height: auto;
+        display: block;
+      }
+    }
+
+      .c-institution__content {
+        flex-shrink: 1;
+        min-width: 0;
+
+        ul {
+          margin-left: tools.sp();
+        }
+
+        li {
+          @include tools.ms-respond(font-size, .875);
+        }
+      }
+
+      .c-institution__title {
+        margin: tools.sp(xxmicro) 0;
+        line-height: 1.25;
+      }
+
+      .c-institution__description {
+        color: tools.sem-color(text-2);
+      }
+
+      .c-institution + .c-institution,
+      .c-institution__experience + .c-institution__experience {
+        margin-top: tools.sp(xlarge);
+      }

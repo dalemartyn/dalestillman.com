@@ -10,6 +10,7 @@
   list-style: none;
   display: flex;
   justify-content: center;
+  gap: tools.sp(small);
 }
 
 .c-tab-menu--stretch {
@@ -21,10 +22,6 @@
     margin: 0;
     margin-right: tools.sp(large);
     font-size: inherit;
-
-    @include tools.mq($from: sm) {
-      margin-right: calc(#{tools.sp(large)} + #{tools.sp(micro)});
-    }
 
     .c-tab-menu--stretch & {
       flex: 1;
@@ -79,7 +76,7 @@
       padding-right: tools.sp(small);
       padding-top: tools.sp();
       padding-bottom: tools.sp();
-      margin: tools.sp(xmicro) calc(#{tools.sp(small)} * -1);
+      margin: tools.sp(xxmicro) calc(#{tools.sp(small)} * -1);
       color: tools.sem-color(text-3);
       transition:
         background-color settings.$hover-transition,
