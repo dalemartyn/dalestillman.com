@@ -8,7 +8,11 @@
     <h3 class="c-institution__title">{{ institution.data.title }}</h3>
     <p class="c-institution__description ts-body-2">{{ institution.data.description }}</p>
     {% for experience in institution.data.experiences %}
-      <div class="c-institution__experience">
+      {% set has_dot = institution.data.experiences.length > 1 %}
+      {% set has_path = has_dot and not loop.last %}
+
+      <div class="c-institution__experience {% if has_path %}c-institution__experience--with-path{% endif %}">
+        {% if has_dot %}<div class="c-institution__dot"></div>{% endif %}
         <h4 class="c-institution__title">{{ experience.data.title }}</h4>
         <p class="c-institution__description ts-body-2 u-margin-bottom-small">{{ experience.data.start_date }} - {{ experience.data.end_date }}</p>
         {{ experience.content | safe }}

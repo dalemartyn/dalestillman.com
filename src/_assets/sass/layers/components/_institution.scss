@@ -4,6 +4,9 @@
 
 @use "tools";
 
+$heading-line-height: 1.25;
+$path-gap-size: var(--spacing-unit-micro);
+
 .c-institution {
   margin-top: tools.sp(xlarge);
   display: flex;
@@ -32,6 +35,7 @@
       }
     }
 
+
       .c-institution__content {
         flex-shrink: 1;
         min-width: 0;
@@ -57,4 +61,49 @@
       .c-institution + .c-institution,
       .c-institution__experience + .c-institution__experience {
         margin-top: tools.sp(xlarge);
+      }
+
+      .c-institution__experience {
+        @include tools.ms-respond(--experience-heading-font-size, 1.5);
+        position: relative;
+      }
+
+      .c-institution__experience--with-path::before {
+        --path-top: calc((var(--experience-heading-font-size) * #{$heading-line-height}) / 2 + .375rem + #{$path-gap-size});
+        content: "";
+        position: absolute;
+        top: var(--path-top);
+        height: calc(100% + var(--spacing-unit-xlarge) - .75rem - #{$path-gap-size} * 2);
+        width: 3px;
+        background-color: tools.sem-color(border);
+        border-radius: 3px;
+        @include tools.theme-transition(background-color);
+
+        left: calc((var(--spacing-unit-small) + var(--spacing-unit-large) + 1.5px) * -1);
+
+        @include tools.mq($from: sm) {
+          left: calc((var(--spacing-unit) + var(--spacing-unit-large) + 1.5px) * -1);
+        }
+      }
+
+      .c-institution__dot {
+
+        position: absolute;
+        display: block;
+        border-radius: 50%;
+        height: .75rem;
+        width: .75rem;
+        top: calc((var(--experience-heading-font-size) * #{$heading-line-height}) / 2 - .375rem);
+        left: calc((var(--spacing-unit-small) + var(--spacing-unit-large) + .375rem) * -1);
+
+        @include tools.mq($from: sm) {
+          left: calc((var(--spacing-unit) + var(--spacing-unit-large) + .375rem) * -1);
+        }
+
+        @include tools.theme-transition(background-color);
+        background-color: tools.color("blue-grey-200");
+
+        .t-dark & {
+          background-color: tools.color("blue-grey-800");
+        }
       }
