@@ -81,10 +81,11 @@
     }
 
       .c-work-card__title {
-        margin: tools.sp(small) 0;
+        margin: tools.sp(xmicro) 0;
       }
 
       .c-work-card--sm .c-work-card__title {
+        margin: tools.sp(small) 0;
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
