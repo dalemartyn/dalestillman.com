@@ -18,6 +18,7 @@ export default function (config) {
   config.addPassthroughCopy('src/twitter.svg');
   config.addPassthroughCopy('src/twitter-wide.svg');
   config.addPassthroughCopy({ 'src/_assets/img/home': 'img/home' });
+  config.addPassthroughCopy({ 'src/_assets/docs': 'docs' });
 
   config.addPlugin(syntaxHighlight, {
     templateFormats: ["njk", "md"],

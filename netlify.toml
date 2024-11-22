@@ -7,3 +7,8 @@
   for = "/img/home/*"
   [headers.values]
     Cache-Control = "max-age=31536000"
+
+[[redirects]]
+  from = "/cv"
+  to = "/docs/cv.pdf"
+  status = 200
