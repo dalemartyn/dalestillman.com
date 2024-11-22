@@ -1,8 +1,8 @@
 ---
 title: MEng Civil Engineering
 institution: Loughborough University
-start_date: 2010
-end_date: 2016
+start_date: 2005
+end_date: 2009
 tags: [course]
 ---
 - Final Year Research Project: _Plotting Surveying Data in Google Earth_  
