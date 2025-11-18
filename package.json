@@ -16,7 +16,7 @@
     "@sindresorhus/slugify": "^2.2.1",
     "camelcase": "^8.0.0",
     "dotenv": "^16.4.5",
-    "glob": "^11.0.0",
+    "glob": "^11.1.0",
     "gulp": "^5.0.0",
     "gulp-changed": "^5.0.2",
     "gulp-imagemin": "^9.1.0",
