@@ -7,7 +7,7 @@
     "lodash": "^4.17.21"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy": "^3.1.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@rollup/plugin-commonjs": "^28.0.1",
     "@rollup/plugin-json": "^6.1.0",
@@ -16,7 +16,7 @@
     "@sindresorhus/slugify": "^2.2.1",
     "camelcase": "^8.0.0",
     "dotenv": "^16.4.5",
-    "glob": "^11.0.0",
+    "glob": "^11.1.0",
     "gulp": "^5.0.0",
     "gulp-changed": "^5.0.2",
     "gulp-imagemin": "^9.1.0",
